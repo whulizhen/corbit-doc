@@ -1,6 +1,7 @@
 var structANT__INFO =
 [
     [ "ant_code", "structANT__INFO.html#ab9588228af0bef791185e48e26584239", null ],
+    [ "ant_ok", "structANT__INFO.html#a5e9be6031881716464cf6e5056a6639e", null ],
     [ "ant_type", "structANT__INFO.html#a3ca77d65afbcc7a479390bb9dd8d8bea", null ],
     [ "freq_num", "structANT__INFO.html#ace4d5a22df62eb728d89d704bd479711", null ],
     [ "freqs", "structANT__INFO.html#a89672ec2af25dc166ece584d0861dea5", null ],

@@ -98,6 +98,9 @@ $(document).ready(function(){initNavTree('structANT__INFO.html',''); initResizab
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
+<tr class="memitem:a5e9be6031881716464cf6e5056a6639e"><td class="memItemLeft" align="right" valign="top"><a id="a5e9be6031881716464cf6e5056a6639e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>ant_ok</b></td></tr>
+<tr class="separator:a5e9be6031881716464cf6e5056a6639e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c0780807cb7ac9ca20ba72adab8f629"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structANT__INFO.html#a2c0780807cb7ac9ca20ba72adab8f629">idx_object</a></td></tr>
 <tr class="separator:a2c0780807cb7ac9ca20ba72adab8f629"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ca77d65afbcc7a479390bb9dd8d8bea"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structANT__INFO.html#a3ca77d65afbcc7a479390bb9dd8d8bea">ant_type</a> [21]</td></tr>
@@ -119,7 +122,7 @@ Data Fields</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Antenna information for both the GNSS satellite and the receiver antenna. </p>
-<dl class="section note"><dt>Note</dt><dd>for gnss satellite antenna: ant_code is G01, E01,... ant_type is the block type of the gnss satellite for ground receiver antenna: ant_code are all spaces, ant_type is the type of the ground antenna (might contain empty spaces), like "SEPVC6150L      SCIS". idx_object is the satindex for gnss satellites and idx_object=-1 for ground receivers </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>for gnss satellite antenna: ant_code is G01, E01,... ant_type is the block type of the gnss satellite for ground receiver antenna: ant_code are all spaces, ant_type is the type of the ground antenna (might contain empty spaces), like "SEPVC6150L      SCIS". idx_object is the satindex for gnss satellites and idx_object=-1 for ground receivers installation matrix is from antenna frame to the platform frame </dd></dl>
 </div><h2 class="groupheader">Field Documentation</h2>
 <a id="ab9588228af0bef791185e48e26584239"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab9588228af0bef791185e48e26584239">&#9670;&nbsp;</a></span>ant_code</h2>
@@ -265,7 +268,7 @@ Data Fields</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="structANT__INFO.html">ANT_INFO</a></li>
-    <li class="footer">Generated on Wed Jul 3 2024 09:29:06 for COrbit by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Jul 8 2024 11:11:01 for COrbit by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

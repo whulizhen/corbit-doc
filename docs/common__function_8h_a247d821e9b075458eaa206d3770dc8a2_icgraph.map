@@ -1,6 +1,6 @@
 <map id="xyz2enu_matrix" name="xyz2enu_matrix">
 <area shape="rect" id="node1" title="compute the matrix from ecef xyz to ENU coordinates" alt="" coords="507,81,633,108"/>
-<area shape="rect" id="node2" href="$attitude_8c.html#a7bc9fa671130b65b2e9437b681a9ba4e" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="323,31,459,57"/>
+<area shape="rect" id="node2" href="$attitude_8c.html#a7ab5ac205d4327c856fe36a1df75d20d" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="323,31,459,57"/>
 <area shape="rect" id="node3" href="$common__function_8c.html#aa59f50e89b5487e59f31798a289b93a6" title="convert from enu to ecef xyz" alt="" coords="352,81,429,108"/>
 <area shape="rect" id="node4" href="$common__function_8c.html#af6c1560282acf2cf5358826df8768a3b" title="convert from ecef xyz to ENU coordinates" alt="" coords="352,132,429,159"/>
 <area shape="rect" id="node5" href="$common__function_8c.html#add627e23ebdc7640539c083d331a9740" title="compute the azimuth and elevation for ground users, this is not for the platform coordiante,..." alt="" coords="225,132,275,159"/>

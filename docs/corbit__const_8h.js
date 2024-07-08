@@ -17,7 +17,6 @@ var corbit__const_8h =
     [ "PI", "corbit__const_8h.html#a598a3330b3c21701223ee0ca14316eca", null ],
     [ "PI2", "corbit__const_8h.html#a2750dfdda752269a036f487a4a34b849", null ],
     [ "PI_half", "corbit__const_8h.html#a1e8e137b73025be4e4a689763d84bce4", null ],
-    [ "R_Earth", "corbit__const_8h.html#ad5836414514a8fbe9322a6ddadacce2e", null ],
     [ "R_Moon", "corbit__const_8h.html#a75678b39c75d3076ee729dd926236b18", null ],
     [ "R_Sun", "corbit__const_8h.html#a24437fea8cd929d113ac75ed1398e809", null ],
     [ "R_WGS84", "corbit__const_8h.html#a51746d0bcf0cf5f96dfff98ea693d8be", null ],

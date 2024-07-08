@@ -1,6 +1,6 @@
 <map id="matrix_identical" name="matrix_identical">
 <area shape="rect" id="node1" title="generate a identical matrix of r rows and r columns" alt="" coords="344,31,472,57"/>
-<area shape="rect" id="node2" href="$attitude_8c.html#a7bc9fa671130b65b2e9437b681a9ba4e" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="160,5,296,32"/>
+<area shape="rect" id="node2" href="$attitude_8c.html#a7ab5ac205d4327c856fe36a1df75d20d" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="160,5,296,32"/>
 <area shape="rect" id="node3" href="$mathlib_8c.html#a878533dbce0f27240b0da2101167503c" title="this is the implementation of kalman filter" alt="" coords="199,56,257,83"/>
 <area shape="rect" id="node4" href="$mathlib_8c.html#acb083a14b1d0436bac5b7bae75855ccd" title="this is the implementation of kalman filter" alt="" coords="5,56,112,83"/>
 </map>

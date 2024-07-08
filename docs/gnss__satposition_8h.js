@@ -35,7 +35,7 @@ var gnss__satposition_8h =
     [ "compute_satposvelclk_gal_brdc", "gnss__satposition_8h.html#ac39ee967a9ec899d0b3dbeeb99a7eb08", null ],
     [ "compute_satposvelclk_gps_brdc", "gnss__satposition_8h.html#a9e5ce77a8807ab218537cc756087b7bf", null ],
     [ "find_closest_eph_prec", "gnss__satposition_8h.html#ad27f2e2bca59b2745d7deefb4bbff718", null ],
-    [ "get_ant_pco_correction", "gnss__satposition_8h.html#a588664349d130e278c5a355b0dad2ee2", null ],
+    [ "get_ant_pco_correction", "gnss__satposition_8h.html#a905ef46531cdd4e93609d1ee874983a3", null ],
     [ "get_tgd", "gnss__satposition_8h.html#a1bd4bd4f50e6448a45999a76a669e294", null ],
     [ "load_antenna_storage", "gnss__satposition_8h.html#ab1013954728b27ac244510e92fa80a05", null ],
     [ "load_clock_prec", "gnss__satposition_8h.html#a80b713aae088c341c1771ee9e0a74a8f", null ],

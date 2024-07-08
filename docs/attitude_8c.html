@@ -135,9 +135,9 @@ Functions</h2></td></tr>
 <tr class="memitem:adeb764585877e38e9f968326f474a800"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="attitude_8c.html#adeb764585877e38e9f968326f474a800">yaw_nominal_gps</a> (double beta, double mu)</td></tr>
 <tr class="memdesc:adeb764585877e38e9f968326f474a800"><td class="mdescLeft">&#160;</td><td class="mdescRight">compute the norminal yaw angle of gps satellites  <a href="attitude_8c.html#adeb764585877e38e9f968326f474a800">More...</a><br /></td></tr>
 <tr class="separator:adeb764585877e38e9f968326f474a800"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7bc9fa671130b65b2e9437b681a9ba4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="attitude_8c.html#a7bc9fa671130b65b2e9437b681a9ba4e">attitude_platform</a> (int index_object, <a class="el" href="structGTime.html">GTime</a> time_utc, double *position_platform, double *velocity_platform, <a class="el" href="structATT__QUATERNION.html">ATT_QUATERNION</a> *att_qua, double *ex, double *ey, double *ez, double *ep)</td></tr>
-<tr class="memdesc:a7bc9fa671130b65b2e9437b681a9ba4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation between body fixed frame and ECI  <a href="attitude_8c.html#a7bc9fa671130b65b2e9437b681a9ba4e">More...</a><br /></td></tr>
-<tr class="separator:a7bc9fa671130b65b2e9437b681a9ba4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ab5ac205d4327c856fe36a1df75d20d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="attitude_8c.html#a7ab5ac205d4327c856fe36a1df75d20d">attitude_platform</a> (int index_object, <a class="el" href="structGTime.html">GTime</a> time_utc, double *position_platform_ecf, double *velocity_platform_ecf, double *position_platform_eci, double *velocity_platform_eci, <a class="el" href="structATT__QUATERNION.html">ATT_QUATERNION</a> *att_qua, double *ex, double *ey, double *ez, double *ep)</td></tr>
+<tr class="memdesc:a7ab5ac205d4327c856fe36a1df75d20d"><td class="mdescLeft">&#160;</td><td class="mdescRight">get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation between body fixed frame and ECI  <a href="attitude_8c.html#a7ab5ac205d4327c856fe36a1df75d20d">More...</a><br /></td></tr>
+<tr class="separator:a7ab5ac205d4327c856fe36a1df75d20d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0e654cb789f2ff8e71501ffc5631892"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="attitude_8c.html#ae0e654cb789f2ff8e71501ffc5631892">write_att_quaternion_coribt</a> (char *quaternion_att_filename, <a class="el" href="structATT__QUATERNION.html">ATT_QUATERNION</a> *qua_store, int num_qua)</td></tr>
 <tr class="memdesc:ae0e654cb789f2ff8e71501ffc5631892"><td class="mdescLeft">&#160;</td><td class="mdescRight">write the attitude quaternion in corbit format  <a href="attitude_8c.html#ae0e654cb789f2ff8e71501ffc5631892">More...</a><br /></td></tr>
 <tr class="separator:ae0e654cb789f2ff8e71501ffc5631892"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -147,8 +147,11 @@ Functions</h2></td></tr>
 <tr class="memitem:a4c2bb8050ab4348bc7675c3812ed8676"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="attitude_8c.html#a4c2bb8050ab4348bc7675c3812ed8676">read_att_quaternion_gfo</a> (char *quaternion_att_filename, <a class="el" href="structATT__QUATERNION.html">ATT_QUATERNION</a> *qua_store, int record_start)</td></tr>
 <tr class="memdesc:a4c2bb8050ab4348bc7675c3812ed8676"><td class="mdescLeft">&#160;</td><td class="mdescRight">read the grace-fo satellite quaternion attitude in L1B product  <a href="attitude_8c.html#a4c2bb8050ab4348bc7675c3812ed8676">More...</a><br /></td></tr>
 <tr class="separator:a4c2bb8050ab4348bc7675c3812ed8676"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d391b698e75f99d786e3fab2ad75544"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="attitude_8c.html#a2d391b698e75f99d786e3fab2ad75544">load_sca_grace</a> (int satindex, char *quaternion_att_filename)</td></tr>
+<tr class="memdesc:a2d391b698e75f99d786e3fab2ad75544"><td class="mdescLeft">&#160;</td><td class="mdescRight">read all the gracefo format quaternion attitude files for many satellites, the data are stored in global variable g_att_qua_storage  <a href="attitude_8c.html#a2d391b698e75f99d786e3fab2ad75544">More...</a><br /></td></tr>
+<tr class="separator:a2d391b698e75f99d786e3fab2ad75544"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a022afeda08a600ea1493d6e4232dbf0e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="attitude_8c.html#a022afeda08a600ea1493d6e4232dbf0e">load_attitude_quaternion</a> (int satindex, char *quaternion_att_filename)</td></tr>
-<tr class="memdesc:a022afeda08a600ea1493d6e4232dbf0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">read all the quaternion attitude files for many satellites, the data are stored in global variable g_att_qua_storage  <a href="attitude_8c.html#a022afeda08a600ea1493d6e4232dbf0e">More...</a><br /></td></tr>
+<tr class="memdesc:a022afeda08a600ea1493d6e4232dbf0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">read all the corbit quaternion attitude files for many satellites, the data are stored in global variable g_att_qua_storage  <a href="attitude_8c.html#a022afeda08a600ea1493d6e4232dbf0e">More...</a><br /></td></tr>
 <tr class="separator:a022afeda08a600ea1493d6e4232dbf0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf765f8b8a1e0bca0912e00448c046dc"><td class="memItemLeft" align="right" valign="top"><a id="abf765f8b8a1e0bca0912e00448c046dc"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="attitude_8c.html#abf765f8b8a1e0bca0912e00448c046dc">free_att_quaternion_store</a> ()</td></tr>
@@ -170,14 +173,14 @@ Variables</h2></td></tr>
 <dl class="section copyright"><dt>Copyright</dt><dd></dd></dl>
 <dl class="section user"><dt>History:</dt><dd></dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a7bc9fa671130b65b2e9437b681a9ba4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7bc9fa671130b65b2e9437b681a9ba4e">&#9670;&nbsp;</a></span>attitude_platform()</h2>
+<a id="a7ab5ac205d4327c856fe36a1df75d20d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ab5ac205d4327c856fe36a1df75d20d">&#9670;&nbsp;</a></span>attitude_platform()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void attitude_platform </td>
+          <td class="memname">int attitude_platform </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>index_object</em>, </td>
@@ -192,13 +195,25 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double *&#160;</td>
-          <td class="paramname"><em>position_platform</em>, </td>
+          <td class="paramname"><em>position_platform_ecf</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double *&#160;</td>
-          <td class="paramname"><em>velocity_platform</em>, </td>
+          <td class="paramname"><em>velocity_platform_ecf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>position_platform_eci</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>velocity_platform_eci</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -243,8 +258,10 @@ Variables</h2></td></tr>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">index_object</td><td>index of the satellite in the overall object list, can be used to distinguish GNSS satellites, LEO satellites and ground stations </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">time_utc</td><td>time in utc </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">position_platform</td><td>position in eci [m] </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">velocity_platform</td><td>velocity in eci [m/s] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">position_platform_ecf</td><td>position in ecf [m] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">velocity_platform_ecf</td><td>velocity in ecf [m/s] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">position_platform_eci</td><td>position in eci [m] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">velocity_platform_eci</td><td>velocity in eci [m/s] </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">att_qua</td><td>a pointer to the attitude quaternion from body fixed frame to the ECI frame </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">ex</td><td>unit vector of x-axis in ECI </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">ey</td><td>unit vector of y-axis in ECI </td></tr>
@@ -256,8 +273,8 @@ Variables</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="attitude_8c_a7bc9fa671130b65b2e9437b681a9ba4e_cgraph.png" border="0" usemap="#aattitude_8c_a7bc9fa671130b65b2e9437b681a9ba4e_cgraph" alt=""/></div>
-<map name="aattitude_8c_a7bc9fa671130b65b2e9437b681a9ba4e_cgraph" id="aattitude_8c_a7bc9fa671130b65b2e9437b681a9ba4e_cgraph">
+<div class="center"><img src="attitude_8c_a7ab5ac205d4327c856fe36a1df75d20d_cgraph.png" border="0" usemap="#aattitude_8c_a7ab5ac205d4327c856fe36a1df75d20d_cgraph" alt=""/></div>
+<map name="aattitude_8c_a7ab5ac205d4327c856fe36a1df75d20d_cgraph" id="aattitude_8c_a7ab5ac205d4327c856fe36a1df75d20d_cgraph">
 <area shape="rect" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="5,132,141,159"/>
 <area shape="rect" href="common__function_8c.html#a346472702e417ea49bc6af16f4971052" title="convert from ECEF to BLH" alt="" coords="225,5,304,32"/>
 <area shape="rect" href="common__function_8c.html#ab6619560de209ae8da1b6e8aeb728c7e" title="compute the orbital radial, tangent and along track unit vector" alt="" coords="231,56,298,83"/>
@@ -588,7 +605,45 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>read all the quaternion attitude files for many satellites, the data are stored in global variable g_att_qua_storage </p>
+<p>read all the corbit quaternion attitude files for many satellites, the data are stored in global variable g_att_qua_storage </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">nfile</td><td>the number of files </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">quaternion_att_filename</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">satindex</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2d391b698e75f99d786e3fab2ad75544"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d391b698e75f99d786e3fab2ad75544">&#9670;&nbsp;</a></span>load_sca_grace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool load_sca_grace </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>satindex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>quaternion_att_filename</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>read all the gracefo format quaternion attitude files for many satellites, the data are stored in global variable g_att_qua_storage </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">nfile</td><td>the number of files </td></tr>
@@ -810,7 +865,7 @@ false </dd></dl>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="attitude_8c.html">attitude.c</a></li>
-    <li class="footer">Generated on Wed Jul 3 2024 09:29:03 for COrbit by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Jul 8 2024 11:10:59 for COrbit by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

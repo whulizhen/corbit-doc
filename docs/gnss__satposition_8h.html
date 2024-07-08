@@ -248,9 +248,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>compute_satposvel_pre
 <tr class="separator:a1928156636cc0ac64003f3b579b40947"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeeedc5a824f5ba82f7ef3189133451ca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gnss__satposition_8h.html#aeeedc5a824f5ba82f7ef3189133451ca">compute_satclk_prec</a> (<a class="el" href="structGTime.html">GTime</a> transmission_time, int satindex, double satclk[])</td></tr>
 <tr class="separator:aeeedc5a824f5ba82f7ef3189133451ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a588664349d130e278c5a355b0dad2ee2"><td class="memItemLeft" align="right" valign="top"><a id="a588664349d130e278c5a355b0dad2ee2"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>get_ant_pco_correction</b> (<a class="el" href="structANT__INFO.html">ANT_INFO</a> *antinfo, double mjd_now, <a class="el" href="gnss__config_8h.html#ac0f00646a8a62cf0a2f831f7526c480b">OBSFREQ</a> freq, double *signal_los_platform, double *pco_platform)</td></tr>
-<tr class="separator:a588664349d130e278c5a355b0dad2ee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a905ef46531cdd4e93609d1ee874983a3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gnss__satposition_8h.html#a905ef46531cdd4e93609d1ee874983a3">get_ant_pco_correction</a> (<a class="el" href="structANT__INFO.html">ANT_INFO</a> *antinfo, double mjd_now, <a class="el" href="gnss__config_8h.html#ac0f00646a8a62cf0a2f831f7526c480b">OBSFREQ</a> freq, double *ex_platform, double *ey_platform, double *ez_platform, double *signal_los, double *offset_in_platform)</td></tr>
+<tr class="memdesc:a905ef46531cdd4e93609d1ee874983a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the antenna pco, pcv, and installation matrix  <a href="gnss__satposition_8h.html#a905ef46531cdd4e93609d1ee874983a3">More...</a><br /></td></tr>
+<tr class="separator:a905ef46531cdd4e93609d1ee874983a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf3859b2dea08a67ed421f751e88d506"><td class="memItemLeft" align="right" valign="top"><a id="adf3859b2dea08a67ed421f751e88d506"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>load_ephemeris_brdc</b> (char *brdcfilename)</td></tr>
 <tr class="separator:adf3859b2dea08a67ed421f751e88d506"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -682,6 +682,93 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a905ef46531cdd4e93609d1ee874983a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a905ef46531cdd4e93609d1ee874983a3">&#9670;&nbsp;</a></span>get_ant_pco_correction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double get_ant_pco_correction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structANT__INFO.html">ANT_INFO</a> *&#160;</td>
+          <td class="paramname"><em>antinfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>mjd_now</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gnss__config_8h.html#ac0f00646a8a62cf0a2f831f7526c480b">OBSFREQ</a>&#160;</td>
+          <td class="paramname"><em>freq</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>ex_platform</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>ey_platform</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>ez_platform</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>signal_los</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>offset_in_platform</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>get the antenna pco, pcv, and installation matrix </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">antinfo</td><td>A <a class="el" href="structANT__INFO.html" title="Antenna information for both the GNSS satellite and the receiver antenna.">ANT_INFO</a> pointer to the antenna information </td></tr>
+    <tr><td class="paramname">mjd_now</td><td>mjd now in GPST </td></tr>
+    <tr><td class="paramname">freq</td><td>signal freq (OBSFREQ) </td></tr>
+    <tr><td class="paramname">signal_los</td><td>signal_los_platform is the line of sight unit vector of signal in the platform coordinate frame(ENU for ground station, bfs for LEO satellite) </td></tr>
+    <tr><td class="paramname">offset_in_platform</td><td>the center offset of antenna frame in the platform frame </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the pco correction in signal_los direction </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="gnss__satposition_8h_a905ef46531cdd4e93609d1ee874983a3_cgraph.png" border="0" usemap="#agnss__satposition_8h_a905ef46531cdd4e93609d1ee874983a3_cgraph" alt=""/></div>
+<map name="agnss__satposition_8h_a905ef46531cdd4e93609d1ee874983a3_cgraph" id="agnss__satposition_8h_a905ef46531cdd4e93609d1ee874983a3_cgraph">
+<area shape="rect" title="get the antenna pco, pcv, and installation matrix" alt="" coords="5,31,179,57"/>
+<area shape="rect" href="mathlib_8c.html#a778696a1fead0b92a7c2374a8ef48536" title="dot product of two vectors" alt="" coords="240,5,332,32"/>
+<area shape="rect" href="mathlib_8c.html#a481055fefb93c4fc538c5dd9c592c4f0" title="matrix multiplication C = A*B" alt="" coords="227,56,345,83"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a1bd4bd4f50e6448a45999a76a669e294"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1bd4bd4f50e6448a45999a76a669e294">&#9670;&nbsp;</a></span>get_tgd()</h2>
 
@@ -956,7 +1043,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="gnss__satposition_8h.html">gnss_satposition.h</a></li>
-    <li class="footer">Generated on Wed Jul 3 2024 09:29:04 for COrbit by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Jul 8 2024 11:11:00 for COrbit by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
