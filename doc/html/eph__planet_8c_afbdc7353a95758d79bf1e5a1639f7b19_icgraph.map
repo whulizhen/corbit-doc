@@ -1,0 +1,4 @@
+<map id="load_eph_storage_file" name="load_eph_storage_file">
+<area shape="rect" id="node1" title="read the JPL ephemeris from the txt ephemeris file" alt="" coords="196,5,360,32"/>
+<area shape="rect" id="node2" href="$main__test_8c.html#a0cd3d3acac9d8a1e58549b9aa88d75aa" title="test for the haiyang&#45;2C spacecraft attitude" alt="" coords="5,5,148,32"/>
+</map>

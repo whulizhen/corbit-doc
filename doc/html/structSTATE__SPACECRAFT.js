@@ -1,0 +1,27 @@
+var structSTATE__SPACECRAFT =
+[
+    [ "acc_eci", "structSTATE__SPACECRAFT.html#a7438b8f73969ab01fd01406e05b9b34f", null ],
+    [ "att_ep", "structSTATE__SPACECRAFT.html#a801e55fc32c787300c8740030017c4e8", null ],
+    [ "att_ex", "structSTATE__SPACECRAFT.html#a9281146c36f6c5c04f6ff55de6b88b58", null ],
+    [ "att_ey", "structSTATE__SPACECRAFT.html#a208a4d72013e2c937514a362896afdd0", null ],
+    [ "att_ez", "structSTATE__SPACECRAFT.html#a34d1990b987fbe9da9fea71d8c7de998", null ],
+    [ "beta", "structSTATE__SPACECRAFT.html#a754fba59542492cef3e078dd5cb84a0a", null ],
+    [ "dadp", "structSTATE__SPACECRAFT.html#acf7867c306c1cf30155c0588e0eea076", null ],
+    [ "dadr", "structSTATE__SPACECRAFT.html#ad89b5e7fc83e2639464cfee70e11b40f", null ],
+    [ "dadv", "structSTATE__SPACECRAFT.html#a426f30383cf4ed03b36c55ddacc58475", null ],
+    [ "dPHI", "structSTATE__SPACECRAFT.html#a52f4f43c4ad43e1ccd7c3a0da12d545c", null ],
+    [ "dS", "structSTATE__SPACECRAFT.html#a8ff4dd8b69598874d5d5cd4c581df40b", null ],
+    [ "eps", "structSTATE__SPACECRAFT.html#a324f4a9f77ad0b753b22da8d3917a2cc", null ],
+    [ "mass", "structSTATE__SPACECRAFT.html#af3051ab71a903ac1f613e42df93ceb10", null ],
+    [ "orbit_along", "structSTATE__SPACECRAFT.html#a79c688e098cd93d10b2c02f0641feac8", null ],
+    [ "orbit_cross", "structSTATE__SPACECRAFT.html#a2efa0fd0059557f14f25cce1ecc9f746", null ],
+    [ "orbit_raidal", "structSTATE__SPACECRAFT.html#a91c7ef61f6828d4d47068915a6a328de", null ],
+    [ "PHI", "structSTATE__SPACECRAFT.html#a1d6f971fedfc31a074fb974a37255d83", null ],
+    [ "pos_eci", "structSTATE__SPACECRAFT.html#a0e86407b4fd9c778ebc4e72a0b2e221e", null ],
+    [ "S", "structSTATE__SPACECRAFT.html#a2c3aa96a943e9425a8dd626fc4ef936f", null ],
+    [ "satindex", "structSTATE__SPACECRAFT.html#a5324d6c07ce2562f80233b0ec96d46f3", null ],
+    [ "sec_since_start", "structSTATE__SPACECRAFT.html#a8e852a5c2362c0a8ab6b88bb25040a4d", null ],
+    [ "shadow_factor", "structSTATE__SPACECRAFT.html#aa81108d7954a8316ae664dacf411b998", null ],
+    [ "utc_start", "structSTATE__SPACECRAFT.html#a8d91587dd98c4d81ffa0a4ed25863c63", null ],
+    [ "vel_eci", "structSTATE__SPACECRAFT.html#a5e02691af885bff329a437e49015f953", null ]
+];

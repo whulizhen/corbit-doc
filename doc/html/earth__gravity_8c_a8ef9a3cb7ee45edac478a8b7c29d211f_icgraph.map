@@ -1,0 +1,4 @@
+<map id="computeNormalFactor" name="computeNormalFactor">
+<area shape="rect" id="node1" title="calculate the normalization facor for C and S Fnm = sqrt( (2n+1)(n&#45;m)!/(n+m)! )" alt="" coords="173,5,340,32"/>
+<area shape="rect" id="node2" href="$earth__gravity_8c.html#ab8533f3ecffe3f81f95deb240dc0ae87" title="Populates C and S arrays with enhanced denormalised values (C&#39; and S&#39;). Where C and S are global vari..." alt="" coords="5,5,125,32"/>
+</map>

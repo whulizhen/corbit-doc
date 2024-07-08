@@ -1,0 +1,5 @@
+<map id="shadow_factor_SECM" name="shadow_factor_SECM">
+<area shape="rect" id="node1" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="5,31,167,57"/>
+<area shape="rect" id="node2" href="$mathlib_8c.html#a56a5431504b9f6ad43a8ac6e5a13ab01" title="cross product of a 3&#45;element vector A and 3&#45;element vector vector B" alt="" coords="215,5,320,32"/>
+<area shape="rect" id="node3" href="$mathlib_8c.html#a778696a1fead0b92a7c2374a8ef48536" title="dot product of two vectors" alt="" coords="221,56,313,83"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="compute_planet_pos_vel" name="compute_planet_pos_vel">
+<area shape="rect" id="node1" title="Computes planet position, velocity using the ephemeris dataset." alt="" coords="5,5,189,32"/>
+<area shape="rect" id="node2" href="$eph__planet_8c.html#a261b3076bbc0e0215b3fdad20afb4fea" title="Computes the Sun&#39;s and Moon&#39;s geocentric position using a low precision analytical series." alt="" coords="237,5,447,32"/>
+<area shape="rect" id="node3" href="$eph__planet_8c.html#a6d0b43a4b16bc31e024bd9cb230f0aac" title="compute astronomical arguments: f={l,l&#39;,F,D,OMG} (rad)" alt="" coords="495,5,572,32"/>
+</map>

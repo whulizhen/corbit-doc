@@ -1,0 +1,4 @@
+<map id="binsearch_array" name="binsearch_array">
+<area shape="rect" id="node1" title="do a binary search between index s and index e for the &quot;value&quot; in the array A" alt="" coords="232,5,359,32"/>
+<area shape="rect" id="node2" href="$orbit__dynamics_8c.html#a10cd548196ea44bfd16669de2ddc4166" title="interpolate the STATE_SPACECRAFT to get pos+vel+acc" alt="" coords="5,5,184,32"/>
+</map>

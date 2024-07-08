@@ -1,0 +1,7 @@
+<map id="get_amb_from_pseudorange" name="get_amb_from_pseudorange">
+<area shape="rect" id="node1" title="get the initial ambiguity for the filter" alt="" coords="5,107,213,134"/>
+<area shape="rect" id="node2" href="$gnss__config_8c.html#a2948a1a21e91e94105deb7692931337e" title="get the index of a GNSS system in GNSSCONFIG" alt="" coords="265,5,413,47"/>
+<area shape="rect" id="node3" href="$gnss__observation_8c.html#a7e232e28a3eca09242f090ab9d7ad5b5" title="compute the ionosphere free combination" alt="" coords="261,71,416,112"/>
+<area shape="rect" id="node4" href="$gnss__config_8c.html#a196b75882c20a89bf6e961306d30bc20" title="get the radio frequency of observations in MHz" alt="" coords="266,137,411,163"/>
+<area shape="rect" id="node5" href="$gnss__config_8c.html#a4904153c455ec7e809a04203fbb3ab0c" title="convert sat sys&amp;prn to the internal index" alt="" coords="274,187,403,214"/>
+</map>

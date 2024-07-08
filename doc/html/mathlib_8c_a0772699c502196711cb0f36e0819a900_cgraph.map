@@ -1,0 +1,4 @@
+<map id="interpolation_multip_dimension" name="interpolation_multip_dimension">
+<area shape="rect" id="node1" title="interpolate data points with m dimensions" alt="" coords="5,5,160,47"/>
+<area shape="rect" id="node2" href="$mathlib_8c.html#a061a6f5a9b27acb02b85d156e38c7a4a" title="interpolate yt[0] and derivative yt[1] at xt using the barycentric lagrange interpolation" alt="" coords="208,5,380,47"/>
+</map>

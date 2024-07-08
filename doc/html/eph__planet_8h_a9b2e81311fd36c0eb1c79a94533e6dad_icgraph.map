@@ -1,0 +1,5 @@
+<map id="load_eph_header_default" name="load_eph_header_default">
+<area shape="rect" id="node1" title="load the default header information, only used for embed version" alt="" coords="443,13,629,39"/>
+<area shape="rect" id="node2" href="$eph__planet_8c.html#aa2ea01301c684bcbd9dae9c4065f360b" title="load the default header information, only used for embed version based on first record in ascp_438_20..." alt="" coords="204,13,395,39"/>
+<area shape="rect" id="node3" href="$orbit__dynamics_8c.html#af387dc08ee4840e52937894d0307286f" title="the test function for the orbit integral for the embed application" alt="" coords="5,5,156,47"/>
+</map>

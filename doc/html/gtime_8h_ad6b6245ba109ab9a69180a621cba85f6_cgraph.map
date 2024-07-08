@@ -1,0 +1,8 @@
+<map id="gtimeChangeTimeSystem" name="gtimeChangeTimeSystem">
+<area shape="rect" id="node1" title="change the time system of a GTime struct" alt="" coords="5,31,196,57"/>
+<area shape="rect" id="node2" href="$gtime_8c.html#acd5551059ad3aef49860a64878b8cb6e" title="add seconds to GTime struct" alt="" coords="368,5,476,32"/>
+<area shape="rect" id="node5" href="$gtime_8c.html#ae62f6c31c525d0e709ea55012790ed9f" title="convert from TAI to UTC" alt="" coords="244,31,320,57"/>
+<area shape="rect" id="node6" href="$gtime_8c.html#a147ef70ad69a22c2ef64bafccf1071de" title="get the leap seconds in format of TAI&#45;UTC" alt="" coords="381,68,463,95"/>
+<area shape="rect" id="node3" href="$gtime_8c.html#a130e765390b16f22822500994ad12f09" title="add seconds to TimeMJD struct" alt="" coords="524,5,648,32"/>
+<area shape="rect" id="node4" href="$gtime_8c.html#a09eb4bada2411345995b1238d7b24ca6" title="make TimeMJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="696,5,847,32"/>
+</map>

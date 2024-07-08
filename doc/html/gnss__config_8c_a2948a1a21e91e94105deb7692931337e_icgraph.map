@@ -1,0 +1,8 @@
+<map id="get_gnssconfig_sys_index" name="get_gnssconfig_sys_index">
+<area shape="rect" id="node1" title="get the index of a GNSS system in GNSSCONFIG" alt="" coords="480,49,628,90"/>
+<area shape="rect" id="node2" href="$gnss__observation_8c.html#a122ca5a4f47dcf5bd73a74cc4848ac3f" title="choose observations according to the definition in gnssconfig" alt="" coords="252,5,404,32"/>
+<area shape="rect" id="node3" href="$obs__processing_8c.html#a5d96093c451ef613dc2615a505dc3402" title="get the initial ambiguity for the filter" alt="" coords="224,56,432,83"/>
+<area shape="rect" id="node4" href="$pod__embed_8c.html#a6d3ffa94003618c77af379460e49d7d5" title="this function is only called in this source file" alt="" coords="245,107,411,149"/>
+<area shape="rect" id="node5" href="$pod__embed_8c.html#a5074fd44b36ff22dfcd27e10d93557e6" title="get the initival pos, vel and clk for current observation" alt="" coords="5,89,176,116"/>
+<area shape="rect" id="node6" href="$pod__embed_8c.html#ab1a82a96c7999aecd87465d85b3d87f9" title="store the filted orbit and clock offset results into the storage" alt="" coords="27,140,155,167"/>
+</map>

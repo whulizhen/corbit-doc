@@ -1,0 +1,6 @@
+<map id="ORBIT_DYN_CONFIG" name="ORBIT_DYN_CONFIG">
+<area shape="rect" id="node1" title="the orbit dynamics configure struct, works for both orbit integrate and orbit fit." alt="" coords="228,95,383,121"/>
+<area shape="rect" id="node2" href="$structPARAM__FM__EMP.html" title=" " alt="" coords="5,5,136,32"/>
+<area shape="rect" id="node3" href="$structEMP__PARAM__BASE.html" title=" " alt="" coords="233,5,377,32"/>
+<area shape="rect" id="node4" href="$structPARAM__FM.html" title="the struct to store force model parameters" alt="" coords="417,5,511,32"/>
+</map>

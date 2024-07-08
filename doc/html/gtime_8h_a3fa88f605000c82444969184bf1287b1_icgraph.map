@@ -1,0 +1,6 @@
+<map id="gtime_equal" name="gtime_equal">
+<area shape="rect" id="node1" title="compare two GTime struct, a == b within threshold_time" alt="" coords="255,56,357,83"/>
+<area shape="rect" id="node2" href="$gnss__observation_8c.html#a3eba026eacb147b25b516d97937e0e82" title="compare two OBSDATA_EPOCH for the sort of observations, smaller epoch_time get first" alt="" coords="13,5,199,32"/>
+<area shape="rect" id="node3" href="$attitude_8c.html#a696e64e4066503f57ba3e599a43b06f8" title="find the element in &#39;quaternion_all&#39; that is closest to the target time" alt="" coords="5,56,207,83"/>
+<area shape="rect" id="node4" href="$gnss__observation_8c.html#aa56fd201df32fb98780a5b7c72319635" title="remove dumplcate gnss observation epochs" alt="" coords="18,107,194,149"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="find_closest_att_quaternion" name="find_closest_att_quaternion">
+<area shape="rect" id="node1" title="find the element in &#39;quaternion_all&#39; that is closest to the target time" alt="" coords="5,56,207,83"/>
+<area shape="rect" id="node2" href="$gtime_8c.html#a3fa88f605000c82444969184bf1287b1" title="compare two GTime struct, a == b within threshold_time" alt="" coords="261,5,363,32"/>
+<area shape="rect" id="node4" href="$gtime_8c.html#afa79a8685bcdb3981a1db50a3aae091c" title="compare two GTime struct, a &gt; b" alt="" coords="255,56,369,83"/>
+<area shape="rect" id="node5" href="$gtime_8c.html#ac779811787fe25320b7aea55204ef9b2" title="compare two GTime struct, a &lt; b" alt="" coords="265,107,359,133"/>
+<area shape="rect" id="node3" href="$gtime_8c.html#adc56923884b6b09b48b914a520433554" title="compute gtime1 &#45; gtime2, these two GTime strcut should have the same time system." alt="" coords="417,56,501,83"/>
+</map>

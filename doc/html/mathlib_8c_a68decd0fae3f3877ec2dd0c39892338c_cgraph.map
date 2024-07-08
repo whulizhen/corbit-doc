@@ -1,0 +1,4 @@
+<map id="get_std" name="get_std">
+<area shape="rect" id="node1" title="Get the standard deviation value of an array x." alt="" coords="5,5,76,32"/>
+<area shape="rect" id="node2" href="$mathlib_8c.html#ad055a60ccd238b89415b188c5febbb13" title="Get the mean value of an array x." alt="" coords="124,5,211,32"/>
+</map>

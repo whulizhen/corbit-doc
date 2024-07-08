@@ -1,0 +1,33 @@
+<map id="RUNTIME_POD_EMBED" name="RUNTIME_POD_EMBED">
+<area shape="rect" id="node1" title="the data needed in runtime" alt="" coords="1147,483,1319,509"/>
+<area shape="rect" id="node2" href="$structSOLUTION.html" title="struct definition of SOLUTION" alt="" coords="661,244,751,271"/>
+<area shape="rect" id="node3" href="$structGTime.html" title="struct for general time computation with time system defined" alt="" coords="217,293,282,320"/>
+<area shape="rect" id="node6" href="$structSTATE__SPACECRAFT.html" title="spacecraft state struct" alt="" coords="631,300,781,327"/>
+<area shape="rect" id="node7" href="$structDATA__ORBIT.html" title="orbit data" alt="" coords="655,352,757,379"/>
+<area shape="rect" id="node16" href="$structOBSDATA__EPOCH.html" title="observation of one epoch with many satellites" alt="" coords="441,68,575,95"/>
+<area shape="rect" id="node20" href="$structCLKREC__PRE.html" title="the precise clock offset for GNSS, mainly sp3" alt="" coords="455,395,561,421"/>
+<area shape="rect" id="node21" href="$structEPHREC__PRE.html" title="the precise ephemeris for GNSS, mainly sp3, sat positions at the center of mass" alt="" coords="455,445,561,472"/>
+<area shape="rect" id="node27" href="$structDATA__CLK.html" title="clk data" alt="" coords="662,493,750,520"/>
+<area shape="rect" id="node30" href="$structATT__QUATERNION.html" title="attitude quaternion, it is a time tagged quaternion object" alt="" coords="438,131,578,157"/>
+<area shape="rect" id="node4" href="$structTimeMJD.html" title="struct time format in Modified Julian Day and second of day" alt="" coords="5,293,87,320"/>
+<area shape="rect" id="node5" href="$structEPH__HEADER__JPL.html" title="the definition of EPH_HEADER_JPL" alt="" coords="842,544,977,571"/>
+<area shape="rect" id="node8" href="$structEPH__RECORD__JPL.html" title="definition of one data record of JPL ephemeris" alt="" coords="841,595,977,621"/>
+<area shape="rect" id="node9" href="$structEPHBRDC__STORE.html" title="EPHBRDC_STORE is a struct to store all the brdc ephemersi records. Usually, this is related to the ri..." alt="" coords="842,645,977,672"/>
+<area shape="rect" id="node10" href="$structEPHREC__GLO.html" title="GAL broadcast ephemeris record, sat position at the phase center." alt="" coords="454,547,562,573"/>
+<area shape="rect" id="node11" href="$structTimeGNSS.html" title="struct for time format in weeks and seconds of week" alt="" coords="204,547,295,573"/>
+<area shape="rect" id="node12" href="$structEPHREC__BDS.html" title="BDS broadcast ephemeris record, sat position at the phase center." alt="" coords="454,597,562,624"/>
+<area shape="rect" id="node13" href="$structTimeYMD.html" title="struct time format in year, month, day" alt="" coords="207,648,292,675"/>
+<area shape="rect" id="node14" href="$structEPHREC__GAL.html" title="GAL broadcast ephemeris record, sat position at the phase center." alt="" coords="455,648,561,675"/>
+<area shape="rect" id="node15" href="$structEPHREC__GPS.html" title="GPS broadcast ephemeris record , sat position at the phase center." alt="" coords="455,699,561,725"/>
+<area shape="rect" id="node17" href="$structOBSDATA__SAT.html" title="observation of one satellite, memory: 632 byes" alt="" coords="192,7,307,33"/>
+<area shape="rect" id="node18" href="$structOBSREC.html" title="record of GNSS obs, memory: 48 Bytes" alt="" coords="9,7,83,33"/>
+<area shape="rect" id="node19" href="$structEPHPREC__STORE.html" title="PRE_EPH are the position of center of gravity." alt="" coords="843,431,975,457"/>
+<area shape="rect" id="node22" href="$structANT__INFO.html" title="Antenna information for both the GNSS satellite and the receiver antenna." alt="" coords="464,752,552,779"/>
+<area shape="rect" id="node28" href="$structSAT__STATE.html" title="definition of the estimated param" alt="" coords="863,779,956,805"/>
+<area shape="rect" id="node23" href="$structORBIT__DYN__CONFIG.html" title="the orbit dynamics configure struct, works for both orbit integrate and orbit fit." alt="" coords="832,829,987,856"/>
+<area shape="rect" id="node24" href="$structPARAM__FM__EMP.html" title=" " alt="" coords="443,808,573,835"/>
+<area shape="rect" id="node25" href="$structEMP__PARAM__BASE.html" title=" " alt="" coords="436,859,580,885"/>
+<area shape="rect" id="node26" href="$structPARAM__FM.html" title="the struct to store force model parameters" alt="" coords="461,909,555,936"/>
+<area shape="rect" id="node29" href="$structEOPREC.html" title=" " alt="" coords="872,880,947,907"/>
+<area shape="rect" id="node31" href="$structQUATERNION.html" title="Quaternion struct." alt="" coords="195,57,304,84"/>
+</map>

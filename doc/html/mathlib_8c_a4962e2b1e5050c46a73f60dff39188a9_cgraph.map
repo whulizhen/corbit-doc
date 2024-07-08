@@ -1,0 +1,4 @@
+<map id="matinv" name="matinv">
+<area shape="rect" id="node1" title="inverse of matrix A" alt="" coords="5,5,73,32"/>
+<area shape="rect" id="node2" href="$mathlib_8c.html#ad13d3e6b0deb2bc1b8ade798b9876c72" title="the LU decomposition function of matrix A book: Numerical Recipes in C, The Art of Scientific Computi..." alt="" coords="121,5,192,32"/>
+</map>

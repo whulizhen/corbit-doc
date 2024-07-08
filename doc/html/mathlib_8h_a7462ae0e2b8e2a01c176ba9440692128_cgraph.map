@@ -1,0 +1,5 @@
+<map id="solve_lsq_normal" name="solve_lsq_normal">
+<area shape="rect" id="node1" title="solve_lsq problem using the normal accumulated equation x = inv(BTWB) * BTWL" alt="" coords="5,5,141,32"/>
+<area shape="rect" id="node2" href="$mathlib_8c.html#a4962e2b1e5050c46a73f60dff39188a9" title="inverse of matrix A" alt="" coords="189,5,257,32"/>
+<area shape="rect" id="node3" href="$mathlib_8c.html#ad13d3e6b0deb2bc1b8ade798b9876c72" title="the LU decomposition function of matrix A book: Numerical Recipes in C, The Art of Scientific Computi..." alt="" coords="305,5,376,32"/>
+</map>
