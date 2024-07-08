@@ -1,0 +1,10 @@
+<map id="compute_satposvelclk_gal_brdc" name="compute_satposvelclk_gal_brdc">
+<area shape="rect" id="node1" title=" " alt="" coords="5,23,173,65"/>
+<area shape="rect" id="node2" href="$gtime_8c.html#a34711d658f9f33e5e094c85cf380d193" title="convert from GTime to TimeGNSS" alt="" coords="265,5,369,32"/>
+<area shape="rect" id="node3" href="$gtime_8c.html#ad6b6245ba109ab9a69180a621cba85f6" title="change the time system of a GTime struct" alt="" coords="221,56,412,83"/>
+<area shape="rect" id="node4" href="$gtime_8c.html#acd5551059ad3aef49860a64878b8cb6e" title="add seconds to GTime struct" alt="" coords="584,31,692,57"/>
+<area shape="rect" id="node7" href="$gtime_8c.html#ae62f6c31c525d0e709ea55012790ed9f" title="convert from TAI to UTC" alt="" coords="460,56,536,83"/>
+<area shape="rect" id="node8" href="$gtime_8c.html#a147ef70ad69a22c2ef64bafccf1071de" title="get the leap seconds in format of TAI&#45;UTC" alt="" coords="597,93,679,120"/>
+<area shape="rect" id="node5" href="$gtime_8c.html#a130e765390b16f22822500994ad12f09" title="add seconds to TimeMJD struct" alt="" coords="740,31,864,57"/>
+<area shape="rect" id="node6" href="$gtime_8c.html#a09eb4bada2411345995b1238d7b24ca6" title="make TimeMJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="912,31,1063,57"/>
+</map>

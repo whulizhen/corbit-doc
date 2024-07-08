@@ -1,0 +1,13 @@
+<map id="norm" name="norm">
+<area shape="rect" id="node1" title="get the norm of vector x" alt="" coords="987,274,1043,301"/>
+<area shape="rect" id="node2" href="$attitude_8c.html#a7bc9fa671130b65b2e9437b681a9ba4e" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="367,350,503,377"/>
+<area shape="rect" id="node3" href="$orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="179,122,309,149"/>
+<area shape="rect" id="node5" href="$earth__gravity_8c.html#ae4221b4ad05c0289b567912c9ffd5eeb" title="This is the main entry of earth gravity acc computation." alt="" coords="560,5,745,47"/>
+<area shape="rect" id="node6" href="$orbit__dynamics_8c.html#a75fa6528ac0400abe9d3df60a74ee613" title=" " alt="" coords="357,198,512,225"/>
+<area shape="rect" id="node7" href="$common__function_8c.html#ac66f69bcf146103e8684e9c73fdd40b8" title="compute the signal azimuth and elevation in the platform coordinate system" alt="" coords="805,426,927,453"/>
+<area shape="rect" id="node8" href="$mathlib_8c.html#a6e06a3ec6912f50a47392e7d42556652" title="check if there exists columns are all zeros in the matrix, otherwise, adjust the number of columns th..." alt="" coords="793,477,939,503"/>
+<area shape="rect" id="node9" href="$mathlib_8c.html#a80599db69e4fe1ff1f2242398ba2b09d" title="normalize a vector of n elements" alt="" coords="799,223,933,250"/>
+<area shape="rect" id="node4" href="$orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,122,131,149"/>
+<area shape="rect" id="node10" href="$attitude_8c.html#a54fa748c018a5f34840db315f30eb603" title="yaw steering attitude, mainly for GNSS satellites" alt="" coords="569,223,736,250"/>
+<area shape="rect" id="node11" href="$common__function_8c.html#ab6619560de209ae8da1b6e8aeb728c7e" title="compute the orbital radial, tangent and along track unit vector" alt="" coords="619,325,686,351"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="output_mw_gf" name="output_mw_gf">
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,120,83"/>
+<area shape="rect" id="node2" href="$gnss__observation_8c.html#adbf323bb240db1f045b8b4d8a6670fae" title="Get the obs epoch of index and rcvno." alt="" coords="168,5,287,32"/>
+<area shape="rect" id="node3" href="$gtime_8c.html#af3d0d3d1f25a8b57ded3fb98458d21ce" title="convert from GTime to TimeYMD" alt="" coords="176,56,279,83"/>
+<area shape="rect" id="node7" href="$gtime_8c.html#a7ede9f62ade9ce0001c2deae100c66d7" title="convert a TimeYMD struct to a time string" alt="" coords="174,107,281,133"/>
+<area shape="rect" id="node4" href="$gtime_8c.html#a4e80434717708c0874f6c38348d8584a" title="convert from GTime to TimeJD" alt="" coords="335,31,421,57"/>
+<area shape="rect" id="node6" href="$gtime_8c.html#afc86aafaf1f29e1eb93c5da18a47e144" title="convert from TimeJD to TimeYMD" alt="" coords="341,81,415,108"/>
+<area shape="rect" id="node5" href="$gtime_8c.html#abba188d666e8af9b378ebc53d444ece4" title="make TimeJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="469,31,611,57"/>
+</map>

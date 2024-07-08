@@ -1,0 +1,5 @@
+<map id="SC_STATE" name="SC_STATE">
+<area shape="rect" id="node1" title=" " alt="" coords="5,184,91,211"/>
+<area shape="rect" id="node2" href="$structGTime.html" title="struct for general time computation with time system defined" alt="" coords="15,95,81,121"/>
+<area shape="rect" id="node3" href="$structTimeMJD.html" title="struct time format in Modified Julian Day and second of day" alt="" coords="7,5,89,32"/>
+</map>

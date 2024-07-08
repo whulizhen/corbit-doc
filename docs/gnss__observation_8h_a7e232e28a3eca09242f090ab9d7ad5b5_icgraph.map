@@ -1,0 +1,4 @@
+<map id="get_ionosphere_free_combination" name="get_ionosphere_free_combination">
+<area shape="rect" id="node1" title="compute the ionosphere free combination" alt="" coords="261,5,416,47"/>
+<area shape="rect" id="node2" href="$obs__processing_8c.html#a5d96093c451ef613dc2615a505dc3402" title="get the initial ambiguity for the filter" alt="" coords="5,13,213,39"/>
+</map>

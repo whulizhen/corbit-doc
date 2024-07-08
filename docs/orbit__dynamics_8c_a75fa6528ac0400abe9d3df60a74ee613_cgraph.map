@@ -1,0 +1,9 @@
+<map id="compute_acc_ECOM" name="compute_acc_ECOM">
+<area shape="rect" id="node1" title=" " alt="" coords="5,105,160,131"/>
+<area shape="rect" id="node2" href="$mathlib_8c.html#a56a5431504b9f6ad43a8ac6e5a13ab01" title="cross product of a 3&#45;element vector A and 3&#45;element vector vector B" alt="" coords="389,29,495,55"/>
+<area shape="rect" id="node3" href="$mathlib_8c.html#a778696a1fead0b92a7c2374a8ef48536" title="dot product of two vectors" alt="" coords="221,29,313,55"/>
+<area shape="rect" id="node4" href="$common__function_8c.html#ab6619560de209ae8da1b6e8aeb728c7e" title="compute the orbital radial, tangent and along track unit vector" alt="" coords="234,79,301,106"/>
+<area shape="rect" id="node5" href="$mathlib_8c.html#a80599db69e4fe1ff1f2242398ba2b09d" title="normalize a vector of n elements" alt="" coords="375,130,509,157"/>
+<area shape="rect" id="node6" href="$mathlib_8c.html#ad3c2d5b0aab71d0ba94b00db096dfd24" title="get the norm of vector x" alt="" coords="557,155,613,182"/>
+<area shape="rect" id="node7" href="$mathlib_8c.html#a481055fefb93c4fc538c5dd9c592c4f0" title="matrix multiplication C = A*B" alt="" coords="208,231,327,258"/>
+</map>

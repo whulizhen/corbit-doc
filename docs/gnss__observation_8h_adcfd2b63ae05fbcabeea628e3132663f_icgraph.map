@@ -1,0 +1,4 @@
+<map id="choose_satellite" name="choose_satellite">
+<area shape="rect" id="node1" title="choose satellites according to the definition in gnssconfig" alt="" coords="245,5,373,32"/>
+<area shape="rect" id="node2" href="$gnss__rtk_8c.html#a6fbf618290486f1d4665bc5db2f5d4b1" title="choose the satellite to be used" alt="" coords="5,5,197,32"/>
+</map>

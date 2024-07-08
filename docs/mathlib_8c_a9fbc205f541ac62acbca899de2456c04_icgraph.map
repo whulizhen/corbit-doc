@@ -1,0 +1,4 @@
+<map id="quaternion2rotation" name="quaternion2rotation">
+<area shape="rect" id="node1" title="the function to convert a quaternion to rotation matrix" alt="" coords="189,5,340,32"/>
+<area shape="rect" id="node2" href="$attitude_8c.html#a7bc9fa671130b65b2e9437b681a9ba4e" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="5,5,141,32"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="gtime.h" name="gtime.h">
+<area shape="rect" id="node1" title="Declarations of time operations functions." alt="" coords="277,5,349,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,69,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="93,80,160,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="185,80,255,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="279,80,347,107"/>
+<area shape="rect" id="node6" title=" " alt="" coords="391,155,473,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="423,80,494,107"/>
+<area shape="rect" id="node8" href="$corbit__const_8h.html" title="Declarations for all the constants in corbit project." alt="" coords="518,80,631,107"/>
+<area shape="rect" id="node9" href="$ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="543,155,606,181"/>
+</map>

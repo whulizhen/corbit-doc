@@ -1,0 +1,4 @@
+<map id="correction_PoleTide_gravity" name="correction_PoleTide_gravity">
+<area shape="rect" id="node1" title="pole tide to normalized earth potential coefficients" alt="" coords="5,5,156,47"/>
+<area shape="rect" id="node2" href="$earth__rotation__param_8c.html#a83196d8ce9c24a904aea738c23c23a83" title="compute the mean polar motion" alt="" coords="204,13,356,39"/>
+</map>

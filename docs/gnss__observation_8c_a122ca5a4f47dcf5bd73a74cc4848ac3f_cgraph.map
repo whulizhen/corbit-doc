@@ -1,0 +1,4 @@
+<map id="choose_observation" name="choose_observation">
+<area shape="rect" id="node1" title="choose observations according to the definition in gnssconfig" alt="" coords="5,13,157,39"/>
+<area shape="rect" id="node2" href="$gnss__config_8c.html#a2948a1a21e91e94105deb7692931337e" title="get the index of a GNSS system in GNSSCONFIG" alt="" coords="205,5,353,47"/>
+</map>

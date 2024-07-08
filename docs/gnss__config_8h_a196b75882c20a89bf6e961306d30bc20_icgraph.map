@@ -1,0 +1,4 @@
+<map id="get_obs_frequency" name="get_obs_frequency">
+<area shape="rect" id="node1" title="get the radio frequency of observations in MHz" alt="" coords="261,5,407,32"/>
+<area shape="rect" id="node2" href="$obs__processing_8c.html#a5d96093c451ef613dc2615a505dc3402" title="get the initial ambiguity for the filter" alt="" coords="5,5,213,32"/>
+</map>

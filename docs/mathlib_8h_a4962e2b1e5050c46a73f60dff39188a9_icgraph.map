@@ -1,0 +1,7 @@
+<map id="matinv" name="matinv">
+<area shape="rect" id="node1" title="inverse of matrix A" alt="" coords="305,56,373,83"/>
+<area shape="rect" id="node2" href="$mathlib_8c.html#a878533dbce0f27240b0da2101167503c" title="this is the implementation of kalman filter" alt="" coords="179,5,238,32"/>
+<area shape="rect" id="node4" href="$mathlib_8c.html#a8983f36e6f5236b4ddac8816ab27875b" title="combine the forward and backward filters by fixed&#45;interval smoother as follows xs = Qs*(Qf^&#45;1*xf + Qb..." alt="" coords="167,56,251,83"/>
+<area shape="rect" id="node5" href="$main__test_8c.html#ac334a92cbd04265f52708e07af9487e3" title=" " alt="" coords="160,107,257,133"/>
+<area shape="rect" id="node3" href="$mathlib_8c.html#acb083a14b1d0436bac5b7bae75855ccd" title="this is the implementation of kalman filter" alt="" coords="5,5,112,32"/>
+</map>

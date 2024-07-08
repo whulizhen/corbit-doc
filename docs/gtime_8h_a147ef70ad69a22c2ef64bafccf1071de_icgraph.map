@@ -1,0 +1,10 @@
+<map id="TAImUTC" name="TAImUTC">
+<area shape="rect" id="node1" title="get the leap seconds in format of TAI&#45;UTC" alt="" coords="744,107,825,134"/>
+<area shape="rect" id="node2" href="$gtime_8c.html#ad6b6245ba109ab9a69180a621cba85f6" title="change the time system of a GTime struct" alt="" coords="381,107,572,134"/>
+<area shape="rect" id="node8" href="$gtime_8c.html#ae62f6c31c525d0e709ea55012790ed9f" title="convert from TAI to UTC" alt="" coords="620,133,696,159"/>
+<area shape="rect" id="node3" href="$gnss__satposition_8c.html#ac39ee967a9ec899d0b3dbeeb99a7eb08" title=" " alt="" coords="165,5,333,47"/>
+<area shape="rect" id="node4" href="$gnss__satposition_8c.html#a9e5ce77a8807ab218537cc756087b7bf" title=" " alt="" coords="165,71,333,112"/>
+<area shape="rect" id="node6" href="$main__test_8c.html#a0cd3d3acac9d8a1e58549b9aa88d75aa" title="test for the haiyang&#45;2C spacecraft attitude" alt="" coords="178,137,321,163"/>
+<area shape="rect" id="node7" href="$orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="179,187,319,214"/>
+<area shape="rect" id="node5" href="$main__test_8c.html#a707c83f5a32132ab60eb8a938b62a04b" title="a test for calculate satpos according to brdc" alt="" coords="5,78,117,105"/>
+</map>

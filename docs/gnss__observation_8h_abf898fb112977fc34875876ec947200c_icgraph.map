@@ -1,0 +1,4 @@
+<map id="generate_rinex_header" name="generate_rinex_header">
+<area shape="rect" id="node1" title="produce the header of rinex observation file for the output of rinex observations" alt="" coords="232,5,404,32"/>
+<area shape="rect" id="node2" href="$gnss__observation_8c.html#a09814252be6e9ef9e781f9275e5590e9" title="write the observation epoch in the format of rinex version 3.0" alt="" coords="5,5,184,32"/>
+</map>

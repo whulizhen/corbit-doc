@@ -1,0 +1,4 @@
+<map id="my_console_logger" name="my_console_logger">
+<area shape="rect" id="node1" title="log to console for the ULOG library" alt="" coords="5,5,153,32"/>
+<area shape="rect" id="node2" href="$gtime_8c.html#a9c4a1c82ca974e1cbd0d58f5a1183040" title="get the current time in string" alt="" coords="201,5,316,32"/>
+</map>

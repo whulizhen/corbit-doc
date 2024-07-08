@@ -1,0 +1,10 @@
+<map id="crossproduct" name="crossproduct">
+<area shape="rect" id="node1" title="cross product of a 3&#45;element vector A and 3&#45;element vector vector B" alt="" coords="781,81,887,108"/>
+<area shape="rect" id="node2" href="$attitude_8c.html#a54fa748c018a5f34840db315f30eb603" title="yaw steering attitude, mainly for GNSS satellites" alt="" coords="567,5,733,32"/>
+<area shape="rect" id="node3" href="$orbit__dynamics_8c.html#a75fa6528ac0400abe9d3df60a74ee613" title=" " alt="" coords="361,56,515,83"/>
+<area shape="rect" id="node6" href="$common__function_8c.html#ab6619560de209ae8da1b6e8aeb728c7e" title="compute the orbital radial, tangent and along track unit vector" alt="" coords="617,107,683,133"/>
+<area shape="rect" id="node8" href="$orbit__dynamics_8c.html#a688888f9cc79fe6a3bf1fea8d7b9f39b" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="357,208,519,235"/>
+<area shape="rect" id="node4" href="$orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="179,107,309,133"/>
+<area shape="rect" id="node5" href="$orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,107,131,133"/>
+<area shape="rect" id="node7" href="$attitude_8c.html#a7bc9fa671130b65b2e9437b681a9ba4e" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="370,157,506,184"/>
+</map>

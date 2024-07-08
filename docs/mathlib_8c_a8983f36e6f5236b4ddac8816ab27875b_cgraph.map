@@ -1,0 +1,6 @@
+<map id="smoother" name="smoother">
+<area shape="rect" id="node1" title="combine the forward and backward filters by fixed&#45;interval smoother as follows xs = Qs*(Qf^&#45;1*xf + Qb..." alt="" coords="5,31,89,57"/>
+<area shape="rect" id="node2" href="$mathlib_8c.html#a4962e2b1e5050c46a73f60dff39188a9" title="inverse of matrix A" alt="" coords="163,5,231,32"/>
+<area shape="rect" id="node4" href="$mathlib_8c.html#a481055fefb93c4fc538c5dd9c592c4f0" title="matrix multiplication C = A*B" alt="" coords="137,56,256,83"/>
+<area shape="rect" id="node3" href="$mathlib_8c.html#ad13d3e6b0deb2bc1b8ade798b9876c72" title="the LU decomposition function of matrix A book: Numerical Recipes in C, The Art of Scientific Computi..." alt="" coords="304,5,375,32"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="string2satsysprn" name="string2satsysprn">
+<area shape="rect" id="node1" title="convert a string of satellite system and prn to sysGNSS and prn" alt="" coords="231,31,361,57"/>
+<area shape="rect" id="node2" href="$gnss__observation_8c.html#a388b20c7c28b4400e29547d4fe7f8df4" title="resovle the rinex observation with version 2.0" alt="" coords="5,5,183,32"/>
+<area shape="rect" id="node3" href="$gnss__observation_8c.html#a4d2eb9b3b8721dda688b2560f9a82852" title="resolve the rinex observation records in version 3.0" alt="" coords="5,56,183,83"/>
+</map>
