@@ -1,0 +1,36 @@
+var gnss__observation_8h =
+[
+    [ "OBSREC", "structOBSREC.html", "structOBSREC" ],
+    [ "OBSDATA_SAT", "structOBSDATA__SAT.html", "structOBSDATA__SAT" ],
+    [ "OBSDATA_EPOCH", "structOBSDATA__EPOCH.html", "structOBSDATA__EPOCH" ],
+    [ "OBS_EXCEPTION", "gnss__observation_8h.html#aa6fb23b6ec07ba54942f2f379697550f", [
+      [ "OBS_OK", "gnss__observation_8h.html#aa6fb23b6ec07ba54942f2f379697550fa339544dcca60666bccfc699c45821078", null ],
+      [ "LOW_ELE", "gnss__observation_8h.html#aa6fb23b6ec07ba54942f2f379697550fa98978105f4c8f5424d944ec614851bc5", null ],
+      [ "SAT_UKN", "gnss__observation_8h.html#aa6fb23b6ec07ba54942f2f379697550faf4f2fbc02527f30978ccb98924ac73b4", null ],
+      [ "SAT_NOT_USED", "gnss__observation_8h.html#aa6fb23b6ec07ba54942f2f379697550fa3bddb19c06f301ca8c387a9c810ec31f", null ],
+      [ "SATPOS_ERROR", "gnss__observation_8h.html#aa6fb23b6ec07ba54942f2f379697550fabad3c51b58518309d982170a67b65efe", null ],
+      [ "CLOCK_JUMP", "gnss__observation_8h.html#aa6fb23b6ec07ba54942f2f379697550fa0e28c060f9cc437ad2a7066a52ad093e", null ],
+      [ "GROSS_ERROR", "gnss__observation_8h.html#aa6fb23b6ec07ba54942f2f379697550fa0e4651f3108bd13c329e52761c148e10", null ],
+      [ "OBS_UKN", "gnss__observation_8h.html#aa6fb23b6ec07ba54942f2f379697550fad7a435018a7770515bab4ec7fc485ee0", null ]
+    ] ],
+    [ "choose_observation", "gnss__observation_8h.html#a122ca5a4f47dcf5bd73a74cc4848ac3f", null ],
+    [ "choose_satellite", "gnss__observation_8h.html#adcfd2b63ae05fbcabeea628e3132663f", null ],
+    [ "cmp_sort_obsdata_epoch", "gnss__observation_8h.html#a3eba026eacb147b25b516d97937e0e82", null ],
+    [ "generate_rinex_header", "gnss__observation_8h.html#abf898fb112977fc34875876ec947200c", null ],
+    [ "get_ionosphere_free_combination", "gnss__observation_8h.html#a7e232e28a3eca09242f090ab9d7ad5b5", null ],
+    [ "get_multipath_combination", "gnss__observation_8h.html#ab677a6c8bfd8aedb536566e0b2d21274", null ],
+    [ "get_obs_epoch", "gnss__observation_8h.html#adbf323bb240db1f045b8b4d8a6670fae", null ],
+    [ "get_obs_record", "gnss__observation_8h.html#a496df6a8d0ed54ba7af0bc8764b13c0e", null ],
+    [ "initialize_obsdata_epoch", "gnss__observation_8h.html#a664b2b2525e364b322eae5aba0b29b32", null ],
+    [ "load_observation_rinex", "gnss__observation_8h.html#a4943c4e0a120060b1b18cecc87a0b5d5", null ],
+    [ "match_observation_storage", "gnss__observation_8h.html#a65bced149f40ca678eed0957b45fccfc", null ],
+    [ "remove_duplicate_gnss_observation", "gnss__observation_8h.html#aa56fd201df32fb98780a5b7c72319635", null ],
+    [ "resolve_rnx_header_v20", "gnss__observation_8h.html#a625e0593e17466361f9cc013b163dc7d", null ],
+    [ "resolve_rnx_header_v30", "gnss__observation_8h.html#a2f4cecc221d496a9a5d0fac67d713c22", null ],
+    [ "resolve_rnx_record_v20", "gnss__observation_8h.html#a388b20c7c28b4400e29547d4fe7f8df4", null ],
+    [ "resolve_rnx_record_v30", "gnss__observation_8h.html#ab2f34ed73398f805539abf42d824a951", null ],
+    [ "sort_observation_storage", "gnss__observation_8h.html#af7181dff50d6c774cd3e249fb1ffdce4", null ],
+    [ "write_rinex_observation", "gnss__observation_8h.html#a09814252be6e9ef9e781f9275e5590e9", null ],
+    [ "g_num_obs_storage", "gnss__observation_8h.html#a1b665de423fdeba11dd3e08097568b66", null ],
+    [ "g_obs_storage", "gnss__observation_8h.html#a77c62cb1516c63612326ad6ed46a6942", null ]
+];
