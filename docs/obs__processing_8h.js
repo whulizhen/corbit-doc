@@ -45,6 +45,7 @@ var obs__processing_8h =
     [ "propagation_time_iterate", "obs__processing_8h.html#a9a8a1f961905676ac3458a1fa31cccbe", null ],
     [ "propagation_time_use_range", "obs__processing_8h.html#a6fb23f064c60b7a3f6cea0bfa5c699af", null ],
     [ "pseudorange_point_positioning", "obs__processing_8h.html#a8149973a46fc456908328540f4d486cd", null ],
+    [ "residual_control", "obs__processing_8h.html#a8a87e030bb741c98f3d489b87b45fb4e", null ],
     [ "saastamonien", "obs__processing_8h.html#a54fc48e31990e15f7cacda019edb3f75", null ],
     [ "standard_pres_temp", "obs__processing_8h.html#ab9da6c1ce0c6455a307698d8d98cc36e", null ],
     [ "trop_delay", "obs__processing_8h.html#a2f0ffa805f83647a8a6aaceffeb0fbdf", null ]
