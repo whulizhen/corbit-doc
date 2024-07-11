@@ -3,12 +3,12 @@
 <area shape="rect" id="node2" href="$structEPH__HEADER__JPL.html" title="the definition of EPH_HEADER_JPL" alt="" coords="766,64,901,91"/>
 <area shape="rect" id="node3" href="$structEPH__RECORD__JPL.html" title="definition of one data record of JPL ephemeris" alt="" coords="765,115,901,141"/>
 <area shape="rect" id="node4" href="$structEPHBRDC__STORE.html" title="EPHBRDC_STORE is a struct to store all the brdc ephemersi records. Usually, this is related to the ri..." alt="" coords="766,165,901,192"/>
-<area shape="rect" id="node5" href="$structEPHREC__GLO.html" title="GAL broadcast ephemeris record, sat position at the phase center." alt="" coords="449,15,557,41"/>
+<area shape="rect" id="node5" href="$structEPHREC__GLO.html" title="GAL broadcast ephemeris record, sat position at the phase center" alt="" coords="449,15,557,41"/>
 <area shape="rect" id="node6" href="$structTimeGNSS.html" title="struct for time format in weeks and seconds of week" alt="" coords="204,15,295,41"/>
-<area shape="rect" id="node7" href="$structEPHREC__BDS.html" title="BDS broadcast ephemeris record, sat position at the phase center." alt="" coords="449,65,557,92"/>
+<area shape="rect" id="node7" href="$structEPHREC__BDS.html" title="BDS broadcast ephemeris record, sat position at the phase center" alt="" coords="449,65,557,92"/>
 <area shape="rect" id="node8" href="$structTimeYMD.html" title="struct time format in year, month, day" alt="" coords="207,111,292,137"/>
-<area shape="rect" id="node9" href="$structEPHREC__GAL.html" title="GAL broadcast ephemeris record, sat position at the phase center." alt="" coords="450,116,557,143"/>
-<area shape="rect" id="node10" href="$structEPHREC__GPS.html" title="GPS broadcast ephemeris record , sat position at the phase center." alt="" coords="450,167,557,193"/>
+<area shape="rect" id="node9" href="$structEPHREC__GAL.html" title="GAL broadcast ephemeris record, sat position at the phase center" alt="" coords="450,116,557,143"/>
+<area shape="rect" id="node10" href="$structEPHREC__GPS.html" title="GPS broadcast ephemeris record , sat position at the phase center" alt="" coords="450,167,557,193"/>
 <area shape="rect" id="node11" href="$structOBSDATA__EPOCH.html" title="observation of one epoch with many satellites" alt="" coords="436,217,571,244"/>
 <area shape="rect" id="node12" href="$structOBSDATA__SAT.html" title="observation of one satellite, memory: 632 byes" alt="" coords="192,201,307,228"/>
 <area shape="rect" id="node13" href="$structOBSREC.html" title="record of GNSS obs, memory: 48 Bytes" alt="" coords="9,201,83,228"/>
@@ -16,8 +16,8 @@
 <area shape="rect" id="node17" href="$structCLKREC__PRE.html" title="the precise clock offset for GNSS, mainly sp3" alt="" coords="451,279,556,305"/>
 <area shape="rect" id="node18" href="$structEPHREC__PRE.html" title="the precise ephemeris for GNSS, mainly sp3, sat positions at the center of mass" alt="" coords="450,329,557,356"/>
 <area shape="rect" id="node15" href="$structTimeMJD.html" title="struct time format in Modified Julian Day and second of day" alt="" coords="5,292,87,319"/>
-<area shape="rect" id="node16" href="$structEPHPREC__STORE.html" title="PRE_EPH are the position of center of gravity." alt="" coords="767,279,899,305"/>
+<area shape="rect" id="node16" href="$structEPHPREC__STORE.html" title="PRE_EPH are the position of center of gravity" alt="" coords="767,279,899,305"/>
 <area shape="rect" id="node19" href="$structEOPREC.html" title=" " alt="" coords="796,329,871,356"/>
 <area shape="rect" id="node20" href="$structANT__INFO__STORE.html" title="struct ant_info_store" alt="" coords="764,380,903,407"/>
-<area shape="rect" id="node21" href="$structANT__INFO.html" title="Antenna information for both the GNSS satellite and the receiver antenna." alt="" coords="459,380,547,407"/>
+<area shape="rect" id="node21" href="$structANT__INFO.html" title="Antenna information for both the GNSS satellite and the receiver antenna" alt="" coords="459,380,547,407"/>
 </map>

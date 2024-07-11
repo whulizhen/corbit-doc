@@ -5,7 +5,7 @@
 <area shape="rect" id="node6" href="$mathlib_8c.html#ad3c2d5b0aab71d0ba94b00db096dfd24" title="get the norm of vector x" alt="" coords="571,81,627,108"/>
 <area shape="rect" id="node7" href="$mathlib_8c.html#a9d966c7096f51ef73b936110bd8b063f" title="generate a identical matrix of r rows and r columns" alt="" coords="201,157,329,184"/>
 <area shape="rect" id="node8" href="$mathlib_8c.html#a9fbc205f541ac62acbca899de2456c04" title="the function to convert a quaternion to rotation matrix" alt="" coords="189,208,340,235"/>
-<area shape="rect" id="node9" href="$common__function_8c.html#a247d821e9b075458eaa206d3770dc8a2" title="compute the matrix from ecef xyz to ENU coordinates" alt="" coords="201,259,328,285"/>
+<area shape="rect" id="node9" href="$common__function_8c.html#a247d821e9b075458eaa206d3770dc8a2" title="compute the matrix from ecef xyz to ENU coordinates https://gssc.esa.int/navipedia/index...." alt="" coords="201,259,328,285"/>
 <area shape="rect" id="node4" href="$mathlib_8c.html#a56a5431504b9f6ad43a8ac6e5a13ab01" title="cross product of a 3&#45;element vector A and 3&#45;element vector vector B" alt="" coords="403,5,508,32"/>
 <area shape="rect" id="node5" href="$mathlib_8c.html#a80599db69e4fe1ff1f2242398ba2b09d" title="normalize a vector of n elements" alt="" coords="388,56,523,83"/>
 </map>

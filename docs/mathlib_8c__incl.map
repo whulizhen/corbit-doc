@@ -1,11 +1,11 @@
 <map id="mathlib.c" name="mathlib.c">
-<area shape="rect" id="node1" title="Implementaions of mathematic operations." alt="" coords="185,5,267,32"/>
-<area shape="rect" id="node2" href="$mathlib_8h.html" title="Declarations of mathematic operations." alt="" coords="184,80,268,107"/>
+<area shape="rect" id="node1" title="Implementaions of mathematic operations" alt="" coords="185,5,267,32"/>
+<area shape="rect" id="node2" href="$mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="184,80,268,107"/>
 <area shape="rect" id="node3" title=" " alt="" coords="5,155,76,181"/>
 <area shape="rect" id="node4" title=" " alt="" coords="101,155,167,181"/>
 <area shape="rect" id="node5" title=" " alt="" coords="192,155,260,181"/>
 <area shape="rect" id="node6" title=" " alt="" coords="284,155,355,181"/>
-<area shape="rect" id="node7" href="$corbit__const_8h.html" title="Declarations for all the constants in corbit project." alt="" coords="379,155,492,181"/>
+<area shape="rect" id="node7" href="$corbit__const_8h.html" title="Declarations for all the constants in corbit project" alt="" coords="379,155,492,181"/>
 <area shape="rect" id="node8" title=" " alt="" coords="345,229,427,256"/>
 <area shape="rect" id="node9" href="$ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="452,229,515,256"/>
 </map>

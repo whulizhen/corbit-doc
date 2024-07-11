@@ -1,5 +1,5 @@
 <map id="RTCM_CLOCK_REC" name="RTCM_CLOCK_REC">
-<area shape="rect" id="node1" title="RTCM clock correction." alt="" coords="5,184,148,211"/>
+<area shape="rect" id="node1" title="RTCM clock correction" alt="" coords="5,184,148,211"/>
 <area shape="rect" id="node2" href="$structGTime.html" title="struct for general time computation with time system defined" alt="" coords="44,95,109,121"/>
 <area shape="rect" id="node3" href="$structTimeMJD.html" title="struct time format in Modified Julian Day and second of day" alt="" coords="36,5,117,32"/>
 </map>

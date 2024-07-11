@@ -1,6 +1,6 @@
 <map id="compute_acc_all" name="compute_acc_all">
 <area shape="rect" id="node1" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="5,715,136,741"/>
-<area shape="rect" id="node2" href="$earth__gravity_8c.html#ae4221b4ad05c0289b567912c9ffd5eeb" title="This is the main entry of earth gravity acc computation." alt="" coords="184,99,369,141"/>
+<area shape="rect" id="node2" href="$earth__gravity_8c.html#ae4221b4ad05c0289b567912c9ffd5eeb" title="This is the main entry of earth gravity acc computation" alt="" coords="184,99,369,141"/>
 <area shape="rect" id="node8" href="$mathlib_8c.html#ad3c2d5b0aab71d0ba94b00db096dfd24" title="get the norm of vector x" alt="" coords="924,323,980,349"/>
 <area shape="rect" id="node9" href="$orbit__dynamics_8c.html#a75fa6528ac0400abe9d3df60a74ee613" title=" " alt="" coords="199,411,354,437"/>
 <area shape="rect" id="node11" href="$mathlib_8c.html#a778696a1fead0b92a7c2374a8ef48536" title="dot product of two vectors" alt="" coords="467,512,559,539"/>
@@ -10,7 +10,7 @@
 <area shape="rect" id="node15" href="$orbit__dynamics_8c.html#ac4dcb052f599019c11e75effe9eb2584" title="the empirical force model and its parameters" alt="" coords="189,664,365,691"/>
 <area shape="rect" id="node16" href="$orbit__dynamics_8c.html#a40f4bb2d932e517fd04003a9ce4b296c" title="compute the general relativity acceleration" alt="" coords="189,715,364,741"/>
 <area shape="rect" id="node18" href="$orbit__dynamics_8c.html#a80bd1c842c3999b45ad108238c757d97" title="compute the third body planets gravitational accelerations to the spacecraft" alt="" coords="188,765,365,792"/>
-<area shape="rect" id="node19" href="$eph__planet_8c.html#ae5552f0c3c48b6486f8768f51d0683b4" title="Computes planet position, velocity using the ephemeris dataset." alt="" coords="421,791,605,817"/>
+<area shape="rect" id="node19" href="$eph__planet_8c.html#ae5552f0c3c48b6486f8768f51d0683b4" title="Computes planet position, velocity using the ephemeris dataset" alt="" coords="421,791,605,817"/>
 <area shape="rect" id="node22" href="$gtime_8c.html#ad0c5b5ae1134d58dbb718dedb0505764" title="get the leap seconds for current utc time" alt="" coords="452,855,573,881"/>
 <area shape="rect" id="node23" href="$earth__rotation__param_8c.html#aea8915a8d20a61cc28be369ce68c21d3" title="compute_eci2ecf_matrix at a given time mjd_utc" alt="" coords="421,943,604,969"/>
 <area shape="rect" id="node25" href="$earth__rotation__param_8c.html#ae12ed4e34c6c23d217f6c0731c250c17" title="convert from eci to ecf for vectors" alt="" coords="242,917,311,944"/>
@@ -26,7 +26,7 @@
 <area shape="rect" id="node6" href="$earth__rotation__param_8c.html#a83196d8ce9c24a904aea738c23c23a83" title="compute the mean polar motion" alt="" coords="685,81,837,108"/>
 <area shape="rect" id="node10" href="$mathlib_8c.html#a56a5431504b9f6ad43a8ac6e5a13ab01" title="cross product of a 3&#45;element vector A and 3&#45;element vector vector B" alt="" coords="708,411,813,437"/>
 <area shape="rect" id="node17" href="$mathlib_8c.html#a094457b001fd4ea066be8330cefde1b2" title="get the square of the norm of vector x" alt="" coords="481,727,545,753"/>
-<area shape="rect" id="node20" href="$eph__planet_8c.html#a261b3076bbc0e0215b3fdad20afb4fea" title="Computes the Sun&#39;s and Moon&#39;s geocentric position using a low precision analytical series." alt="" coords="656,791,865,817"/>
+<area shape="rect" id="node20" href="$eph__planet_8c.html#a261b3076bbc0e0215b3fdad20afb4fea" title="Computes the Sun&#39;s and Moon&#39;s geocentric position using a low precision analytical series" alt="" coords="656,791,865,817"/>
 <area shape="rect" id="node21" href="$eph__planet_8c.html#a6d0b43a4b16bc31e024bd9cb230f0aac" title="compute astronomical arguments: f={l,l&#39;,F,D,OMG} (rad)" alt="" coords="913,791,991,817"/>
 <area shape="rect" id="node24" href="$earth__rotation__param_8c.html#aac9741a1dbc90aaf4fe170c2cd8f81e1" title="compute the eop param for current time mjd_utc using linear interpolation" alt="" coords="705,943,816,969"/>
 <area shape="rect" id="node29" href="$gtime_8c.html#a130e765390b16f22822500994ad12f09" title="add seconds to TimeMJD struct" alt="" coords="451,1120,575,1147"/>

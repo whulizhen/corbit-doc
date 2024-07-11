@@ -4,5 +4,5 @@
 <area shape="rect" id="node3" href="$structGTime.html" title="struct for general time computation with time system defined" alt="" coords="13,95,79,121"/>
 <area shape="rect" id="node4" href="$structTimeMJD.html" title="struct time format in Modified Julian Day and second of day" alt="" coords="5,5,87,32"/>
 <area shape="rect" id="node5" href="$structSAT__STATE.html" title="definition of the estimated param" alt="" coords="229,185,322,212"/>
-<area shape="rect" id="node6" href="$structANT__INFO.html" title="Antenna information for both the GNSS satellite and the receiver antenna." alt="" coords="231,95,319,121"/>
+<area shape="rect" id="node6" href="$structANT__INFO.html" title="Antenna information for both the GNSS satellite and the receiver antenna" alt="" coords="231,95,319,121"/>
 </map>

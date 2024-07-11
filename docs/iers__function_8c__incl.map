@@ -1,10 +1,10 @@
 <map id="iers_function.c" name="iers_function.c">
-<area shape="rect" id="node1" title="Implementations for IERS functions." alt="" coords="167,5,284,32"/>
-<area shape="rect" id="node2" href="$iers__function_8h.html" title="Declarations for IERS functions." alt="" coords="166,80,285,107"/>
+<area shape="rect" id="node1" title="Implementations for IERS functions" alt="" coords="167,5,284,32"/>
+<area shape="rect" id="node2" href="$iers__function_8h.html" title="Declarations for IERS functions" alt="" coords="166,80,285,107"/>
 <area shape="rect" id="node3" title=" " alt="" coords="5,155,72,181"/>
 <area shape="rect" id="node4" title=" " alt="" coords="97,155,167,181"/>
 <area shape="rect" id="node5" title=" " alt="" coords="191,155,259,181"/>
 <area shape="rect" id="node6" title=" " alt="" coords="256,229,339,256"/>
-<area shape="rect" id="node7" href="$corbit__const_8h.html" title="Declarations for all the constants in corbit project." alt="" coords="335,155,449,181"/>
+<area shape="rect" id="node7" href="$corbit__const_8h.html" title="Declarations for all the constants in corbit project" alt="" coords="335,155,449,181"/>
 <area shape="rect" id="node8" href="$ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="363,229,426,256"/>
 </map>

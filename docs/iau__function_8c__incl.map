@@ -1,10 +1,10 @@
 <map id="iau_function.c" name="iau_function.c">
-<area shape="rect" id="node1" title="Implementation for iau functions." alt="" coords="121,5,234,32"/>
-<area shape="rect" id="node2" href="$iau__function_8h.html" title="Declarations for iau functions." alt="" coords="120,80,235,107"/>
+<area shape="rect" id="node1" title="Implementation for iau functions" alt="" coords="121,5,234,32"/>
+<area shape="rect" id="node2" href="$iau__function_8h.html" title="Declarations for iau functions" alt="" coords="120,80,235,107"/>
 <area shape="rect" id="node3" title=" " alt="" coords="5,155,72,181"/>
 <area shape="rect" id="node4" title=" " alt="" coords="97,155,165,181"/>
 <area shape="rect" id="node5" title=" " alt="" coords="189,155,259,181"/>
-<area shape="rect" id="node6" href="$corbit__const_8h.html" title="Declarations for all the constants in corbit project." alt="" coords="283,155,397,181"/>
+<area shape="rect" id="node6" href="$corbit__const_8h.html" title="Declarations for all the constants in corbit project" alt="" coords="283,155,397,181"/>
 <area shape="rect" id="node7" title=" " alt="" coords="249,229,332,256"/>
 <area shape="rect" id="node8" href="$ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="357,229,419,256"/>
 </map>

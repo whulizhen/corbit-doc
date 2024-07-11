@@ -26,44 +26,44 @@ var NAVTREE =
 [
   [ "COrbit", "index.html", [
     [ "COrbit documentation", "index.html", [
-      [ "Overview", "index.html#autotoc_md0", null ],
-      [ "Features", "index.html#autotoc_md3", null ],
-      [ "System requirements", "index.html#autotoc_md4", null ],
-      [ "Designs and test examples", "index.html#autotoc_md5", null ]
+      [ "Overview", "index.html#autotoc_md1", null ],
+      [ "Features", "index.html#autotoc_md4", null ],
+      [ "System requirements", "index.html#autotoc_md5", null ],
+      [ "Designs and test examples", "index.html#autotoc_md6", null ]
     ] ],
-    [ "COrbit Reference book", "md_test_examples.html", [
-      [ "Design thoughts behind library COrbit", "md_test_examples.html#autotoc_md7", [
-        [ "Framework design", "md_test_examples.html#autotoc_md8", null ],
-        [ "Sturct definition", "md_test_examples.html#autotoc_md9", null ],
-        [ "Global variables", "md_test_examples.html#autotoc_md10", null ],
-        [ "How to use COrbit library?", "md_test_examples.html#autotoc_md11", null ]
+    [ "COrbit Reference book", "md_input_test_examples.html", [
+      [ "Design thoughts behind library COrbit", "md_input_test_examples.html#autotoc_md8", [
+        [ "Framework design", "md_input_test_examples.html#autotoc_md9", null ],
+        [ "Sturct definition", "md_input_test_examples.html#autotoc_md10", null ],
+        [ "Global variables", "md_input_test_examples.html#autotoc_md11", null ],
+        [ "How to use COrbit library?", "md_input_test_examples.html#autotoc_md12", null ]
       ] ],
-      [ "Test examples", "md_test_examples.html#autotoc_md12", [
-        [ "Test-1", "md_test_examples.html#autotoc_md13", null ],
-        [ "test-2", "md_test_examples.html#autotoc_md14", null ],
-        [ "test-3", "md_test_examples.html#autotoc_md15", null ]
+      [ "Test examples", "md_input_test_examples.html#autotoc_md13", [
+        [ "Test-1", "md_input_test_examples.html#autotoc_md14", null ],
+        [ "test-2", "md_input_test_examples.html#autotoc_md15", null ],
+        [ "test-3", "md_input_test_examples.html#autotoc_md16", null ]
       ] ]
     ] ],
-    [ "Deprecated List", "deprecated.html", null ],
-    [ "Todo List", "todo.html", null ],
-    [ "Data Structures", "annotated.html", [
-      [ "Data Structures", "annotated.html", "annotated_dup" ],
-      [ "Data Structure Index", "classes.html", null ],
-      [ "Data Fields", "functions.html", [
-        [ "All", "functions.html", "functions_dup" ],
-        [ "Variables", "functions_vars.html", "functions_vars" ]
+    [ "弃用列表", "deprecated.html", null ],
+    [ "待办事项列表", "todo.html", null ],
+    [ "结构体", "annotated.html", [
+      [ "结构体", "annotated.html", "annotated_dup" ],
+      [ "结构体索引", "classes.html", null ],
+      [ "成员变量", "functions.html", [
+        [ "全部", "functions.html", "functions_dup" ],
+        [ "变量", "functions_vars.html", "functions_vars" ]
       ] ]
     ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "Globals", "globals.html", [
-        [ "All", "globals.html", "globals_dup" ],
-        [ "Functions", "globals_func.html", "globals_func" ],
-        [ "Variables", "globals_vars.html", null ],
-        [ "Typedefs", "globals_type.html", null ],
-        [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", null ],
-        [ "Macros", "globals_defs.html", null ]
+    [ "文件", "files.html", [
+      [ "文件列表", "files.html", "files_dup" ],
+      [ "全局定义", "globals.html", [
+        [ "全部", "globals.html", "globals_dup" ],
+        [ "函数", "globals_func.html", "globals_func" ],
+        [ "变量", "globals_vars.html", null ],
+        [ "类型定义", "globals_type.html", null ],
+        [ "枚举", "globals_enum.html", null ],
+        [ "枚举值", "globals_eval.html", null ],
+        [ "宏定义", "globals_defs.html", null ]
       ] ]
     ] ]
   ] ]
@@ -82,5 +82,5 @@ var NAVTREEINDEX =
 "structrc7.html#ac5579728671fa94de4f42ebd2639caf0"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+var SYNCONMSG = '点击 关闭 面板同步';
+var SYNCOFFMSG = '点击 开启 面板同步';

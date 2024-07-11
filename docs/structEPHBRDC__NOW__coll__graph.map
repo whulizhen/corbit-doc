@@ -1,9 +1,9 @@
 <map id="EPHBRDC_NOW" name="EPHBRDC_NOW">
 <area shape="rect" id="node1" title="struct EPHBRDC_NOW is a temperay variable to store the choosed brdc pointers for current time epoch." alt="" coords="231,184,357,211"/>
-<area shape="rect" id="node2" href="$structEPHREC__GLO.html" title="GAL broadcast ephemeris record, sat position at the phase center." alt="" coords="5,95,113,121"/>
+<area shape="rect" id="node2" href="$structEPHREC__GLO.html" title="GAL broadcast ephemeris record, sat position at the phase center" alt="" coords="5,95,113,121"/>
 <area shape="rect" id="node3" href="$structTimeGNSS.html" title="struct for time format in weeks and seconds of week" alt="" coords="14,5,105,32"/>
-<area shape="rect" id="node4" href="$structEPHREC__BDS.html" title="BDS broadcast ephemeris record, sat position at the phase center." alt="" coords="175,95,283,121"/>
+<area shape="rect" id="node4" href="$structEPHREC__BDS.html" title="BDS broadcast ephemeris record, sat position at the phase center" alt="" coords="175,95,283,121"/>
 <area shape="rect" id="node5" href="$structTimeYMD.html" title="struct time format in year, month, day" alt="" coords="331,5,417,32"/>
-<area shape="rect" id="node6" href="$structEPHREC__GAL.html" title="GAL broadcast ephemeris record, sat position at the phase center." alt="" coords="321,95,427,121"/>
-<area shape="rect" id="node7" href="$structEPHREC__GPS.html" title="GPS broadcast ephemeris record , sat position at the phase center." alt="" coords="463,95,570,121"/>
+<area shape="rect" id="node6" href="$structEPHREC__GAL.html" title="GAL broadcast ephemeris record, sat position at the phase center" alt="" coords="321,95,427,121"/>
+<area shape="rect" id="node7" href="$structEPHREC__GPS.html" title="GPS broadcast ephemeris record , sat position at the phase center" alt="" coords="463,95,570,121"/>
 </map>

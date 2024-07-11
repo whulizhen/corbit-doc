@@ -1,5 +1,5 @@
 <map id="compute_planet_pos_vel" name="compute_planet_pos_vel">
-<area shape="rect" id="node1" title="Computes planet position, velocity using the ephemeris dataset." alt="" coords="583,5,767,32"/>
+<area shape="rect" id="node1" title="Computes planet position, velocity using the ephemeris dataset" alt="" coords="583,5,767,32"/>
 <area shape="rect" id="node2" href="$orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="179,5,309,32"/>
 <area shape="rect" id="node4" href="$orbit__dynamics_8c.html#a80bd1c842c3999b45ad108238c757d97" title="compute the third body planets gravitational accelerations to the spacecraft" alt="" coords="357,31,535,57"/>
 <area shape="rect" id="node3" href="$orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,5,131,32"/>

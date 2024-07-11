@@ -1,6 +1,6 @@
 <map id="ATT_QUATERNION" name="ATT_QUATERNION">
 <area shape="rect" id="node1" title="attitude quaternion, it is a time tagged quaternion object" alt="" coords="19,184,159,211"/>
-<area shape="rect" id="node2" href="$structQUATERNION.html" title="Quaternion struct." alt="" coords="5,95,115,121"/>
+<area shape="rect" id="node2" href="$structQUATERNION.html" title="Quaternion struct" alt="" coords="5,95,115,121"/>
 <area shape="rect" id="node3" href="$structGTime.html" title="struct for general time computation with time system defined" alt="" coords="139,95,205,121"/>
 <area shape="rect" id="node4" href="$structTimeMJD.html" title="struct time format in Modified Julian Day and second of day" alt="" coords="131,5,213,32"/>
 </map>

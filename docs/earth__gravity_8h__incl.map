@@ -1,18 +1,18 @@
 <map id="earth_gravity.h" name="earth_gravity.h">
-<area shape="rect" id="node1" title="Declarations of earth gravity computation." alt="" coords="660,5,779,32"/>
+<area shape="rect" id="node1" title="Declarations of earth gravity computation" alt="" coords="660,5,779,32"/>
 <area shape="rect" id="node2" title=" " alt="" coords="84,304,150,331"/>
 <area shape="rect" id="node3" title=" " alt="" coords="544,304,615,331"/>
 <area shape="rect" id="node4" title=" " alt="" coords="815,304,886,331"/>
-<area shape="rect" id="node5" href="$mathlib_8h.html" title="Declarations of mathematic operations." alt="" coords="678,229,762,256"/>
-<area shape="rect" id="node10" href="$earth__rotation__param_8h.html" title="Declarations of earth rotation parameters computation." alt="" coords="314,80,488,107"/>
+<area shape="rect" id="node5" href="$mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="678,229,762,256"/>
+<area shape="rect" id="node10" href="$earth__rotation__param_8h.html" title="Declarations of earth rotation parameters computation" alt="" coords="314,80,488,107"/>
 <area shape="rect" id="node6" title=" " alt="" coords="175,304,243,331"/>
-<area shape="rect" id="node7" href="$corbit__const_8h.html" title="Declarations for all the constants in corbit project." alt="" coords="267,304,380,331"/>
+<area shape="rect" id="node7" href="$corbit__const_8h.html" title="Declarations for all the constants in corbit project" alt="" coords="267,304,380,331"/>
 <area shape="rect" id="node8" title=" " alt="" coords="96,379,178,405"/>
 <area shape="rect" id="node9" href="$ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="292,379,355,405"/>
-<area shape="rect" id="node11" href="$iau__function_8h.html" title="Declarations for iau functions." alt="" coords="246,229,361,256"/>
-<area shape="rect" id="node12" href="$iers__function_8h.html" title="Declarations for IERS functions." alt="" coords="52,229,171,256"/>
-<area shape="rect" id="node13" href="$common__function_8h.html" title="Declarations of common functions." alt="" coords="396,155,547,181"/>
+<area shape="rect" id="node11" href="$iau__function_8h.html" title="Declarations for iau functions" alt="" coords="246,229,361,256"/>
+<area shape="rect" id="node12" href="$iers__function_8h.html" title="Declarations for IERS functions" alt="" coords="52,229,171,256"/>
+<area shape="rect" id="node13" href="$common__function_8h.html" title="Declarations of common functions" alt="" coords="396,155,547,181"/>
 <area shape="rect" id="node14" title=" " alt="" coords="583,229,654,256"/>
-<area shape="rect" id="node15" href="$gtime_8h.html" title="Declarations of time operations functions." alt="" coords="436,229,508,256"/>
+<area shape="rect" id="node15" href="$gtime_8h.html" title="Declarations of time operations functions" alt="" coords="436,229,508,256"/>
 <area shape="rect" id="node16" title=" " alt="" coords="456,304,520,331"/>
 </map>

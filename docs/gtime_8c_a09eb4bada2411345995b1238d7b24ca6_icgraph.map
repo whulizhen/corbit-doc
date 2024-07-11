@@ -1,6 +1,6 @@
 <map id="TimeMjd_normalise" name="TimeMjd_normalise">
 <area shape="rect" id="node1" title="make TimeMJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="1163,157,1313,184"/>
-<area shape="rect" id="node2" href="$gtime_8c.html#a2e46852d1430605e7af49648cee76c4f" title="Add two TimeMJD together." alt="" coords="1002,107,1103,133"/>
+<area shape="rect" id="node2" href="$gtime_8c.html#a2e46852d1430605e7af49648cee76c4f" title="Add two TimeMJD together" alt="" coords="1002,107,1103,133"/>
 <area shape="rect" id="node3" href="$gtime_8c.html#a130e765390b16f22822500994ad12f09" title="add seconds to TimeMJD struct" alt="" coords="991,157,1115,184"/>
 <area shape="rect" id="node17" href="$gtime_8c.html#a0ba04d11442eae26d96a0e2df6c8287a" title="compute mjdtime1 &#45; mjdtime2" alt="" coords="1003,208,1103,235"/>
 <area shape="rect" id="node4" href="$gtime_8c.html#acd5551059ad3aef49860a64878b8cb6e" title="add seconds to GTime struct" alt="" coords="835,157,943,184"/>

@@ -19,6 +19,10 @@
       s.parentNode.insertBefore(hm, s);
     })();
 </script>
+<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
@@ -26,7 +30,16 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="new_stylesheet.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -98,16 +111,16 @@ $(document).ready(function(){initNavTree('md_test_examples.html',''); initResiza
 <div class="title">COrbit Reference book </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md7"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md48"></a>
 Design thoughts behind library COrbit</h1>
 <p>A good design</p>
-<h2><a class="anchor" id="autotoc_md8"></a>
+<h2><a class="anchor" id="autotoc_md49"></a>
 Framework design</h2>
-<h2><a class="anchor" id="autotoc_md9"></a>
+<h2><a class="anchor" id="autotoc_md50"></a>
 Sturct definition</h2>
-<h2><a class="anchor" id="autotoc_md10"></a>
+<h2><a class="anchor" id="autotoc_md51"></a>
 Global variables</h2>
-<h2><a class="anchor" id="autotoc_md11"></a>
+<h2><a class="anchor" id="autotoc_md52"></a>
 How to use COrbit library?</h2>
 <p>You will need a Ubuntu Linux system (22.04.1 LTS) or the windows WSL (with ubuntu 22.04.1 LTS) installed. The static library "libcorbit.a" and dynamic library "libcorbit.so" have to be compiled with the header files int the "include" directory. The following is an example of using libcorbit with the gcc complier.</p>
 <p>If you have a source file named test.c. In this file, you write the following code.</p>
@@ -215,14 +228,14 @@ How to use COrbit library?</h2>
 <div class="ttc" id="atle_8h_html"><div class="ttname"><a href="tle_8h.html">tle.h</a></div><div class="ttdoc">Header file for TLE computation.</div></div>
 </div><!-- fragment --><p>The command is as follows: </p><div class="fragment"><div class="line">gcc test.c -std=c99 -fPIC -O3  -I ${your_libcorbit_include} -L ${your_libcorbit_directory} -lcorbit -lm -o test -D ULOG_ENABLED</div>
 </div><!-- fragment --><p> Among which, ${your_libcorbit_include} is path for all the header files. ${your_libcorbit_directory} is path for the "libcoribt.so" and "libcorbit.a". Once you press Enter, it will compile and produce a program named "test". You can run the prorame "test" by commond "./test". Then you will see the ecef position of a GPS satellite on the screen.</p>
-<h1><a class="anchor" id="autotoc_md12"></a>
+<h1><a class="anchor" id="autotoc_md53"></a>
 Test examples</h1>
 <p>A test for GNSS pseudorange point positioning </p>
-<h2><a class="anchor" id="autotoc_md13"></a>
+<h2><a class="anchor" id="autotoc_md54"></a>
 Test-1</h2>
-<h2><a class="anchor" id="autotoc_md14"></a>
+<h2><a class="anchor" id="autotoc_md55"></a>
 test-2</h2>
-<h2><a class="anchor" id="autotoc_md15"></a>
+<h2><a class="anchor" id="autotoc_md56"></a>
 test-3</h2>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
@@ -231,7 +244,7 @@ test-3</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jul 10 2024 19:31:10 for COrbit by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Thu Jul 11 2024 14:14:45 for COrbit by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

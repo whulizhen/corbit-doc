@@ -1,9 +1,9 @@
 <map id="EPHBRDC_STORE" name="EPHBRDC_STORE">
 <area shape="rect" id="node1" title="EPHBRDC_STORE is a struct to store all the brdc ephemersi records. Usually, this is related to the ri..." alt="" coords="209,184,344,211"/>
-<area shape="rect" id="node2" href="$structEPHREC__GLO.html" title="GAL broadcast ephemeris record, sat position at the phase center." alt="" coords="5,95,113,121"/>
+<area shape="rect" id="node2" href="$structEPHREC__GLO.html" title="GAL broadcast ephemeris record, sat position at the phase center" alt="" coords="5,95,113,121"/>
 <area shape="rect" id="node3" href="$structTimeGNSS.html" title="struct for time format in weeks and seconds of week" alt="" coords="14,5,105,32"/>
-<area shape="rect" id="node4" href="$structEPHREC__BDS.html" title="BDS broadcast ephemeris record, sat position at the phase center." alt="" coords="157,95,265,121"/>
+<area shape="rect" id="node4" href="$structEPHREC__BDS.html" title="BDS broadcast ephemeris record, sat position at the phase center" alt="" coords="157,95,265,121"/>
 <area shape="rect" id="node5" href="$structTimeYMD.html" title="struct time format in year, month, day" alt="" coords="309,5,394,32"/>
-<area shape="rect" id="node6" href="$structEPHREC__GAL.html" title="GAL broadcast ephemeris record, sat position at the phase center." alt="" coords="298,95,405,121"/>
-<area shape="rect" id="node7" href="$structEPHREC__GPS.html" title="GPS broadcast ephemeris record , sat position at the phase center." alt="" coords="435,95,542,121"/>
+<area shape="rect" id="node6" href="$structEPHREC__GAL.html" title="GAL broadcast ephemeris record, sat position at the phase center" alt="" coords="298,95,405,121"/>
+<area shape="rect" id="node7" href="$structEPHREC__GPS.html" title="GPS broadcast ephemeris record , sat position at the phase center" alt="" coords="435,95,542,121"/>
 </map>
