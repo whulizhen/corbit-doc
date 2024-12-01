@@ -29,22 +29,22 @@ extern "C"
 #include <stdlib.h>
 #include <math.h>
 #include <stdbool.h>
-#include <string.h>
+// #include <string.h>
 #include "corbit_const.h"
 
-	/**
-	 * @brief enum definition for time systems
-	 */
-	typedef enum _TIMESYS_
-	{
-		UKNTS,	/**< unknown time system*/
-		tsGPST, /**< GPS time system*/
-		tsGALT, /**< GAlileo time system*/
-		tsBDST, /**< BeiDou time system*/
-		tsUTC,	/**< UTC time system*/
-		tsTAI,	/**< TAI time system*/
-		tsTT	/**< TT time system*/
-	} TIMESYS;
+    /**
+     * @brief enum definition for time systems
+     */
+    typedef enum _TIMESYS_
+    {
+        UKNTS,    /**< unknown time system*/
+        tsGPST, /**< GPS time system*/
+        tsGALT, /**< GAlileo time system*/
+        tsBDST, /**< BeiDou time system*/
+        tsUTC,    /**< UTC time system*/
+        tsTAI,    /**< TAI time system*/
+        tsTT    /**< TT time system*/
+    } TIMESYS;
 
 /**< macro for variable to string */
 //#define Variable2String(val) #val
@@ -63,118 +63,118 @@ extern "C"
 #define GPSTmBDST 14.0 /**< GPST minus BDST*/
 #define GPSTmGALT 0.0  /**< GPST minus Galileo system time*/
 
-#define GPST0 44244.0				/**<  6_Jan_1980, 1980,1,6,0,0,0 UTC */
-#define BDST0 53736.0				/**< BDST0 */
+#define GPST0 44244.0                /**<  6_Jan_1980, 1980,1,6,0,0,0 UTC */
+#define BDST0 53736.0                /**< BDST0 */
 #define GALT0 51411.999849537037037 /**< 1999,8,21,23,59,47, UTC */
-#define J2000 51544.5				/**< J2000 epoch, 1_jan_2000_midday, UTC */
-#define MJD0 2400000.5				/**< julian date of the MJD definition */
+#define J2000 51544.5                /**< J2000 epoch, 1_jan_2000_midday, UTC */
+#define MJD0 2400000.5                /**< julian date of the MJD definition */
 #define MJD_1_jan_1977 43144  /**< mjd of 1977 1 1 */
 #define JAN11901 15385 /**< mjd of 1901 1 1  */
 
 #define threshold_time 1.0E-10 /**< threshold  in seconds for time comparison */
 
-	/**
-	 * @brief struct time format in year, month, day
-	 */
-	typedef struct _TimeYMD_
-	{
-		int year;	   /**< year*/
-		int month;	   /**< month*/
-		int day;	   /**< day*/
-		int hour;	   /**< hour*/
-		int minute;	   /**<minute*/
-		double second; /**< second*/
-	} TimeYMD;
+    /**
+     * @brief struct time format in year, month, day
+     */
+    typedef struct _TimeYMD_
+    {
+        int year;       /**< year*/
+        int month;       /**< month*/
+        int day;       /**< day*/
+        int hour;       /**< hour*/
+        int minute;       /**<minute*/
+        double second; /**< second*/
+    } TimeYMD;
 
-	/**
-	 * @brief struct time format in year and day of year
-	 */
-	typedef struct _TimeDOY_
-	{
-		int year;	/**< year*/
-		double doy; /**< day of year*/
-	} TimeDOY;
+    /**
+     * @brief struct time format in year and day of year
+     */
+    typedef struct _TimeDOY_
+    {
+        int year;    /**< year*/
+        double doy; /**< day of year*/
+    } TimeDOY;
 
-	/**
-	 * @brief struct for time format in weeks and seconds of week
-	 * @note used for GPST, BDST, GALT and others
-	 */
-	typedef struct _TimeGNSS_
-	{
-		int week;
-		double sow;
-	} TimeGNSS;
+    /**
+     * @brief struct for time format in weeks and seconds of week
+     * @note used for GPST, BDST, GALT and others
+     */
+    typedef struct _TimeGNSS_
+    {
+        int week;
+        double sow;
+    } TimeGNSS;
 
-	/**
-	 * @brief struct time format in Modified Julian Day and second of day
-	 */
-	typedef struct _TimeMJD_
-	{
-		long mjd;	/**<MJD day*/
-		double sod; /**< seconds of day*/
-	} TimeMJD;
+    /**
+     * @brief struct time format in Modified Julian Day and second of day
+     */
+    typedef struct _TimeMJD_
+    {
+        long mjd;    /**<MJD day*/
+        double sod; /**< seconds of day*/
+    } TimeMJD;
 
-	/**
-	 * @brief struct time format in Julian day and second of day
-	 */
-	typedef struct _TimeJD_
-	{
-		long jd;	/**< Julian day*/
-		double sod; /**< seconds of day */
-	} TimeJD;
+    /**
+     * @brief struct time format in Julian day and second of day
+     */
+    typedef struct _TimeJD_
+    {
+        long jd;    /**< Julian day*/
+        double sod; /**< seconds of day */
+    } TimeJD;
 
-	/**
-	 * @brief struct for general time computation with time system defined
-	 * @note this struct should be used everywhere necessary
-	 * memory: 24 byes
-	 */
-	typedef struct _GTime_
-	{
-		TimeMJD time; /**< mjd time*/
-		TIMESYS sys;  /**< time system*/
-	} GTime;
+    /**
+     * @brief struct for general time computation with time system defined
+     * @note this struct should be used everywhere necessary
+     * memory: 24 byes
+     */
+    typedef struct _GTime_
+    {
+        TimeMJD time; /**< mjd time*/
+        TIMESYS sys;  /**< time system*/
+    } GTime;
 
-	
-	// time related functions
-	void timeMjd_negative(TimeMJD *mjdtime);
-	void TimeJD_normalise(TimeJD *jdtime);
-	void TimeMjd_normalise(TimeMJD *mjdtime);
-	TimeMJD mjd2TimeMJD(double mjd);
-	TimeMJD timeMjdAddSec(TimeMJD mjdtime, double seconds);
-	TimeMJD timeMjdAdd(TimeMJD mjdtime1, TimeMJD mjdtime2);
-	TimeMJD timeMjdSub(TimeMJD mjdtime1, TimeMJD mjdtime2);
+    
+    // time related functions
+    void timeMjd_negative(TimeMJD *mjdtime);
+    void TimeJD_normalise(TimeJD *jdtime);
+    void TimeMjd_normalise(TimeMJD *mjdtime);
+    TimeMJD mjd2TimeMJD(double mjd);
+    TimeMJD timeMjdAddSec(TimeMJD mjdtime, double seconds);
+    TimeMJD timeMjdAdd(TimeMJD mjdtime1, TimeMJD mjdtime2);
+    TimeMJD timeMjdSub(TimeMJD mjdtime1, TimeMJD mjdtime2);
 
-	GTime gtimeAddSec(GTime gtime, double seconds);
-	GTime gtimeAdd(GTime gtime1, GTime gtime2);
-	GTime gtimeSub(GTime gtime1, GTime gtime2);
-	double gtimeSubSec(GTime gtime1, GTime gtime2);
+    GTime gtimeAddSec(GTime gtime, double seconds);
+    GTime gtimeAdd(GTime gtime1, GTime gtime2);
+    GTime gtimeSub(GTime gtime1, GTime gtime2);
+    double gtimeSubSec(GTime gtime1, GTime gtime2);
 
-	int getLeapSecond(double mjd_utc);
-	double TAImUTC(GTime utct);
-	GTime TAI2UTC(GTime gtime_tai);
-	TimeJD YMDtoJD(TimeYMD ct);
-	TimeJD GTime2JD(GTime gt);
-	GTime JD2GTime(TIMESYS ts, TimeJD jdt);
-	GTime mjd2GTime(TIMESYS ts, double mjd);
-	TimeYMD JD2YMD(TimeJD jdt);
+    int getLeapSecond(double mjd_utc);
+    double TAImUTC(GTime utct);
+    GTime TAI2UTC(GTime gtime_tai);
+    TimeJD YMDtoJD(TimeYMD ct);
+    TimeJD GTime2JD(GTime gt);
+    GTime JD2GTime(TIMESYS ts, TimeJD jdt);
+    GTime mjd2GTime(TIMESYS ts, double mjd);
+    TimeYMD JD2YMD(TimeJD jdt);
 
-	TimeYMD DOY2YMD(TimeDOY doytime);
-	TimeDOY YMD2DOY(TimeYMD ymdtime);
-	TimeGNSS GTime2SOW(GTime gtime);
-	GTime SOW2GTime(TimeGNSS timesow, TIMESYS ts);
-	GTime gtimeChangeTimeSystem(GTime gtime, TIMESYS ts);
-	GTime YMD2GTime(TimeYMD ymdtime, TIMESYS ts);
-	TimeYMD GTime2YMD(GTime gt);
-	void gtime2str(GTime gtime, char *time_str);
-	double gtime2mjd(GTime gtime);
-	GTime str2gtime(char *time_str, TIMESYS ts);
-	void timeymd2str(TimeYMD ymdtime, char *time_str);
-	bool gtime_greater(GTime a, GTime b);
-	bool gtime_less(GTime a, GTime b);
-	bool gtime_equal(GTime a, GTime b);
+    TimeYMD DOY2YMD(TimeDOY doytime);
+    TimeDOY YMD2DOY(TimeYMD ymdtime);
+    TimeGNSS GTime2SOW(GTime gtime);
+    GTime SOW2GTime(TimeGNSS timesow, TIMESYS ts);
+    GTime gtimeChangeTimeSystem(GTime gtime, TIMESYS ts);
+    GTime YMD2GTime(TimeYMD ymdtime, TIMESYS ts);
+    TimeYMD GTime2YMD(GTime gt);
+    void gtime2str(GTime gtime, char *time_str);
+    double gtime2mjd(GTime gtime);
+    GTime str2gtime(char *time_str, TIMESYS ts);
+    void timeymd2str(TimeYMD ymdtime, char *time_str);
+    bool gtime_greater(GTime a, GTime b);
+    bool gtime_less(GTime a, GTime b);
+    bool gtime_equal(GTime a, GTime b);
 
 #ifndef EMBED
-	void get_time_now(char *timestr);
+    void get_time_now(char *timestr);
 #endif
 
 

@@ -13,6 +13,7 @@ var gnss__satposition_8c =
     [ "compute_satposvelclk_bds_brdc_v3", "gnss__satposition_8c.html#aedbb225f8c4ebaba3aed3406b7450311", null ],
     [ "compute_satposvelclk_gal_brdc", "gnss__satposition_8c.html#ac39ee967a9ec899d0b3dbeeb99a7eb08", null ],
     [ "compute_satposvelclk_gps_brdc", "gnss__satposition_8c.html#a9e5ce77a8807ab218537cc756087b7bf", null ],
+    [ "compute_satposvelclk_ssr", "gnss__satposition_8c.html#a5e528e08b3119bc2d9839a5e355ec222", null ],
     [ "find_closest_clk_prec", "gnss__satposition_8c.html#a7384551100a1acbf9cc77d813f6f570c", null ],
     [ "find_closest_eph_prec", "gnss__satposition_8c.html#ad27f2e2bca59b2745d7deefb4bbff718", null ],
     [ "get_ant_pco_correction", "gnss__satposition_8c.html#a905ef46531cdd4e93609d1ee874983a3", null ],

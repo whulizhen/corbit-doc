@@ -1,0 +1,997 @@
+<!-- HTML header for doxygen 1.9.1-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>COrbit: main_leo.c 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?9e7bd97dd2891b6bd5adf3c34b838f2d";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<!-- mathjax brower compatibility -->
+<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.0.0/es5/latest?tex-mml-chtml.js">
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="new_stylesheet.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">COrbit
+   &#160;<span id="projectnumber">0.0.1</span>
+   </div>
+   <div id="projectbrief">COribt is a project that uses standard C language to implement gnss processing, Laser ranging, and orbit determination.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('main__leo_8c.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">结构体</a> &#124;
+<a href="#define-members">宏定义</a> &#124;
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">main_leo.c 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>LEO satellite time synchronization  
+<a href="#details">更多...</a></p>
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+<code>#include &lt;math.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="corbit__const_8h.html">corbit_const.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="gnss__config_8h.html">gnss_config.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="attitude_8h.html">attitude.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="gtime_8h.html">gtime.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="common__function_8h.html">common_function.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="gnss__observation_8h.html">gnss_observation.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="obs__processing_8h.html">obs_processing.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="gnss__satposition_8h.html">gnss_satposition.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="gnss__rtk_8h.html">gnss_rtk.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="earth__rotation__param_8h.html">earth_rotation_param.h</a>&quot;</code><br />
+<code>#include &lt;time.h&gt;</code><br />
+<code>#include &lt;sys/time.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="pod__embed_8h.html">pod_embed.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="orbit__dynamics_8h.html">orbit_dynamics.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="keplerian__element_8h.html">keplerian_element.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="tle_8h.html">tle.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+main_leo.c 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="main__leo_8c__incl.png" border="0" usemap="#amain__leo_8c" alt=""/></div>
+<map name="amain__leo_8c" id="amain__leo_8c">
+<area shape="rect" title="LEO satellite time synchronization" alt="" coords="1524,5,1617,32"/>
+<area shape="rect" title=" " alt="" coords="651,752,717,779"/>
+<area shape="rect" title=" " alt="" coords="1206,752,1277,779"/>
+<area shape="rect" title=" " alt="" coords="2734,752,2805,779"/>
+<area shape="rect" title=" " alt="" coords="1803,752,1871,779"/>
+<area shape="rect" title=" " alt="" coords="873,827,956,853"/>
+<area shape="rect" href="corbit__const_8h.html" title="Declarations for all the constants in corbit project" alt="" coords="2355,752,2469,779"/>
+<area shape="rect" href="gnss__config_8h.html" title="Declarations for global variable gnssconfig" alt="" coords="1197,528,1307,555"/>
+<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="1381,603,1531,629"/>
+<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="879,677,951,704"/>
+<area shape="rect" title=" " alt="" coords="44,752,108,779"/>
+<area shape="rect" href="attitude_8h.html" title="Declarations of attitude operations" alt="" coords="892,453,977,480"/>
+<area shape="rect" href="gnss__observation_8h.html" title="Declarations for gnss observation operations" alt="" coords="941,379,1089,405"/>
+<area shape="rect" href="obs__processing_8h.html" title="Declarations for observation processing functions" alt="" coords="1597,155,1731,181"/>
+<area shape="rect" href="gnss__satposition_8h.html" title="Declarations for gnss satellite position computation" alt="" coords="1266,229,1409,256"/>
+<area shape="rect" href="earth__rotation__param_8h.html" title="Declarations of earth rotation parameters computation" alt="" coords="2117,528,2291,555"/>
+<area shape="rect" href="gnss__rtk_8h.html" title="Declarations for gnss rtk processing" alt="" coords="1402,80,1491,107"/>
+<area shape="rect" title=" " alt="" coords="2541,80,2632,107"/>
+<area shape="rect" href="pod__embed_8h.html" title="Header file for embeded realtime orbit determination" alt="" coords="1515,80,1626,107"/>
+<area shape="rect" href="orbit__dynamics_8h.html" title="Header file for orbit dynamics computation" alt="" coords="1838,379,1973,405"/>
+<area shape="rect" href="keplerian__element_8h.html" title="Declarations for Keplerian elements computation" alt="" coords="2425,677,2580,704"/>
+<area shape="rect" href="tle_8h.html" title="Header file for TLE computation" alt="" coords="2519,453,2569,480"/>
+<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="2381,827,2443,853"/>
+<area shape="rect" title=" " alt="" coords="1381,677,1451,704"/>
+<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="2266,677,2350,704"/>
+<area shape="rect" href="eph__planet_8h.html" title="Declarations of JPL planet ephemeris computation" alt="" coords="1660,453,1767,480"/>
+<area shape="rect" href="rtcm_8h.html" title="Declarations for decoding and encoding RTCM messages stream" alt="" coords="1356,304,1420,331"/>
+<area shape="rect" href="iau__function_8h.html" title="Declarations for iau functions" alt="" coords="1780,677,1895,704"/>
+<area shape="rect" href="iers__function_8h.html" title="Declarations for IERS functions" alt="" coords="1919,677,2038,704"/>
+<area shape="rect" href="earth__gravity_8h.html" title="Declarations of earth gravity computation" alt="" coords="1994,453,2113,480"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+结构体</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCVSATDATA.html">CVSATDATA</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCVSAT.html">CVSAT</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+宏定义</h2></td></tr>
+<tr class="memitem:aca54e0bb5b5fb5f70c283dee402285d5"><td class="memItemLeft" align="right" valign="top"><a id="aca54e0bb5b5fb5f70c283dee402285d5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>MAX_CV_SAT</b>&#160;&#160;&#160;32</td></tr>
+<tr class="separator:aca54e0bb5b5fb5f70c283dee402285d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:a46fc24ce2323fcf7b32c0b5b887df679"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main__leo_8c.html#a46fc24ce2323fcf7b32c0b5b887df679">load_gracefo_value</a> (<a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *obs_storage_1, <a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *obs_storage_2)</td></tr>
+<tr class="memdesc:a46fc24ce2323fcf7b32c0b5b887df679"><td class="mdescLeft">&#160;</td><td class="mdescRight">加载gracefo卫星文件数据（包括星载观测值文件、姿态文件）  <a href="main__leo_8c.html#a46fc24ce2323fcf7b32c0b5b887df679">更多...</a><br /></td></tr>
+<tr class="separator:a46fc24ce2323fcf7b32c0b5b887df679"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a007a9fbe2a86c738547a34804253dd63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main__leo_8c.html#a007a9fbe2a86c738547a34804253dd63">load_gps_value</a> ()</td></tr>
+<tr class="memdesc:a007a9fbe2a86c738547a34804253dd63"><td class="mdescLeft">&#160;</td><td class="mdescRight">加载gps卫星文件数据（包括广播星历、精密星历、钟差、地球自转参数、天线文件）  <a href="main__leo_8c.html#a007a9fbe2a86c738547a34804253dd63">更多...</a><br /></td></tr>
+<tr class="separator:a007a9fbe2a86c738547a34804253dd63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba4b4bd42f154d680352f9c735b38558"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main__leo_8c.html#aba4b4bd42f154d680352f9c735b38558">find_CV_sat</a> (<a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *obs_storage_1, <a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *obs_storage_2, <a class="el" href="structCVSAT.html">CVSAT</a> *CV_sat, int epoch_num)</td></tr>
+<tr class="memdesc:aba4b4bd42f154d680352f9c735b38558"><td class="mdescLeft">&#160;</td><td class="mdescRight">找到同一历元两颗低轨卫星共视的卫星  <a href="main__leo_8c.html#aba4b4bd42f154d680352f9c735b38558">更多...</a><br /></td></tr>
+<tr class="separator:aba4b4bd42f154d680352f9c735b38558"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa51459cbc332533d4a71785a30f497ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main__leo_8c.html#aa51459cbc332533d4a71785a30f497ad">spp</a> (<a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *obs_storage_all, int <a class="el" href="gnss__observation_8h.html#a1b665de423fdeba11dd3e08097568b66">g_num_obs_storage</a>, char *outputfilename, <a class="el" href="structSOLUTION.html">SOLUTION</a> *solt, char *rcvatx_type_code)</td></tr>
+<tr class="memdesc:aa51459cbc332533d4a71785a30f497ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">spp  <a href="main__leo_8c.html#aa51459cbc332533d4a71785a30f497ad">更多...</a><br /></td></tr>
+<tr class="separator:aa51459cbc332533d4a71785a30f497ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13c377d6cffdae6339939151e73c04fb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main__leo_8c.html#a13c377d6cffdae6339939151e73c04fb">omc_zd_1</a> (int nsat, int *satidx_in_obs_epoch, int *satlist_satindex, <a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *obs_epoch, double *sunposvel_ecf, <a class="el" href="structATT__QUATERNION.html">ATT_QUATERNION</a> *att_rcv, <a class="el" href="structANT__INFO.html">ANT_INFO</a> *ant_rcv, int nx, <a class="el" href="obs__processing_8h.html#a0ec86fb9b6b2db94be6df69e47f4cdb9">PARAM_TYPE</a> *param_types, int *index_paramX, index_param_func idxfunc, double *X, <a class="el" href="structSAT__STATE.html">SAT_STATE</a> *sat_state, int nobs_max, int nx_max, double *h, double *v, double *r)</td></tr>
+<tr class="memdesc:a13c377d6cffdae6339939151e73c04fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">求残差  <a href="main__leo_8c.html#a13c377d6cffdae6339939151e73c04fb">更多...</a><br /></td></tr>
+<tr class="separator:a13c377d6cffdae6339939151e73c04fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed9608ecde5890e055a5f041c789ea00"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main__leo_8c.html#aed9608ecde5890e055a5f041c789ea00">get_index_param</a> (<a class="el" href="obs__processing_8h.html#a0ec86fb9b6b2db94be6df69e47f4cdb9">PARAM_TYPE</a> pt, <a class="el" href="gnss__config_8h.html#ad7537964394776a6c47f2504059aa873">sysGNSS</a> satsys, int prn, int ifreq, int *satlist_satindex)</td></tr>
+<tr class="memdesc:aed9608ecde5890e055a5f041c789ea00"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据需求获得卫星的对应序号  <a href="main__leo_8c.html#aed9608ecde5890e055a5f041c789ea00">更多...</a><br /></td></tr>
+<tr class="separator:aed9608ecde5890e055a5f041c789ea00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64f7c32ba71e5362a4d474014972c754"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main__leo_8c.html#a64f7c32ba71e5362a4d474014972c754">EKF</a> (<a class="el" href="structCVSAT.html">CVSAT</a> *CVsat, int idx, <a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *obs_storage_1, <a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *obs_storage_2, <a class="el" href="structSOLUTION.html">SOLUTION</a> *initial_pos_clock_1, <a class="el" href="structSOLUTION.html">SOLUTION</a> *initial_pos_clock_2, <a class="el" href="structSAT__STATE.html">SAT_STATE</a> *sat_state_all_1, <a class="el" href="structSAT__STATE.html">SAT_STATE</a> *sat_state_all_2, <a class="el" href="structANT__INFO.html">ANT_INFO</a> *ant_rcv, FILE *outputfile, double *P, double *amb_value_1, double *amb_value_2)</td></tr>
+<tr class="memdesc:a64f7c32ba71e5362a4d474014972c754"><td class="mdescLeft">&#160;</td><td class="mdescRight">卡尔曼滤波之前的一些数据准备（求残差等）以及卡尔曼滤波  <a href="main__leo_8c.html#a64f7c32ba71e5362a4d474014972c754">更多...</a><br /></td></tr>
+<tr class="separator:a64f7c32ba71e5362a4d474014972c754"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a37e0eb76d26f4ea16900296943a36f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main__leo_8c.html#a1a37e0eb76d26f4ea16900296943a36f">get_gracefo_ant_rcv</a> (<a class="el" href="structANT__INFO.html">ANT_INFO</a> *ant_rcv, char *name)</td></tr>
+<tr class="memdesc:a1a37e0eb76d26f4ea16900296943a36f"><td class="mdescLeft">&#160;</td><td class="mdescRight">获得gracefo的天线数据  <a href="main__leo_8c.html#a1a37e0eb76d26f4ea16900296943a36f">更多...</a><br /></td></tr>
+<tr class="separator:a1a37e0eb76d26f4ea16900296943a36f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22d73aa92525be6c7e7b514203d58e5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main__leo_8c.html#a22d73aa92525be6c7e7b514203d58e5b">judge_sat_variation</a> (int i, double *P_SD, <a class="el" href="structCVSAT.html">CVSAT</a> *CVsat, <a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *obs_storage_1, <a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *obs_storage_2, <a class="el" href="structSOLUTION.html">SOLUTION</a> *solt_1, <a class="el" href="structSOLUTION.html">SOLUTION</a> *solt_2, <a class="el" href="structSAT__STATE.html">SAT_STATE</a> *sat_state_all_1, <a class="el" href="structSAT__STATE.html">SAT_STATE</a> *sat_state_all_2, <a class="el" href="structANT__INFO.html">ANT_INFO</a> *ant_rcv, FILE *output_file, double *amb_value_1, double *amb_value_2)</td></tr>
+<tr class="memdesc:a22d73aa92525be6c7e7b514203d58e5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">判断卫星数量是否有变化，是否有周跳，并进行卡尔曼滤波  <a href="main__leo_8c.html#a22d73aa92525be6c7e7b514203d58e5b">更多...</a><br /></td></tr>
+<tr class="separator:a22d73aa92525be6c7e7b514203d58e5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top"><a id="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>main</b> ()</td></tr>
+<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>LEO satellite time synchronization </p>
+<p>solve the clock difference between two LEO satellites </p><dl class="section author"><dt>作者</dt><dd>Xiangnan Liu </dd></dl>
+<dl class="section version"><dt>版本</dt><dd>0.0.1 </dd></dl>
+<dl class="section date"><dt>日期</dt><dd>2024.07.17 </dd></dl>
+<dl class="section note"><dt>注解</dt><dd>solve the clock difference between two LEO satellites </dd></dl>
+<dl class="section since"><dt>自从</dt><dd>2024.07.17 </dd></dl>
+<dl class="section copyright"><dt>版权所有</dt><dd>{year} </dd></dl>
+<dl class="section user"><dt>History:</dt><dd></dd></dl>
+</div><h2 class="groupheader">函数说明</h2>
+<a id="a64f7c32ba71e5362a4d474014972c754"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64f7c32ba71e5362a4d474014972c754">&#9670;&nbsp;</a></span>EKF()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EKF </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structCVSAT.html">CVSAT</a> *&#160;</td>
+          <td class="paramname"><em>CVsat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *&#160;</td>
+          <td class="paramname"><em>obs_storage_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *&#160;</td>
+          <td class="paramname"><em>obs_storage_2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structSOLUTION.html">SOLUTION</a> *&#160;</td>
+          <td class="paramname"><em>initial_pos_clock_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structSOLUTION.html">SOLUTION</a> *&#160;</td>
+          <td class="paramname"><em>initial_pos_clock_2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structSAT__STATE.html">SAT_STATE</a> *&#160;</td>
+          <td class="paramname"><em>sat_state_all_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structSAT__STATE.html">SAT_STATE</a> *&#160;</td>
+          <td class="paramname"><em>sat_state_all_2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structANT__INFO.html">ANT_INFO</a> *&#160;</td>
+          <td class="paramname"><em>ant_rcv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>outputfile</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>P</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>amb_value_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>amb_value_2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>卡尔曼滤波之前的一些数据准备（求残差等）以及卡尔曼滤波 </p>
+<dl class="section note"><dt>注解</dt><dd>set ant_type_code NULL for gnss satellites </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">CVsat</td><td>所有历元的数据 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">num</td><td>当前历元的序号（第几个历元） </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">obs_storage_1</td><td>基准星（在本c文件中为GRACEFO_C星）的当前历元观测值数据 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">obs_storage_2</td><td>流动星（在本c文件中为GRACEFO_D星）的当前历元观测值数据 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">initial_pos_clock_1</td><td>基准星利用spp解算出的当前历元的x,y,z,t初始值 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">initial_pos_clock_2</td><td>流动星利用spp解算出的当前历元的x,y,z,t初始值 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sat_state_all_1</td><td>基准星的当前历元的模糊度初始值以及天线等信息 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sat_state_all_2</td><td>流动星的当前历元的模糊度初始值以及天线等信息 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ant_rcv</td><td>低轨卫星星载接收机的天线信息 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">outputfile</td><td>输出滤波后结果的文件路径 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">P</td><td>上一历元滤波后输出的协方差矩阵 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">amb_value_1</td><td>基准星的模糊度值（如果这一历元没发生周跳，那么存储的就是上一历元的模糊度值；如果发生周跳了，那么存储的就是这一历元所计算出的新的模糊度值） </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">amb_value_2</td><td>流动星的模糊度值（同基准星） </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>void </dd></dl>
+<p>&lt; TP = T*R_SD <br  />
+</p>
+<p>&lt; TP*T' = TPTT <br  />
+</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="main__leo_8c_a64f7c32ba71e5362a4d474014972c754_cgraph.png" border="0" usemap="#amain__leo_8c_a64f7c32ba71e5362a4d474014972c754_cgraph" alt=""/></div>
+<map name="amain__leo_8c_a64f7c32ba71e5362a4d474014972c754_cgraph" id="amain__leo_8c_a64f7c32ba71e5362a4d474014972c754_cgraph">
+<area shape="rect" title="卡尔曼滤波之前的一些数据准备（求残差等）以及卡尔曼滤波" alt="" coords="5,42,52,69"/>
+<area shape="rect" href="main__leo_8c.html#aed9608ecde5890e055a5f041c789ea00" title="根据需求获得卫星的对应序号" alt="" coords="100,42,235,69"/>
+<area shape="rect" href="gnss__config_8c.html#a2948a1a21e91e94105deb7692931337e" title="get the index of a GNSS system in GNSSCONFIG" alt="" coords="283,5,431,47"/>
+<area shape="rect" href="gnss__config_8c.html#a4904153c455ec7e809a04203fbb3ab0c" title="convert sat sys&amp;prn to the internal index" alt="" coords="292,71,421,98"/>
+</map>
+</div>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="main__leo_8c_a64f7c32ba71e5362a4d474014972c754_icgraph.png" border="0" usemap="#amain__leo_8c_a64f7c32ba71e5362a4d474014972c754_icgraph" alt=""/></div>
+<map name="amain__leo_8c_a64f7c32ba71e5362a4d474014972c754_icgraph" id="amain__leo_8c_a64f7c32ba71e5362a4d474014972c754_icgraph">
+<area shape="rect" title="卡尔曼滤波之前的一些数据准备（求残差等）以及卡尔曼滤波" alt="" coords="204,5,251,32"/>
+<area shape="rect" href="main__leo_8c.html#a22d73aa92525be6c7e7b514203d58e5b" title="判断卫星数量是否有变化，是否有周跳，并进行卡尔曼滤波" alt="" coords="5,5,156,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aba4b4bd42f154d680352f9c735b38558"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba4b4bd42f154d680352f9c735b38558">&#9670;&nbsp;</a></span>find_CV_sat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void find_CV_sat </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *&#160;</td>
+          <td class="paramname"><em>obs_storage_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *&#160;</td>
+          <td class="paramname"><em>obs_storage_2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCVSAT.html">CVSAT</a> *&#160;</td>
+          <td class="paramname"><em>CV_sat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>epoch_num</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>找到同一历元两颗低轨卫星共视的卫星 </p>
+<dl class="section note"><dt>注解</dt><dd><br  />
+ </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">obs_storage_1</td><td>基准星（在本c文件中为GRACEFO_C星）的所有历元观测值数据 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">obs_storage_2</td><td>流动星（在本c文件中为GRACEFO_D星）的所有历元观测值数据 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">CVsat</td><td>所有历元的数据 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">epoch_num</td><td>历元的数量 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>void </dd></dl>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="main__leo_8c_aba4b4bd42f154d680352f9c735b38558_cgraph.png" border="0" usemap="#amain__leo_8c_aba4b4bd42f154d680352f9c735b38558_cgraph" alt=""/></div>
+<map name="amain__leo_8c_aba4b4bd42f154d680352f9c735b38558_cgraph" id="amain__leo_8c_aba4b4bd42f154d680352f9c735b38558_cgraph">
+<area shape="rect" title="找到同一历元两颗低轨卫星共视的卫星" alt="" coords="5,56,104,83"/>
+<area shape="rect" href="gnss__observation_8c.html#adcfd2b63ae05fbcabeea628e3132663f" title="choose satellites according to the definition in gnssconfig" alt="" coords="152,5,280,32"/>
+<area shape="rect" href="gnss__config_8c.html#a4904153c455ec7e809a04203fbb3ab0c" title="convert sat sys&amp;prn to the internal index" alt="" coords="328,31,457,57"/>
+<area shape="rect" href="gtime_8c.html#a3fa88f605000c82444969184bf1287b1" title="compare two GTime struct, a == b within threshold_time" alt="" coords="165,107,267,133"/>
+<area shape="rect" href="gtime_8c.html#adc56923884b6b09b48b914a520433554" title="compute gtime1 &#45; gtime2, these two GTime strcut should have the same time system." alt="" coords="351,107,435,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1a37e0eb76d26f4ea16900296943a36f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a37e0eb76d26f4ea16900296943a36f">&#9670;&nbsp;</a></span>get_gracefo_ant_rcv()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void get_gracefo_ant_rcv </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structANT__INFO.html">ANT_INFO</a> *&#160;</td>
+          <td class="paramname"><em>ant_rcv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>获得gracefo的天线数据 </p>
+<dl class="section note"><dt>注解</dt><dd><br  />
+ </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ant_rcv</td><td>存储天线数据的结构体 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>天线类型 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="aed9608ecde5890e055a5f041c789ea00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed9608ecde5890e055a5f041c789ea00">&#9670;&nbsp;</a></span>get_index_param()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int get_index_param </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="obs__processing_8h.html#a0ec86fb9b6b2db94be6df69e47f4cdb9">PARAM_TYPE</a>&#160;</td>
+          <td class="paramname"><em>pt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gnss__config_8h.html#ad7537964394776a6c47f2504059aa873">sysGNSS</a>&#160;</td>
+          <td class="paramname"><em>satsys</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>prn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ifreq</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>satlist_satindex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>根据需求获得卫星的对应序号 </p>
+<dl class="section note"><dt>注解</dt><dd>根据自己的需求自行设定，不是固定的，可以更改 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pt</td><td>参数类型 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">satsys</td><td>卫星系统类型 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">prn</td><td>卫星prn号 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ifreq</td><td>频率序号 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">satlist_satindex</td><td>卫星序号列表 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>根据需求给卫星分配的卫星号 </dd></dl>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="main__leo_8c_aed9608ecde5890e055a5f041c789ea00_cgraph.png" border="0" usemap="#amain__leo_8c_aed9608ecde5890e055a5f041c789ea00_cgraph" alt=""/></div>
+<map name="amain__leo_8c_aed9608ecde5890e055a5f041c789ea00_cgraph" id="amain__leo_8c_aed9608ecde5890e055a5f041c789ea00_cgraph">
+<area shape="rect" title="根据需求获得卫星的对应序号" alt="" coords="5,42,140,69"/>
+<area shape="rect" href="gnss__config_8c.html#a2948a1a21e91e94105deb7692931337e" title="get the index of a GNSS system in GNSSCONFIG" alt="" coords="188,5,336,47"/>
+<area shape="rect" href="gnss__config_8c.html#a4904153c455ec7e809a04203fbb3ab0c" title="convert sat sys&amp;prn to the internal index" alt="" coords="197,71,327,98"/>
+</map>
+</div>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="main__leo_8c_aed9608ecde5890e055a5f041c789ea00_icgraph.png" border="0" usemap="#amain__leo_8c_aed9608ecde5890e055a5f041c789ea00_icgraph" alt=""/></div>
+<map name="amain__leo_8c_aed9608ecde5890e055a5f041c789ea00_icgraph" id="amain__leo_8c_aed9608ecde5890e055a5f041c789ea00_icgraph">
+<area shape="rect" title="根据需求获得卫星的对应序号" alt="" coords="299,5,433,32"/>
+<area shape="rect" href="main__leo_8c.html#a64f7c32ba71e5362a4d474014972c754" title="卡尔曼滤波之前的一些数据准备（求残差等）以及卡尔曼滤波" alt="" coords="204,5,251,32"/>
+<area shape="rect" href="main__leo_8c.html#a22d73aa92525be6c7e7b514203d58e5b" title="判断卫星数量是否有变化，是否有周跳，并进行卡尔曼滤波" alt="" coords="5,5,156,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a22d73aa92525be6c7e7b514203d58e5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22d73aa92525be6c7e7b514203d58e5b">&#9670;&nbsp;</a></span>judge_sat_variation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void judge_sat_variation </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>P_SD</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCVSAT.html">CVSAT</a> *&#160;</td>
+          <td class="paramname"><em>CVsat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *&#160;</td>
+          <td class="paramname"><em>obs_storage_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *&#160;</td>
+          <td class="paramname"><em>obs_storage_2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structSOLUTION.html">SOLUTION</a> *&#160;</td>
+          <td class="paramname"><em>solt_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structSOLUTION.html">SOLUTION</a> *&#160;</td>
+          <td class="paramname"><em>solt_2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structSAT__STATE.html">SAT_STATE</a> *&#160;</td>
+          <td class="paramname"><em>sat_state_all_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structSAT__STATE.html">SAT_STATE</a> *&#160;</td>
+          <td class="paramname"><em>sat_state_all_2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structANT__INFO.html">ANT_INFO</a> *&#160;</td>
+          <td class="paramname"><em>ant_rcv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>output_file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>amb_value_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>amb_value_2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>判断卫星数量是否有变化，是否有周跳，并进行卡尔曼滤波 </p>
+<dl class="section note"><dt>注解</dt><dd><br  />
+ </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">i</td><td>当前历元序号 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">P_SD</td><td>上一历元滤波后的协方差矩阵 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">CVsat</td><td>所有历元的数据 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">obs_storage_1</td><td>基准星（在本c文件中为GRACEFO_C星）的当前历元观测值数据 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">obs_storage_2</td><td>流动星（在本c文件中为GRACEFO_D星）的当前历元观测值数据 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">initial_pos_clock_1</td><td>基准星利用spp解算出的当前历元的x,y,z,t初始值 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">initial_pos_clock_2</td><td>流动星利用spp解算出的当前历元的x,y,z,t初始值 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sat_state_all_1</td><td>基准星的当前历元的模糊度初始值以及天线等信息 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sat_state_all_2</td><td>流动星的当前历元的模糊度初始值以及天线等信息 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ant_rcv</td><td>低轨卫星星载接收机的天线信息 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">amb_value_1</td><td>基准星的模糊度值（如果这一历元没发生周跳，那么存储的就是上一历元的模糊度值；如果发生周跳了，那么存储的就是这一历元所计算出的新的模糊度值） </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">amb_value_2</td><td>流动星的模糊度值（同基准星） </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>void </dd></dl>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="main__leo_8c_a22d73aa92525be6c7e7b514203d58e5b_cgraph.png" border="0" usemap="#amain__leo_8c_a22d73aa92525be6c7e7b514203d58e5b_cgraph" alt=""/></div>
+<map name="amain__leo_8c_a22d73aa92525be6c7e7b514203d58e5b_cgraph" id="amain__leo_8c_a22d73aa92525be6c7e7b514203d58e5b_cgraph">
+<area shape="rect" title="判断卫星数量是否有变化，是否有周跳，并进行卡尔曼滤波" alt="" coords="5,42,156,69"/>
+<area shape="rect" href="main__leo_8c.html#a64f7c32ba71e5362a4d474014972c754" title="卡尔曼滤波之前的一些数据准备（求残差等）以及卡尔曼滤波" alt="" coords="204,42,251,69"/>
+<area shape="rect" href="main__leo_8c.html#aed9608ecde5890e055a5f041c789ea00" title="根据需求获得卫星的对应序号" alt="" coords="299,42,433,69"/>
+<area shape="rect" href="gnss__config_8c.html#a2948a1a21e91e94105deb7692931337e" title="get the index of a GNSS system in GNSSCONFIG" alt="" coords="481,5,629,47"/>
+<area shape="rect" href="gnss__config_8c.html#a4904153c455ec7e809a04203fbb3ab0c" title="convert sat sys&amp;prn to the internal index" alt="" coords="491,71,620,98"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a007a9fbe2a86c738547a34804253dd63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a007a9fbe2a86c738547a34804253dd63">&#9670;&nbsp;</a></span>load_gps_value()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void load_gps_value </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>加载gps卫星文件数据（包括广播星历、精密星历、钟差、地球自转参数、天线文件） </p>
+<dl class="section note"><dt>注解</dt><dd><br  />
+ </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname"></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<p>读取gps广播星历文件</p>
+<p>读取gps精密星历和钟差文件</p>
+<p>读取地球自转参数eop文件</p>
+<p>读取gps天线文件</p>
+
+</div>
+</div>
+<a id="a46fc24ce2323fcf7b32c0b5b887df679"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46fc24ce2323fcf7b32c0b5b887df679">&#9670;&nbsp;</a></span>load_gracefo_value()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int load_gracefo_value </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *&#160;</td>
+          <td class="paramname"><em>obs_storage_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *&#160;</td>
+          <td class="paramname"><em>obs_storage_2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>加载gracefo卫星文件数据（包括星载观测值文件、姿态文件） </p>
+<dl class="section note"><dt>注解</dt><dd><br  />
+ </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">obs_storage_1</td><td>基准星（在本文件中为GRACEFO_C星）的所有历元观测值数据 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">obs_storage_2</td><td>流动星（在本文件中为GRACEFO_D星）的所有历元观测值数据 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>g_num_obs_storage_2 历元数量 </dd></dl>
+<p>读文件</p>
+<p>载入gracefo观测值</p>
+<p>载入gracefo姿态文件</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="main__leo_8c_a46fc24ce2323fcf7b32c0b5b887df679_cgraph.png" border="0" usemap="#amain__leo_8c_a46fc24ce2323fcf7b32c0b5b887df679_cgraph" alt=""/></div>
+<map name="amain__leo_8c_a46fc24ce2323fcf7b32c0b5b887df679_cgraph" id="amain__leo_8c_a46fc24ce2323fcf7b32c0b5b887df679_cgraph">
+<area shape="rect" title="加载gracefo卫星文件数据（包括星载观测值文件、姿态文件）" alt="" coords="5,31,155,57"/>
+<area shape="rect" href="gnss__observation_8c.html#a4943c4e0a120060b1b18cecc87a0b5d5" title="read the rinex observation and store data into the global variable g_obs_storage" alt="" coords="203,5,377,32"/>
+<area shape="rect" href="attitude_8c.html#a2d391b698e75f99d786e3fab2ad75544" title="read all the gracefo format quaternion attitude files for many satellites, the data are stored in glo..." alt="" coords="229,56,351,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a13c377d6cffdae6339939151e73c04fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13c377d6cffdae6339939151e73c04fb">&#9670;&nbsp;</a></span>omc_zd_1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int omc_zd_1 </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nsat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>satidx_in_obs_epoch</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>satlist_satindex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *&#160;</td>
+          <td class="paramname"><em>obs_epoch</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>sunposvel_ecf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structATT__QUATERNION.html">ATT_QUATERNION</a> *&#160;</td>
+          <td class="paramname"><em>att_rcv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structANT__INFO.html">ANT_INFO</a> *&#160;</td>
+          <td class="paramname"><em>ant_rcv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="obs__processing_8h.html#a0ec86fb9b6b2db94be6df69e47f4cdb9">PARAM_TYPE</a> *&#160;</td>
+          <td class="paramname"><em>param_types</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>index_paramX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">index_param_func&#160;</td>
+          <td class="paramname"><em>idxfunc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structSAT__STATE.html">SAT_STATE</a> *&#160;</td>
+          <td class="paramname"><em>sat_state</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nobs_max</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nx_max</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>h</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>r</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>求残差 </p>
+<dl class="section note"><dt>注解</dt><dd>跟标准求残差函数大体上都是相同的，只不过最后输出的残差是C星（基准星）的几何距离 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname"></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa51459cbc332533d4a71785a30f497ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa51459cbc332533d4a71785a30f497ad">&#9670;&nbsp;</a></span>spp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void spp </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *&#160;</td>
+          <td class="paramname"><em>obs_storage_all</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>g_num_obs_storage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>outputfilename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structSOLUTION.html">SOLUTION</a> *&#160;</td>
+          <td class="paramname"><em>solt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>rcvatx_type_code</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>spp </p>
+<dl class="section note"><dt>注解</dt><dd><br  />
+ </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">obs_storage_all</td><td>低轨卫星所有历元的观测值数据 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">g_num_obs_storage</td><td>历元数量 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">outputfilename</td><td>spp结算结果输出的文件路径 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">solt</td><td>解算出的结果 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">rcvatx_type_code</td><td>低轨卫星天线类型 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>void </dd></dl>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="main__leo_8c_aa51459cbc332533d4a71785a30f497ad_cgraph.png" border="0" usemap="#amain__leo_8c_aa51459cbc332533d4a71785a30f497ad_cgraph" alt=""/></div>
+<map name="amain__leo_8c_aa51459cbc332533d4a71785a30f497ad_cgraph" id="amain__leo_8c_aa51459cbc332533d4a71785a30f497ad_cgraph">
+<area shape="rect" title="spp" alt="" coords="5,139,51,166"/>
+<area shape="rect" href="gnss__observation_8c.html#a122ca5a4f47dcf5bd73a74cc4848ac3f" title="choose observations according to the definition in gnssconfig" alt="" coords="135,13,287,39"/>
+<area shape="rect" href="gtime_8c.html#a4617ea5db3083f0bc259eabfb2986689" title="convert GTime struct to mjd in double" alt="" coords="165,63,258,90"/>
+<area shape="rect" href="gtime_8c.html#a4bf9344475021ba0cc9fe2373ffe13ab" title="convert GTime to time string" alt="" coords="403,165,489,191"/>
+<area shape="rect" href="gtime_8c.html#af3d0d3d1f25a8b57ded3fb98458d21ce" title="convert from GTime to TimeYMD" alt="" coords="568,190,671,217"/>
+<area shape="rect" href="obs__processing_8c.html#a8149973a46fc456908328540f4d486cd" title="pseudorange point positioning" alt="" coords="99,165,324,191"/>
+<area shape="rect" href="gnss__satposition_8c.html#a6fa6ce00606b3201980f1d6270c10603" title="get the antenna information for both the gnss satellite, leo satellite and ground receivers" alt="" coords="149,266,274,293"/>
+<area shape="rect" href="gnss__config_8c.html#a2948a1a21e91e94105deb7692931337e" title="get the index of a GNSS system in GNSSCONFIG" alt="" coords="372,5,520,47"/>
+<area shape="rect" href="gtime_8c.html#a4e80434717708c0874f6c38348d8584a" title="convert from GTime to TimeJD" alt="" coords="719,165,805,191"/>
+<area shape="rect" href="gtime_8c.html#afc86aafaf1f29e1eb93c5da18a47e144" title="convert from TimeJD to TimeYMD" alt="" coords="725,215,799,242"/>
+<area shape="rect" href="gtime_8c.html#abba188d666e8af9b378ebc53d444ece4" title="make TimeJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="853,165,995,191"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.9.1-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_23ec12649285f9fabf3a6b7380226c28.html">util</a></li><li class="navelem"><a class="el" href="main__leo_8c.html">main_leo.c</a></li>
+    <li class="footer">生成于 2024年 十一月 17日 星期日 18:26:30 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

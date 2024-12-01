@@ -1,7 +1,0 @@
-<map id="EPHPREC_STORE" name="EPHPREC_STORE">
-<area shape="rect" id="node1" title="PRE_EPH are the position of center of gravity." alt="" coords="56,273,188,300"/>
-<area shape="rect" id="node2" href="$structCLKREC__PRE.html" title="the precise clock offset for GNSS, mainly sp3" alt="" coords="5,184,111,211"/>
-<area shape="rect" id="node3" href="$structGTime.html" title="struct for general time computation with time system defined" alt="" coords="89,95,155,121"/>
-<area shape="rect" id="node5" href="$structEPHREC__PRE.html" title="the precise ephemeris for GNSS, mainly sp3, sat positions at the center of mass" alt="" coords="135,184,242,211"/>
-<area shape="rect" id="node4" href="$structTimeMJD.html" title="struct time format in Modified Julian Day and second of day" alt="" coords="81,5,163,32"/>
-</map>

@@ -47,6 +47,7 @@ var files_dup =
     [ "orbit_dynamics.h", "orbit__dynamics_8h.html", "orbit__dynamics_8h" ],
     [ "pod_embed.c", "pod__embed_8c.html", "pod__embed_8c" ],
     [ "pod_embed.h", "pod__embed_8h.html", "pod__embed_8h" ],
+    [ "rtcm.h", "rtcm_8h.html", "rtcm_8h" ],
     [ "tle.h", "tle_8h.html", "tle_8h" ],
     [ "ulog.c", "ulog_8c.html", "ulog_8c" ],
     [ "ulog.h", "ulog_8h.html", "ulog_8h" ]

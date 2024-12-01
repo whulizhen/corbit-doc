@@ -1,5 +1,0 @@
-<map id="DATA_ORBIT" name="DATA_ORBIT">
-<area shape="rect" id="node1" title="orbit data" alt="" coords="5,184,108,211"/>
-<area shape="rect" id="node2" href="$structGTime.html" title="struct for general time computation with time system defined" alt="" coords="24,95,89,121"/>
-<area shape="rect" id="node3" href="$structTimeMJD.html" title="struct time format in Modified Julian Day and second of day" alt="" coords="16,5,97,32"/>
-</map>

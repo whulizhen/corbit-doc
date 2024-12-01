@@ -1,4 +1,0 @@
-<map id="compute_satposvel" name="compute_satposvel">
-<area shape="rect" id="node1" title="compute the satellite position, velocity and tgd" alt="" coords="220,13,369,39"/>
-<area shape="rect" id="node2" href="$obs__processing_8c.html#a6fb23f064c60b7a3f6cea0bfa5c699af" title="compute the signal propatation time using the pseudorange observation" alt="" coords="5,5,172,47"/>
-</map>

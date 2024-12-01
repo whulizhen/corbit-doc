@@ -1,5 +1,0 @@
-<map id="azel" name="azel">
-<area shape="rect" id="node1" title="compute the azimuth and elevation for ground users, this is not for the platform coordiante,..." alt="" coords="5,5,55,32"/>
-<area shape="rect" id="node2" href="$common__function_8c.html#af6c1560282acf2cf5358826df8768a3b" title="convert from ecef xyz to ENU coordinates" alt="" coords="103,5,180,32"/>
-<area shape="rect" id="node3" href="$common__function_8c.html#a247d821e9b075458eaa206d3770dc8a2" title="compute the matrix from ecef xyz to ENU coordinates" alt="" coords="228,5,355,32"/>
-</map>

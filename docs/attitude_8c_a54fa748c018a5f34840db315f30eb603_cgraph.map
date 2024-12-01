@@ -1,6 +1,6 @@
 <map id="attitude_yaw_steering" name="attitude_yaw_steering">
 <area shape="rect" id="node1" title="yaw steering attitude, mainly for GNSS satellites" alt="" coords="5,31,172,57"/>
-<area shape="rect" id="node2" href="$mathlib_8c.html#a56a5431504b9f6ad43a8ac6e5a13ab01" title="cross product of a 3&#45;element vector A and 3&#45;element vector vector B" alt="" coords="235,5,340,32"/>
+<area shape="rect" id="node2" href="$mathlib_8c.html#a3103990859cfd0ec41ba1307255cddfe" title="cross product of a 3&#45;element vector A and 3&#45;element vector vector B" alt="" coords="235,5,340,32"/>
 <area shape="rect" id="node3" href="$mathlib_8c.html#a80599db69e4fe1ff1f2242398ba2b09d" title="normalize a vector of n elements" alt="" coords="220,56,355,83"/>
 <area shape="rect" id="node4" href="$mathlib_8c.html#ad3c2d5b0aab71d0ba94b00db096dfd24" title="get the norm of vector x" alt="" coords="403,56,459,83"/>
 </map>

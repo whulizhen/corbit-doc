@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['data_5fclk_902',['DATA_CLK',['../structDATA__CLK.html',1,'']]],
-  ['data_5forbit_903',['DATA_ORBIT',['../structDATA__ORBIT.html',1,'']]]
+  ['clkrec_5fpre_926',['CLKREC_PRE',['../structCLKREC__PRE.html',1,'']]],
+  ['config_5fsimulator_927',['CONFIG_SIMULATOR',['../structCONFIG__SIMULATOR.html',1,'']]]
 ];

@@ -1,4 +1,0 @@
-<map id="get_initial_pos_vel_clk" name="get_initial_pos_vel_clk">
-<area shape="rect" id="node1" title="get the initival pos, vel and clk for current observation" alt="" coords="5,5,176,32"/>
-<area shape="rect" id="node2" href="$pod__embed_8c.html#aadfa9c4d4639310fc4976a29ffc24e12" title="this function is only called in this source file" alt="" coords="224,5,359,32"/>
-</map>

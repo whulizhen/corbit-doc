@@ -1,6 +1,6 @@
 var structRUNTIME__RTK =
 [
-    [ "H", "structRUNTIME__RTK.html#a588ebefde1cc094eaacc203b91ef1bee", null ],
+    [ "H", "structRUNTIME__RTK.html#afd31ce4f53774dfa6eabe280282b33cb", null ],
     [ "idx_xs_amb", "structRUNTIME__RTK.html#ac48262ca6ae8ad61699abac34ba68e02", null ],
     [ "idx_xs_clk", "structRUNTIME__RTK.html#a853a428cb31ac05ae2e5a119ac249a21", null ],
     [ "idx_xs_iono", "structRUNTIME__RTK.html#a088e5b6988353091774e4c249d392ec6", null ],
@@ -8,10 +8,12 @@ var structRUNTIME__RTK =
     [ "idx_xs_trop", "structRUNTIME__RTK.html#a5d358ceb159d44977d5e0946b0f25a2a", null ],
     [ "idx_xs_vel", "structRUNTIME__RTK.html#ac7f9c5437f679b5d8f8fc736e52cdfc7", null ],
     [ "IF_combination", "structRUNTIME__RTK.html#ab25b9a6439799a6f9f04326af4631285", null ],
+    [ "index_param_X", "structRUNTIME__RTK.html#a5d2ec15c7c660acef735c82e6130a6a9", null ],
     [ "index_refsat", "structRUNTIME__RTK.html#aa23890d2cf2f9f0157834424e2cb07b5", null ],
     [ "interval_sec", "structRUNTIME__RTK.html#af47336ebd01b80aaa50d4e81772377d8", null ],
     [ "L", "structRUNTIME__RTK.html#a3b93f8fbe6e2e765bd90c2095ae44feb", null ],
     [ "nsat_used", "structRUNTIME__RTK.html#addf701de28f5276963af114aca1d2f57", null ],
+    [ "num_param", "structRUNTIME__RTK.html#a3a14e7822624f1a0b8f14100753ccf99", null ],
     [ "nx", "structRUNTIME__RTK.html#a808ab059061618ff92338a1b17ec38aa", null ],
     [ "nx_amb", "structRUNTIME__RTK.html#afd66e3ea034af3a66c958680273ba0eb", null ],
     [ "nx_clk", "structRUNTIME__RTK.html#af24f04bf13ad282bef6ca605b2146674", null ],
@@ -21,8 +23,8 @@ var structRUNTIME__RTK =
     [ "nx_vel", "structRUNTIME__RTK.html#a4952178027e4ad52a48230c4b0b85be2", null ],
     [ "obstime_ref", "structRUNTIME__RTK.html#a049d9e3daeecac8edee5c34609b642e2", null ],
     [ "obstime_rov", "structRUNTIME__RTK.html#ac118b2c41e2552f8a92acc6cac0226c9", null ],
-    [ "P", "structRUNTIME__RTK.html#a611d4eb9d0feecba9259f3a277b76b8c", null ],
-    [ "param_types", "structRUNTIME__RTK.html#afceba79877b70de800c8e2086a43f5c7", null ],
+    [ "P", "structRUNTIME__RTK.html#ab1c878219deb9abf28faf75abbbff154", null ],
+    [ "param_list", "structRUNTIME__RTK.html#adee8917e4d542a78441266aa9b060d69", null ],
     [ "runtime_state_ref", "structRUNTIME__RTK.html#a7b82946524cf6e815b7635caff2d310d", null ],
     [ "runtime_state_rov", "structRUNTIME__RTK.html#a08a689a248c53d182fcf6cd0538b32cf", null ],
     [ "satindex", "structRUNTIME__RTK.html#a47df7e251ffc27d9c30fe154fdbcb025", null ],
@@ -30,5 +32,5 @@ var structRUNTIME__RTK =
     [ "satlist_used_rov", "structRUNTIME__RTK.html#a75e244d5629166a7bc49d915e6b49796", null ],
     [ "sln_ref", "structRUNTIME__RTK.html#ac39ac871e44216201bed5a47ffb7a40c", null ],
     [ "sln_rov", "structRUNTIME__RTK.html#abfc63864816c119b840c76747c96da02", null ],
-    [ "X", "structRUNTIME__RTK.html#a06412eb58f0a5e648b720cb4057911b0", null ]
+    [ "X", "structRUNTIME__RTK.html#a76434d612242c95d6b22d1d86d111a8b", null ]
 ];

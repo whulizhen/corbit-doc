@@ -1,4 +1,0 @@
-<map id="OBSDATA_SAT" name="OBSDATA_SAT">
-<area shape="rect" id="node1" title="observation of one satellite, memory: 632 byes" alt="" coords="5,95,120,121"/>
-<area shape="rect" id="node2" href="$structOBSREC.html" title="record of GNSS obs, memory: 48 Bytes" alt="" coords="25,5,100,32"/>
-</map>

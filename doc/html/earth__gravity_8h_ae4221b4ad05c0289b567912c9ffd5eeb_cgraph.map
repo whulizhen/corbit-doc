@@ -1,9 +1,0 @@
-<map id="compute_acc_dadr_earth_gravity" name="compute_acc_dadr_earth_gravity">
-<area shape="rect" id="node1" title="This is the main entry of earth gravity acc computation." alt="" coords="5,74,191,115"/>
-<area shape="rect" id="node2" href="$earth__gravity_8c.html#a6e7af1ff8a7eb159461416c3c63bc8c1" title="compute the C and S corrections due to solid earth tide" alt="" coords="239,5,429,32"/>
-<area shape="rect" id="node4" href="$earth__gravity_8c.html#a13caf873b2e9260c2834bdd854a32653" title="compute the time varying C and S corrections" alt="" coords="244,56,424,83"/>
-<area shape="rect" id="node6" href="$earth__gravity_8c.html#a8072ef1ad25d297bfcd3746278a90177" title="compute the C and S corrections due to pole tide" alt="" coords="269,107,399,133"/>
-<area shape="rect" id="node7" href="$mathlib_8c.html#ad3c2d5b0aab71d0ba94b00db096dfd24" title="get the norm of vector x" alt="" coords="306,157,362,184"/>
-<area shape="rect" id="node3" href="$earth__gravity_8c.html#aed1ced913745ef8e27e6b370e00680a5" title="compute the Legendre polynomial" alt="" coords="500,5,607,32"/>
-<area shape="rect" id="node5" href="$earth__rotation__param_8c.html#a83196d8ce9c24a904aea738c23c23a83" title="compute the mean polar motion" alt="" coords="477,81,629,108"/>
-</map>

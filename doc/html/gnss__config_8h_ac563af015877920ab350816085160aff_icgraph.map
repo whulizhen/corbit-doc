@@ -1,4 +1,0 @@
-<map id="satsysprn2string" name="satsysprn2string">
-<area shape="rect" id="node1" title="convert sysGNSS and prn to a string" alt="" coords="201,13,332,39"/>
-<area shape="rect" id="node2" href="$pod__embed_8c.html#a9deb4368f438f94513ae8c6201c1bb71" title="output observation from serial port" alt="" coords="5,5,153,47"/>
-</map>

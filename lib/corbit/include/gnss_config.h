@@ -31,10 +31,18 @@ extern "C"
 #include "common_function.h"
 #include "gtime.h"
 
-#ifndef EMBED
+
+#ifdef EMBED
+
+/// enable GPS
+#define ENAGPS
+// /// enable BeiDou
+// #define ENABDS
+
+#else
+
 #define NameAsStr(x) (#x)                                   /**< convert variable to its name*/
 #define ENUM_STR(x, str) (sprintf(str, "%s", NameAsStr(x))) /**< convert enum varialbe to its name*/
-#endif
 
 /// enable GPS
 #define ENAGPS
@@ -45,14 +53,17 @@ extern "C"
 /// enable LEO
 #define ENALEO
 
+/// enable GAL
+// #define ENAGAL
+
+/// enable GLO
+// #define ENAGLO
+
 ///enable STATION
 #define ENASTA
 
-    /// enable GAL
-    // #define ENAGAL
+#endif
 
-    /// enable GLO
-    // #define ENAGLO
 
 
 #ifdef ENAGPS
@@ -146,20 +157,21 @@ extern "C"
 // the following variable definition is related to the stack size, mgith cause stack dump when they are large
 #define MAXNUM_STATION (NSTA) /**< maximum number of gnss ground stations */
 
-#ifndef EMBED
-#define MAXOBS_PER_SAT 10   /**< max number of observation values for one gnss satellite */
-#define MAXSAT_PER_EPOCH 15 /**< max number of satellites  for one gnss epoch */
+#define MAXSIZE_OBS_EPOCH (86400*2) /**< max number of observations in the storage */
+
+#define SIGMA_RANGE 0.3   /**< the standard deviation of range observations*/
+#define SIGMA_PHASE 0.002 /**< the standard deviation of phase observations*/
+
+#ifdef  EMBED
+#define MAXOBS_PER_SAT 4    /**< max number of observation values for one gnss satellite */
+#define MAXSAT_PER_EPOCH 10 /**< max number of satellites  for one gnss epoch */
 #define MAXNUM_FREQ 2       /**< max number of frequency for one gnss satellite */
 #else
-#define MAXOBS_PER_SAT 5    /**< max number of observation values for one gnss satellite */
+#define MAXOBS_PER_SAT 10   /**< max number of observation values for one gnss satellite */
 #define MAXSAT_PER_EPOCH 15 /**< max number of satellites  for one gnss epoch */
 #define MAXNUM_FREQ 2       /**< max number of frequency for one gnss satellite */
 #endif
 
-#define MAXSIZE_OBS_EPOCH (86400) /**< max number of observations in the storage */
-
-#define SIGMA_RANGE 0.3   /**< the standard deviation of range observations*/
-#define SIGMA_PHASE 0.002 /**< the standard deviation of phase observations*/
 
     /**
      * @brief definition of all the possible satellite systems
@@ -175,6 +187,7 @@ extern "C"
         BDS,    /**< BeiDou system*/
         GAL,    /**< Galileo system*/
         GLO,    /**< Glonass system*/
+        QZS,    /**< QZS system*/
         GEO,    /**< GEO navigation system*/
         LEO,    /**< LEO satellite system*/
         STA     /**< ground station*/
@@ -296,6 +309,7 @@ extern "C"
         double var_dcb;           /**< init variance dcb (m^2) */
         double var_bias;          /**< init variance phase-bias (m^2) */
         double var_iono;          /**< init variance iono-delay */
+        double noise_amb;         /**< the noise of ambiguity in m^2 */
 
         TYPE_FREQ_CODE obs_type_freq_code_used[NSYS][MAXOBS_PER_SAT]; /**< obs frequency used for each satellite system*/
         int obs_index_IF_code[NSYS][MAXNUM_FREQ];                     /**< index of code in obs_type_freq_code_used for IF combination */

@@ -1,4 +1,0 @@
-<map id="compute_pos_sun_moon_eci" name="compute_pos_sun_moon_eci">
-<area shape="rect" id="node1" title="Computes the Sun&#39;s and Moon&#39;s geocentric position using a low precision analytical series." alt="" coords="5,5,215,32"/>
-<area shape="rect" id="node2" href="$eph__planet_8c.html#a6d0b43a4b16bc31e024bd9cb230f0aac" title="compute astronomical arguments: f={l,l&#39;,F,D,OMG} (rad)" alt="" coords="263,5,340,32"/>
-</map>

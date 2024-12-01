@@ -1,4 +1,0 @@
-<map id="xyz2enu" name="xyz2enu">
-<area shape="rect" id="node1" title="convert from ecef xyz to ENU coordinates" alt="" coords="5,5,83,32"/>
-<area shape="rect" id="node2" href="$common__function_8c.html#a247d821e9b075458eaa206d3770dc8a2" title="compute the matrix from ecef xyz to ENU coordinates" alt="" coords="131,5,257,32"/>
-</map>

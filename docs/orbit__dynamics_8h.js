@@ -31,17 +31,15 @@ var orbit__dynamics_8h =
     [ "atm_density_Harris_Priester", "orbit__dynamics_8h.html#a427b8201ed3a3fc806294918bad50a34", null ],
     [ "compute_acc_all", "orbit__dynamics_8h.html#a83a10ad4abbe7efc5426be52daba059a", null ],
     [ "compute_acc_drag", "orbit__dynamics_8h.html#aaedfe811e003612f1ec0332f6d36a505", null ],
-    [ "compute_acc_ECOM", "orbit__dynamics_8h.html#a75fa6528ac0400abe9d3df60a74ee613", null ],
-    [ "compute_acc_Empirical", "orbit__dynamics_8h.html#ac4dcb052f599019c11e75effe9eb2584", null ],
+    [ "compute_acc_Empirical", "orbit__dynamics_8h.html#a85cc8388d3ca1a901ea5fb0531c27a1c", null ],
     [ "compute_acc_erp", "orbit__dynamics_8h.html#a47f61477127acdb89a7526f304e98d9d", null ],
     [ "compute_acc_relativity", "orbit__dynamics_8h.html#a40f4bb2d932e517fd04003a9ce4b296c", null ],
     [ "compute_acc_srp", "orbit__dynamics_8h.html#ad03692bc7792efdef83413d017ae1887", null ],
     [ "compute_acc_thirdbody", "orbit__dynamics_8h.html#a80bd1c842c3999b45ad108238c757d97", null ],
-    [ "compute_atmospheric_density", "orbit__dynamics_8h.html#ac103941e50324f88225867326e296a0c", null ],
     [ "emp_param_name_check", "orbit__dynamics_8h.html#adebd72356485c3fd327d76e7446f1085", null ],
     [ "generate_param_empirical", "orbit__dynamics_8h.html#a1a944730a59a3f60fe96587d537c6119", null ],
     [ "initialize_orbit_config", "orbit__dynamics_8h.html#a7248d4e621c67a8c0a2841520a0a51bb", null ],
-    [ "initialize_orbit_conifig_embed", "orbit__dynamics_8h.html#a2ec01657bee3d8b8d0d2579cb3e0426e", null ],
+    [ "initialize_orbit_config_embed", "orbit__dynamics_8h.html#a17d16f9ca7c190dd076f05f78b1caedd", null ],
     [ "initialize_state_spacecraft", "orbit__dynamics_8h.html#a40983f9db3a50ec5cfebd3f990d109b3", null ],
     [ "initialize_state_spacecraft_embed", "orbit__dynamics_8h.html#afdc408c6016a23a16289dbaad455b252", null ],
     [ "IntegrateTo", "orbit__dynamics_8h.html#a615bf52ebf00313f647091889d86c8f5", null ],
@@ -57,5 +55,5 @@ var orbit__dynamics_8h =
     [ "test_orbit_fit_data", "orbit__dynamics_8h.html#a60d4e1a158fc2d62c68aa9ba21c27f7c", null ],
     [ "test_orbit_integrate", "orbit__dynamics_8h.html#a1e92928dd00faec3ad5be69dd80589e8", null ],
     [ "test_orbit_integrate_embed", "orbit__dynamics_8h.html#af387dc08ee4840e52937894d0307286f", null ],
-    [ "test_orbit_simulation", "orbit__dynamics_8h.html#a7e4fcaa23e279db89d3e095c2f53c391", null ]
+    [ "test_orbit_simulation", "orbit__dynamics_8h.html#a8337b16ce56b0ae83dbf3f5084760fe9", null ]
 ];

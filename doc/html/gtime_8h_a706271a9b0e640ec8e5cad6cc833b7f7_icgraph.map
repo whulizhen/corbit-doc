@@ -1,4 +1,0 @@
-<map id="mjd2TimeMJD" name="mjd2TimeMJD">
-<area shape="rect" id="node1" title="convert from mjd in double to struct TimeMJD" alt="" coords="152,5,267,32"/>
-<area shape="rect" id="node2" href="$gtime_8c.html#aca82029eab4f1c494ec691364d3fe3a2" title="convert mjd in double to a GTime struct" alt="" coords="5,5,104,32"/>
-</map>

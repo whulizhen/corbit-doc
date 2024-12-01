@@ -76,7 +76,7 @@ typedef struct
     tled_t *data; /* NORAD TLE data */
 } tle_t;
 
-static void SGP4_STR3(double tsince, const tled_t *data, double *rs);
+// static void SGP4_STR3(double tsince, const tled_t *data, double *rs);
 extern int tle_read(const char *file, tle_t *tle);
 extern int tle2xyz(const tled_t *tledata, GTime time_utc, double *pos_vel);
 

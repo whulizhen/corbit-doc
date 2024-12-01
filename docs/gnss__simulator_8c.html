@@ -122,31 +122,43 @@ gnss_simulator.c 的引用(Include)关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="gnss__simulator_8c__incl.png" border="0" usemap="#agnss__simulator_8c" alt=""/></div>
 <map name="agnss__simulator_8c" id="agnss__simulator_8c">
-<area shape="rect" title="Implementation of all the gnss simulations" alt="" coords="855,5,985,32"/>
-<area shape="rect" href="gnss__simulator_8h.html" title="Declarations of all the gnss simulations" alt="" coords="854,80,986,107"/>
-<area shape="rect" href="gnss__config_8h.html" title="Declarations for global variable gnssconfig" alt="" coords="754,304,865,331"/>
-<area shape="rect" href="gnss__observation_8h.html" title="Declarations for gnss observation operations" alt="" coords="693,155,841,181"/>
-<area shape="rect" title=" " alt="" coords="911,528,977,555"/>
-<area shape="rect" title=" " alt="" coords="173,528,243,555"/>
-<area shape="rect" title=" " alt="" coords="859,603,941,629"/>
-<area shape="rect" title=" " alt="" coords="677,528,747,555"/>
-<area shape="rect" title=" " alt="" coords="581,528,649,555"/>
-<area shape="rect" href="corbit__const_8h.html" title="Declarations for all the constants in corbit project" alt="" coords="343,528,457,555"/>
-<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="477,379,627,405"/>
-<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="753,453,825,480"/>
-<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="369,603,431,629"/>
-<area shape="rect" title=" " alt="" coords="506,453,577,480"/>
-<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="398,453,482,480"/>
-<area shape="rect" title=" " alt="" coords="823,528,887,555"/>
-<area shape="rect" href="attitude_8h.html" title="Declarations of attitude operations" alt="" coords="677,229,763,256"/>
+<area shape="rect" title="Implementation of all the gnss simulations" alt="" coords="6,5,137,32"/>
+<area shape="rect" href="gnss__simulator_8h.html" title="Declarations of all the gnss simulations" alt="" coords="5,80,137,107"/>
+<area shape="rect" href="gnss__config_8h.html" title="Declarations for global variable gnssconfig" alt="" coords="452,453,563,480"/>
+<area shape="rect" href="gnss__observation_8h.html" title="Declarations for gnss observation operations" alt="" coords="433,304,581,331"/>
+<area shape="rect" href="gnss__satposition_8h.html" title="Declarations for gnss satellite position computation" alt="" coords="495,155,637,181"/>
+<area shape="rect" title=" " alt="" coords="98,677,165,704"/>
+<area shape="rect" title=" " alt="" coords="400,677,471,704"/>
+<area shape="rect" title=" " alt="" coords="566,752,649,779"/>
+<area shape="rect" title=" " alt="" coords="556,677,627,704"/>
+<area shape="rect" title=" " alt="" coords="739,677,807,704"/>
+<area shape="rect" href="corbit__const_8h.html" title="Declarations for all the constants in corbit project" alt="" coords="1029,677,1143,704"/>
+<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="751,528,901,555"/>
+<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="957,603,1029,629"/>
+<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="1055,752,1117,779"/>
+<area shape="rect" title=" " alt="" coords="861,603,932,629"/>
+<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="549,603,633,629"/>
+<area shape="rect" title=" " alt="" coords="941,677,1005,704"/>
+<area shape="rect" href="attitude_8h.html" title="Declarations of attitude operations" alt="" coords="375,379,461,405"/>
+<area shape="rect" href="rtcm_8h.html" title="Declarations for decoding and encoding RTCM messages stream" alt="" coords="993,229,1057,256"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 函数</h2></td></tr>
-<tr class="memitem:a1f451daf160cbacfab1e7b495789750e"><td class="memItemLeft" align="right" valign="top"><a id="a1f451daf160cbacfab1e7b495789750e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>simulate</b> ()</td></tr>
-<tr class="separator:a1f451daf160cbacfab1e7b495789750e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a8f12cd0224fbeb633f3283767f0961"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gnss__simulator_8c.html#a5a8f12cd0224fbeb633f3283767f0961">simulate_CNR</a> (double beta, double fs, double r)</td></tr>
+<tr class="memdesc:a5a8f12cd0224fbeb633f3283767f0961"><td class="mdescLeft">&#160;</td><td class="mdescRight">Kaila M. Y. Coimbra, Marta Cortinovis, Tara Mina and Grace Gao, Single-Satellite Lunar Navigation via Doppler Shift Observables for the NASA Endurance Mission, at ION2024 Delepaut et al. 2020, Misra and Enge,2012 C/N0 is a function of the received isometric power Pr, the receiver's gain-to-noise-temperature ratio g/T, k is the boltzmann constant (k=-228.8 dBW/KHz). C/N0 = Pr + g/T - k; Pr = EIRP(beta) - 20*log(10)(4*pi*r*Fs/c) ; beta is the off-boresight angle, Fs is the signal frequency, r is the distance between transmitter and receiver  <a href="gnss__simulator_8c.html#a5a8f12cd0224fbeb633f3283767f0961">更多...</a><br /></td></tr>
+<tr class="separator:a5a8f12cd0224fbeb633f3283767f0961"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b4544785fd652b6f80b71f24f5e8d79"><td class="memItemLeft" align="right" valign="top"><a id="a0b4544785fd652b6f80b71f24f5e8d79"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gnss__simulator_8c.html#a0b4544785fd652b6f80b71f24f5e8d79">simulate_range_rate_thermal_noise_PLL</a> (double CN0, double fs)</td></tr>
+<tr class="memdesc:a0b4544785fd652b6f80b71f24f5e8d79"><td class="mdescLeft">&#160;</td><td class="mdescRight">receiver will track the incoming carrier frequency using a phase locked loop (PLL) to obtain the Doppler frequency measurement. Kaplan and Hegarty,2017; Borio et al., 2011 <br /></td></tr>
+<tr class="separator:a0b4544785fd652b6f80b71f24f5e8d79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac817ad71b7593ec42dd0ef14431a2f1e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gnss__simulator_8c.html#ac817ad71b7593ec42dd0ef14431a2f1e">simulate_clock_stability</a> (double tau, double h0, double h_1, double h_2)</td></tr>
+<tr class="memdesc:ac817ad71b7593ec42dd0ef14431a2f1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">simulate the clock stability error  <a href="gnss__simulator_8c.html#ac817ad71b7593ec42dd0ef14431a2f1e">更多...</a><br /></td></tr>
+<tr class="separator:ac817ad71b7593ec42dd0ef14431a2f1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e25ec25621808409ad7fb3edbad7b55"><td class="memItemLeft" align="right" valign="top"><a id="a0e25ec25621808409ad7fb3edbad7b55"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>simulate</b> (<a class="el" href="structGTime.html">GTime</a> obs_time)</td></tr>
+<tr class="separator:a0e25ec25621808409ad7fb3edbad7b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86c8b142e21b44960662a94936d832fd"><td class="memItemLeft" align="right" valign="top"><a id="a86c8b142e21b44960662a94936d832fd"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>read_waypoints</b> ()</td></tr>
 <tr class="separator:a86c8b142e21b44960662a94936d832fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -163,14 +175,104 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>write_waypoints</b> (
 <dl class="section since"><dt>自从</dt><dd>2016.01.15 </dd></dl>
 <dl class="section copyright"><dt>版权所有</dt><dd></dd></dl>
 <dl class="section user"><dt>History:</dt><dd></dd></dl>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">函数说明</h2>
+<a id="ac817ad71b7593ec42dd0ef14431a2f1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac817ad71b7593ec42dd0ef14431a2f1e">&#9670;&nbsp;</a></span>simulate_clock_stability()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double simulate_clock_stability </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>tau</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>h0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>h_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>h_2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>simulate the clock stability error </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tau</td><td>measurement sampling time </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">h0</td><td>power spectral density coefficients s^2/s , 1.3E-20 for microchip CSAC </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">h_1</td><td>power spectral density coefficients s^2/s^2 , 1.0E-24 for microchip CSAC </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">h_2</td><td>power spectral density coefficients s/s^2 , 3.7E-29 for microchip CSAC </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a5a8f12cd0224fbeb633f3283767f0961"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a8f12cd0224fbeb633f3283767f0961">&#9670;&nbsp;</a></span>simulate_CNR()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double simulate_CNR </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>beta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>fs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>r</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Kaila M. Y. Coimbra, Marta Cortinovis, Tara Mina and Grace Gao, Single-Satellite Lunar Navigation via Doppler Shift Observables for the NASA Endurance Mission, at ION2024 Delepaut et al. 2020, Misra and Enge,2012 C/N0 is a function of the received isometric power Pr, the receiver's gain-to-noise-temperature ratio g/T, k is the boltzmann constant (k=-228.8 dBW/KHz). C/N0 = Pr + g/T - k; Pr = EIRP(beta) - 20*log(10)(4*pi*r*Fs/c) ; beta is the off-boresight angle, Fs is the signal frequency, r is the distance between transmitter and receiver </p>
+<p>g/T = Gr - Teq, <br  />
+ Gr is the gain of the receiver antenna in dB, could be 22.0 dB Teq = 10*log(10)(Tsys + 290*(10^(NFLNA/10) - 1)); the reference temperature at the input of the LNA is 290K. Tsys is the receiver's system noise temperature; could be 113K NFLNA is the noise figure from receiver's low noise amplifier(LNA), could be 1 dB </p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.1-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="gnss__simulator_8c.html">gnss_simulator.c</a></li>
-    <li class="footer">生成于 2024年 七月 11日 星期四 15:37:53 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">生成于 2024年 十二月 1日 星期日 15:43:25 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

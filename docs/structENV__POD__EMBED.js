@@ -5,6 +5,8 @@ var structENV__POD__EMBED =
     [ "att_quaternion_filename", "structENV__POD__EMBED.html#a03d0bcd65691b1c6351b1f530b0fdbfa", null ],
     [ "clk_prec_filename", "structENV__POD__EMBED.html#a03930f600834df369cdc025c957c426a", null ],
     [ "config_gnss_filename", "structENV__POD__EMBED.html#a02a580b5b166dc04e0db06fc937a366e", null ],
+    [ "doodson_info", "structENV__POD__EMBED.html#a81607a1c412e24931be6b7626fbecb5b", null ],
+    [ "earth_gravity_filename", "structENV__POD__EMBED.html#a47a777f018dfbe145d62e7e6cd8a817a", null ],
     [ "eop_rec_num", "structENV__POD__EMBED.html#aa2df441cb304db9f51845d03ae253939", null ],
     [ "eopdata_storage", "structENV__POD__EMBED.html#ae80d11b35b0967f20f2a8ed4fd7846b8", null ],
     [ "eopfile_rapid_filename", "structENV__POD__EMBED.html#aa3be5fc5f33a6a57b6eeb3667c1facb8", null ],
@@ -18,5 +20,8 @@ var structENV__POD__EMBED =
     [ "jpleph_filename", "structENV__POD__EMBED.html#aefde5cf26a0c91516fcee9c49bea9bc3", null ],
     [ "num_obs_epoch", "structENV__POD__EMBED.html#a4e9f54f7999da4fda7ecdb32f50238b2", null ],
     [ "obs_storage", "structENV__POD__EMBED.html#ac3916664b37a386cd6d84211282bc927", null ],
-    [ "observation_rinex_filename", "structENV__POD__EMBED.html#a09f872972f52e6d7e5a19fb68ddb7972", null ]
+    [ "observation_rinex_filename", "structENV__POD__EMBED.html#a09f872972f52e6d7e5a19fb68ddb7972", null ],
+    [ "ocean_tide_cs", "structENV__POD__EMBED.html#a71d6225cc4bc9d0d3ba5b632c43e96b4", null ],
+    [ "ocean_tide_filename", "structENV__POD__EMBED.html#ae4c2e596577672d0514020fde8ce81fa", null ],
+    [ "output_filename", "structENV__POD__EMBED.html#aea6d0144707d79f686cb9af7ea3a7fe8", null ]
 ];

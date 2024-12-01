@@ -1,6 +1,0 @@
-<map id="GTime2YMD" name="GTime2YMD">
-<area shape="rect" id="node1" title="convert from GTime to TimeYMD" alt="" coords="5,31,108,57"/>
-<area shape="rect" id="node2" href="$gtime_8c.html#a4e80434717708c0874f6c38348d8584a" title="convert from GTime to TimeJD" alt="" coords="156,5,243,32"/>
-<area shape="rect" id="node4" href="$gtime_8c.html#afc86aafaf1f29e1eb93c5da18a47e144" title="convert from TimeJD to TimeYMD" alt="" coords="162,56,237,83"/>
-<area shape="rect" id="node3" href="$gtime_8c.html#abba188d666e8af9b378ebc53d444ece4" title="make TimeJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="291,5,432,32"/>
-</map>

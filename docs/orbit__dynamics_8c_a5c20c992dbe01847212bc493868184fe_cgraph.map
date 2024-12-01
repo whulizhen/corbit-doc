@@ -1,8 +1,5 @@
 <map id="orbit_fit" name="orbit_fit">
-<area shape="rect" id="node1" title="function for the orbit fit program" alt="" coords="5,71,77,98"/>
+<area shape="rect" id="node1" title="function for the orbit fit program" alt="" coords="5,42,77,69"/>
 <area shape="rect" id="node2" href="$orbit__dynamics_8c.html#a693ea6af9dd2cf9a8459bce75a7a093a" title="extract all the force model parameters from the state_spacecraft struct" alt="" coords="125,5,273,47"/>
-<area shape="rect" id="node3" href="$gtime_8c.html#acd5551059ad3aef49860a64878b8cb6e" title="add seconds to GTime struct" alt="" coords="145,71,253,98"/>
-<area shape="rect" id="node6" href="$gtime_8c.html#a5331d83adc124ffb5b212a036865d1bb" title="Substract two GTime struct and return in seconds." alt="" coords="146,122,253,149"/>
-<area shape="rect" id="node4" href="$gtime_8c.html#a130e765390b16f22822500994ad12f09" title="add seconds to TimeMJD struct" alt="" coords="321,71,445,98"/>
-<area shape="rect" id="node5" href="$gtime_8c.html#a09eb4bada2411345995b1238d7b24ca6" title="make TimeMJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="493,71,644,98"/>
+<area shape="rect" id="node3" href="$gtime_8c.html#a5331d83adc124ffb5b212a036865d1bb" title="Substract two GTime struct and return in seconds." alt="" coords="146,71,253,98"/>
 </map>

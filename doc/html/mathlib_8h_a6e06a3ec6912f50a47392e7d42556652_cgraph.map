@@ -1,4 +1,0 @@
-<map id="matrix_zero_check" name="matrix_zero_check">
-<area shape="rect" id="node1" title="check if there exists columns are all zeros in the matrix, otherwise, adjust the number of columns th..." alt="" coords="5,5,151,32"/>
-<area shape="rect" id="node2" href="$mathlib_8c.html#ad3c2d5b0aab71d0ba94b00db096dfd24" title="get the norm of vector x" alt="" coords="199,5,255,32"/>
-</map>

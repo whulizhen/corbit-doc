@@ -1,5 +1,0 @@
-<map id="shadow_factor_SECM" name="shadow_factor_SECM">
-<area shape="rect" id="node1" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="357,5,519,32"/>
-<area shape="rect" id="node2" href="$orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="179,5,309,32"/>
-<area shape="rect" id="node3" href="$orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,5,131,32"/>
-</map>

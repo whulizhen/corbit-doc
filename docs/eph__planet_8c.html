@@ -123,20 +123,20 @@ eph_planet.c 的引用(Include)关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="eph__planet_8c__incl.png" border="0" usemap="#aeph__planet_8c" alt=""/></div>
 <map name="aeph__planet_8c" id="aeph__planet_8c">
-<area shape="rect" title="Implementations of JPL planet ephemeris computation" alt="" coords="45,5,151,32"/>
-<area shape="rect" href="eph__planet_8h.html" title="Declarations of JPL planet ephemeris computation" alt="" coords="45,80,151,107"/>
-<area shape="rect" title=" " alt="" coords="5,304,73,331"/>
-<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="161,155,312,181"/>
-<area shape="rect" title=" " alt="" coords="100,229,171,256"/>
-<area shape="rect" title=" " alt="" coords="304,304,375,331"/>
-<area shape="rect" title=" " alt="" coords="118,304,185,331"/>
-<area shape="rect" title=" " alt="" coords="209,304,280,331"/>
-<area shape="rect" href="corbit__const_8h.html" title="Declarations for all the constants in corbit project" alt="" coords="539,304,652,331"/>
-<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="195,229,279,256"/>
-<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="405,229,477,256"/>
-<area shape="rect" title=" " alt="" coords="459,379,542,405"/>
-<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="567,379,629,405"/>
-<area shape="rect" title=" " alt="" coords="399,304,463,331"/>
+<area shape="rect" title="Implementations of JPL planet ephemeris computation" alt="" coords="237,5,343,32"/>
+<area shape="rect" href="eph__planet_8h.html" title="Declarations of JPL planet ephemeris computation" alt="" coords="237,80,343,107"/>
+<area shape="rect" title=" " alt="" coords="235,304,303,331"/>
+<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="159,155,309,181"/>
+<area shape="rect" title=" " alt="" coords="28,229,99,256"/>
+<area shape="rect" title=" " alt="" coords="140,304,211,331"/>
+<area shape="rect" title=" " alt="" coords="605,304,671,331"/>
+<area shape="rect" title=" " alt="" coords="5,304,76,331"/>
+<area shape="rect" href="corbit__const_8h.html" title="Declarations for all the constants in corbit project" alt="" coords="467,304,580,331"/>
+<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="175,229,259,256"/>
+<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="385,229,457,256"/>
+<area shape="rect" title=" " alt="" coords="342,379,425,405"/>
+<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="492,379,555,405"/>
+<area shape="rect" title=" " alt="" coords="378,304,442,331"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -149,6 +149,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eph_
 <tr class="memitem:a40bef5afbe0598bb683f9cd2a50b85b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eph__planet_8c.html#a40bef5afbe0598bb683f9cd2a50b85b0">split_double</a> (double tt, double fr[2])</td></tr>
 <tr class="memdesc:a40bef5afbe0598bb683f9cd2a50b85b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">this subroutine breaks a d.p. number into a d.p. integer and a d.p. fractional part.  <a href="eph__planet_8c.html#a40bef5afbe0598bb683f9cd2a50b85b0">更多...</a><br /></td></tr>
 <tr class="separator:a40bef5afbe0598bb683f9cd2a50b85b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ecd845f914657be58551268b752d3c8"><td class="memItemLeft" align="right" valign="top"><a id="a2ecd845f914657be58551268b752d3c8"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>load_ephemeris_uplink</b> (int nsize, double *eph_data)</td></tr>
+<tr class="separator:a2ecd845f914657be58551268b752d3c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b2e81311fd36c0eb1c79a94533e6dad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eph__planet_8c.html#a9b2e81311fd36c0eb1c79a94533e6dad">load_eph_header_default</a> (<a class="el" href="structEPH__HEADER__JPL.html">EPH_HEADER_JPL</a> *eph_header)</td></tr>
 <tr class="memdesc:a9b2e81311fd36c0eb1c79a94533e6dad"><td class="mdescLeft">&#160;</td><td class="mdescRight">load the default header information, only used for embed version  <a href="eph__planet_8c.html#a9b2e81311fd36c0eb1c79a94533e6dad">更多...</a><br /></td></tr>
 <tr class="separator:a9b2e81311fd36c0eb1c79a94533e6dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -192,9 +195,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eph__
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eph__planet_8c.html#a7031578644d1cd7e91f52e06bf625566">g_unit_km</a> = true</td></tr>
 <tr class="memdesc:a7031578644d1cd7e91f52e06bf625566"><td class="mdescLeft">&#160;</td><td class="mdescRight">unit control, true for km unit (km and km/s), false for AU unit (AU, AU/day) <br /></td></tr>
 <tr class="separator:a7031578644d1cd7e91f52e06bf625566"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c1583c1724c18d24a79a238913f2daa"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eph__planet_8c.html#a9c1583c1724c18d24a79a238913f2daa">PLANET_GM</a> [<a class="el" href="eph__planet_8h.html#abfbdc36b660377170f887d9f1e3270fda74e9881a87117a922cbcc40708a8fde5">TOTAL_PLANET</a>+1]</td></tr>
-<tr class="memdesc:a9c1583c1724c18d24a79a238913f2daa"><td class="mdescLeft">&#160;</td><td class="mdescRight">definition of solar system planets GM values  <a href="eph__planet_8c.html#a9c1583c1724c18d24a79a238913f2daa">更多...</a><br /></td></tr>
-<tr class="separator:a9c1583c1724c18d24a79a238913f2daa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a5fd47ac5574c323d9669fd3a38939c"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eph__planet_8c.html#a1a5fd47ac5574c323d9669fd3a38939c">PLANET_GM</a> [<a class="el" href="eph__planet_8h.html#abfbdc36b660377170f887d9f1e3270fda74e9881a87117a922cbcc40708a8fde5">TOTAL_PLANET</a>+1]</td></tr>
+<tr class="memdesc:a1a5fd47ac5574c323d9669fd3a38939c"><td class="mdescLeft">&#160;</td><td class="mdescRight">definition of solar system planets GM values  <a href="eph__planet_8c.html#a1a5fd47ac5574c323d9669fd3a38939c">更多...</a><br /></td></tr>
+<tr class="separator:a1a5fd47ac5574c323d9669fd3a38939c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
 <div class="textblock"><p>Implementations of JPL planet ephemeris computation </p>
@@ -245,11 +248,12 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eph_
 <div class="dyncontent">
 <div class="center"><img src="eph__planet_8c_a6d0b43a4b16bc31e024bd9cb230f0aac_icgraph.png" border="0" usemap="#aeph__planet_8c_a6d0b43a4b16bc31e024bd9cb230f0aac_icgraph" alt=""/></div>
 <map name="aeph__planet_8c_a6d0b43a4b16bc31e024bd9cb230f0aac_icgraph" id="aeph__planet_8c_a6d0b43a4b16bc31e024bd9cb230f0aac_icgraph">
-<area shape="rect" title="compute astronomical arguments: f={l,l&#39;,F,D,OMG} (rad)" alt="" coords="1072,5,1149,32"/>
-<area shape="rect" href="eph__planet_8c.html#a261b3076bbc0e0215b3fdad20afb4fea" title="Computes the Sun&#39;s and Moon&#39;s geocentric position using a low precision analytical series" alt="" coords="815,5,1024,32"/>
-<area shape="rect" href="eph__planet_8c.html#ae5552f0c3c48b6486f8768f51d0683b4" title="Computes planet position, velocity using the ephemeris dataset" alt="" coords="583,5,767,32"/>
+<area shape="rect" title="compute astronomical arguments: f={l,l&#39;,F,D,OMG} (rad)" alt="" coords="1072,31,1149,57"/>
+<area shape="rect" href="eph__planet_8c.html#a261b3076bbc0e0215b3fdad20afb4fea" title="Computes the Sun&#39;s and Moon&#39;s geocentric position using a low precision analytical series" alt="" coords="815,31,1024,57"/>
+<area shape="rect" href="eph__planet_8c.html#ae5552f0c3c48b6486f8768f51d0683b4" title="Computes planet position, velocity using the ephemeris dataset" alt="" coords="583,31,767,57"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="179,5,309,32"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a80bd1c842c3999b45ad108238c757d97" title="compute the third body planets gravitational accelerations to the spacecraft" alt="" coords="357,31,535,57"/>
+<area shape="rect" href="pod__embed_8c.html#a0163e41a92a7ad2418bd596e61bb5a2f" title="update measurement clock solution" alt="" coords="363,82,529,123"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,5,131,32"/>
 </map>
 </div>
@@ -322,9 +326,10 @@ false </dd></dl>
 <div class="dyncontent">
 <div class="center"><img src="eph__planet_8c_ae5552f0c3c48b6486f8768f51d0683b4_icgraph.png" border="0" usemap="#aeph__planet_8c_ae5552f0c3c48b6486f8768f51d0683b4_icgraph" alt=""/></div>
 <map name="aeph__planet_8c_ae5552f0c3c48b6486f8768f51d0683b4_icgraph" id="aeph__planet_8c_ae5552f0c3c48b6486f8768f51d0683b4_icgraph">
-<area shape="rect" title="Computes planet position, velocity using the ephemeris dataset" alt="" coords="583,5,767,32"/>
+<area shape="rect" title="Computes planet position, velocity using the ephemeris dataset" alt="" coords="583,31,767,57"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="179,5,309,32"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a80bd1c842c3999b45ad108238c757d97" title="compute the third body planets gravitational accelerations to the spacecraft" alt="" coords="357,31,535,57"/>
+<area shape="rect" href="pod__embed_8c.html#a0163e41a92a7ad2418bd596e61bb5a2f" title="update measurement clock solution" alt="" coords="363,82,529,123"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,5,131,32"/>
 </map>
 </div>
@@ -386,10 +391,11 @@ false </dd></dl>
 <div class="dyncontent">
 <div class="center"><img src="eph__planet_8c_a261b3076bbc0e0215b3fdad20afb4fea_icgraph.png" border="0" usemap="#aeph__planet_8c_a261b3076bbc0e0215b3fdad20afb4fea_icgraph" alt=""/></div>
 <map name="aeph__planet_8c_a261b3076bbc0e0215b3fdad20afb4fea_icgraph" id="aeph__planet_8c_a261b3076bbc0e0215b3fdad20afb4fea_icgraph">
-<area shape="rect" title="Computes the Sun&#39;s and Moon&#39;s geocentric position using a low precision analytical series" alt="" coords="815,5,1024,32"/>
-<area shape="rect" href="eph__planet_8c.html#ae5552f0c3c48b6486f8768f51d0683b4" title="Computes planet position, velocity using the ephemeris dataset" alt="" coords="583,5,767,32"/>
+<area shape="rect" title="Computes the Sun&#39;s and Moon&#39;s geocentric position using a low precision analytical series" alt="" coords="815,31,1024,57"/>
+<area shape="rect" href="eph__planet_8c.html#ae5552f0c3c48b6486f8768f51d0683b4" title="Computes planet position, velocity using the ephemeris dataset" alt="" coords="583,31,767,57"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="179,5,309,32"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a80bd1c842c3999b45ad108238c757d97" title="compute the third body planets gravitational accelerations to the spacecraft" alt="" coords="357,31,535,57"/>
+<area shape="rect" href="pod__embed_8c.html#a0163e41a92a7ad2418bd596e61bb5a2f" title="update measurement clock solution" alt="" coords="363,82,529,123"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,5,131,32"/>
 </map>
 </div>
@@ -709,14 +715,14 @@ false </dd></dl>
 </div>
 </div>
 <h2 class="groupheader">变量说明</h2>
-<a id="a9c1583c1724c18d24a79a238913f2daa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c1583c1724c18d24a79a238913f2daa">&#9670;&nbsp;</a></span>PLANET_GM</h2>
+<a id="a1a5fd47ac5574c323d9669fd3a38939c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a5fd47ac5574c323d9669fd3a38939c">&#9670;&nbsp;</a></span>PLANET_GM</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double PLANET_GM[<a class="el" href="eph__planet_8h.html#abfbdc36b660377170f887d9f1e3270fda74e9881a87117a922cbcc40708a8fde5">TOTAL_PLANET</a>+1]</td>
+          <td class="memname">const double PLANET_GM[<a class="el" href="eph__planet_8h.html#abfbdc36b660377170f887d9f1e3270fda74e9881a87117a922cbcc40708a8fde5">TOTAL_PLANET</a>+1]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -755,7 +761,7 @@ false </dd></dl>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="eph__planet_8c.html">eph_planet.c</a></li>
-    <li class="footer">生成于 2024年 七月 11日 星期四 15:37:52 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">生成于 2024年 十二月 1日 星期日 15:43:25 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

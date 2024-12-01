@@ -108,7 +108,8 @@ $(document).ready(function(){initNavTree('common__function_8c.html',''); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">函数</a>  </div>
+<a href="#func-members">函数</a> &#124;
+<a href="#var-members">变量</a>  </div>
   <div class="headertitle">
 <div class="title">common_function.c 文件参考</div>  </div>
 </div><!--header-->
@@ -125,16 +126,16 @@ common_function.c 的引用(Include)关系图:</div>
 <area shape="rect" title="Implementations of common functions" alt="" coords="209,5,360,32"/>
 <area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="209,80,360,107"/>
 <area shape="rect" title=" " alt="" coords="5,155,76,181"/>
-<area shape="rect" title=" " alt="" coords="153,229,224,256"/>
-<area shape="rect" title=" " alt="" coords="61,229,129,256"/>
-<area shape="rect" title=" " alt="" coords="249,229,315,256"/>
-<area shape="rect" title=" " alt="" coords="340,229,411,256"/>
-<area shape="rect" href="corbit__const_8h.html" title="Declarations for all the constants in corbit project" alt="" coords="575,229,688,256"/>
+<area shape="rect" title=" " alt="" coords="152,229,223,256"/>
+<area shape="rect" title=" " alt="" coords="60,229,128,256"/>
+<area shape="rect" title=" " alt="" coords="342,229,409,256"/>
+<area shape="rect" title=" " alt="" coords="247,229,317,256"/>
+<area shape="rect" href="corbit__const_8h.html" title="Declarations for all the constants in corbit project" alt="" coords="572,229,685,256"/>
 <area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="203,155,287,181"/>
 <area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="413,155,485,181"/>
-<area shape="rect" title=" " alt="" coords="495,304,578,331"/>
-<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="603,304,665,331"/>
-<area shape="rect" title=" " alt="" coords="435,229,499,256"/>
+<area shape="rect" title=" " alt="" coords="493,304,575,331"/>
+<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="600,304,663,331"/>
+<area shape="rect" title=" " alt="" coords="433,229,497,256"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -152,12 +153,32 @@ common_function.c 的引用(Include)关系图:</div>
 <tr class="memitem:aaef5d58a73129fc721894e3c2b0e061d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__function_8c.html#aaef5d58a73129fc721894e3c2b0e061d">my_console_logger</a> (ulog_level_t severity, char *msg)</td></tr>
 <tr class="memdesc:aaef5d58a73129fc721894e3c2b0e061d"><td class="mdescLeft">&#160;</td><td class="mdescRight">log to console for the ULOG library  <a href="common__function_8c.html#aaef5d58a73129fc721894e3c2b0e061d">更多...</a><br /></td></tr>
 <tr class="separator:aaef5d58a73129fc721894e3c2b0e061d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85a03123ae20efc3b06434f616140943"><td class="memItemLeft" align="right" valign="top"><a id="a85a03123ae20efc3b06434f616140943"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>getbitu</b> (const unsigned char *buff, int pos, int len)</td></tr>
+<tr class="separator:a85a03123ae20efc3b06434f616140943"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb03d815c5c9706c5e9b04a8edee7900"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__function_8c.html#afb03d815c5c9706c5e9b04a8edee7900">getbits</a> (const unsigned char *buff, int pos, int len)</td></tr>
+<tr class="separator:afb03d815c5c9706c5e9b04a8edee7900"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c05395dda020aa4e0f22ba5380fdc63"><td class="memItemLeft" align="right" valign="top"><a id="a9c05395dda020aa4e0f22ba5380fdc63"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setbitu</b> (unsigned char *buff, int pos, int len, unsigned int data)</td></tr>
+<tr class="separator:a9c05395dda020aa4e0f22ba5380fdc63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a532dceb14654d78e3a771c6e8d416d8e"><td class="memItemLeft" align="right" valign="top"><a id="a532dceb14654d78e3a771c6e8d416d8e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setbits</b> (unsigned char *buff, int pos, int len, int data)</td></tr>
+<tr class="separator:a532dceb14654d78e3a771c6e8d416d8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4fa2bdfc37a049de43830a234853745"><td class="memItemLeft" align="right" valign="top"><a id="ab4fa2bdfc37a049de43830a234853745"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>crc32</b> (const unsigned char *buff, int len)</td></tr>
+<tr class="separator:ab4fa2bdfc37a049de43830a234853745"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a143f5fa72a5c2aa56901ad78710eb4c2"><td class="memItemLeft" align="right" valign="top"><a id="a143f5fa72a5c2aa56901ad78710eb4c2"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>crc24q</b> (const unsigned char *buff, int len)</td></tr>
+<tr class="separator:a143f5fa72a5c2aa56901ad78710eb4c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba1008200c94869ddfeb5285fd454215"><td class="memItemLeft" align="right" valign="top"><a id="aba1008200c94869ddfeb5285fd454215"></a>
+unsigned short&#160;</td><td class="memItemRight" valign="bottom"><b>crc16</b> (const unsigned char *buff, int len)</td></tr>
+<tr class="separator:aba1008200c94869ddfeb5285fd454215"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2af10d6c8dd2998483933b798babbc9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__function_8c.html#a2af10d6c8dd2998483933b798babbc9a">string_trim</a> (char *s)</td></tr>
 <tr class="memdesc:a2af10d6c8dd2998483933b798babbc9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">trim the white spaces at the leading and trailling of string s  <a href="common__function_8c.html#a2af10d6c8dd2998483933b798babbc9a">更多...</a><br /></td></tr>
 <tr class="separator:a2af10d6c8dd2998483933b798babbc9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acce846c0553ae9eabbba4967f11430e4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__function_8c.html#acce846c0553ae9eabbba4967f11430e4">string_split</a> (char *string_raw, char *seps, char outstr[][MAXLEN_STRING])</td></tr>
-<tr class="memdesc:acce846c0553ae9eabbba4967f11430e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">split the string_raw into outstr  <a href="common__function_8c.html#acce846c0553ae9eabbba4967f11430e4">更多...</a><br /></td></tr>
-<tr class="separator:acce846c0553ae9eabbba4967f11430e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff3a0cfee05e8e9f129d44495b317356"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__function_8c.html#aff3a0cfee05e8e9f129d44495b317356">string_split</a> (const char *string_raw, char *seps, char outstr[][MAXLEN_STRING])</td></tr>
+<tr class="memdesc:aff3a0cfee05e8e9f129d44495b317356"><td class="mdescLeft">&#160;</td><td class="mdescRight">split the string_raw into outstr  <a href="common__function_8c.html#aff3a0cfee05e8e9f129d44495b317356">更多...</a><br /></td></tr>
+<tr class="separator:aff3a0cfee05e8e9f129d44495b317356"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7550ea9dda4a343f111a413549fd0cbf"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__function_8c.html#a7550ea9dda4a343f111a413549fd0cbf">search_max_array</a> (double *arr, int left, int right)</td></tr>
 <tr class="memdesc:a7550ea9dda4a343f111a413549fd0cbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">search for the maximum in the array arr, start from index left and end with index right  <a href="common__function_8c.html#a7550ea9dda4a343f111a413549fd0cbf">更多...</a><br /></td></tr>
 <tr class="separator:a7550ea9dda4a343f111a413549fd0cbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -191,6 +212,15 @@ common_function.c 的引用(Include)关系图:</div>
 <tr class="memitem:add627e23ebdc7640539c083d331a9740"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__function_8c.html#add627e23ebdc7640539c083d331a9740">azel</a> (double *blh, double *dxyz, double *azel)</td></tr>
 <tr class="memdesc:add627e23ebdc7640539c083d331a9740"><td class="mdescLeft">&#160;</td><td class="mdescRight">compute the azimuth and elevation for ground users, this is not for the platform coordiante, but for the ground ENU cooridnates.  <a href="common__function_8c.html#add627e23ebdc7640539c083d331a9740">更多...</a><br /></td></tr>
 <tr class="separator:add627e23ebdc7640539c083d331a9740"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+变量</h2></td></tr>
+<tr class="memitem:ae09ed211f817833f85c14a96d7cc4f2a"><td class="memItemLeft" align="right" valign="top"><a id="ae09ed211f817833f85c14a96d7cc4f2a"></a>
+const unsigned short&#160;</td><td class="memItemRight" valign="bottom"><b>tbl_CRC16</b> []</td></tr>
+<tr class="separator:ae09ed211f817833f85c14a96d7cc4f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af382517e9b17cf274af241074fa9f7ff"><td class="memItemLeft" align="right" valign="top"><a id="af382517e9b17cf274af241074fa9f7ff"></a>
+const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>tbl_CRC24Q</b> []</td></tr>
+<tr class="separator:af382517e9b17cf274af241074fa9f7ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
 <div class="textblock"><p>Implementations of common functions </p>
@@ -258,13 +288,15 @@ common_function.c 的引用(Include)关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="common__function_8c_add627e23ebdc7640539c083d331a9740_icgraph.png" border="0" usemap="#acommon__function_8c_add627e23ebdc7640539c083d331a9740_icgraph" alt=""/></div>
 <map name="acommon__function_8c_add627e23ebdc7640539c083d331a9740_icgraph" id="acommon__function_8c_add627e23ebdc7640539c083d331a9740_icgraph">
-<area shape="rect" title="compute the azimuth and elevation for ground users, this is not for the platform coordiante,..." alt="" coords="225,132,275,159"/>
-<area shape="rect" href="common__function_8c.html#ac66f69bcf146103e8684e9c73fdd40b8" title="compute the signal azimuth and elevation in the platform coordinate system" alt="" coords="30,5,153,32"/>
-<area shape="rect" href="obs__processing_8c.html#a9d14d3a122897a640ea0b86f7ba30d5d" title="Mapping function based on BeiDou ICD 2017 B1c" alt="" coords="22,56,161,83"/>
-<area shape="rect" href="obs__processing_8c.html#ae42cfc50d8f32a55b2f21f2e7689da2a" title=" " alt="" coords="20,107,163,133"/>
-<area shape="rect" href="obs__processing_8c.html#a5f9e439d09365a355f9deccd605fa7e3" title=" " alt="" coords="5,157,177,184"/>
-<area shape="rect" href="obs__processing_8c.html#a2cface4b06241e5bb461618566f7beaf" title="This function calculate B1I signal ionospheric delay in meters" alt="" coords="31,208,152,235"/>
-<area shape="rect" href="obs__processing_8c.html#a0faea59f5d5e2773df871cc0217ba798" title="This function calculate GPS L1 signal ionospheric delay in meters" alt="" coords="31,259,151,285"/>
+<area shape="rect" title="compute the azimuth and elevation for ground users, this is not for the platform coordiante,..." alt="" coords="364,183,413,209"/>
+<area shape="rect" href="common__function_8c.html#ac66f69bcf146103e8684e9c73fdd40b8" title="compute the signal azimuth and elevation in the platform coordinate system" alt="" coords="169,5,291,32"/>
+<area shape="rect" href="obs__processing_8c.html#a9d14d3a122897a640ea0b86f7ba30d5d" title="Mapping function based on BeiDou ICD 2017 B1c" alt="" coords="161,56,299,83"/>
+<area shape="rect" href="obs__processing_8c.html#ae42cfc50d8f32a55b2f21f2e7689da2a" title=" " alt="" coords="159,107,301,133"/>
+<area shape="rect" href="obs__processing_8c.html#a5f9e439d09365a355f9deccd605fa7e3" title=" " alt="" coords="144,157,316,184"/>
+<area shape="rect" href="obs__processing_8c.html#a2cface4b06241e5bb461618566f7beaf" title="This function calculate B1I signal ionospheric delay in meters" alt="" coords="169,208,291,235"/>
+<area shape="rect" href="obs__processing_8c.html#a0faea59f5d5e2773df871cc0217ba798" title="This function calculate GPS L1 signal ionospheric delay in meters" alt="" coords="170,259,290,285"/>
+<area shape="rect" href="obs__processing_8c.html#abbd3e62b0d56d9534f40464d6f12038b" title="Niell Mapping Function" alt="" coords="204,309,256,336"/>
+<area shape="rect" href="obs__processing_8c.html#a2f0ffa805f83647a8a6aaceffeb0fbdf" title="calculate tropospheric delay" alt="" coords="5,335,96,361"/>
 </map>
 </div>
 
@@ -555,7 +587,7 @@ common_function.c 的引用(Include)关系图:</div>
 <div class="center"><img src="common__function_8c_ab6619560de209ae8da1b6e8aeb728c7e_cgraph.png" border="0" usemap="#acommon__function_8c_ab6619560de209ae8da1b6e8aeb728c7e_cgraph" alt=""/></div>
 <map name="acommon__function_8c_ab6619560de209ae8da1b6e8aeb728c7e_cgraph" id="acommon__function_8c_ab6619560de209ae8da1b6e8aeb728c7e_cgraph">
 <area shape="rect" title="compute the orbital radial, tangent and along track unit vector" alt="" coords="5,31,72,57"/>
-<area shape="rect" href="mathlib_8c.html#a56a5431504b9f6ad43a8ac6e5a13ab01" title="cross product of a 3&#45;element vector A and 3&#45;element vector vector B" alt="" coords="135,5,240,32"/>
+<area shape="rect" href="mathlib_8c.html#a3103990859cfd0ec41ba1307255cddfe" title="cross product of a 3&#45;element vector A and 3&#45;element vector vector B" alt="" coords="135,5,240,32"/>
 <area shape="rect" href="mathlib_8c.html#a80599db69e4fe1ff1f2242398ba2b09d" title="normalize a vector of n elements" alt="" coords="120,56,255,83"/>
 <area shape="rect" href="mathlib_8c.html#ad3c2d5b0aab71d0ba94b00db096dfd24" title="get the norm of vector x" alt="" coords="303,56,359,83"/>
 </map>
@@ -565,11 +597,10 @@ common_function.c 的引用(Include)关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="common__function_8c_ab6619560de209ae8da1b6e8aeb728c7e_icgraph.png" border="0" usemap="#acommon__function_8c_ab6619560de209ae8da1b6e8aeb728c7e_icgraph" alt=""/></div>
 <map name="acommon__function_8c_ab6619560de209ae8da1b6e8aeb728c7e_icgraph" id="acommon__function_8c_ab6619560de209ae8da1b6e8aeb728c7e_icgraph">
-<area shape="rect" title="compute the orbital radial, tangent and along track unit vector" alt="" coords="560,56,627,83"/>
-<area shape="rect" href="attitude_8c.html#a7ab5ac205d4327c856fe36a1df75d20d" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="367,5,503,32"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="179,81,309,108"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a75fa6528ac0400abe9d3df60a74ee613" title=" " alt="" coords="357,107,512,133"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,81,131,108"/>
+<area shape="rect" title="compute the orbital radial, tangent and along track unit vector" alt="" coords="363,31,429,57"/>
+<area shape="rect" href="attitude_8c.html#a7ab5ac205d4327c856fe36a1df75d20d" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="179,5,315,32"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="181,56,312,83"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,56,131,83"/>
 </map>
 </div>
 
@@ -686,6 +717,43 @@ common_function.c 的引用(Include)关系图:</div>
 
 </div>
 </div>
+<a id="afb03d815c5c9706c5e9b04a8edee7900"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb03d815c5c9706c5e9b04a8edee7900">&#9670;&nbsp;</a></span>getbits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int getbits </td>
+          <td>(</td>
+          <td class="paramtype">const unsigned char *&#160;</td>
+          <td class="paramname"><em>buff</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>set unsigned/signed bits -------------------------------------------------&mdash; set unsigned/signed bits to byte data args : unsigned char *buff IO byte data int pos I bit position from start of data (bits) int len I bit length (bits) (len&lt;=32) (unsigned) int I unsigned/signed data </p>
+<h2><a class="anchor" id="autotoc_md1"></a>
+return : none</h2>
+
+</div>
+</div>
 <a id="a1be4a582e8e40037a39906e1c60d43b1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1be4a582e8e40037a39906e1c60d43b1">&#9670;&nbsp;</a></span>hex_str_to_byte()</h2>
 
@@ -760,10 +828,12 @@ common_function.c 的引用(Include)关系图:</div>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">severity</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">msg</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">msg</td><td>extract unsigned/signed bits ---------------------------------------------&mdash; extract unsigned/signed bits from byte data args : unsigned char *buff I byte data int pos I bit position from start of data (bits) int len I bit length (bits) (len&lt;=32) </td></tr>
   </table>
   </dd>
 </dl>
+<h2><a class="anchor" id="autotoc_md0"></a>
+return : extracted unsigned/signed bits</h2>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
@@ -885,8 +955,8 @@ common_function.c 的引用(Include)关系图:</div>
 
 </div>
 </div>
-<a id="acce846c0553ae9eabbba4967f11430e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acce846c0553ae9eabbba4967f11430e4">&#9670;&nbsp;</a></span>string_split()</h2>
+<a id="aff3a0cfee05e8e9f129d44495b317356"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff3a0cfee05e8e9f129d44495b317356">&#9670;&nbsp;</a></span>string_split()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -894,7 +964,7 @@ common_function.c 的引用(Include)关系图:</div>
         <tr>
           <td class="memname">int string_split </td>
           <td>(</td>
-          <td class="paramtype">char *&#160;</td>
+          <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>string_raw</em>, </td>
         </tr>
         <tr>
@@ -1013,14 +1083,16 @@ common_function.c 的引用(Include)关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="common__function_8c_af6c1560282acf2cf5358826df8768a3b_icgraph.png" border="0" usemap="#acommon__function_8c_af6c1560282acf2cf5358826df8768a3b_icgraph" alt=""/></div>
 <map name="acommon__function_8c_af6c1560282acf2cf5358826df8768a3b_icgraph" id="acommon__function_8c_af6c1560282acf2cf5358826df8768a3b_icgraph">
-<area shape="rect" title="convert from ecef xyz to ENU coordinates" alt="" coords="323,132,400,159"/>
-<area shape="rect" href="common__function_8c.html#add627e23ebdc7640539c083d331a9740" title="compute the azimuth and elevation for ground users, this is not for the platform coordiante,..." alt="" coords="225,132,275,159"/>
-<area shape="rect" href="common__function_8c.html#ac66f69bcf146103e8684e9c73fdd40b8" title="compute the signal azimuth and elevation in the platform coordinate system" alt="" coords="30,5,153,32"/>
-<area shape="rect" href="obs__processing_8c.html#a9d14d3a122897a640ea0b86f7ba30d5d" title="Mapping function based on BeiDou ICD 2017 B1c" alt="" coords="22,56,161,83"/>
-<area shape="rect" href="obs__processing_8c.html#ae42cfc50d8f32a55b2f21f2e7689da2a" title=" " alt="" coords="20,107,163,133"/>
-<area shape="rect" href="obs__processing_8c.html#a5f9e439d09365a355f9deccd605fa7e3" title=" " alt="" coords="5,157,177,184"/>
-<area shape="rect" href="obs__processing_8c.html#a2cface4b06241e5bb461618566f7beaf" title="This function calculate B1I signal ionospheric delay in meters" alt="" coords="31,208,152,235"/>
-<area shape="rect" href="obs__processing_8c.html#a0faea59f5d5e2773df871cc0217ba798" title="This function calculate GPS L1 signal ionospheric delay in meters" alt="" coords="31,259,151,285"/>
+<area shape="rect" title="convert from ecef xyz to ENU coordinates" alt="" coords="461,183,539,209"/>
+<area shape="rect" href="common__function_8c.html#add627e23ebdc7640539c083d331a9740" title="compute the azimuth and elevation for ground users, this is not for the platform coordiante,..." alt="" coords="364,183,413,209"/>
+<area shape="rect" href="common__function_8c.html#ac66f69bcf146103e8684e9c73fdd40b8" title="compute the signal azimuth and elevation in the platform coordinate system" alt="" coords="169,5,291,32"/>
+<area shape="rect" href="obs__processing_8c.html#a9d14d3a122897a640ea0b86f7ba30d5d" title="Mapping function based on BeiDou ICD 2017 B1c" alt="" coords="161,56,299,83"/>
+<area shape="rect" href="obs__processing_8c.html#ae42cfc50d8f32a55b2f21f2e7689da2a" title=" " alt="" coords="159,107,301,133"/>
+<area shape="rect" href="obs__processing_8c.html#a5f9e439d09365a355f9deccd605fa7e3" title=" " alt="" coords="144,157,316,184"/>
+<area shape="rect" href="obs__processing_8c.html#a2cface4b06241e5bb461618566f7beaf" title="This function calculate B1I signal ionospheric delay in meters" alt="" coords="169,208,291,235"/>
+<area shape="rect" href="obs__processing_8c.html#a0faea59f5d5e2773df871cc0217ba798" title="This function calculate GPS L1 signal ionospheric delay in meters" alt="" coords="170,259,290,285"/>
+<area shape="rect" href="obs__processing_8c.html#abbd3e62b0d56d9534f40464d6f12038b" title="Niell Mapping Function" alt="" coords="204,309,256,336"/>
+<area shape="rect" href="obs__processing_8c.html#a2f0ffa805f83647a8a6aaceffeb0fbdf" title="calculate tropospheric delay" alt="" coords="5,335,96,361"/>
 </map>
 </div>
 
@@ -1072,17 +1144,19 @@ common_function.c 的引用(Include)关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="common__function_8c_a247d821e9b075458eaa206d3770dc8a2_icgraph.png" border="0" usemap="#acommon__function_8c_a247d821e9b075458eaa206d3770dc8a2_icgraph" alt=""/></div>
 <map name="acommon__function_8c_a247d821e9b075458eaa206d3770dc8a2_icgraph" id="acommon__function_8c_a247d821e9b075458eaa206d3770dc8a2_icgraph">
-<area shape="rect" title="compute the matrix from ecef xyz to ENU coordinates https://gssc.esa.int/navipedia/index...." alt="" coords="507,81,633,108"/>
-<area shape="rect" href="attitude_8c.html#a7ab5ac205d4327c856fe36a1df75d20d" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="323,31,459,57"/>
-<area shape="rect" href="common__function_8c.html#aa59f50e89b5487e59f31798a289b93a6" title="convert from enu to ecef xyz" alt="" coords="352,81,429,108"/>
-<area shape="rect" href="common__function_8c.html#af6c1560282acf2cf5358826df8768a3b" title="convert from ecef xyz to ENU coordinates" alt="" coords="352,132,429,159"/>
-<area shape="rect" href="common__function_8c.html#add627e23ebdc7640539c083d331a9740" title="compute the azimuth and elevation for ground users, this is not for the platform coordiante,..." alt="" coords="225,132,275,159"/>
-<area shape="rect" href="common__function_8c.html#ac66f69bcf146103e8684e9c73fdd40b8" title="compute the signal azimuth and elevation in the platform coordinate system" alt="" coords="30,5,153,32"/>
-<area shape="rect" href="obs__processing_8c.html#a9d14d3a122897a640ea0b86f7ba30d5d" title="Mapping function based on BeiDou ICD 2017 B1c" alt="" coords="22,56,161,83"/>
-<area shape="rect" href="obs__processing_8c.html#ae42cfc50d8f32a55b2f21f2e7689da2a" title=" " alt="" coords="20,107,163,133"/>
-<area shape="rect" href="obs__processing_8c.html#a5f9e439d09365a355f9deccd605fa7e3" title=" " alt="" coords="5,157,177,184"/>
-<area shape="rect" href="obs__processing_8c.html#a2cface4b06241e5bb461618566f7beaf" title="This function calculate B1I signal ionospheric delay in meters" alt="" coords="31,208,152,235"/>
-<area shape="rect" href="obs__processing_8c.html#a0faea59f5d5e2773df871cc0217ba798" title="This function calculate GPS L1 signal ionospheric delay in meters" alt="" coords="31,259,151,285"/>
+<area shape="rect" title="compute the matrix from ecef xyz to ENU coordinates https://gssc.esa.int/navipedia/index...." alt="" coords="645,132,772,159"/>
+<area shape="rect" href="attitude_8c.html#a7ab5ac205d4327c856fe36a1df75d20d" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="461,81,597,108"/>
+<area shape="rect" href="common__function_8c.html#aa59f50e89b5487e59f31798a289b93a6" title="convert from enu to ecef xyz" alt="" coords="491,132,568,159"/>
+<area shape="rect" href="common__function_8c.html#af6c1560282acf2cf5358826df8768a3b" title="convert from ecef xyz to ENU coordinates" alt="" coords="491,183,568,209"/>
+<area shape="rect" href="common__function_8c.html#add627e23ebdc7640539c083d331a9740" title="compute the azimuth and elevation for ground users, this is not for the platform coordiante,..." alt="" coords="364,183,413,209"/>
+<area shape="rect" href="common__function_8c.html#ac66f69bcf146103e8684e9c73fdd40b8" title="compute the signal azimuth and elevation in the platform coordinate system" alt="" coords="169,5,291,32"/>
+<area shape="rect" href="obs__processing_8c.html#a9d14d3a122897a640ea0b86f7ba30d5d" title="Mapping function based on BeiDou ICD 2017 B1c" alt="" coords="161,56,299,83"/>
+<area shape="rect" href="obs__processing_8c.html#ae42cfc50d8f32a55b2f21f2e7689da2a" title=" " alt="" coords="159,107,301,133"/>
+<area shape="rect" href="obs__processing_8c.html#a5f9e439d09365a355f9deccd605fa7e3" title=" " alt="" coords="144,157,316,184"/>
+<area shape="rect" href="obs__processing_8c.html#a2cface4b06241e5bb461618566f7beaf" title="This function calculate B1I signal ionospheric delay in meters" alt="" coords="169,208,291,235"/>
+<area shape="rect" href="obs__processing_8c.html#a0faea59f5d5e2773df871cc0217ba798" title="This function calculate GPS L1 signal ionospheric delay in meters" alt="" coords="170,259,290,285"/>
+<area shape="rect" href="obs__processing_8c.html#abbd3e62b0d56d9534f40464d6f12038b" title="Niell Mapping Function" alt="" coords="204,309,256,336"/>
+<area shape="rect" href="obs__processing_8c.html#a2f0ffa805f83647a8a6aaceffeb0fbdf" title="calculate tropospheric delay" alt="" coords="5,335,96,361"/>
 </map>
 </div>
 
@@ -1095,7 +1169,7 @@ common_function.c 的引用(Include)关系图:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="common__function_8c.html">common_function.c</a></li>
-    <li class="footer">生成于 2024年 七月 11日 星期四 15:37:52 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">生成于 2024年 十二月 1日 星期日 15:43:24 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

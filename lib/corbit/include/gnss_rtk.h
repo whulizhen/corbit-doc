@@ -27,7 +27,7 @@ extern "C"
 #include "obs_processing.h"
 
 // the number of parameter, 3 pos + trop + iono + Ns ambiguity
-#define MAX_NX (3 + 3 + 5 + MAXSAT_PER_EPOCH * MAXNUM_FREQ)
+#define MAXNUM_NX (3 + 3 + 5 + MAXSAT_PER_EPOCH * MAXNUM_FREQ)
 #define INIT_ZWD 0.15
 
     typedef struct _RTK_CONFIG_
@@ -64,6 +64,15 @@ extern "C"
         double interval_sec; /* time difference between current and previous (s) */
         bool IF_combination; // use IF combination or not
 
+
+         // these are middle variables for zd_omc computation
+        PARAM_TYPE param_list[MAXNUM_NX];
+        int index_param_X[MAXNUM_NX];  // the index of params in the X vector, memeory 74*4=296 bytes
+        int num_param;
+        // these are for the EKF
+        double P[MAXNUM_NX * MAXNUM_NX]; /**< covariance of the state X, memory 74*74*8=43808 bytes*/
+        double X[MAXNUM_NX];      
+
         int idx_xs_pos;
         int nx_pos;
         int idx_xs_vel;
@@ -78,12 +87,9 @@ extern "C"
         int nx_amb;
 
         int nx;
-        PARAM_TYPE param_types[MAX_NX];
-        double X[MAX_NX];
-        double P[MAX_NX * MAX_NX];
 
         // the design matrix
-        double H[MAXOBS_PER_SAT * MAXSAT_PER_EPOCH * MAX_NX]; // maxnum obs is  MAXOBS_PER_SAT*MAXSAT_PER_EPOCH, maxnum parameters is MAX_NX
+        double H[MAXOBS_PER_SAT * MAXSAT_PER_EPOCH * MAXNUM_NX]; // maxnum obs is  MAXOBS_PER_SAT*MAXSAT_PER_EPOCH, maxnum parameters is MAX_NX
         // the observation vector
         double L[MAXOBS_PER_SAT * MAXSAT_PER_EPOCH];
 

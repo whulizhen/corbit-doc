@@ -1,4 +1,4 @@
 <map id="correct_PoleTide" name="correct_PoleTide">
-<area shape="rect" id="node1" title="compute the C and S corrections due to pole tide" alt="" coords="5,5,136,32"/>
+<area shape="rect" id="node1" title="compute the C and S corrections [normalised] due to pole tide (solid earth and ocean pole tide)" alt="" coords="5,5,136,32"/>
 <area shape="rect" id="node2" href="$earth__rotation__param_8c.html#a83196d8ce9c24a904aea738c23c23a83" title="compute the mean polar motion" alt="" coords="184,5,336,32"/>
 </map>

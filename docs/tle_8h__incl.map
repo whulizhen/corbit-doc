@@ -1,18 +1,18 @@
 <map id="tle.h" name="tle.h">
-<area shape="rect" id="node1" title="Header file for TLE computation" alt="" coords="202,5,253,32"/>
-<area shape="rect" id="node2" href="$corbit__const_8h.html" title="Declarations for all the constants in corbit project" alt="" coords="357,304,471,331"/>
-<area shape="rect" id="node5" href="$gtime_8h.html" title="Declarations of time operations functions" alt="" coords="78,229,150,256"/>
-<area shape="rect" id="node11" href="$earth__rotation__param_8h.html" title="Declarations of earth rotation parameters computation" alt="" coords="493,80,668,107"/>
-<area shape="rect" id="node14" href="$mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="372,229,456,256"/>
-<area shape="rect" id="node3" title=" " alt="" coords="622,379,705,405"/>
-<area shape="rect" id="node4" href="$ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="383,379,445,405"/>
-<area shape="rect" id="node6" title=" " alt="" coords="101,304,165,331"/>
-<area shape="rect" id="node7" title=" " alt="" coords="602,304,669,331"/>
-<area shape="rect" id="node8" title=" " alt="" coords="503,304,573,331"/>
-<area shape="rect" id="node9" title=" " alt="" coords="701,304,769,331"/>
-<area shape="rect" id="node10" title=" " alt="" coords="5,304,76,331"/>
-<area shape="rect" id="node12" href="$iau__function_8h.html" title="Declarations for iau functions" alt="" coords="582,229,697,256"/>
-<area shape="rect" id="node13" href="$iers__function_8h.html" title="Declarations for IERS functions" alt="" coords="772,229,891,256"/>
-<area shape="rect" id="node15" href="$common__function_8h.html" title="Declarations of common functions" alt="" coords="225,155,376,181"/>
-<area shape="rect" id="node16" title=" " alt="" coords="225,229,296,256"/>
+<area shape="rect" id="node1" title="Header file for TLE computation" alt="" coords="711,5,762,32"/>
+<area shape="rect" id="node2" href="$corbit__const_8h.html" title="Declarations for all the constants in corbit project" alt="" coords="504,304,617,331"/>
+<area shape="rect" id="node5" href="$gtime_8h.html" title="Declarations of time operations functions" alt="" coords="98,229,170,256"/>
+<area shape="rect" id="node10" href="$earth__rotation__param_8h.html" title="Declarations of earth rotation parameters computation" alt="" coords="438,80,613,107"/>
+<area shape="rect" id="node14" href="$mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="826,229,910,256"/>
+<area shape="rect" id="node3" title=" " alt="" coords="160,379,243,405"/>
+<area shape="rect" id="node4" href="$ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="529,379,592,405"/>
+<area shape="rect" id="node6" title=" " alt="" coords="170,304,234,331"/>
+<area shape="rect" id="node7" title=" " alt="" coords="28,304,95,331"/>
+<area shape="rect" id="node8" title=" " alt="" coords="316,304,386,331"/>
+<area shape="rect" id="node9" title=" " alt="" coords="412,304,480,331"/>
+<area shape="rect" id="node11" title=" " alt="" coords="964,304,1034,331"/>
+<area shape="rect" id="node12" href="$iau__function_8h.html" title="Declarations for iau functions" alt="" coords="388,229,503,256"/>
+<area shape="rect" id="node13" href="$iers__function_8h.html" title="Declarations for IERS functions" alt="" coords="194,229,313,256"/>
+<area shape="rect" id="node15" href="$common__function_8h.html" title="Declarations of common functions" alt="" coords="516,155,666,181"/>
+<area shape="rect" id="node16" title=" " alt="" coords="629,229,700,256"/>
 </map>

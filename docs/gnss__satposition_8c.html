@@ -123,21 +123,24 @@ gnss_satposition.c 的引用(Include)关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="gnss__satposition_8c__incl.png" border="0" usemap="#agnss__satposition_8c" alt=""/></div>
 <map name="agnss__satposition_8c" id="agnss__satposition_8c">
-<area shape="rect" title="Implementations for gnss satellite position computation" alt="" coords="87,5,229,32"/>
-<area shape="rect" href="gnss__satposition_8h.html" title="Declarations for gnss satellite position computation" alt="" coords="87,80,229,107"/>
-<area shape="rect" title=" " alt="" coords="33,379,99,405"/>
-<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="185,304,257,331"/>
-<area shape="rect" href="gnss__config_8h.html" title="Declarations for global variable gnssconfig" alt="" coords="165,155,276,181"/>
-<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="332,229,483,256"/>
-<area shape="rect" title=" " alt="" coords="123,379,187,405"/>
-<area shape="rect" title=" " alt="" coords="531,379,601,405"/>
-<area shape="rect" title=" " alt="" coords="263,379,331,405"/>
-<area shape="rect" title=" " alt="" coords="183,453,266,480"/>
-<area shape="rect" title=" " alt="" coords="645,379,716,405"/>
-<area shape="rect" href="corbit__const_8h.html" title="Declarations for all the constants in corbit project" alt="" coords="355,379,468,405"/>
-<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="380,453,443,480"/>
-<area shape="rect" title=" " alt="" coords="541,304,612,331"/>
-<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="433,304,517,331"/>
+<area shape="rect" title="Implementations for gnss satellite position computation" alt="" coords="137,5,279,32"/>
+<area shape="rect" href="gnss__satposition_8h.html" title="Declarations for gnss satellite position computation" alt="" coords="137,80,279,107"/>
+<area shape="rect" title=" " alt="" coords="957,603,1024,629"/>
+<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="195,528,267,555"/>
+<area shape="rect" href="gnss__config_8h.html" title="Declarations for global variable gnssconfig" alt="" coords="613,379,723,405"/>
+<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="347,453,498,480"/>
+<area shape="rect" href="rtcm_8h.html" title="Declarations for decoding and encoding RTCM messages stream" alt="" coords="176,155,240,181"/>
+<area shape="rect" title=" " alt="" coords="219,603,283,629"/>
+<area shape="rect" title=" " alt="" coords="778,603,849,629"/>
+<area shape="rect" title=" " alt="" coords="417,603,485,629"/>
+<area shape="rect" title=" " alt="" coords="721,677,804,704"/>
+<area shape="rect" href="corbit__const_8h.html" title="Declarations for all the constants in corbit project" alt="" coords="81,603,194,629"/>
+<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="106,677,169,704"/>
+<area shape="rect" title=" " alt="" coords="626,603,697,629"/>
+<area shape="rect" title=" " alt="" coords="291,528,362,555"/>
+<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="539,528,623,555"/>
+<area shape="rect" href="gnss__observation_8h.html" title="Declarations for gnss observation operations" alt="" coords="441,229,589,256"/>
+<area shape="rect" href="attitude_8h.html" title="Declarations of attitude operations" alt="" coords="719,304,804,331"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -168,6 +171,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>choose_eph_bds_brdc</
 <tr class="separator:a6558e11f0635254aa199fb61fdbb6663"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac39ee967a9ec899d0b3dbeeb99a7eb08"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gnss__satposition_8c.html#ac39ee967a9ec899d0b3dbeeb99a7eb08">compute_satposvelclk_gal_brdc</a> (int prn, <a class="el" href="structGTime.html">GTime</a> transmission_time, double satposvel[], double satclk[])</td></tr>
 <tr class="separator:ac39ee967a9ec899d0b3dbeeb99a7eb08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e528e08b3119bc2d9839a5e355ec222"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gnss__satposition_8c.html#a5e528e08b3119bc2d9839a5e355ec222">compute_satposvelclk_ssr</a> (<a class="el" href="structGTime.html">GTime</a> transmission_time, int satindex, <a class="el" href="structRTCM__SSR.html">RTCM_SSR</a> *rtcm_ssr, double *deph, double *dclk)</td></tr>
+<tr class="memdesc:a5e528e08b3119bc2d9839a5e355ec222"><td class="mdescLeft">&#160;</td><td class="mdescRight">compute the orbit and clock corrections to the broadcast ephemeris  <a href="gnss__satposition_8c.html#a5e528e08b3119bc2d9839a5e355ec222">更多...</a><br /></td></tr>
+<tr class="separator:a5e528e08b3119bc2d9839a5e355ec222"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad27f2e2bca59b2745d7deefb4bbff718"><td class="memItemLeft" align="right" valign="top"><a id="ad27f2e2bca59b2745d7deefb4bbff718"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>find_closest_eph_prec</b> (<a class="el" href="structEPHREC__PRE.html">EPHREC_PRE</a> *eph_all, int nsize, <a class="el" href="structGTime.html">GTime</a> time_target)</td></tr>
 <tr class="separator:ad27f2e2bca59b2745d7deefb4bbff718"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -628,13 +634,77 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>iono_brdc_QZS_B</b>
 <area shape="rect" href="gtime_8c.html#a09eb4bada2411345995b1238d7b24ca6" title="make TimeMJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="912,5,1063,32"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="a5e528e08b3119bc2d9839a5e355ec222"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e528e08b3119bc2d9839a5e355ec222">&#9670;&nbsp;</a></span>compute_satposvelclk_ssr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool compute_satposvelclk_ssr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structGTime.html">GTime</a>&#160;</td>
+          <td class="paramname"><em>transmission_time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>satindex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structRTCM__SSR.html">RTCM_SSR</a> *&#160;</td>
+          <td class="paramname"><em>rtcm_ssr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>deph</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>dclk</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>compute the orbit and clock corrections to the broadcast ephemeris </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prn</td><td></td></tr>
+    <tr><td class="paramname">transmission_time</td><td></td></tr>
+    <tr><td class="paramname">satposvel</td><td></td></tr>
+    <tr><td class="paramname">satclk</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>double </dd></dl>
 <div class="dynheader">
-这是这个函数的调用关系图:</div>
+函数调用图:</div>
 <div class="dyncontent">
-<div class="center"><img src="gnss__satposition_8c_a9e5ce77a8807ab218537cc756087b7bf_icgraph.png" border="0" usemap="#agnss__satposition_8c_a9e5ce77a8807ab218537cc756087b7bf_icgraph" alt=""/></div>
-<map name="agnss__satposition_8c_a9e5ce77a8807ab218537cc756087b7bf_icgraph" id="agnss__satposition_8c_a9e5ce77a8807ab218537cc756087b7bf_icgraph">
-<area shape="rect" title=" " alt="" coords="165,5,333,47"/>
-<area shape="rect" href="main__test_8c.html#a707c83f5a32132ab60eb8a938b62a04b" title="a test for calculate satpos according to brdc" alt="" coords="5,13,117,39"/>
+<div class="center"><img src="gnss__satposition_8c_a5e528e08b3119bc2d9839a5e355ec222_cgraph.png" border="0" usemap="#agnss__satposition_8c_a5e528e08b3119bc2d9839a5e355ec222_cgraph" alt=""/></div>
+<map name="agnss__satposition_8c_a5e528e08b3119bc2d9839a5e355ec222_cgraph" id="agnss__satposition_8c_a5e528e08b3119bc2d9839a5e355ec222_cgraph">
+<area shape="rect" title="compute the orbit and clock corrections to the broadcast ephemeris" alt="" coords="5,56,200,83"/>
+<area shape="rect" href="gtime_8c.html#ad6b6245ba109ab9a69180a621cba85f6" title="change the time system of a GTime struct" alt="" coords="248,31,439,57"/>
+<area shape="rect" href="gnss__config_8c.html#a7fd0dfc78e583065b3f541581b42b679" title="convert internal satellite index to the satellite system and prn" alt="" coords="279,81,408,108"/>
+<area shape="rect" href="gtime_8c.html#acd5551059ad3aef49860a64878b8cb6e" title="add seconds to GTime struct" alt="" coords="611,5,719,32"/>
+<area shape="rect" href="gtime_8c.html#ae62f6c31c525d0e709ea55012790ed9f" title="convert from TAI to UTC" alt="" coords="487,31,563,57"/>
+<area shape="rect" href="gtime_8c.html#a147ef70ad69a22c2ef64bafccf1071de" title="get the leap seconds in format of TAI&#45;UTC" alt="" coords="624,68,705,95"/>
+<area shape="rect" href="gtime_8c.html#a130e765390b16f22822500994ad12f09" title="add seconds to TimeMJD struct" alt="" coords="767,5,891,32"/>
+<area shape="rect" href="gtime_8c.html#a09eb4bada2411345995b1238d7b24ca6" title="make TimeMJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="939,5,1089,32"/>
 </map>
 </div>
 
@@ -705,11 +775,11 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>iono_brdc_QZS_B</b>
 <p>get the antenna pco, pcv, and installation matrix </p>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
-    <tr><td class="paramname">antinfo</td><td>A <a class="el" href="structANT__INFO.html" title="Antenna information for both the GNSS satellite and the receiver antenna">ANT_INFO</a> pointer to the antenna information </td></tr>
-    <tr><td class="paramname">mjd_now</td><td>mjd now in GPST </td></tr>
-    <tr><td class="paramname">freq</td><td>signal freq (OBSFREQ) </td></tr>
-    <tr><td class="paramname">signal_los</td><td>signal_los_platform is the line of sight unit vector of signal in the platform coordinate frame(ENU for ground station, bfs for LEO satellite) </td></tr>
-    <tr><td class="paramname">offset_in_platform</td><td>the center offset of antenna frame in the platform frame </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">antinfo</td><td>A <a class="el" href="structANT__INFO.html" title="Antenna information for both the GNSS satellite and the receiver antenna">ANT_INFO</a> pointer to the antenna information </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mjd_now</td><td>mjd now in GPST </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">freq</td><td>signal freq (OBSFREQ) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">signal_los</td><td>signal_los_platform is the line of sight unit vector of signal in the platform coordinate frame(ENU for ground station, bfs for LEO satellite) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset_in_platform</td><td>the center offset of antenna frame in the platform frame </td></tr>
   </table>
   </dd>
 </dl>
@@ -720,7 +790,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>iono_brdc_QZS_B</b>
 <div class="center"><img src="gnss__satposition_8c_a905ef46531cdd4e93609d1ee874983a3_cgraph.png" border="0" usemap="#agnss__satposition_8c_a905ef46531cdd4e93609d1ee874983a3_cgraph" alt=""/></div>
 <map name="agnss__satposition_8c_a905ef46531cdd4e93609d1ee874983a3_cgraph" id="agnss__satposition_8c_a905ef46531cdd4e93609d1ee874983a3_cgraph">
 <area shape="rect" title="get the antenna pco, pcv, and installation matrix" alt="" coords="5,31,179,57"/>
-<area shape="rect" href="mathlib_8c.html#a778696a1fead0b92a7c2374a8ef48536" title="dot product of two vectors" alt="" coords="240,5,332,32"/>
+<area shape="rect" href="mathlib_8c.html#a11f2b1a2b40b1a79fbd52fb2c8fe484a" title="dot product of two vectors" alt="" coords="240,5,332,32"/>
 <area shape="rect" href="mathlib_8c.html#a481055fefb93c4fc538c5dd9c592c4f0" title="matrix multiplication C = A*B" alt="" coords="227,56,345,83"/>
 </map>
 </div>
@@ -1000,7 +1070,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>iono_brdc_QZS_B</b>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="gnss__satposition_8c.html">gnss_satposition.c</a></li>
-    <li class="footer">生成于 2024年 七月 11日 星期四 15:37:53 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">生成于 2024年 十二月 1日 星期日 15:43:25 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

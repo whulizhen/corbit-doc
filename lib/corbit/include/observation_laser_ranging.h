@@ -13,8 +13,8 @@
  *  History:
  *  08/xx/07 - added H3 Target type (v0.27)
  *  11/26/07 - added H4 data quality alert
- *	       and #10 stop number
- *	       and #20 origin of values (v0.27) rlr.
+ *           and #10 stop number
+ *           and #20 origin of values (v0.27) rlr.
  *  05/07/08 - Expand all configuration and data section character strings
  *             to allow up to 40 characters (plus NULL).
  *             - Added detector channel to normalpoint (11) and calibration (40)

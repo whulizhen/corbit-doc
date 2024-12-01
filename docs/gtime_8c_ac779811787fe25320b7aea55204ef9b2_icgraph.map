@@ -1,7 +1,6 @@
 <map id="gtime_less" name="gtime_less">
-<area shape="rect" id="node1" title="compare two GTime struct, a &lt; b" alt="" coords="256,81,349,108"/>
+<area shape="rect" id="node1" title="compare two GTime struct, a &lt; b" alt="" coords="256,56,349,83"/>
 <area shape="rect" id="node2" href="$gnss__observation_8c.html#a3eba026eacb147b25b516d97937e0e82" title="compare two OBSDATA_EPOCH for the sort of observations, smaller epoch_time get first" alt="" coords="13,5,200,32"/>
 <area shape="rect" id="node3" href="$attitude_8c.html#a696e64e4066503f57ba3e599a43b06f8" title="find the element in &#39;quaternion_all&#39; that is closest to the target time" alt="" coords="6,56,207,83"/>
-<area shape="rect" id="node4" href="$pod__embed_8c.html#a5074fd44b36ff22dfcd27e10d93557e6" title="get the initival pos, vel and clk for current observation" alt="" coords="21,107,192,133"/>
-<area shape="rect" id="node5" href="$gnss__observation_8c.html#a65bced149f40ca678eed0957b45fccfc" title="match and search for the OBSDATA_EPOCH in the array" alt="" coords="5,157,208,184"/>
+<area shape="rect" id="node4" href="$gnss__observation_8c.html#a65bced149f40ca678eed0957b45fccfc" title="match and search for the OBSDATA_EPOCH in the array" alt="" coords="5,107,208,133"/>
 </map>

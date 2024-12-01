@@ -1,5 +1,0 @@
-<map id="load_antenna_storage" name="load_antenna_storage">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,172,57"/>
-<area shape="rect" id="node2" href="$gnss__satposition_8c.html#aabd7cec99ae83941695096817a05bfaf" title=" " alt="" coords="220,5,391,32"/>
-<area shape="rect" id="node3" href="$gnss__satposition_8c.html#a1e17891959c8dedd91f4e05bd6ad851d" title="read the atx file into antenna storage in global variable g_antenna_storage" alt="" coords="266,56,345,83"/>
-</map>

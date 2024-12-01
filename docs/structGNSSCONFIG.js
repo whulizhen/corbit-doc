@@ -2,6 +2,7 @@ var structGNSSCONFIG =
 [
     [ "ele_cutoff", "structGNSSCONFIG.html#a774ebba10d01c9274af02e8fd179f063", null ],
     [ "huber_param_spp", "structGNSSCONFIG.html#ae44238b551403b1b11e787f0e180ab5f", null ],
+    [ "noise_amb", "structGNSSCONFIG.html#a1be6d7b24961633c0556965fc7f56318", null ],
     [ "num_freq", "structGNSSCONFIG.html#a351262b2e50afed513afc38e3ade510c", null ],
     [ "num_obs_freq_code", "structGNSSCONFIG.html#ac9deb334084a7b76faeb1206371cb8a6", null ],
     [ "num_sys", "structGNSSCONFIG.html#abc8bff82b0676b173ea8b1e536c906b2", null ],

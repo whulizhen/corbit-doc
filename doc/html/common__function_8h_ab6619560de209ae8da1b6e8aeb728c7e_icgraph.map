@@ -1,7 +1,0 @@
-<map id="eci2rtn" name="eci2rtn">
-<area shape="rect" id="node1" title="compute the orbital radial, tangent and along track unit vector" alt="" coords="560,56,627,83"/>
-<area shape="rect" id="node2" href="$attitude_8c.html#a7bc9fa671130b65b2e9437b681a9ba4e" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="367,5,503,32"/>
-<area shape="rect" id="node3" href="$orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="179,81,309,108"/>
-<area shape="rect" id="node5" href="$orbit__dynamics_8c.html#a75fa6528ac0400abe9d3df60a74ee613" title=" " alt="" coords="357,107,512,133"/>
-<area shape="rect" id="node4" href="$orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,81,131,108"/>
-</map>

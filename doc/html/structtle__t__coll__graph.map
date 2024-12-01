@@ -1,6 +1,0 @@
-<map id="tle_t" name="tle_t">
-<area shape="rect" id="node1" title=" " alt="" coords="21,273,71,300"/>
-<area shape="rect" id="node2" href="$structtled__t.html" title=" " alt="" coords="17,184,75,211"/>
-<area shape="rect" id="node3" href="$structGTime.html" title="struct for general time computation with time system defined" alt="" coords="13,95,79,121"/>
-<area shape="rect" id="node4" href="$structTimeMJD.html" title="struct time format in Modified Julian Day and second of day" alt="" coords="5,5,87,32"/>
-</map>

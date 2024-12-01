@@ -1,6 +1,0 @@
-<map id="get_time_now" name="get_time_now">
-<area shape="rect" id="node1" title="get the current time in string" alt="" coords="452,31,567,57"/>
-<area shape="rect" id="node2" href="$gnss__observation_8c.html#abf898fb112977fc34875876ec947200c" title="produce the header of rinex observation file for the output of rinex observations" alt="" coords="232,5,404,32"/>
-<area shape="rect" id="node4" href="$common__function_8c.html#aaef5d58a73129fc721894e3c2b0e061d" title="log to console for the ULOG library" alt="" coords="244,56,392,83"/>
-<area shape="rect" id="node3" href="$gnss__observation_8c.html#a09814252be6e9ef9e781f9275e5590e9" title="write the observation epoch in the format of rinex version 3.0" alt="" coords="5,5,184,32"/>
-</map>

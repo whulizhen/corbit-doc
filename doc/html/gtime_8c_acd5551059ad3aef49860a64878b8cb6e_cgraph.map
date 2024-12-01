@@ -1,5 +1,0 @@
-<map id="gtimeAddSec" name="gtimeAddSec">
-<area shape="rect" id="node1" title="add seconds to GTime struct" alt="" coords="5,5,113,32"/>
-<area shape="rect" id="node2" href="$gtime_8c.html#a130e765390b16f22822500994ad12f09" title="add seconds to TimeMJD struct" alt="" coords="161,5,285,32"/>
-<area shape="rect" id="node3" href="$gtime_8c.html#a09eb4bada2411345995b1238d7b24ca6" title="make TimeMJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="333,5,484,32"/>
-</map>

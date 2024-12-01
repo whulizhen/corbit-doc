@@ -1,6 +1,6 @@
 <map id="eci2rtn" name="eci2rtn">
 <area shape="rect" id="node1" title="compute the orbital radial, tangent and along track unit vector" alt="" coords="5,31,72,57"/>
-<area shape="rect" id="node2" href="$mathlib_8c.html#a56a5431504b9f6ad43a8ac6e5a13ab01" title="cross product of a 3&#45;element vector A and 3&#45;element vector vector B" alt="" coords="135,5,240,32"/>
+<area shape="rect" id="node2" href="$mathlib_8c.html#a3103990859cfd0ec41ba1307255cddfe" title="cross product of a 3&#45;element vector A and 3&#45;element vector vector B" alt="" coords="135,5,240,32"/>
 <area shape="rect" id="node3" href="$mathlib_8c.html#a80599db69e4fe1ff1f2242398ba2b09d" title="normalize a vector of n elements" alt="" coords="120,56,255,83"/>
 <area shape="rect" id="node4" href="$mathlib_8c.html#ad3c2d5b0aab71d0ba94b00db096dfd24" title="get the norm of vector x" alt="" coords="303,56,359,83"/>
 </map>

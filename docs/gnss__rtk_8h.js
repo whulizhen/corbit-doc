@@ -3,7 +3,7 @@ var gnss__rtk_8h =
     [ "RTK_CONFIG", "structRTK__CONFIG.html", "structRTK__CONFIG" ],
     [ "RUNTIME_RTK", "structRUNTIME__RTK.html", "structRUNTIME__RTK" ],
     [ "INIT_ZWD", "gnss__rtk_8h.html#acaa769a0649d0ee99f7540e3cd5f701b", null ],
-    [ "MAX_NX", "gnss__rtk_8h.html#aedfeb46899661cab159d4677bc9e23e1", null ],
+    [ "MAXNUM_NX", "gnss__rtk_8h.html#ab22fc08553d06cfcdc16f2fe96dabc29", null ],
     [ "choose_common_satellite", "gnss__rtk_8h.html#a6fbf618290486f1d4665bc5db2f5d4b1", null ],
     [ "compute_omc_sd_station", "gnss__rtk_8h.html#a7f5b3d9dd7a0648a6673c744485be3cd", null ],
     [ "initx", "gnss__rtk_8h.html#a46c0d798486efd80a4414641684cf752", null ],

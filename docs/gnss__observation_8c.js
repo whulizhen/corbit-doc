@@ -8,6 +8,8 @@ var gnss__observation_8c =
     [ "get_multipath_combination", "gnss__observation_8c.html#ab677a6c8bfd8aedb536566e0b2d21274", null ],
     [ "get_obs_epoch", "gnss__observation_8c.html#adbf323bb240db1f045b8b4d8a6670fae", null ],
     [ "get_obs_record", "gnss__observation_8c.html#a496df6a8d0ed54ba7af0bc8764b13c0e", null ],
+    [ "get_rnx_line_v30", "gnss__observation_8c.html#a03665428e7009225157f5ef1e0675b46", null ],
+    [ "get_rnx_line_v30_test", "gnss__observation_8c.html#a6268ac44dd9888a320279c641fb03097", null ],
     [ "initialize_obsdata_epoch", "gnss__observation_8c.html#a664b2b2525e364b322eae5aba0b29b32", null ],
     [ "load_observation_rinex", "gnss__observation_8c.html#a4943c4e0a120060b1b18cecc87a0b5d5", null ],
     [ "match_observation_storage", "gnss__observation_8c.html#a65bced149f40ca678eed0957b45fccfc", null ],

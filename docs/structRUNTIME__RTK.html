@@ -165,6 +165,20 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>interval_sec</b></t
 <tr class="memitem:ab25b9a6439799a6f9f04326af4631285"><td class="memItemLeft" align="right" valign="top"><a id="ab25b9a6439799a6f9f04326af4631285"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>IF_combination</b></td></tr>
 <tr class="separator:ab25b9a6439799a6f9f04326af4631285"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adee8917e4d542a78441266aa9b060d69"><td class="memItemLeft" align="right" valign="top"><a id="adee8917e4d542a78441266aa9b060d69"></a>
+<a class="el" href="obs__processing_8h.html#a0ec86fb9b6b2db94be6df69e47f4cdb9">PARAM_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><b>param_list</b> [MAXNUM_NX]</td></tr>
+<tr class="separator:adee8917e4d542a78441266aa9b060d69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d2ec15c7c660acef735c82e6130a6a9"><td class="memItemLeft" align="right" valign="top"><a id="a5d2ec15c7c660acef735c82e6130a6a9"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>index_param_X</b> [MAXNUM_NX]</td></tr>
+<tr class="separator:a5d2ec15c7c660acef735c82e6130a6a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a14e7822624f1a0b8f14100753ccf99"><td class="memItemLeft" align="right" valign="top"><a id="a3a14e7822624f1a0b8f14100753ccf99"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>num_param</b></td></tr>
+<tr class="separator:a3a14e7822624f1a0b8f14100753ccf99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1c878219deb9abf28faf75abbbff154"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRUNTIME__RTK.html#ab1c878219deb9abf28faf75abbbff154">P</a> [MAXNUM_NX *MAXNUM_NX]</td></tr>
+<tr class="separator:ab1c878219deb9abf28faf75abbbff154"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76434d612242c95d6b22d1d86d111a8b"><td class="memItemLeft" align="right" valign="top"><a id="a76434d612242c95d6b22d1d86d111a8b"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>X</b> [MAXNUM_NX]</td></tr>
+<tr class="separator:a76434d612242c95d6b22d1d86d111a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4180fa462f8f453c4cc40ec1d55b7f07"><td class="memItemLeft" align="right" valign="top"><a id="a4180fa462f8f453c4cc40ec1d55b7f07"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>idx_xs_pos</b></td></tr>
 <tr class="separator:a4180fa462f8f453c4cc40ec1d55b7f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -204,18 +218,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>nx_amb</b></td></tr>
 <tr class="memitem:a808ab059061618ff92338a1b17ec38aa"><td class="memItemLeft" align="right" valign="top"><a id="a808ab059061618ff92338a1b17ec38aa"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>nx</b></td></tr>
 <tr class="separator:a808ab059061618ff92338a1b17ec38aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afceba79877b70de800c8e2086a43f5c7"><td class="memItemLeft" align="right" valign="top"><a id="afceba79877b70de800c8e2086a43f5c7"></a>
-<a class="el" href="obs__processing_8h.html#a0ec86fb9b6b2db94be6df69e47f4cdb9">PARAM_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><b>param_types</b> [MAX_NX]</td></tr>
-<tr class="separator:afceba79877b70de800c8e2086a43f5c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06412eb58f0a5e648b720cb4057911b0"><td class="memItemLeft" align="right" valign="top"><a id="a06412eb58f0a5e648b720cb4057911b0"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>X</b> [MAX_NX]</td></tr>
-<tr class="separator:a06412eb58f0a5e648b720cb4057911b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a611d4eb9d0feecba9259f3a277b76b8c"><td class="memItemLeft" align="right" valign="top"><a id="a611d4eb9d0feecba9259f3a277b76b8c"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>P</b> [MAX_NX *MAX_NX]</td></tr>
-<tr class="separator:a611d4eb9d0feecba9259f3a277b76b8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a588ebefde1cc094eaacc203b91ef1bee"><td class="memItemLeft" align="right" valign="top"><a id="a588ebefde1cc094eaacc203b91ef1bee"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>H</b> [<a class="el" href="gnss__config_8h.html#a097bc713a4d5cb9f82617e26cd1bcc36">MAXOBS_PER_SAT</a> *<a class="el" href="gnss__config_8h.html#ae9564ac632143a810e3b7623a2d33c66">MAXSAT_PER_EPOCH</a> *MAX_NX]</td></tr>
-<tr class="separator:a588ebefde1cc094eaacc203b91ef1bee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd31ce4f53774dfa6eabe280282b33cb"><td class="memItemLeft" align="right" valign="top"><a id="afd31ce4f53774dfa6eabe280282b33cb"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>H</b> [<a class="el" href="gnss__config_8h.html#a097bc713a4d5cb9f82617e26cd1bcc36">MAXOBS_PER_SAT</a> *<a class="el" href="gnss__config_8h.html#ae9564ac632143a810e3b7623a2d33c66">MAXSAT_PER_EPOCH</a> *MAXNUM_NX]</td></tr>
+<tr class="separator:afd31ce4f53774dfa6eabe280282b33cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b93f8fbe6e2e765bd90c2095ae44feb"><td class="memItemLeft" align="right" valign="top"><a id="a3b93f8fbe6e2e765bd90c2095ae44feb"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>L</b> [<a class="el" href="gnss__config_8h.html#a097bc713a4d5cb9f82617e26cd1bcc36">MAXOBS_PER_SAT</a> *<a class="el" href="gnss__config_8h.html#ae9564ac632143a810e3b7623a2d33c66">MAXSAT_PER_EPOCH</a>]</td></tr>
 <tr class="separator:a3b93f8fbe6e2e765bd90c2095ae44feb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -223,6 +228,22 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>L</b> [<a class="el
 int&#160;</td><td class="memItemRight" valign="bottom"><b>satindex</b> [<a class="el" href="gnss__config_8h.html#ae9564ac632143a810e3b7623a2d33c66">MAXSAT_PER_EPOCH</a>]</td></tr>
 <tr class="separator:a47df7e251ffc27d9c30fe154fdbcb025"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">结构体成员变量说明</h2>
+<a id="ab1c878219deb9abf28faf75abbbff154"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1c878219deb9abf28faf75abbbff154">&#9670;&nbsp;</a></span>P</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double RUNTIME_RTK::P[MAXNUM_NX *MAXNUM_NX]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>covariance of the state X, memory 74*74*8=43808 bytes </p>
+
+</div>
+</div>
 <hr/>该结构体的文档由以下文件生成:<ul>
 <li><a class="el" href="gnss__rtk_8h.html">gnss_rtk.h</a></li>
 </ul>
@@ -233,7 +254,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>satindex</b> [<a class
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="structRUNTIME__RTK.html">RUNTIME_RTK</a></li>
-    <li class="footer">生成于 2024年 七月 11日 星期四 15:37:53 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">生成于 2024年 十二月 1日 星期日 15:43:26 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

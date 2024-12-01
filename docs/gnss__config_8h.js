@@ -109,6 +109,7 @@ var gnss__config_8h =
       [ "BDS", "gnss__config_8h.html#ad7537964394776a6c47f2504059aa873aeab2d68431ab215521593456d38e9df3", null ],
       [ "GAL", "gnss__config_8h.html#ad7537964394776a6c47f2504059aa873a1a09ea8ef6c51c0645d29d17c3f2ed75", null ],
       [ "GLO", "gnss__config_8h.html#ad7537964394776a6c47f2504059aa873afd55a645be4f85920102fad7d61b9dc8", null ],
+      [ "QZS", "gnss__config_8h.html#ad7537964394776a6c47f2504059aa873a13fe91655233a2e100cfaeda10ab5471", null ],
       [ "GEO", "gnss__config_8h.html#ad7537964394776a6c47f2504059aa873ad40e92917e11c905957442cfd93b1202", null ],
       [ "LEO", "gnss__config_8h.html#ad7537964394776a6c47f2504059aa873a652f34501bf79a63c7f62127e6edb79c", null ],
       [ "STA", "gnss__config_8h.html#ad7537964394776a6c47f2504059aa873a92ede1fbba1593b5ea4cd7da5f1253de", null ]

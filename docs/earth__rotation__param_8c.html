@@ -123,22 +123,22 @@ earth_rotation_param.c 的引用(Include)关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="earth__rotation__param_8c__incl.png" border="0" usemap="#aearth__rotation__param_8c" alt=""/></div>
 <map name="aearth__rotation__param_8c" id="aearth__rotation__param_8c">
-<area shape="rect" title="Implementations of earth rotation parameters computation" alt="" coords="359,5,533,32"/>
-<area shape="rect" href="earth__rotation__param_8h.html" title="Declarations of earth rotation parameters computation" alt="" coords="359,80,533,107"/>
-<area shape="rect" title=" " alt="" coords="165,304,231,331"/>
-<area shape="rect" title=" " alt="" coords="265,304,336,331"/>
-<area shape="rect" title=" " alt="" coords="544,304,612,331"/>
-<area shape="rect" title=" " alt="" coords="789,304,860,331"/>
-<area shape="rect" title=" " alt="" coords="563,379,646,405"/>
-<area shape="rect" href="iau__function_8h.html" title="Declarations for iau functions" alt="" coords="282,229,397,256"/>
-<area shape="rect" href="iers__function_8h.html" title="Declarations for IERS functions" alt="" coords="37,229,156,256"/>
-<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="421,229,505,256"/>
-<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="484,155,635,181"/>
-<area shape="rect" href="corbit__const_8h.html" title="Declarations for all the constants in corbit project" alt="" coords="407,304,520,331"/>
-<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="432,379,495,405"/>
-<area shape="rect" title=" " alt="" coords="581,229,652,256"/>
-<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="677,229,749,256"/>
-<area shape="rect" title=" " alt="" coords="687,304,751,331"/>
+<area shape="rect" title="Implementations of earth rotation parameters computation" alt="" coords="441,5,615,32"/>
+<area shape="rect" href="earth__rotation__param_8h.html" title="Declarations of earth rotation parameters computation" alt="" coords="441,80,615,107"/>
+<area shape="rect" title=" " alt="" coords="133,304,200,331"/>
+<area shape="rect" title=" " alt="" coords="254,304,325,331"/>
+<area shape="rect" title=" " alt="" coords="666,304,734,331"/>
+<area shape="rect" title=" " alt="" coords="801,304,871,331"/>
+<area shape="rect" title=" " alt="" coords="489,379,572,405"/>
+<area shape="rect" href="iau__function_8h.html" title="Declarations for iau functions" alt="" coords="281,229,396,256"/>
+<area shape="rect" href="iers__function_8h.html" title="Declarations for IERS functions" alt="" coords="37,229,155,256"/>
+<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="663,229,747,256"/>
+<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="453,155,603,181"/>
+<area shape="rect" href="corbit__const_8h.html" title="Declarations for all the constants in corbit project" alt="" coords="377,304,490,331"/>
+<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="402,379,465,405"/>
+<area shape="rect" title=" " alt="" coords="471,229,542,256"/>
+<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="567,229,639,256"/>
+<area shape="rect" title=" " alt="" coords="571,304,635,331"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -178,6 +178,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>geocentric</b> (doubl
 <tr class="memitem:a7693fcbad971917bc92e5f65dc9f429e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="earth__rotation__param_8c.html#a7693fcbad971917bc92e5f65dc9f429e">correction_PoleTide_position</a> (double mjd_utc, double eop_pmxy[2], double *xyz_ecf, double *disp_ecf)</td></tr>
 <tr class="memdesc:a7693fcbad971917bc92e5f65dc9f429e"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the station position displacement due to pole tide Displacement vector, WGS84 ECEF XYZ meters. pos and displacement should be both in ECEF  <a href="earth__rotation__param_8c.html#a7693fcbad971917bc92e5f65dc9f429e">更多...</a><br /></td></tr>
 <tr class="separator:a7693fcbad971917bc92e5f65dc9f429e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bf45029c68c67401e06985ddef8c6c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="earth__rotation__param_8c.html#a6bf45029c68c67401e06985ddef8c6c7">load_eops_uplink</a> (int neop, double *eop_data_uplink, <a class="el" href="structEOPREC.html">EOPREC</a> *ptr_eop_store)</td></tr>
+<tr class="memdesc:a6bf45029c68c67401e06985ddef8c6c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">load eop params from the ground uplink refresh all the eop params including mjd_utc, pmX, pmY, UT1mUTC, LOD  <a href="earth__rotation__param_8c.html#a6bf45029c68c67401e06985ddef8c6c7">更多...</a><br /></td></tr>
+<tr class="separator:a6bf45029c68c67401e06985ddef8c6c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47e41320baf1555d19467d718ea8560f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="earth__rotation__param_8c.html#a47e41320baf1555d19467d718ea8560f">load_eops_default</a> (<a class="el" href="structEOPREC.html">EOPREC</a> *ptr_eop_store, int nsize)</td></tr>
 <tr class="memdesc:a47e41320baf1555d19467d718ea8560f"><td class="mdescLeft">&#160;</td><td class="mdescRight">store the eops for the embeded version  <a href="earth__rotation__param_8c.html#a47e41320baf1555d19467d718ea8560f">更多...</a><br /></td></tr>
 <tr class="separator:a47e41320baf1555d19467d718ea8560f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -271,12 +274,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>geocentric</b> (doubl
 <div class="dyncontent">
 <div class="center"><img src="earth__rotation__param_8c_aea8915a8d20a61cc28be369ce68c21d3_icgraph.png" border="0" usemap="#aearth__rotation__param_8c_aea8915a8d20a61cc28be369ce68c21d3_icgraph" alt=""/></div>
 <map name="aearth__rotation__param_8c_aea8915a8d20a61cc28be369ce68c21d3_icgraph" id="aearth__rotation__param_8c_aea8915a8d20a61cc28be369ce68c21d3_icgraph">
-<area shape="rect" title="compute_eci2ecf_matrix at a given time mjd_utc" alt="" coords="484,31,667,57"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="183,5,314,32"/>
-<area shape="rect" href="earth__rotation__param_8c.html#a4e18eadd370e790cba4b24914567ff69" title="convert from ecf to eci for vectors" alt="" coords="367,81,436,108"/>
-<area shape="rect" href="earth__rotation__param_8c.html#ae12ed4e34c6c23d217f6c0731c250c17" title="convert from eci to ecf for vectors" alt="" coords="367,31,436,57"/>
+<area shape="rect" title="compute_eci2ecf_matrix at a given time mjd_utc" alt="" coords="509,88,692,115"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="196,5,327,32"/>
+<area shape="rect" href="earth__rotation__param_8c.html#a4e18eadd370e790cba4b24914567ff69" title="convert from ecf to eci for vectors" alt="" coords="392,164,461,191"/>
+<area shape="rect" href="pod__embed_8c.html#add41321716edb2a8ab9ff1216d0cfde6" title="orbit dynamic filter using only positions" alt="" coords="185,123,337,149"/>
+<area shape="rect" href="earth__rotation__param_8c.html#ae12ed4e34c6c23d217f6c0731c250c17" title="convert from eci to ecf for vectors" alt="" coords="392,63,461,89"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,5,131,32"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="179,81,319,108"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="191,173,331,200"/>
+<area shape="rect" href="pod__embed_8c.html#a0163e41a92a7ad2418bd596e61bb5a2f" title="update measurement clock solution" alt="" coords="179,57,344,98"/>
 </map>
 </div>
 
@@ -410,14 +415,16 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>geocentric</b> (doubl
 <div class="dyncontent">
 <div class="center"><img src="earth__rotation__param_8c_aac9741a1dbc90aaf4fe170c2cd8f81e1_icgraph.png" border="0" usemap="#aearth__rotation__param_8c_aac9741a1dbc90aaf4fe170c2cd8f81e1_icgraph" alt=""/></div>
 <map name="aearth__rotation__param_8c_aac9741a1dbc90aaf4fe170c2cd8f81e1_icgraph" id="aearth__rotation__param_8c_aac9741a1dbc90aaf4fe170c2cd8f81e1_icgraph">
-<area shape="rect" title="compute the eop param for current time mjd_utc using linear interpolation" alt="" coords="715,56,825,83"/>
-<area shape="rect" href="earth__rotation__param_8c.html#aea8915a8d20a61cc28be369ce68c21d3" title="compute_eci2ecf_matrix at a given time mjd_utc" alt="" coords="484,31,667,57"/>
-<area shape="rect" href="tle_8h.html#a14bb37952a95c29ea670040cdd62fd55" title=" " alt="" coords="540,81,611,108"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="183,5,314,32"/>
-<area shape="rect" href="earth__rotation__param_8c.html#a4e18eadd370e790cba4b24914567ff69" title="convert from ecf to eci for vectors" alt="" coords="367,81,436,108"/>
-<area shape="rect" href="earth__rotation__param_8c.html#ae12ed4e34c6c23d217f6c0731c250c17" title="convert from eci to ecf for vectors" alt="" coords="367,31,436,57"/>
+<area shape="rect" title="compute the eop param for current time mjd_utc using linear interpolation" alt="" coords="740,113,851,140"/>
+<area shape="rect" href="earth__rotation__param_8c.html#aea8915a8d20a61cc28be369ce68c21d3" title="compute_eci2ecf_matrix at a given time mjd_utc" alt="" coords="509,88,692,115"/>
+<area shape="rect" href="tle_8h.html#a14bb37952a95c29ea670040cdd62fd55" title=" " alt="" coords="565,139,636,165"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="196,5,327,32"/>
+<area shape="rect" href="earth__rotation__param_8c.html#a4e18eadd370e790cba4b24914567ff69" title="convert from ecf to eci for vectors" alt="" coords="392,164,461,191"/>
+<area shape="rect" href="pod__embed_8c.html#add41321716edb2a8ab9ff1216d0cfde6" title="orbit dynamic filter using only positions" alt="" coords="185,123,337,149"/>
+<area shape="rect" href="earth__rotation__param_8c.html#ae12ed4e34c6c23d217f6c0731c250c17" title="convert from eci to ecf for vectors" alt="" coords="392,63,461,89"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,5,131,32"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="179,81,319,108"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="191,173,331,200"/>
+<area shape="rect" href="pod__embed_8c.html#a0163e41a92a7ad2418bd596e61bb5a2f" title="update measurement clock solution" alt="" coords="179,57,344,98"/>
 </map>
 </div>
 
@@ -626,8 +633,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>geocentric</b> (doubl
 <div class="dyncontent">
 <div class="center"><img src="earth__rotation__param_8c_a4e18eadd370e790cba4b24914567ff69_icgraph.png" border="0" usemap="#aearth__rotation__param_8c_a4e18eadd370e790cba4b24914567ff69_icgraph" alt=""/></div>
 <map name="aearth__rotation__param_8c_a4e18eadd370e790cba4b24914567ff69_icgraph" id="aearth__rotation__param_8c_a4e18eadd370e790cba4b24914567ff69_icgraph">
-<area shape="rect" title="convert from ecf to eci for vectors" alt="" coords="193,5,263,32"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="5,5,145,32"/>
+<area shape="rect" title="convert from ecf to eci for vectors" alt="" coords="205,31,275,57"/>
+<area shape="rect" href="pod__embed_8c.html#add41321716edb2a8ab9ff1216d0cfde6" title="orbit dynamic filter using only positions" alt="" coords="5,5,157,32"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="11,56,151,83"/>
 </map>
 </div>
 
@@ -711,8 +719,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>geocentric</b> (doubl
 <div class="dyncontent">
 <div class="center"><img src="earth__rotation__param_8c_ae12ed4e34c6c23d217f6c0731c250c17_icgraph.png" border="0" usemap="#aearth__rotation__param_8c_ae12ed4e34c6c23d217f6c0731c250c17_icgraph" alt=""/></div>
 <map name="aearth__rotation__param_8c_ae12ed4e34c6c23d217f6c0731c250c17_icgraph" id="aearth__rotation__param_8c_ae12ed4e34c6c23d217f6c0731c250c17_icgraph">
-<area shape="rect" title="convert from eci to ecf for vectors" alt="" coords="357,5,427,32"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="179,5,309,32"/>
+<area shape="rect" title="convert from eci to ecf for vectors" alt="" coords="392,35,461,61"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="196,5,327,32"/>
+<area shape="rect" href="pod__embed_8c.html#a0163e41a92a7ad2418bd596e61bb5a2f" title="update measurement clock solution" alt="" coords="179,57,344,98"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,5,131,32"/>
 </map>
 </div>
@@ -856,6 +865,51 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>geocentric</b> (doubl
 
 </div>
 </div>
+<a id="a6bf45029c68c67401e06985ddef8c6c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bf45029c68c67401e06985ddef8c6c7">&#9670;&nbsp;</a></span>load_eops_uplink()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void load_eops_uplink </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>neop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>eop_data_uplink</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structEOPREC.html">EOPREC</a> *&#160;</td>
+          <td class="paramname"><em>ptr_eop_store</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>load eop params from the ground uplink refresh all the eop params including mjd_utc, pmX, pmY, UT1mUTC, LOD </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">ptr_eop_store</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">neop</td><td>the size of eops in eop_data_uplink, not the size of eop_data_uplink! </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">eop_data_uplink</td><td>an array of all the eop data</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>the data in eop_data_uplink is as follows: mjd_utc, pmX, pmY, UT1mUTC, LOD, ... </dd></dl>
+
+</div>
+</div>
 <a id="a83196d8ce9c24a904aea738c23c23a83"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a83196d8ce9c24a904aea738c23c23a83">&#9670;&nbsp;</a></span>mean_polar_motion()</h2>
 
@@ -895,13 +949,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>geocentric</b> (doubl
 <div class="dyncontent">
 <div class="center"><img src="earth__rotation__param_8c_a83196d8ce9c24a904aea738c23c23a83_icgraph.png" border="0" usemap="#aearth__rotation__param_8c_a83196d8ce9c24a904aea738c23c23a83_icgraph" alt=""/></div>
 <map name="aearth__rotation__param_8c_a83196d8ce9c24a904aea738c23c23a83_icgraph" id="aearth__rotation__param_8c_a83196d8ce9c24a904aea738c23c23a83_icgraph">
-<area shape="rect" title="compute the mean polar motion" alt="" coords="819,56,971,83"/>
-<area shape="rect" href="earth__gravity_8c.html#a13caf873b2e9260c2834bdd854a32653" title="compute the time varying C and S corrections" alt="" coords="591,5,771,32"/>
-<area shape="rect" href="earth__gravity_8c.html#a8072ef1ad25d297bfcd3746278a90177" title="compute the C and S corrections due to pole tide" alt="" coords="615,56,746,83"/>
-<area shape="rect" href="earth__rotation__param_8c.html#aff7393b10ad1abdebfb96c588e6b097d" title="pole tide to normalized earth potential coefficients" alt="" coords="605,107,756,149"/>
-<area shape="rect" href="earth__gravity_8c.html#ae4221b4ad05c0289b567912c9ffd5eeb" title="This is the main entry of earth gravity acc computation" alt="" coords="357,23,543,65"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="179,31,309,57"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,31,131,57"/>
+<area shape="rect" title="compute the mean polar motion" alt="" coords="236,71,388,98"/>
+<area shape="rect" href="earth__gravity_8c.html#a647de74bdbae9ca1f42437d1bffeb7fd" title="compute the time varying C and S corrections to the denormalised coefficients (which are the raw norm..." alt="" coords="5,5,188,47"/>
+<area shape="rect" href="earth__gravity_8c.html#a8072ef1ad25d297bfcd3746278a90177" title="compute the C and S corrections [normalised] due to pole tide (solid earth and ocean pole tide)" alt="" coords="31,71,162,98"/>
+<area shape="rect" href="earth__rotation__param_8c.html#aff7393b10ad1abdebfb96c588e6b097d" title="pole tide to normalized earth potential coefficients" alt="" coords="21,123,172,164"/>
 </map>
 </div>
 
@@ -972,7 +1023,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>geocentric</b> (doubl
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="earth__rotation__param_8c.html">earth_rotation_param.c</a></li>
-    <li class="footer">生成于 2024年 七月 11日 星期四 15:37:52 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">生成于 2024年 十二月 1日 星期日 15:43:24 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

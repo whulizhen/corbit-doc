@@ -1,6 +1,0 @@
-<map id="SOLUTION_ORBITFIT" name="SOLUTION_ORBITFIT">
-<area shape="rect" id="node1" title="the output solution of the orbit fit" alt="" coords="5,273,161,300"/>
-<area shape="rect" id="node2" href="$structSTATE__SPACECRAFT.html" title="spacecraft state struct" alt="" coords="8,184,159,211"/>
-<area shape="rect" id="node3" href="$structGTime.html" title="struct for general time computation with time system defined" alt="" coords="51,95,116,121"/>
-<area shape="rect" id="node4" href="$structTimeMJD.html" title="struct time format in Modified Julian Day and second of day" alt="" coords="43,5,124,32"/>
-</map>

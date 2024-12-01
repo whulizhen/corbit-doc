@@ -1,5 +1,0 @@
-<map id="test_matrix" name="test_matrix">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,103,32"/>
-<area shape="rect" id="node2" href="$mathlib_8c.html#a4962e2b1e5050c46a73f60dff39188a9" title="inverse of matrix A" alt="" coords="151,5,219,32"/>
-<area shape="rect" id="node3" href="$mathlib_8c.html#ad13d3e6b0deb2bc1b8ade798b9876c72" title="the LU decomposition function of matrix A book: Numerical Recipes in C, The Art of Scientific Computi..." alt="" coords="267,5,337,32"/>
-</map>

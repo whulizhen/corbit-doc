@@ -6,6 +6,7 @@ var attitude_8c =
     [ "free_att_quaternion_store", "attitude_8c.html#abf765f8b8a1e0bca0912e00448c046dc", null ],
     [ "get_att_quaternion", "attitude_8c.html#af3a1fdee7b50e3249e3dfac216c0b4a2", null ],
     [ "gnss_sat_attitude", "attitude_8c.html#a6e038680d63f3d8342cfbaca9846211d", null ],
+    [ "initialize_global_attitude", "attitude_8c.html#a2cb97f9837b07d8388b16afb974b9f4e", null ],
     [ "load_attitude_quaternion", "attitude_8c.html#a022afeda08a600ea1493d6e4232dbf0e", null ],
     [ "load_sca_grace", "attitude_8c.html#a2d391b698e75f99d786e3fab2ad75544", null ],
     [ "read_att_quaternion_corbit", "attitude_8c.html#a73fb6c3ab0762f0baeff53e4df49718a", null ],

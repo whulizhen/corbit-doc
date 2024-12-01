@@ -1,4 +1,0 @@
-<map id="compute_eci2ecf_matrix" name="compute_eci2ecf_matrix">
-<area shape="rect" id="node1" title="compute_eci2ecf_matrix at a given time mjd_utc" alt="" coords="5,5,188,32"/>
-<area shape="rect" id="node2" href="$earth__rotation__param_8c.html#aac9741a1dbc90aaf4fe170c2cd8f81e1" title="compute the eop param for current time mjd_utc using linear interpolation" alt="" coords="236,5,347,32"/>
-</map>

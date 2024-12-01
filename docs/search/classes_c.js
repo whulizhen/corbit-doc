@@ -1,11 +1,8 @@
 var searchData=
 [
-  ['timedoy_966',['TimeDOY',['../structTimeDOY.html',1,'']]],
-  ['timegnss_967',['TimeGNSS',['../structTimeGNSS.html',1,'']]],
-  ['timejd_968',['TimeJD',['../structTimeJD.html',1,'']]],
-  ['timemjd_969',['TimeMJD',['../structTimeMJD.html',1,'']]],
-  ['timeymd_970',['TimeYMD',['../structTimeYMD.html',1,'']]],
-  ['tle_5ft_971',['tle_t',['../structtle__t.html',1,'']]],
-  ['tled_5ft_972',['tled_t',['../structtled__t.html',1,'']]],
-  ['type_5ffreq_5fcode_973',['TYPE_FREQ_CODE',['../structTYPE__FREQ__CODE.html',1,'']]]
+  ['sat_5fstate_992',['SAT_STATE',['../structSAT__STATE.html',1,'']]],
+  ['solution_993',['SOLUTION',['../structSOLUTION.html',1,'']]],
+  ['solution_5forbitfit_994',['SOLUTION_ORBITFIT',['../structSOLUTION__ORBITFIT.html',1,'']]],
+  ['state_5fspacecraft_995',['STATE_SPACECRAFT',['../structSTATE__SPACECRAFT.html',1,'']]],
+  ['subscriber_5ft_996',['subscriber_t',['../structsubscriber__t.html',1,'']]]
 ];

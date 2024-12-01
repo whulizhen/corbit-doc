@@ -1,5 +1,0 @@
-<map id="STATE_CLK_FINAL" name="STATE_CLK_FINAL">
-<area shape="rect" id="node1" title=" " alt="" coords="5,184,144,211"/>
-<area shape="rect" id="node2" href="$structGTime.html" title="struct for general time computation with time system defined" alt="" coords="42,95,107,121"/>
-<area shape="rect" id="node3" href="$structTimeMJD.html" title="struct time format in Modified Julian Day and second of day" alt="" coords="34,5,115,32"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="choose_satellite" name="choose_satellite">
-<area shape="rect" id="node1" title="choose satellites according to the definition in gnssconfig" alt="" coords="5,5,133,32"/>
-<area shape="rect" id="node2" href="$gnss__config_8c.html#a4904153c455ec7e809a04203fbb3ab0c" title="convert sat sys&amp;prn to the internal index" alt="" coords="181,5,311,32"/>
-</map>

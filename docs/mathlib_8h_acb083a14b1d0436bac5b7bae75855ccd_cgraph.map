@@ -1,9 +1,8 @@
 <map id="kalman_filter" name="kalman_filter">
 <area shape="rect" id="node1" title="this is the implementation of kalman filter" alt="" coords="5,81,112,108"/>
 <area shape="rect" id="node2" href="$mathlib_8c.html#a878533dbce0f27240b0da2101167503c" title="this is the implementation of kalman filter" alt="" coords="160,81,219,108"/>
-<area shape="rect" id="node3" href="$mathlib_8c.html#a4962e2b1e5050c46a73f60dff39188a9" title="inverse of matrix A" alt="" coords="298,5,366,32"/>
-<area shape="rect" id="node5" href="$mathlib_8c.html#a9d966c7096f51ef73b936110bd8b063f" title="generate a identical matrix of r rows and r columns" alt="" coords="268,56,396,83"/>
-<area shape="rect" id="node6" href="$mathlib_8c.html#a481055fefb93c4fc538c5dd9c592c4f0" title="matrix multiplication C = A*B" alt="" coords="273,107,391,133"/>
-<area shape="rect" id="node7" href="$mathlib_8c.html#a3fa728cd1fb9cacd33775e45ffbc03c3" title="transpose a matrix with r rows and c columns" alt="" coords="267,157,397,184"/>
-<area shape="rect" id="node4" href="$mathlib_8c.html#ad13d3e6b0deb2bc1b8ade798b9876c72" title="the LU decomposition function of matrix A book: Numerical Recipes in C, The Art of Scientific Computi..." alt="" coords="445,5,516,32"/>
+<area shape="rect" id="node3" href="$mathlib_8c.html#ad353d690125ce6d24782c0c8b128f5e1" title="inverse of matrix A" alt="" coords="298,5,366,32"/>
+<area shape="rect" id="node4" href="$mathlib_8c.html#a9d966c7096f51ef73b936110bd8b063f" title="generate a identical matrix of r rows and r columns" alt="" coords="268,56,396,83"/>
+<area shape="rect" id="node5" href="$mathlib_8c.html#a481055fefb93c4fc538c5dd9c592c4f0" title="matrix multiplication C = A*B" alt="" coords="273,107,391,133"/>
+<area shape="rect" id="node6" href="$mathlib_8c.html#a3fa728cd1fb9cacd33775e45ffbc03c3" title="transpose a matrix with r rows and c columns" alt="" coords="267,157,397,184"/>
 </map>

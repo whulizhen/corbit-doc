@@ -1,4 +1,0 @@
-<map id="solve_lsq" name="solve_lsq">
-<area shape="rect" id="node1" title="least square estimation by solving normal equation (x=(A&#39;*A)^&#45;1*A&#39;*y)" alt="" coords="220,5,303,32"/>
-<area shape="rect" id="node2" href="$mathlib_8c.html#a043fca92a2df4fac9624ca3d0cdf9faa" title="calculate the 7 Helmert transformation parameters" alt="" coords="5,5,172,32"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="compute_satposvel" name="compute_satposvel">
-<area shape="rect" id="node1" title="compute the satellite position, velocity and tgd" alt="" coords="5,5,155,32"/>
-<area shape="rect" id="node2" href="$gnss__config_8c.html#a7fd0dfc78e583065b3f541581b42b679" title="convert internal satellite index to the satellite system and prn" alt="" coords="203,5,332,32"/>
-</map>

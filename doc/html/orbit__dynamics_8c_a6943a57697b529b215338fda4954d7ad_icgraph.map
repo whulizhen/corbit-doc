@@ -1,4 +1,0 @@
-<map id="convert_ystate2struct" name="convert_ystate2struct">
-<area shape="rect" id="node1" title="convert from y vector to state struct" alt="" coords="179,5,343,32"/>
-<area shape="rect" id="node2" href="$orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,5,131,32"/>
-</map>

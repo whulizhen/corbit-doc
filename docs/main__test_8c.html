@@ -118,54 +118,56 @@ $(document).ready(function(){initNavTree('main__test_8c.html',''); initResizable
 <a href="#details">更多...</a></p>
 <div class="textblock"><code>#include &lt;math.h&gt;</code><br />
 <code>#include &lt;time.h&gt;</code><br />
-<code>#include &lt;sys/time.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="pod__embed_8h.html">pod_embed.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="common__function_8h.html">common_function.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="orbit__dynamics_8h.html">orbit_dynamics.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="keplerian__element_8h.html">keplerian_element.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="gnss__satposition_8h.html">gnss_satposition.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="tle_8h.html">tle.h</a>&quot;</code><br />
+<code>#include &quot;cargs.h&quot;</code><br />
+<code>#include &quot;unity.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 main_test.c 的引用(Include)关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="main__test_8c__incl.png" border="0" usemap="#amain__test_8c" alt=""/></div>
 <map name="amain__test_8c" id="amain__test_8c">
-<area shape="rect" title="All the test functions for the corbit project" alt="" coords="2135,5,2233,32"/>
-<area shape="rect" title=" " alt="" coords="2217,603,2285,629"/>
-<area shape="rect" title=" " alt="" coords="2309,603,2373,629"/>
-<area shape="rect" title=" " alt="" coords="2701,80,2792,107"/>
-<area shape="rect" href="pod__embed_8h.html" title="Header file for embeded realtime orbit determination" alt="" coords="1267,80,1378,107"/>
-<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="1563,453,1714,480"/>
-<area shape="rect" href="gnss__satposition_8h.html" title="Declarations for gnss satellite position computation" alt="" coords="1998,304,2141,331"/>
-<area shape="rect" href="orbit__dynamics_8h.html" title="Header file for orbit dynamics computation" alt="" coords="821,229,955,256"/>
-<area shape="rect" href="keplerian__element_8h.html" title="Declarations for Keplerian elements computation" alt="" coords="2067,528,2221,555"/>
-<area shape="rect" href="tle_8h.html" title="Header file for TLE computation" alt="" coords="919,304,969,331"/>
-<area shape="rect" title=" " alt="" coords="705,603,775,629"/>
-<area shape="rect" title=" " alt="" coords="1217,603,1284,629"/>
-<area shape="rect" href="corbit__const_8h.html" title="Declarations for all the constants in corbit project" alt="" coords="567,603,681,629"/>
-<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="1209,528,1293,555"/>
-<area shape="rect" href="gnss__config_8h.html" title="Declarations for global variable gnssconfig" alt="" coords="2019,379,2130,405"/>
-<area shape="rect" href="gnss__observation_8h.html" title="Declarations for gnss observation operations" alt="" coords="1593,229,1741,256"/>
-<area shape="rect" href="earth__rotation__param_8h.html" title="Declarations of earth rotation parameters computation" alt="" coords="857,379,1031,405"/>
-<area shape="rect" href="eph__planet_8h.html" title="Declarations of JPL planet ephemeris computation" alt="" coords="1816,304,1923,331"/>
-<area shape="rect" href="obs__processing_8h.html" title="Declarations for observation processing functions" alt="" coords="1255,155,1390,181"/>
-<area shape="rect" title=" " alt="" coords="1449,677,1532,704"/>
-<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="593,677,655,704"/>
-<area shape="rect" title=" " alt="" coords="1746,603,1817,629"/>
-<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="1920,528,1992,555"/>
-<area shape="rect" title=" " alt="" coords="1470,528,1541,555"/>
-<area shape="rect" href="attitude_8h.html" title="Declarations of attitude operations" alt="" coords="1411,304,1496,331"/>
-<area shape="rect" href="iers__function_8h.html" title="Declarations for IERS functions" alt="" coords="913,528,1031,555"/>
-<area shape="rect" href="iau__function_8h.html" title="Declarations for iau functions" alt="" coords="672,528,787,555"/>
-<area shape="rect" href="earth__gravity_8h.html" title="Declarations of earth gravity computation" alt="" coords="766,304,885,331"/>
+<area shape="rect" title="All the test functions for the corbit project" alt="" coords="1931,5,2029,32"/>
+<area shape="rect" title=" " alt="" coords="777,752,845,779"/>
+<area shape="rect" title=" " alt="" coords="2395,752,2459,779"/>
+<area shape="rect" href="pod__embed_8h.html" title="Header file for embeded realtime orbit determination" alt="" coords="1370,80,1481,107"/>
+<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="1030,603,1181,629"/>
+<area shape="rect" href="gnss__satposition_8h.html" title="Declarations for gnss satellite position computation" alt="" coords="1714,229,1857,256"/>
+<area shape="rect" href="orbit__dynamics_8h.html" title="Header file for orbit dynamics computation" alt="" coords="1358,379,1493,405"/>
+<area shape="rect" href="keplerian__element_8h.html" title="Declarations for Keplerian elements computation" alt="" coords="589,677,744,704"/>
+<area shape="rect" href="tle_8h.html" title="Header file for TLE computation" alt="" coords="347,453,397,480"/>
+<area shape="rect" title=" " alt="" coords="2776,80,2845,107"/>
+<area shape="rect" title=" " alt="" coords="2870,80,2935,107"/>
+<area shape="rect" title=" " alt="" coords="1665,752,1735,779"/>
+<area shape="rect" title=" " alt="" coords="2213,752,2280,779"/>
+<area shape="rect" href="corbit__const_8h.html" title="Declarations for all the constants in corbit project" alt="" coords="445,752,558,779"/>
+<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="769,677,853,704"/>
+<area shape="rect" href="gnss__config_8h.html" title="Declarations for global variable gnssconfig" alt="" coords="1721,528,1831,555"/>
+<area shape="rect" href="gnss__observation_8h.html" title="Declarations for gnss observation operations" alt="" coords="1821,379,1969,405"/>
+<area shape="rect" href="earth__rotation__param_8h.html" title="Declarations of earth rotation parameters computation" alt="" coords="702,528,877,555"/>
+<area shape="rect" href="eph__planet_8h.html" title="Declarations of JPL planet ephemeris computation" alt="" coords="720,453,827,480"/>
+<area shape="rect" href="obs__processing_8h.html" title="Declarations for observation processing functions" alt="" coords="913,155,1047,181"/>
+<area shape="rect" title=" " alt="" coords="1652,827,1735,853"/>
+<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="470,827,533,853"/>
+<area shape="rect" title=" " alt="" coords="1030,752,1101,779"/>
+<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="1915,677,1987,704"/>
+<area shape="rect" title=" " alt="" coords="1118,677,1189,704"/>
+<area shape="rect" href="attitude_8h.html" title="Declarations of attitude operations" alt="" coords="1871,453,1956,480"/>
+<area shape="rect" href="rtcm_8h.html" title="Declarations for decoding and encoding RTCM messages stream" alt="" coords="1631,304,1695,331"/>
+<area shape="rect" href="iers__function_8h.html" title="Declarations for IERS functions" alt="" coords="1366,677,1485,704"/>
+<area shape="rect" href="iau__function_8h.html" title="Declarations for iau functions" alt="" coords="979,677,1093,704"/>
+<area shape="rect" href="earth__gravity_8h.html" title="Declarations of earth gravity computation" alt="" coords="1366,453,1485,480"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 函数</h2></td></tr>
 <tr class="memitem:a707c83f5a32132ab60eb8a938b62a04b"><td class="memItemLeft" align="right" valign="top"><a id="a707c83f5a32132ab60eb8a938b62a04b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main__test_8c.html#a707c83f5a32132ab60eb8a938b62a04b">test_brdc_gps</a> ()</td></tr>
-<tr class="memdesc:a707c83f5a32132ab60eb8a938b62a04b"><td class="mdescLeft">&#160;</td><td class="mdescRight">a test for calculate satpos according to brdc <br /></td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>test_brdc_gps</b> ()</td></tr>
 <tr class="separator:a707c83f5a32132ab60eb8a938b62a04b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c71a8b7f0d074b2b9e644402ebde868"><td class="memItemLeft" align="right" valign="top"><a id="a2c71a8b7f0d074b2b9e644402ebde868"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>test_kalman_filter_1</b> ()</td></tr>
@@ -176,6 +178,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>test_kalman_filter</b
 <tr class="memitem:a18a90db33ef62514094ed9db7af84a41"><td class="memItemLeft" align="right" valign="top"><a id="a18a90db33ef62514094ed9db7af84a41"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>test_orbit_simulation_503</b> ()</td></tr>
 <tr class="separator:a18a90db33ef62514094ed9db7af84a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4117a367c4be042a182fffd3ac4356a"><td class="memItemLeft" align="right" valign="top"><a id="ad4117a367c4be042a182fffd3ac4356a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main__test_8c.html#ad4117a367c4be042a182fffd3ac4356a">test_rtcm_validation</a> ()</td></tr>
+<tr class="memdesc:ad4117a367c4be042a182fffd3ac4356a"><td class="mdescLeft">&#160;</td><td class="mdescRight">validate the rtcm data <br /></td></tr>
+<tr class="separator:ad4117a367c4be042a182fffd3ac4356a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6d7e8937f627b8729f830546cf374ad"><td class="memItemLeft" align="right" valign="top"><a id="ae6d7e8937f627b8729f830546cf374ad"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>test_matrix_multiply</b> ()</td></tr>
 <tr class="separator:ae6d7e8937f627b8729f830546cf374ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -196,6 +202,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>test_integrator2</b> 
 <tr class="memitem:ac6ffd7433b8c52b3579e62ba77947a2f"><td class="memItemLeft" align="right" valign="top"><a id="ac6ffd7433b8c52b3579e62ba77947a2f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>test_integrator</b> ()</td></tr>
 <tr class="separator:ac6ffd7433b8c52b3579e62ba77947a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac492d0314b6ddf6b2f4c567b59e293f6"><td class="memItemLeft" align="right" valign="top"><a id="ac492d0314b6ddf6b2f4c567b59e293f6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>test_ocean_tide</b> ()</td></tr>
+<tr class="separator:ac492d0314b6ddf6b2f4c567b59e293f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad355b9c8a6393ebff18efb900a5714e0"><td class="memItemLeft" align="right" valign="top"><a id="ad355b9c8a6393ebff18efb900a5714e0"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>test_earth_gravity</b> ()</td></tr>
 <tr class="separator:ad355b9c8a6393ebff18efb900a5714e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -252,6 +261,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>test_string_split</b>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main__test_8c.html#a0cd3d3acac9d8a1e58549b9aa88d75aa">test_attitude_hy2c</a> ()</td></tr>
 <tr class="memdesc:a0cd3d3acac9d8a1e58549b9aa88d75aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">test for the haiyang-2C spacecraft attitude <br /></td></tr>
 <tr class="separator:a0cd3d3acac9d8a1e58549b9aa88d75aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad21f64edb4199ab02de16eb2af166518"><td class="memItemLeft" align="right" valign="top"><a id="ad21f64edb4199ab02de16eb2af166518"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>test_spp_result_orbit_file</b> ()</td></tr>
+<tr class="separator:ad21f64edb4199ab02de16eb2af166518"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09bf5dc8a1025d83159ece566e5ec990"><td class="memItemLeft" align="right" valign="top"><a id="a09bf5dc8a1025d83159ece566e5ec990"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>test_orbit_file_ecef</b> ()</td></tr>
+<tr class="separator:a09bf5dc8a1025d83159ece566e5ec990"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4c0f8a8146b128f1b8f920e3a9c3b1e"><td class="memItemLeft" align="right" valign="top"><a id="ac4c0f8a8146b128f1b8f920e3a9c3b1e"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>main</b> (int argv, char *argc[])</td></tr>
 <tr class="separator:ac4c0f8a8146b128f1b8f920e3a9c3b1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -347,8 +362,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>main</b> (int argv, ch
 <div class="center"><img src="main__test_8c_ac334a92cbd04265f52708e07af9487e3_cgraph.png" border="0" usemap="#amain__test_8c_ac334a92cbd04265f52708e07af9487e3_cgraph" alt=""/></div>
 <map name="amain__test_8c_ac334a92cbd04265f52708e07af9487e3_cgraph" id="amain__test_8c_ac334a92cbd04265f52708e07af9487e3_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,103,32"/>
-<area shape="rect" href="mathlib_8c.html#a4962e2b1e5050c46a73f60dff39188a9" title="inverse of matrix A" alt="" coords="151,5,219,32"/>
-<area shape="rect" href="mathlib_8c.html#ad13d3e6b0deb2bc1b8ade798b9876c72" title="the LU decomposition function of matrix A book: Numerical Recipes in C, The Art of Scientific Computi..." alt="" coords="267,5,337,32"/>
+<area shape="rect" href="mathlib_8c.html#ad353d690125ce6d24782c0c8b128f5e1" title="inverse of matrix A" alt="" coords="151,5,219,32"/>
 </map>
 </div>
 
@@ -361,7 +375,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>main</b> (int argv, ch
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_23ec12649285f9fabf3a6b7380226c28.html">util</a></li><li class="navelem"><a class="el" href="main__test_8c.html">main_test.c</a></li>
-    <li class="footer">生成于 2024年 七月 11日 星期四 15:37:53 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">生成于 2024年 十二月 1日 星期日 15:43:25 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

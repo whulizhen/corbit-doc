@@ -169,8 +169,8 @@ iers_function.h 的引用(Include)关系图:</div>
 <tr class="memitem:a8b1ccc2e3ffe8559e7ec1d87be0d6cda"><td class="memItemLeft" align="right" valign="top"><a id="a8b1ccc2e3ffe8559e7ec1d87be0d6cda"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>FUNDARG</b> (double T, double *L, double *LP, double *F, double *D, double *OM)</td></tr>
 <tr class="separator:a8b1ccc2e3ffe8559e7ec1d87be0d6cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd18318d0e15c48cc9403b138de4ae59"><td class="memItemLeft" align="right" valign="top"><a id="afd18318d0e15c48cc9403b138de4ae59"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>DOODSONARG</b> (double JD_UT1_I, double JD_UT1_F, double JD_TT, double FNUT[5], double BETA[6])</td></tr>
+<tr class="memitem:afd18318d0e15c48cc9403b138de4ae59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="iers__function_8h.html#afd18318d0e15c48cc9403b138de4ae59">DOODSONARG</a> (double JD_UT1_I, double JD_UT1_F, double JD_TT, double FNUT[5], double BETA[6])</td></tr>
+<tr class="memdesc:afd18318d0e15c48cc9403b138de4ae59"><td class="mdescLeft">&#160;</td><td class="mdescRight">BETA are argumenets for (tau, s, h, p, N', ps)  <a href="iers__function_8h.html#afd18318d0e15c48cc9403b138de4ae59">更多...</a><br /></td></tr>
 <tr class="separator:afd18318d0e15c48cc9403b138de4ae59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a783b293bb27d79d7bada2f80ba9f64b5"><td class="memItemLeft" align="right" valign="top"><a id="a783b293bb27d79d7bada2f80ba9f64b5"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>CNMTX</b> (double MJD_TT, double *H)</td></tr>
@@ -373,25 +373,72 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>FCUL_A</b> (double 
 </dd></dl>
 <dl class="section version"><dt>版本</dt><dd>2009 August 19</dd></dl>
 <p><b>[iers2010]</b> </p>
-<div class="dynheader">
-函数调用图:</div>
-<div class="dyncontent">
-<div class="center"><img src="iers__function_8h_add864b13a40b3497e14fd053269f5edf_cgraph.png" border="0" usemap="#aiers__function_8h_add864b13a40b3497e14fd053269f5edf_cgraph" alt=""/></div>
-<map name="aiers__function_8h_add864b13a40b3497e14fd053269f5edf_cgraph" id="aiers__function_8h_add864b13a40b3497e14fd053269f5edf_cgraph">
-<area shape="rect" title=" " alt="" coords="5,81,73,108"/>
-<area shape="rect" href="iers__function_8c.html#ae5901fa6b5bda5d65da55865e532f2f9" title=" " alt="" coords="127,5,177,32"/>
-<area shape="rect" href="iers__function_8c.html#ac463bf0a4ea142677f735f9434c0c274" title=" " alt="" coords="122,56,182,83"/>
-<area shape="rect" href="iers__function_8c.html#aa4299b3a875f0cff2afea8e300811311" title=" " alt="" coords="121,107,183,133"/>
-<area shape="rect" href="iers__function_8c.html#af7881452ba8d5a410002a5b3f6b1ccc5" title=" " alt="" coords="121,157,183,184"/>
-</map>
+
 </div>
+</div>
+<a id="afd18318d0e15c48cc9403b138de4ae59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd18318d0e15c48cc9403b138de4ae59">&#9670;&nbsp;</a></span>DOODSONARG()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DOODSONARG </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>JD_UT1_I</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>JD_UT1_F</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>JD_TT</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>FNUT</em>[5], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>BETA</em>[6]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>BETA are argumenets for (tau, s, h, p, N', ps) </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">JD_UT1_I</td><td></td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">JD_UT1_F</td><td></td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">JD_TT</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">FNUT</td><td></td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">BETA</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>注解</dt><dd>BETA[0] = tau : lunar time = H + 180 degre, H is moon's hour angle, freq: 14.49205211 deg/hour, 1 lunar day BETA[1] = s : mean longitude of the moon, freq: 0.54901653 deg/hour, 1 sidereal month BETA[2] = h : mean longitude of the sun, 0.04106864 deg/hour, 1 solar year BETA[3] = p : mean longitude of the moon's perigee, 0.00464181 deg/hour, 8.847 years BETA[4] = N' : N' = - N, longitude(with change of sign) of the moon's node, -0.00220641, 18.613 years BETA[5] = ps : longitude of the perihelion, freq: 0.00000196 deg/hour , 20940 years </dd></dl>
 <div class="dynheader">
 这是这个函数的调用关系图:</div>
 <div class="dyncontent">
-<div class="center"><img src="iers__function_8h_add864b13a40b3497e14fd053269f5edf_icgraph.png" border="0" usemap="#aiers__function_8h_add864b13a40b3497e14fd053269f5edf_icgraph" alt=""/></div>
-<map name="aiers__function_8h_add864b13a40b3497e14fd053269f5edf_icgraph" id="aiers__function_8h_add864b13a40b3497e14fd053269f5edf_icgraph">
-<area shape="rect" title=" " alt="" coords="133,5,201,32"/>
-<area shape="rect" href="iers__function_8c.html#afe854b9c1beb623e847e6950e57c9820" title=" " alt="" coords="5,5,85,32"/>
+<div class="center"><img src="iers__function_8h_afd18318d0e15c48cc9403b138de4ae59_icgraph.png" border="0" usemap="#aiers__function_8h_afd18318d0e15c48cc9403b138de4ae59_icgraph" alt=""/></div>
+<map name="aiers__function_8h_afd18318d0e15c48cc9403b138de4ae59_icgraph" id="aiers__function_8h_afd18318d0e15c48cc9403b138de4ae59_icgraph">
+<area shape="rect" title="BETA are argumenets for (tau, s, h, p, N&#39;, ps)" alt="" coords="244,5,363,32"/>
+<area shape="rect" href="earth__gravity_8c.html#a34a8a1250ae439b2d07e32b1ba3450ba" title="compute the C and S corrections due to solid earth tide, Tide Generating Potential" alt="" coords="5,5,196,32"/>
 </map>
 </div>
 
@@ -515,16 +562,6 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>FCUL_A</b> (double 
 </ol>
 </dd></dl>
 <dl class="section version"><dt>版本</dt><dd>2009 August 19 </dd></dl>
-<div class="dynheader">
-这是这个函数的调用关系图:</div>
-<div class="dyncontent">
-<div class="center"><img src="iers__function_8h_ae5901fa6b5bda5d65da55865e532f2f9_icgraph.png" border="0" usemap="#aiers__function_8h_ae5901fa6b5bda5d65da55865e532f2f9_icgraph" alt=""/></div>
-<map name="aiers__function_8h_ae5901fa6b5bda5d65da55865e532f2f9_icgraph" id="aiers__function_8h_ae5901fa6b5bda5d65da55865e532f2f9_icgraph">
-<area shape="rect" title=" " alt="" coords="249,5,300,32"/>
-<area shape="rect" href="iers__function_8c.html#add864b13a40b3497e14fd053269f5edf" title=" " alt="" coords="133,5,201,32"/>
-<area shape="rect" href="iers__function_8c.html#afe854b9c1beb623e847e6950e57c9820" title=" " alt="" coords="5,5,85,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -588,20 +625,6 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>FCUL_A</b> (double 
 <p>in North</p>
 <p>in East</p>
 <p>inn Up, no need to be negative because it is in the upward originally.</p>
-<div class="dynheader">
-函数调用图:</div>
-<div class="dyncontent">
-<div class="center"><img src="iers__function_8h_afe854b9c1beb623e847e6950e57c9820_cgraph.png" border="0" usemap="#aiers__function_8h_afe854b9c1beb623e847e6950e57c9820_cgraph" alt=""/></div>
-<map name="aiers__function_8h_afe854b9c1beb623e847e6950e57c9820_cgraph" id="aiers__function_8h_afe854b9c1beb623e847e6950e57c9820_cgraph">
-<area shape="rect" title=" " alt="" coords="5,107,85,133"/>
-<area shape="rect" href="iers__function_8c.html#add864b13a40b3497e14fd053269f5edf" title=" " alt="" coords="133,81,201,108"/>
-<area shape="rect" href="iers__function_8c.html#a53286fb208f9c1b107cb3b36307976d2" title=" " alt="" coords="136,132,199,159"/>
-<area shape="rect" href="iers__function_8c.html#ae5901fa6b5bda5d65da55865e532f2f9" title=" " alt="" coords="255,5,305,32"/>
-<area shape="rect" href="iers__function_8c.html#ac463bf0a4ea142677f735f9434c0c274" title=" " alt="" coords="250,56,310,83"/>
-<area shape="rect" href="iers__function_8c.html#aa4299b3a875f0cff2afea8e300811311" title=" " alt="" coords="249,107,311,133"/>
-<area shape="rect" href="iers__function_8c.html#af7881452ba8d5a410002a5b3f6b1ccc5" title=" " alt="" coords="249,157,311,184"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -705,15 +728,6 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>FCUL_A</b> (double 
 </ol>
 </dd></dl>
 <dl class="section version"><dt>版本</dt><dd>2009 August 19 </dd></dl>
-<div class="dynheader">
-这是这个函数的调用关系图:</div>
-<div class="dyncontent">
-<div class="center"><img src="iers__function_8h_a53286fb208f9c1b107cb3b36307976d2_icgraph.png" border="0" usemap="#aiers__function_8h_a53286fb208f9c1b107cb3b36307976d2_icgraph" alt=""/></div>
-<map name="aiers__function_8h_a53286fb208f9c1b107cb3b36307976d2_icgraph" id="aiers__function_8h_a53286fb208f9c1b107cb3b36307976d2_icgraph">
-<area shape="rect" title=" " alt="" coords="133,5,196,32"/>
-<area shape="rect" href="iers__function_8c.html#afe854b9c1beb623e847e6950e57c9820" title=" " alt="" coords="5,5,85,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -765,16 +779,6 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>FCUL_A</b> (double 
 </ol>
 </dd></dl>
 <dl class="section version"><dt>版本</dt><dd>2009 August 19 </dd></dl>
-<div class="dynheader">
-这是这个函数的调用关系图:</div>
-<div class="dyncontent">
-<div class="center"><img src="iers__function_8h_ac463bf0a4ea142677f735f9434c0c274_icgraph.png" border="0" usemap="#aiers__function_8h_ac463bf0a4ea142677f735f9434c0c274_icgraph" alt=""/></div>
-<map name="aiers__function_8h_ac463bf0a4ea142677f735f9434c0c274_icgraph" id="aiers__function_8h_ac463bf0a4ea142677f735f9434c0c274_icgraph">
-<area shape="rect" title=" " alt="" coords="249,5,309,32"/>
-<area shape="rect" href="iers__function_8c.html#add864b13a40b3497e14fd053269f5edf" title=" " alt="" coords="133,5,201,32"/>
-<area shape="rect" href="iers__function_8c.html#afe854b9c1beb623e847e6950e57c9820" title=" " alt="" coords="5,5,85,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -840,16 +844,6 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>FCUL_A</b> (double 
 </ol>
 </dd></dl>
 <dl class="section version"><dt>版本</dt><dd>2009 August 26 </dd></dl>
-<div class="dynheader">
-这是这个函数的调用关系图:</div>
-<div class="dyncontent">
-<div class="center"><img src="iers__function_8h_aa4299b3a875f0cff2afea8e300811311_icgraph.png" border="0" usemap="#aiers__function_8h_aa4299b3a875f0cff2afea8e300811311_icgraph" alt=""/></div>
-<map name="aiers__function_8h_aa4299b3a875f0cff2afea8e300811311_icgraph" id="aiers__function_8h_aa4299b3a875f0cff2afea8e300811311_icgraph">
-<area shape="rect" title=" " alt="" coords="249,5,311,32"/>
-<area shape="rect" href="iers__function_8c.html#add864b13a40b3497e14fd053269f5edf" title=" " alt="" coords="133,5,201,32"/>
-<area shape="rect" href="iers__function_8c.html#afe854b9c1beb623e847e6950e57c9820" title=" " alt="" coords="5,5,85,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -914,16 +908,6 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>FCUL_A</b> (double 
 * </pre><p><b>[iers2010]</b></p>
 <dl class="section version"><dt>版本</dt><dd>2013 September 11</dd></dl>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000005">待办事项:</a></b></dt><dd>There is a bug here! The line: 'double delta ( iers2010::hisp::etutc (year) );' returns a delta != 0. The FORTRAN routine however gives delta=0. WTF ?? </dd></dl>
-<div class="dynheader">
-这是这个函数的调用关系图:</div>
-<div class="dyncontent">
-<div class="center"><img src="iers__function_8h_af7881452ba8d5a410002a5b3f6b1ccc5_icgraph.png" border="0" usemap="#aiers__function_8h_af7881452ba8d5a410002a5b3f6b1ccc5_icgraph" alt=""/></div>
-<map name="aiers__function_8h_af7881452ba8d5a410002a5b3f6b1ccc5_icgraph" id="aiers__function_8h_af7881452ba8d5a410002a5b3f6b1ccc5_icgraph">
-<area shape="rect" title=" " alt="" coords="249,5,311,32"/>
-<area shape="rect" href="iers__function_8c.html#add864b13a40b3497e14fd053269f5edf" title=" " alt="" coords="133,5,201,32"/>
-<area shape="rect" href="iers__function_8c.html#afe854b9c1beb623e847e6950e57c9820" title=" " alt="" coords="5,5,85,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -934,7 +918,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>FCUL_A</b> (double 
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="iers__function_8h.html">iers_function.h</a></li>
-    <li class="footer">生成于 2024年 七月 11日 星期四 15:37:53 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">生成于 2024年 十二月 1日 星期日 15:43:25 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

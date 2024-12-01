@@ -25,9 +25,6 @@ extern "C"
 #include <stdbool.h>
 #include "ulog.h"
 
-//#define EMBED  /**MACRO to control if it is a embed application*/
-
-
 #if (_WIN32 || WIN64)
 #define MY_FILE_NAME(x) strrchr(x, '\\') ? strrchr(x, '\\') + 1 : x
 #else
@@ -46,7 +43,7 @@ extern "C"
     //  typedef bool BOOL;
 
 #define VER_CORBIT "0.0.1"                                                          /**< corbit library version*/
-#define COPYRIGHT_CORIBT "Copyright (C) 2016-2024 by Zhen Li\nAll rights reserved." /**< corbit copy right*/
+#define COPYRIGHT_CORIBT "Copyright (C) 2016-2024 by Zhen Li\n All rights reserved." /**< corbit copy right*/
 
 
 #define PI 3.1415926535897932384626433832795 /**< PI */

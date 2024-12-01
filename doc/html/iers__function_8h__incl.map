@@ -1,9 +1,0 @@
-<map id="iers_function.h" name="iers_function.h">
-<area shape="rect" id="node1" title="Declarations for IERS functions." alt="" coords="166,5,285,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,80,72,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="97,80,167,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="191,80,259,107"/>
-<area shape="rect" id="node5" title=" " alt="" coords="256,155,339,181"/>
-<area shape="rect" id="node6" href="$corbit__const_8h.html" title="Declarations for all the constants in corbit project." alt="" coords="335,80,449,107"/>
-<area shape="rect" id="node7" href="$ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="363,155,426,181"/>
-</map>

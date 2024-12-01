@@ -1,7 +1,0 @@
-<map id="pseudorange_point_positioning" name="pseudorange_point_positioning">
-<area shape="rect" id="node1" title="pseudorange point positioning" alt="" coords="5,31,231,57"/>
-<area shape="rect" id="node2" href="$gtime_8c.html#a4bf9344475021ba0cc9fe2373ffe13ab" title="convert GTime to time string" alt="" coords="279,31,364,57"/>
-<area shape="rect" id="node3" href="$gtime_8c.html#af3d0d3d1f25a8b57ded3fb98458d21ce" title="convert from GTime to TimeYMD" alt="" coords="412,31,515,57"/>
-<area shape="rect" id="node4" href="$gtime_8c.html#a4e80434717708c0874f6c38348d8584a" title="convert from GTime to TimeJD" alt="" coords="563,5,649,32"/>
-<area shape="rect" id="node5" href="$gtime_8c.html#afc86aafaf1f29e1eb93c5da18a47e144" title="convert from TimeJD to TimeYMD" alt="" coords="569,56,643,83"/>
-</map>

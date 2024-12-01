@@ -1,8 +1,0 @@
-<map id="gtime2mjd" name="gtime2mjd">
-<area shape="rect" id="node1" title="convert GTime struct to mjd in double" alt="" coords="369,81,463,108"/>
-<area shape="rect" id="node2" href="$orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="185,5,315,32"/>
-<area shape="rect" id="node4" href="$main__test_8c.html#a0cd3d3acac9d8a1e58549b9aa88d75aa" title="test for the haiyang&#45;2C spacecraft attitude" alt="" coords="179,56,321,83"/>
-<area shape="rect" id="node5" href="$orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="180,107,320,133"/>
-<area shape="rect" id="node6" href="$tle_8h.html#a14bb37952a95c29ea670040cdd62fd55" title=" " alt="" coords="215,157,285,184"/>
-<area shape="rect" id="node3" href="$orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,5,131,32"/>
-</map>

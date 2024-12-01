@@ -1,4 +1,0 @@
-<map id="interpolation_Lagrange_Barycentric" name="interpolation_Lagrange_Barycentric">
-<area shape="rect" id="node1" title="interpolate yt[0] and derivative yt[1] at xt using the barycentric lagrange interpolation" alt="" coords="208,5,380,47"/>
-<area shape="rect" id="node2" href="$mathlib_8c.html#a0772699c502196711cb0f36e0819a900" title="interpolate data points with m dimensions" alt="" coords="5,5,160,47"/>
-</map>

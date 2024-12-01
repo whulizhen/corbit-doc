@@ -40,8 +40,11 @@ extern "C"
 #define MAXNUM_FM_PARAM_RT 3
 #define MAXNUM_X (3 + 3 + NSYS + MAXSAT_PER_EPOCH * MAXNUM_FREQ) /**<maxnum of unknowns*/
 
-#define MAXNUM_STORE_POS 5
-#define MAXNUM_STORE_CLK 5
+#define MAXNUM_STORE_POS 10
+#define MAXNUM_STORE_CLK 10
+
+#define MAXNUM_INTEGRATION_OUTPUT  (10)
+#define MAXNUM_INTEGRATION_STATE (6 + 36 + 6 * MAXNUM_FM_PARAM_TOTAL)
 
 #ifndef EMBED
     #define NUM_ANT_INFO MAXSAT_GNSS
@@ -49,6 +52,17 @@ extern "C"
     #define NUM_ANT_INFO 2
 #endif
 
+    /**
+     * @brief the telemetry information of the pod_embed
+     * 
+     */
+    typedef struct _pod_embed_telemetry_
+    {
+        char time_gps_now[50];  // GPS time now
+        char status_orbit;  // status of the solution, S for spp,  P for PPP,  D for dynamic,  F for orbit forcast,
+        char status_clock;  // status of the solution, S for spp,  P for PPP,  D for dynamic,  F for orbit forcast,
+
+    }POD_EMBED_TELEMETRY;
 
     /**
      * @brief orbit data
@@ -91,28 +105,34 @@ extern "C"
         int obs_num;
         
         EPHBRDC_STORE brdc_storage; /**< all the broadcast ephemeris for GNSS satellite*/
+        RTCM rtcm_storage; /**< the rtcm storage  for GNSS satellites */
+        
 #ifndef EMBED
         EPHPREC_STORE prec_storage; /**< all the precise ephemeris for GNSS satellite*/
-        FILE *pf_output;
-        char filename_output[1024]; /**< for the output */
+        // FILE *pf_output;
+        // char filename_output[1024]; /**< for the output */
 #endif
 
-        EOPREC eop_storage[3];      // only store 3 days EOP
+        EOPREC eop_storage[MAXSIZE_EOP];      // only store 3 days EOP
         
         // store the latest 10 orbit and clk information
         DATA_ORBIT dataset_orbit[MAXNUM_STORE_POS]; // including predicted pos+vel
         DATA_CLK dataset_clk[MAXNUM_STORE_CLK];     // including the predicted clk offset
         int num_orb_store;
         int num_clk_store;
-        
-        int satlist_used_in_obsepoch[MAXSAT_PER_EPOCH]; /**< the satellite index in the current obsepoch satlist*/ 
-        int nsat_used;
-        int satlist_satindex_now[MAXSAT_PER_EPOCH]; /**< the satellite index(global) in the current epoch */
+        unsigned int num_epoch_count;
         SOLUTION sln_kine;
 
-        int satlist_used_in_obsepoch_last[MAXSAT_PER_EPOCH]; /**< the satellite index in the last obsepoch satlist*/
+        // *!!!!satlist_used_in_obsepoch, nsat_used and satlist_satindex_now SHOULD NOT BE CHANGED as it related to the order of parameters (X and DX)
+        int nsat_used;
+        int satlist_used_in_obsepoch[MAXSAT_PER_EPOCH]; /**< the satellite index in the current obsepoch satlist*/ 
+        int satlist_satindex_now[MAXSAT_PER_EPOCH]; /**< the satellite index(global) in the current epoch */
+        bool satindex_list_indicator_now[MAXSAT_PER_EPOCH];
+
         int nsat_used_last;
+        int satlist_used_in_obsepoch_last[MAXSAT_PER_EPOCH]; /**< the satellite index in the last obsepoch satlist*/
         int satlist_satindex_last[MAXSAT_PER_EPOCH];
+        bool satindex_list_indicator_last[MAXSAT_PER_EPOCH];
         
         SAT_STATE state_sat_all[MAXSAT_GNSS]; // satellite state of all GNSS satellites, memory: 536 Bytes*MAXSAT_GNSS = 56280 bytes
         
@@ -137,7 +157,16 @@ extern "C"
         //for the orbit dynamic filter
         ORBIT_DYN_CONFIG orbit_dyn_config; /**< orbit dynamics control, interface to orbit dynamics*/
         STATE_SPACECRAFT state_satellite;  /**< spacecraft state, the interface for orbit dynamics */
-        int orbit_integration_progress;  /**< the progess bar of orbit integration process*/
+        GTime  initial_condition_epoch_utc;
+        double initial_condition_eci[6];
+        bool kinematic_or_dynamic;
+        bool initial_condition_status;
+        // the following are to store the orbit integration state
+        double integration_state[MAXNUM_INTEGRATION_OUTPUT * MAXNUM_INTEGRATION_STATE]; /**< ystate[6] + PHI[36] + S[6*np] */
+        double integration_epoch[MAXNUM_INTEGRATION_OUTPUT];
+        double time_correlation;
+        bool started_dynamic_filter;
+        int orbit_integration_progress; /**< the progess bar of orbit integration process*/
         double sln_orbit_interval; // interval in seconds for orbit solution, could be 10~30 secs
         double X_dyn[6 + MAXNUM_FM_PARAM_TOTAL];
         double DX_dyn[(6 + MAXNUM_FM_PARAM_TOTAL) * (6 + MAXNUM_FM_PARAM_TOTAL)];
@@ -155,8 +184,8 @@ extern "C"
     bool update_gnss_ephemeris_pre(EPHREC_GLO *ephbrdc_glo_storage);
     
     bool get_initial_pos_vel_clk(RUNTIME_POD_EMBED *pod_runtime);
-    void get_initial_ambiguity(RUNTIME_POD_EMBED *runtime_pod);
-    void get_initial_ambiguity_nomemory(RUNTIME_POD_EMBED *runtime_pod);
+    // void get_initial_ambiguity(RUNTIME_POD_EMBED *runtime_pod);
+    // void get_initial_ambiguity_nomemory(RUNTIME_POD_EMBED *runtime_pod);
     void get_initial_ambiguity_test(RUNTIME_POD_EMBED *runtime_pod);
     
     void startup_pod_embed(RUNTIME_POD_EMBED *runtime_pod,bool test_env_initialized);
@@ -167,7 +196,8 @@ extern "C"
     bool pod_embed_solve_clk_offset(OBSDATA_EPOCH *obsdata, RUNTIME_POD_EMBED *runtime_pod);
     bool pod_embed_solve_orbit(OBSDATA_EPOCH *obsdata, RUNTIME_POD_EMBED *runtime_pod);
     bool orbit_dynamic_filter(RUNTIME_POD_EMBED *runtime_pod);
-    
+
+    void store_integration(RUNTIME_POD_EMBED *runtime_pod, int integration_progress);
     void store_data_orbit(RUNTIME_POD_EMBED *runtime_pod);
     void store_data_clock(RUNTIME_POD_EMBED *runtime_pod);
 

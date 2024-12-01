@@ -1,4 +1,0 @@
-<map id="get_mean" name="get_mean">
-<area shape="rect" id="node1" title="Get the mean value of an array x." alt="" coords="124,5,211,32"/>
-<area shape="rect" id="node2" href="$mathlib_8c.html#a68decd0fae3f3877ec2dd0c39892338c" title="Get the standard deviation value of an array x." alt="" coords="5,5,76,32"/>
-</map>

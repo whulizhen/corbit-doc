@@ -1,4 +1,0 @@
-<map id="gnss_sat_attitude" name="gnss_sat_attitude">
-<area shape="rect" id="node1" title="compute the GNSS satellite attitude" alt="" coords="5,5,143,32"/>
-<area shape="rect" id="node2" href="$gnss__config_8c.html#a7fd0dfc78e583065b3f541581b42b679" title="convert internal satellite index to the satellite system and prn" alt="" coords="191,5,320,32"/>
-</map>

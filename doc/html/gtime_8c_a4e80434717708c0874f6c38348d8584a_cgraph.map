@@ -1,4 +1,0 @@
-<map id="GTime2JD" name="GTime2JD">
-<area shape="rect" id="node1" title="convert from GTime to TimeJD" alt="" coords="5,5,92,32"/>
-<area shape="rect" id="node2" href="$gtime_8c.html#abba188d666e8af9b378ebc53d444ece4" title="make TimeJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="140,5,281,32"/>
-</map>

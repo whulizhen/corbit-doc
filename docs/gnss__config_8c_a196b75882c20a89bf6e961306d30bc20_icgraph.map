@@ -1,4 +1,6 @@
 <map id="get_obs_frequency" name="get_obs_frequency">
-<area shape="rect" id="node1" title="get the radio frequency of observations in MHz" alt="" coords="261,5,407,32"/>
-<area shape="rect" id="node2" href="$obs__processing_8c.html#a5d96093c451ef613dc2615a505dc3402" title="get the initial ambiguity for the filter" alt="" coords="5,5,213,32"/>
+<area shape="rect" id="node1" title="get the radio frequency of observations in MHz" alt="" coords="724,13,869,39"/>
+<area shape="rect" id="node2" href="$obs__processing_8c.html#a5d96093c451ef613dc2615a505dc3402" title="get the initial ambiguity for the filter" alt="" coords="468,13,676,39"/>
+<area shape="rect" id="node3" href="$pod__embed_8c.html#a8bd704d94b32d1befe62fd3dc7f451b7" title="get the initival ambiguity for current observation" alt="" coords="228,13,420,39"/>
+<area shape="rect" id="node4" href="$pod__embed_8c.html#a86bba72e837066920f39ddb33ae32467" title="update temperal clock solution" alt="" coords="5,5,180,47"/>
 </map>

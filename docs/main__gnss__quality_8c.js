@@ -1,5 +1,6 @@
 var main__gnss__quality_8c =
 [
+    [ "_gnss_quality_config_", "struct__gnss__quality__config__.html", "struct__gnss__quality__config__" ],
     [ "compute_statistics_in_MPC", "main__gnss__quality_8c.html#a93fe25d4709e08c4ebef222b86ec8a24", null ],
     [ "get_dd_mw", "main__gnss__quality_8c.html#a53d9cacd14d4a620db7c049df84c93cc", null ],
     [ "gnss_quality_multipath", "main__gnss__quality_8c.html#a402b8ff4b374dd92dcf7e7fc0a80bf2d", null ],

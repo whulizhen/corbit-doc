@@ -151,6 +151,8 @@ extern "C"
     double propagation_time_iterate(GTime obstime, int satindex, double rcv_clock, double *station_pos, double *satposvel, double *satclk, double *tgd);
     double propagation_time_use_range(GTime obstime, int satindex, double range, double *station_pos, double *satposvel, double *satclk, double *tgd);
 
+    int residual_control(int nsat, int *satidx_in_obs_epoch, int *satlist_satindex, OBSDATA_EPOCH *obs_epoch, int *satindex_exclude, bool *satindex_list_indicator);
+    
     // compute the observation minues computation
     // V = L - H.X
     int compute_omc_zd_gnss(int nsat, int *satidx_in_obs_epoch, int *satlist_satindex, OBSDATA_EPOCH *obs_epoch,
@@ -159,8 +161,6 @@ extern "C"
                             index_param_func idxfunc,
                             double *X, SAT_STATE *sat_state,
                             int nobs_max, int nx_max, double *h, double *v, double *r);
-
-    double ambfix_nearest_integer(double amb_float, double sigma_amb);
 
     void standard_pres_temp(double *blh, double *pres, double *temp);
     double MappingFunction_simple(double el, double *map_dry_wet);
@@ -181,6 +181,11 @@ extern "C"
     double Nequick_GAL(double a[3], double *user_geo, double *sat_geo, double UT, int mth);
 
     void model_phase_windup(double *exs, double *eys, double *ek, double *exr, double *eyr, double *phw);
+
+#ifndef EMBED
+    double ambfix_nearest_integer(double amb_float, double sigma_amb);
+#endif
+
 
 #ifdef __cplusplus
 }

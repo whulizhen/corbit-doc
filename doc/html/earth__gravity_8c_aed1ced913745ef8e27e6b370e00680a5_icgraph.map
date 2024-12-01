@@ -1,7 +1,0 @@
-<map id="legendrePoly" name="legendrePoly">
-<area shape="rect" id="node1" title="compute the Legendre polynomial" alt="" coords="829,13,936,39"/>
-<area shape="rect" id="node2" href="$earth__gravity_8c.html#a6e7af1ff8a7eb159461416c3c63bc8c1" title="compute the C and S corrections due to solid earth tide" alt="" coords="591,13,781,39"/>
-<area shape="rect" id="node3" href="$earth__gravity_8c.html#ae4221b4ad05c0289b567912c9ffd5eeb" title="This is the main entry of earth gravity acc computation." alt="" coords="357,5,543,47"/>
-<area shape="rect" id="node4" href="$orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="179,13,309,39"/>
-<area shape="rect" id="node5" href="$orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,13,131,39"/>
-</map>
