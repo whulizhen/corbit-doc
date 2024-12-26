@@ -29,8 +29,8 @@ extern "C"
 #include <stdlib.h>
 #include <math.h>
 #include <stdbool.h>
-// #include <string.h>
 #include "corbit_const.h"
+// #include "common_function.h"
 
     /**
      * @brief enum definition for time systems
@@ -168,13 +168,14 @@ extern "C"
     void gtime2str(GTime gtime, char *time_str);
     double gtime2mjd(GTime gtime);
     GTime str2gtime(char *time_str, TIMESYS ts);
+    GTime str2gtime_format(char *time_str, char *time_format, TIMESYS ts);
     void timeymd2str(TimeYMD ymdtime, char *time_str);
     bool gtime_greater(GTime a, GTime b);
     bool gtime_less(GTime a, GTime b);
     bool gtime_equal(GTime a, GTime b);
 
 #ifndef EMBED
-    void get_time_now(char *timestr);
+    GTime get_time_now();
 #endif
 
 

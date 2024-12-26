@@ -2,14 +2,16 @@
 
 /**
  * @file corbit_const.h
- * @brief Declarations for all the constants in corbit project
- * @details These functions are for all the constants
- * @author Dr. Zhen Li
+ * @brief @brief Constant definitions for the corbit library.
  * @version 0.0.1
- * @date 2023.12.25
- * @note this file includes definitions for all the constants
- * @since 2016.01.15
+ * @date 2016-2024
+ * 
+ * This file contains constant definitions used in the corbit library.
+ * 
+ * @author Dr. Zhen Li
  * @copyright
+ * Copyright (C) 2016-2024 by Zhen Li
+ * All rights reserved.
  * @par History:
  *
  */
@@ -22,6 +24,8 @@ extern "C"
 {
 #endif
 
+#include <stdio.h>
+#include <stdlib.h>
 #include <stdbool.h>
 #include "ulog.h"
 
@@ -33,6 +37,11 @@ extern "C"
 
 // get the file name, line number and function name
 #define GET_FILE_LINE_FUNC(x, str_out) sprintf(str_out, "%s:%d:%s()<%s>", MY_FILE_NAME(__FILE__), __LINE__, __func__, (x))
+
+
+#if defined(_MSC_VER) && !defined(_CRT_SECURE_NO_WARNINGS)
+#define _CRT_SECURE_NO_WARNINGS
+#endif
 
 
     // type definitions

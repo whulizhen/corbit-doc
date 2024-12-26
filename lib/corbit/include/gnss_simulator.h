@@ -29,21 +29,36 @@ extern "C"
 #include "gnss_config.h"
 #include "gnss_observation.h"
 #include "gnss_satposition.h"
+#include "keplerian_element.h"
+#include "obs_processing.h"
 
+typedef struct _waypoint_pos_
+{
+    GTime epoch; // in GPST
+    double pos_ecf[3]; // in unit of meters
+    double vel_ecf[3]; // in unit of m/s
+} WAYPOINT_POS;
 
-
+typedef struct _waypoint_clk_
+{
+    GTime epoch; // in GPST
+    double clk_offset[2]; // in unit of m and m/s
+}WAYPOINT_CLK;
 
 typedef struct _config_simulator_
 {
     GTime start_gpst;
     GTime end_gpst;
-    double interval; // in seconds
+    double interval;           // in seconds
     double ele_cutoff;         /**< cutoff elevation in radian */
-    
     char filename_user[MAXLEN_STRING];  // the file path of the user position, velocity [in ecef] and clock offset
+    
+    char filename_antex[MAXLEN_STRING]; // igs antex filename
     char filename_ephemeris_brdc[MAXLEN_STRING];
-    char filename_ephemeris_prec[MAXLEN_STRING];
-    int  eph_opt;  // ephemeris option
+    char filename_ephemeris_prec[MAXLEN_STRING]; // sp3 file name
+    char filename_ephemeris_clock[MAXLEN_STRING]; // clock file name
+    
+    int  eph_opt;  // ephemeris option, 0 for brdc, 1 for precise ephemeris
 
     double noise_range;  // pseodorange in meter
     double noise_phase;   // carrier phase in meter
@@ -60,15 +75,26 @@ typedef struct _config_simulator_
 
 
 
+typedef struct _runtime_simulator_
+{
+    EPHPREC_STORE* ephprec_store;
+    EPHBRDC_STORE* ephbrdc_store;
+    ANT_INFO_STORE* ant_info_store;
 
 
+    OBSDATA_EPOCH obs_epoch; // the simulated gnss epoch data
+
+} RUNTIME_SIMULATOR;
 
 
-    void simulate();
+void initialize_simulator(RUNTIME_SIMULATOR* runtime_simulator, CONFIG_SIMULATOR* pconfig);
+void destruct_runtime(RUNTIME_SIMULATOR* runtime_simulator);
 
-    //deal with the waypoint files
-    void read_waypoints();
-    void write_waypoints();
+void simulate_gnss(RUNTIME_SIMULATOR* runtime_sim, GTime time_sim, WAYPOINT_POS* pos, WAYPOINT_CLK* clk);
+
+// deal with the waypoint files
+void read_waypoints();
+void write_waypoints();
 
 #ifdef __cplusplus
 }

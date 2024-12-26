@@ -1,6 +1,6 @@
 <map id="azel" name="azel">
-<area shape="rect" id="node1" title="compute the azimuth and elevation for ground users, this is not for the platform coordiante,..." alt="" coords="364,183,413,209"/>
-<area shape="rect" id="node2" href="$common__function_8c.html#ac66f69bcf146103e8684e9c73fdd40b8" title="compute the signal azimuth and elevation in the platform coordinate system" alt="" coords="169,5,291,32"/>
+<area shape="rect" id="node1" title="Calculate azimuth and elevation from user given coordinates. compute the azimuth and elevation for gr..." alt="" coords="364,183,413,209"/>
+<area shape="rect" id="node2" href="$common__function_8c.html#ac66f69bcf146103e8684e9c73fdd40b8" title="Computes the azimuth and elevation angles of a signal." alt="" coords="169,5,291,32"/>
 <area shape="rect" id="node3" href="$obs__processing_8c.html#a9d14d3a122897a640ea0b86f7ba30d5d" title="Mapping function based on BeiDou ICD 2017 B1c" alt="" coords="161,56,299,83"/>
 <area shape="rect" id="node4" href="$obs__processing_8c.html#ae42cfc50d8f32a55b2f21f2e7689da2a" title=" " alt="" coords="159,107,301,133"/>
 <area shape="rect" id="node5" href="$obs__processing_8c.html#a5f9e439d09365a355f9deccd605fa7e3" title=" " alt="" coords="144,157,316,184"/>

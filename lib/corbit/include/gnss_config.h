@@ -39,6 +39,8 @@ extern "C"
 // /// enable BeiDou
 // #define ENABDS
 
+#define ENALEO
+
 #else
 
 #define NameAsStr(x) (#x)                                   /**< convert variable to its name*/
@@ -48,7 +50,7 @@ extern "C"
 #define ENAGPS
 
 // /// enable BeiDou
-#define ENABDS
+// #define ENABDS
 
 /// enable LEO
 #define ENALEO
@@ -157,18 +159,18 @@ extern "C"
 // the following variable definition is related to the stack size, mgith cause stack dump when they are large
 #define MAXNUM_STATION (NSTA) /**< maximum number of gnss ground stations */
 
-#define MAXSIZE_OBS_EPOCH (86400*2) /**< max number of observations in the storage */
+#define MAXSIZE_OBS_EPOCH (86401) /**< max number of observations in the storage */
 
 #define SIGMA_RANGE 0.3   /**< the standard deviation of range observations*/
 #define SIGMA_PHASE 0.002 /**< the standard deviation of phase observations*/
 
 #ifdef  EMBED
 #define MAXOBS_PER_SAT 4    /**< max number of observation values for one gnss satellite */
-#define MAXSAT_PER_EPOCH 10 /**< max number of satellites  for one gnss epoch */
+#define MAXSAT_PER_EPOCH 15 /**< max number of satellites  for one gnss epoch */
 #define MAXNUM_FREQ 2       /**< max number of frequency for one gnss satellite */
 #else
 #define MAXOBS_PER_SAT 10   /**< max number of observation values for one gnss satellite */
-#define MAXSAT_PER_EPOCH 15 /**< max number of satellites  for one gnss epoch */
+#define MAXSAT_PER_EPOCH 30 /**< max number of satellites  for one gnss epoch */
 #define MAXNUM_FREQ 2       /**< max number of frequency for one gnss satellite */
 #endif
 
@@ -280,7 +282,8 @@ extern "C"
         SOL_SPP_LACK_SAT,    /**< spp solution lack of satellite(<4)*/
         SOL_ITER_EXCEED,     /**< solution iteration exceed*/
         SOL_OBS_BAD,         /**< solution with bad observation*/
-        SOL_CHI2_TEST_FAILED /**< solution chi2 test failed*/
+        SOL_CHI2_TEST_FAILED, /**< solution chi2 test failed*/
+        SOL_DYN_PREDICT     /**< dynamic predict solution*/
     } STATUS_SOL;
 
     /**

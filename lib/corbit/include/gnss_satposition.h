@@ -25,7 +25,7 @@ extern "C"
 #include <stdio.h>
 #define MAXEPOCH_EPH_PRE 86401
 #define MAXEPOCH_CLK_PRE 86401
-#define MAXEPOCH_EPH_BRDC 2000
+#define MAXEPOCH_EPH_BRDC 200
 
 #else
 #define MAXEPOCH_EPH_PRE 10
@@ -49,13 +49,23 @@ extern "C"
     extern double iono_brdc_QZS_B[4];
     extern double iono_brdc_BDGIM[9];  /**< 9 param BDGIM ionosphere model */ 
     
-    /// EPHOPT enum definition for broadcast, precise and RTCM options 
+    /** @brief EPHOPT definitions */
     typedef enum _EPHOPT_
     {
-        EPHOPT_BRDC,
-        EPHOPT_PREC,
-        EPHOPT_RTCM
+        EPHOPT_BRDC, /**< broadcast ephemeris option */
+        EPHOPT_PREC, /**< precise ephemeris option */
+        EPHOPT_RTCM /**< broadcast ephemeris with RTCM SSR option */
     } EPHOPT;
+    
+    /// @cond IGNORE
+    /** @brief  tag the status of the current ephemeris status */ 
+    typedef enum _EPHSTATE_
+    {
+        EPHSTATE_CONTINUOUS  = 0x0,  /**< continuous ephemeris for both brdc and rtcm ssr */
+        EPHSTATE_BRDC_CHANGE = 0x1, /**< brdc ephemeris changes at 0, 2 4, hours */
+        EPHSTATE_SSR_MISSING = 0x2      /**<  RTCM SSR Discontinuous */
+    } EPHSTATE;
+    /// @endcond  
     
     /**
      * @brief GPS broadcast ephemeris record , sat position at the phase center 
@@ -221,6 +231,7 @@ extern "C"
         double vel_ecf[3]; /**< sat velocity in ecef, in m/s */
         double sigma[6]; /**< sigma of position and velocity */
         bool ok; /** record ok or not */
+        // int tle_idx; /**< index of the tle in the tle database */
     } EPHREC_PRE;
 
     /// the precise clock offset for GNSS, mainly sp3
@@ -288,6 +299,14 @@ extern "C"
         EPHREC_BDS* eph_brdc_bds_now[MAXPRNBDS + 1]; /**< pointers for broadcast ephemeris for BDS satellites */
         EPHREC_GAL* eph_brdc_gal_now[MAXPRNGAL + 1]; /**< pointers for broadcast ephemeris for GAL satellites */
         EPHREC_GLO* eph_brdc_glo_now[MAXPRNGLO + 1]; /**< pointers for broadcast ephemeris for GLO satellites */
+
+        // those are state for the current broadcast ephemeris, use only 1 byte (8 bits) to store the states
+        //  <high>xxxx-xxxx<low>, low 4 bits to store the state, the 5th bit to store if it is the first call
+        char eph_brdc_gps_state_now[MAXPRNGPS + 1]; /**< state for broadcast ephemeris for GPS satellites */
+        char eph_brdc_bds_state_now[MAXPRNBDS + 1]; /**< state for broadcast ephemeris for BDS satellites */
+        char eph_brdc_gal_state_now[MAXPRNGAL + 1]; /**< state for broadcast ephemeris for GAL satellites */
+        char eph_brdc_glo_state_now[MAXPRNGLO + 1]; /**< state for broadcast ephemeris for GLO satellites */
+
     } EPHBRDC_NOW;
 
     /**
@@ -333,6 +352,8 @@ extern "C"
         int num_max_memory;  /**< the size of the antenna_info_storage memory */
     } ANT_INFO_STORE;
 
+    void initialize_global_gnss_satposition();
+    void reset_eph_brdc_now_state();
     void antenna_GNSS_default();
     bool add_antenna_into_storage(ANT_INFO *ant_info, ANT_INFO_STORE *ptr_antenna_info_store);
     ANT_INFO* search_ant_info(int sat_rcv_index, char *ant_type_code, double mjd_now);
@@ -344,6 +365,8 @@ extern "C"
 
     bool choose_eph_gps_brdc(GTime transmission_time, int satindex);
     bool choose_eph_bds_brdc(GTime transmission_time, int satindex);
+    // int  get_state_brdc_eph_now(int satindex);
+    // int  set_state_brdc_eph_now(int satindex);
 
     double compute_satposvelclk_gps_brdc(int prn, GTime transmission_time, double satposvel[], double satclk[]);
     double compute_satposvelclk_bds_brdc(int prn, GTime transmission_time, double satposvel[], double satclk[]);

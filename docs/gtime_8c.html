@@ -122,15 +122,15 @@ gtime.c 的引用(Include)关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="gtime_8c__incl.png" border="0" usemap="#agtime_8c" alt=""/></div>
 <map name="agtime_8c" id="agtime_8c">
-<area shape="rect" title="Implementation of all the time operations" alt="" coords="231,5,302,32"/>
-<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="231,80,303,107"/>
+<area shape="rect" title="Implementation of all the time operations" alt="" coords="169,5,239,32"/>
+<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="168,80,240,107"/>
 <area shape="rect" title=" " alt="" coords="5,155,69,181"/>
-<area shape="rect" title=" " alt="" coords="93,155,160,181"/>
-<area shape="rect" title=" " alt="" coords="185,155,255,181"/>
-<area shape="rect" title=" " alt="" coords="279,155,347,181"/>
-<area shape="rect" title=" " alt="" coords="344,229,427,256"/>
-<area shape="rect" href="corbit__const_8h.html" title="Declarations for all the constants in corbit project" alt="" coords="423,155,537,181"/>
-<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="451,229,514,256"/>
+<area shape="rect" title=" " alt="" coords="35,229,101,256"/>
+<area shape="rect" title=" " alt="" coords="126,229,197,256"/>
+<area shape="rect" title=" " alt="" coords="385,155,453,181"/>
+<area shape="rect" title=" " alt="" coords="308,229,391,256"/>
+<area shape="rect" href="corbit__const_8h.html" title="Constant definitions for the corbit library." alt="" coords="195,155,309,181"/>
+<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="221,229,283,256"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -235,9 +235,12 @@ gtime.c 的引用(Include)关系图:</div>
 <tr class="memitem:a4f24d364375c25475695208063266eb8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structGTime.html">GTime</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gtime_8c.html#a4f24d364375c25475695208063266eb8">str2gtime</a> (char *time_str, <a class="el" href="gtime_8h.html#a762d759d08144974f48d699cae7a8868">TIMESYS</a> ts)</td></tr>
 <tr class="memdesc:a4f24d364375c25475695208063266eb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert a time string to <a class="el" href="structGTime.html" title="struct for general time computation with time system defined">GTime</a> struct  <a href="gtime_8c.html#a4f24d364375c25475695208063266eb8">更多...</a><br /></td></tr>
 <tr class="separator:a4f24d364375c25475695208063266eb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c4a1c82ca974e1cbd0d58f5a1183040"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gtime_8c.html#a9c4a1c82ca974e1cbd0d58f5a1183040">get_time_now</a> (char *timestr)</td></tr>
-<tr class="memdesc:a9c4a1c82ca974e1cbd0d58f5a1183040"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the current time in string  <a href="gtime_8c.html#a9c4a1c82ca974e1cbd0d58f5a1183040">更多...</a><br /></td></tr>
-<tr class="separator:a9c4a1c82ca974e1cbd0d58f5a1183040"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adca3e4ae955282318b2f7c817629e5e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structGTime.html">GTime</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gtime_8c.html#adca3e4ae955282318b2f7c817629e5e3">str2gtime_format</a> (char *time_str, char *time_format, <a class="el" href="gtime_8h.html#a762d759d08144974f48d699cae7a8868">TIMESYS</a> ts)</td></tr>
+<tr class="memdesc:adca3e4ae955282318b2f7c817629e5e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert a time string to <a class="el" href="structGTime.html" title="struct for general time computation with time system defined">GTime</a> struct  <a href="gtime_8c.html#adca3e4ae955282318b2f7c817629e5e3">更多...</a><br /></td></tr>
+<tr class="separator:adca3e4ae955282318b2f7c817629e5e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf4673eb2f9f3dd09a0e4ca4a8a6033a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structGTime.html">GTime</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gtime_8c.html#aaf4673eb2f9f3dd09a0e4ca4a8a6033a">get_time_now</a> ()</td></tr>
+<tr class="memdesc:aaf4673eb2f9f3dd09a0e4ca4a8a6033a"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the current time in string  <a href="gtime_8c.html#aaf4673eb2f9f3dd09a0e4ca4a8a6033a">更多...</a><br /></td></tr>
+<tr class="separator:aaf4673eb2f9f3dd09a0e4ca4a8a6033a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
 <div class="textblock"><p>Implementation of all the time operations </p>
@@ -277,17 +280,16 @@ gtime.c 的引用(Include)关系图:</div>
 
 </div>
 </div>
-<a id="a9c4a1c82ca974e1cbd0d58f5a1183040"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c4a1c82ca974e1cbd0d58f5a1183040">&#9670;&nbsp;</a></span>get_time_now()</h2>
+<a id="aaf4673eb2f9f3dd09a0e4ca4a8a6033a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf4673eb2f9f3dd09a0e4ca4a8a6033a">&#9670;&nbsp;</a></span>get_time_now()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void get_time_now </td>
+          <td class="memname"><a class="el" href="structGTime.html">GTime</a> get_time_now </td>
           <td>(</td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>timestr</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -297,15 +299,27 @@ gtime.c 的引用(Include)关系图:</div>
 <dl class="section note"><dt>注解</dt><dd>This function is only compatable with Linux OS as it calls localtime in &lt;time.h&gt; </dd></dl>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
-    <tr><td class="paramname">timestr</td><td></td></tr>
+    <tr><td class="paramname"></td><td></td></tr>
   </table>
   </dd>
 </dl>
 <div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="gtime_8c_aaf4673eb2f9f3dd09a0e4ca4a8a6033a_cgraph.png" border="0" usemap="#agtime_8c_aaf4673eb2f9f3dd09a0e4ca4a8a6033a_cgraph" alt=""/></div>
+<map name="agtime_8c_aaf4673eb2f9f3dd09a0e4ca4a8a6033a_cgraph" id="agtime_8c_aaf4673eb2f9f3dd09a0e4ca4a8a6033a_cgraph">
+<area shape="rect" title="get the current time in string" alt="" coords="5,31,120,57"/>
+<area shape="rect" href="gtime_8c.html#a2bb18d3d6b62adeeb2e45404fc15d60a" title="convert from TimeYMD to GTime" alt="" coords="168,31,271,57"/>
+<area shape="rect" href="gtime_8c.html#ab8857837bd51003d9c146b2463028dd9" title="convert from TimeJD to GTime" alt="" coords="319,5,405,32"/>
+<area shape="rect" href="gtime_8c.html#ae25b985c6cdfb093cbe6ed066293249d" title="convert from TimeYMD to TImeJD" alt="" coords="323,56,401,83"/>
+<area shape="rect" href="gtime_8c.html#abba188d666e8af9b378ebc53d444ece4" title="make TimeJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="453,56,595,83"/>
+</map>
+</div>
+<div class="dynheader">
 这是这个函数的调用关系图:</div>
 <div class="dyncontent">
-<div class="center"><img src="gtime_8c_a9c4a1c82ca974e1cbd0d58f5a1183040_icgraph.png" border="0" usemap="#agtime_8c_a9c4a1c82ca974e1cbd0d58f5a1183040_icgraph" alt=""/></div>
-<map name="agtime_8c_a9c4a1c82ca974e1cbd0d58f5a1183040_icgraph" id="agtime_8c_a9c4a1c82ca974e1cbd0d58f5a1183040_icgraph">
+<div class="center"><img src="gtime_8c_aaf4673eb2f9f3dd09a0e4ca4a8a6033a_icgraph.png" border="0" usemap="#agtime_8c_aaf4673eb2f9f3dd09a0e4ca4a8a6033a_icgraph" alt=""/></div>
+<map name="agtime_8c_aaf4673eb2f9f3dd09a0e4ca4a8a6033a_icgraph" id="agtime_8c_aaf4673eb2f9f3dd09a0e4ca4a8a6033a_icgraph">
 <area shape="rect" title="get the current time in string" alt="" coords="452,31,567,57"/>
 <area shape="rect" href="gnss__observation_8c.html#abf898fb112977fc34875876ec947200c" title="produce the header of rinex observation file for the output of rinex observations" alt="" coords="232,5,404,32"/>
 <area shape="rect" href="common__function_8c.html#aaef5d58a73129fc721894e3c2b0e061d" title="log to console for the ULOG library" alt="" coords="244,56,392,83"/>
@@ -410,7 +424,7 @@ gtime.c 的引用(Include)关系图:</div>
 <area shape="rect" href="obs__processing_8c.html#afd5f0871db0132bbd6ae586c0c8c0863" title="doppler velocity determination based on kalman filtering" alt="" coords="398,157,569,184"/>
 <area shape="rect" href="gnss__observation_8c.html#a65bced149f40ca678eed0957b45fccfc" title="match and search for the OBSDATA_EPOCH in the array" alt="" coords="382,208,585,235"/>
 <area shape="rect" href="pod__embed_8c.html#a9deb4368f438f94513ae8c6201c1bb71" title="output observation from serial port" alt="" coords="409,259,557,301"/>
-<area shape="rect" href="obs__processing_8c.html#a8149973a46fc456908328540f4d486cd" title="pseudorange point positioning" alt="" coords="371,325,596,352"/>
+<area shape="rect" href="obs__processing_8c.html#abc382f7c75dade08abad21f1af231d46" title="pseudorange point positioning" alt="" coords="371,325,596,352"/>
 <area shape="rect" href="main__orbit__compare__th_8c.html#a8f8607ffbfafad1174acfc281993e271" title="compare orbit from BHU, WHU and SYZ University" alt="" coords="409,376,557,403"/>
 <area shape="rect" href="gnss__rtk_8c.html#ae7c273ef8e3781f7aa4af1fc7656b25e" title=" " alt="" coords="204,325,323,352"/>
 <area shape="rect" href="gnss__rtk_8c.html#abd00f51a436ba6cccef119672dd40b59" title=" " alt="" coords="5,325,156,352"/>
@@ -448,13 +462,14 @@ gtime.c 的引用(Include)关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="gtime_8c_a4617ea5db3083f0bc259eabfb2986689_icgraph.png" border="0" usemap="#agtime_8c_a4617ea5db3083f0bc259eabfb2986689_icgraph" alt=""/></div>
 <map name="agtime_8c_a4617ea5db3083f0bc259eabfb2986689_icgraph" id="agtime_8c_a4617ea5db3083f0bc259eabfb2986689_icgraph">
-<area shape="rect" title="convert GTime struct to mjd in double" alt="" coords="379,132,472,159"/>
+<area shape="rect" title="convert GTime struct to mjd in double" alt="" coords="379,157,472,184"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="189,5,320,32"/>
 <area shape="rect" href="pod__embed_8c.html#a4a0d64144ce3330496975670125bf5c2" title=" " alt="" coords="187,56,322,83"/>
 <area shape="rect" href="pod__embed_8c.html#add41321716edb2a8ab9ff1216d0cfde6" title="orbit dynamic filter using only positions" alt="" coords="179,107,331,133"/>
-<area shape="rect" href="main__test_8c.html#a0cd3d3acac9d8a1e58549b9aa88d75aa" title="test for the haiyang&#45;2C spacecraft attitude" alt="" coords="183,157,326,184"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="185,208,325,235"/>
-<area shape="rect" href="tle_8h.html#a14bb37952a95c29ea670040cdd62fd55" title=" " alt="" coords="219,259,290,285"/>
+<area shape="rect" href="pod__embed_8c.html#a47d184829a15348553d1ebea124db0a9" title="store epoch_time,pos,vel,PHI,S in runtime_pod" alt="" coords="188,157,321,184"/>
+<area shape="rect" href="main__test_8c.html#a0cd3d3acac9d8a1e58549b9aa88d75aa" title="test for the haiyang&#45;2C spacecraft attitude" alt="" coords="183,208,326,235"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="185,259,325,285"/>
+<area shape="rect" href="tle_8h.html#a14bb37952a95c29ea670040cdd62fd55" title=" " alt="" coords="219,309,290,336"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,5,131,32"/>
 </map>
 </div>
@@ -555,7 +570,7 @@ gtime.c 的引用(Include)关系图:</div>
 <area shape="rect" href="obs__processing_8c.html#afd5f0871db0132bbd6ae586c0c8c0863" title="doppler velocity determination based on kalman filtering" alt="" coords="398,107,569,133"/>
 <area shape="rect" href="gnss__observation_8c.html#a65bced149f40ca678eed0957b45fccfc" title="match and search for the OBSDATA_EPOCH in the array" alt="" coords="382,157,585,184"/>
 <area shape="rect" href="pod__embed_8c.html#a9deb4368f438f94513ae8c6201c1bb71" title="output observation from serial port" alt="" coords="409,209,557,250"/>
-<area shape="rect" href="obs__processing_8c.html#a8149973a46fc456908328540f4d486cd" title="pseudorange point positioning" alt="" coords="371,275,596,301"/>
+<area shape="rect" href="obs__processing_8c.html#abc382f7c75dade08abad21f1af231d46" title="pseudorange point positioning" alt="" coords="371,275,596,301"/>
 <area shape="rect" href="main__orbit__compare__th_8c.html#a8f8607ffbfafad1174acfc281993e271" title="compare orbit from BHU, WHU and SYZ University" alt="" coords="409,325,557,352"/>
 <area shape="rect" href="gnss__rtk_8c.html#ae7c273ef8e3781f7aa4af1fc7656b25e" title=" " alt="" coords="204,275,323,301"/>
 <area shape="rect" href="gnss__rtk_8c.html#abd00f51a436ba6cccef119672dd40b59" title=" " alt="" coords="5,275,156,301"/>
@@ -615,7 +630,7 @@ gtime.c 的引用(Include)关系图:</div>
 <area shape="rect" href="obs__processing_8c.html#afd5f0871db0132bbd6ae586c0c8c0863" title="doppler velocity determination based on kalman filtering" alt="" coords="398,157,569,184"/>
 <area shape="rect" href="gnss__observation_8c.html#a65bced149f40ca678eed0957b45fccfc" title="match and search for the OBSDATA_EPOCH in the array" alt="" coords="382,208,585,235"/>
 <area shape="rect" href="pod__embed_8c.html#a9deb4368f438f94513ae8c6201c1bb71" title="output observation from serial port" alt="" coords="409,259,557,301"/>
-<area shape="rect" href="obs__processing_8c.html#a8149973a46fc456908328540f4d486cd" title="pseudorange point positioning" alt="" coords="371,325,596,352"/>
+<area shape="rect" href="obs__processing_8c.html#abc382f7c75dade08abad21f1af231d46" title="pseudorange point positioning" alt="" coords="371,325,596,352"/>
 <area shape="rect" href="main__orbit__compare__th_8c.html#a8f8607ffbfafad1174acfc281993e271" title="compare orbit from BHU, WHU and SYZ University" alt="" coords="409,376,557,403"/>
 <area shape="rect" href="gnss__rtk_8c.html#ae7c273ef8e3781f7aa4af1fc7656b25e" title=" " alt="" coords="204,325,323,352"/>
 <area shape="rect" href="gnss__rtk_8c.html#abd00f51a436ba6cccef119672dd40b59" title=" " alt="" coords="5,325,156,352"/>
@@ -677,7 +692,7 @@ false if a != b or they are not in the time system </dd></dl>
 <map name="agtime_8c_a3fa88f605000c82444969184bf1287b1_icgraph" id="agtime_8c_a3fa88f605000c82444969184bf1287b1_icgraph">
 <area shape="rect" title="compare two GTime struct, a == b within threshold_time" alt="" coords="255,56,357,83"/>
 <area shape="rect" href="gnss__observation_8c.html#a3eba026eacb147b25b516d97937e0e82" title="compare two OBSDATA_EPOCH for the sort of observations, smaller epoch_time get first" alt="" coords="13,5,199,32"/>
-<area shape="rect" href="attitude_8c.html#a696e64e4066503f57ba3e599a43b06f8" title="find the element in &#39;quaternion_all&#39; that is closest to the target time" alt="" coords="5,56,207,83"/>
+<area shape="rect" href="attitude_8c.html#a696e64e4066503f57ba3e599a43b06f8" title="Finds the closest attitude quaternion to the target time." alt="" coords="5,56,207,83"/>
 <area shape="rect" href="gnss__observation_8c.html#aa56fd201df32fb98780a5b7c72319635" title="remove dumplcate gnss observation epochs" alt="" coords="18,107,194,149"/>
 </map>
 </div>
@@ -735,9 +750,10 @@ false if a&lt; b or they are not in the time system </dd></dl>
 <div class="dyncontent">
 <div class="center"><img src="gtime_8c_afa79a8685bcdb3981a1db50a3aae091c_icgraph.png" border="0" usemap="#agtime_8c_afa79a8685bcdb3981a1db50a3aae091c_icgraph" alt=""/></div>
 <map name="agtime_8c_afa79a8685bcdb3981a1db50a3aae091c_icgraph" id="agtime_8c_afa79a8685bcdb3981a1db50a3aae091c_icgraph">
-<area shape="rect" title="compare two GTime struct, a &gt; b" alt="" coords="255,31,369,57"/>
+<area shape="rect" title="compare two GTime struct, a &gt; b" alt="" coords="255,56,369,83"/>
 <area shape="rect" href="gnss__observation_8c.html#a3eba026eacb147b25b516d97937e0e82" title="compare two OBSDATA_EPOCH for the sort of observations, smaller epoch_time get first" alt="" coords="13,5,199,32"/>
-<area shape="rect" href="attitude_8c.html#a696e64e4066503f57ba3e599a43b06f8" title="find the element in &#39;quaternion_all&#39; that is closest to the target time" alt="" coords="5,56,207,83"/>
+<area shape="rect" href="attitude_8c.html#a696e64e4066503f57ba3e599a43b06f8" title="Finds the closest attitude quaternion to the target time." alt="" coords="5,56,207,83"/>
+<area shape="rect" href="tle_8h.html#a7bce3796695d3099e8ad7f3c8a98c12a" title="Searches for a TLE (Two&#45;Line Element) entry in the TLE database." alt="" coords="61,107,151,133"/>
 </map>
 </div>
 
@@ -796,7 +812,7 @@ false if a&gt; b or they are not in the time system </dd></dl>
 <map name="agtime_8c_ac779811787fe25320b7aea55204ef9b2_icgraph" id="agtime_8c_ac779811787fe25320b7aea55204ef9b2_icgraph">
 <area shape="rect" title="compare two GTime struct, a &lt; b" alt="" coords="256,56,349,83"/>
 <area shape="rect" href="gnss__observation_8c.html#a3eba026eacb147b25b516d97937e0e82" title="compare two OBSDATA_EPOCH for the sort of observations, smaller epoch_time get first" alt="" coords="13,5,200,32"/>
-<area shape="rect" href="attitude_8c.html#a696e64e4066503f57ba3e599a43b06f8" title="find the element in &#39;quaternion_all&#39; that is closest to the target time" alt="" coords="6,56,207,83"/>
+<area shape="rect" href="attitude_8c.html#a696e64e4066503f57ba3e599a43b06f8" title="Finds the closest attitude quaternion to the target time." alt="" coords="6,56,207,83"/>
 <area shape="rect" href="gnss__observation_8c.html#a65bced149f40ca678eed0957b45fccfc" title="match and search for the OBSDATA_EPOCH in the array" alt="" coords="5,107,208,133"/>
 </map>
 </div>
@@ -891,14 +907,15 @@ false if a&gt; b or they are not in the time system </dd></dl>
 <div class="dyncontent">
 <div class="center"><img src="gtime_8c_acd5551059ad3aef49860a64878b8cb6e_icgraph.png" border="0" usemap="#agtime_8c_acd5551059ad3aef49860a64878b8cb6e_icgraph" alt=""/></div>
 <map name="agtime_8c_acd5551059ad3aef49860a64878b8cb6e_icgraph" id="agtime_8c_acd5551059ad3aef49860a64878b8cb6e_icgraph">
-<area shape="rect" title="add seconds to GTime struct" alt="" coords="701,303,809,330"/>
+<area shape="rect" title="add seconds to GTime struct" alt="" coords="701,329,809,355"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="505,151,635,178"/>
 <area shape="rect" href="gtime_8c.html#ad6b6245ba109ab9a69180a621cba85f6" title="change the time system of a GTime struct" alt="" coords="248,202,439,229"/>
 <area shape="rect" href="pod__embed_8c.html#add41321716edb2a8ab9ff1216d0cfde6" title="orbit dynamic filter using only positions" alt="" coords="27,303,179,330"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="33,354,173,381"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a503225716ef6e4a895b0cb4b43c88abd" title="the orbit integrate program" alt="" coords="511,405,629,431"/>
 <area shape="rect" href="obs__processing_8c.html#a6fb23f064c60b7a3f6cea0bfa5c699af" title="compute the signal propatation time using the pseudorange observation" alt="" coords="487,456,653,497"/>
-<area shape="rect" href="gtime_8c.html#ae62f6c31c525d0e709ea55012790ed9f" title="convert from TAI to UTC" alt="" coords="532,202,608,229"/>
+<area shape="rect" href="pod__embed_8c.html#a47d184829a15348553d1ebea124db0a9" title="store epoch_time,pos,vel,PHI,S in runtime_pod" alt="" coords="503,522,637,549"/>
+<area shape="rect" href="gtime_8c.html#ae62f6c31c525d0e709ea55012790ed9f" title="convert from TAI to UTC" alt="" coords="532,253,608,279"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="281,151,406,178"/>
 <area shape="rect" href="gnss__satposition_8c.html#ac39ee967a9ec899d0b3dbeeb99a7eb08" title=" " alt="" coords="19,71,187,112"/>
 <area shape="rect" href="gnss__satposition_8c.html#a9e5ce77a8807ab218537cc756087b7bf" title=" " alt="" coords="19,136,187,177"/>
@@ -1016,14 +1033,15 @@ false if a&gt; b or they are not in the time system </dd></dl>
 <div class="dyncontent">
 <div class="center"><img src="gtime_8c_adc56923884b6b09b48b914a520433554_icgraph.png" border="0" usemap="#agtime_8c_adc56923884b6b09b48b914a520433554_icgraph" alt=""/></div>
 <map name="agtime_8c_adc56923884b6b09b48b914a520433554_icgraph" id="agtime_8c_adc56923884b6b09b48b914a520433554_icgraph">
-<area shape="rect" title="compute gtime1 &#45; gtime2, these two GTime strcut should have the same time system." alt="" coords="419,97,503,123"/>
-<area shape="rect" href="gtime_8c.html#a3fa88f605000c82444969184bf1287b1" title="compare two GTime struct, a == b within threshold_time" alt="" coords="262,46,365,73"/>
-<area shape="rect" href="gtime_8c.html#afa79a8685bcdb3981a1db50a3aae091c" title="compare two GTime struct, a &gt; b" alt="" coords="256,97,371,123"/>
-<area shape="rect" href="gtime_8c.html#ac779811787fe25320b7aea55204ef9b2" title="compare two GTime struct, a &lt; b" alt="" coords="267,147,360,174"/>
-<area shape="rect" href="gnss__observation_8c.html#a3eba026eacb147b25b516d97937e0e82" title="compare two OBSDATA_EPOCH for the sort of observations, smaller epoch_time get first" alt="" coords="13,71,200,98"/>
-<area shape="rect" href="attitude_8c.html#a696e64e4066503f57ba3e599a43b06f8" title="find the element in &#39;quaternion_all&#39; that is closest to the target time" alt="" coords="6,122,207,149"/>
-<area shape="rect" href="gnss__observation_8c.html#aa56fd201df32fb98780a5b7c72319635" title="remove dumplcate gnss observation epochs" alt="" coords="19,5,195,47"/>
-<area shape="rect" href="gnss__observation_8c.html#a65bced149f40ca678eed0957b45fccfc" title="match and search for the OBSDATA_EPOCH in the array" alt="" coords="5,173,208,199"/>
+<area shape="rect" title="compute gtime1 &#45; gtime2, these two GTime strcut should have the same time system." alt="" coords="419,107,503,133"/>
+<area shape="rect" href="gtime_8c.html#a3fa88f605000c82444969184bf1287b1" title="compare two GTime struct, a == b within threshold_time" alt="" coords="262,107,365,133"/>
+<area shape="rect" href="gtime_8c.html#afa79a8685bcdb3981a1db50a3aae091c" title="compare two GTime struct, a &gt; b" alt="" coords="256,157,371,184"/>
+<area shape="rect" href="gtime_8c.html#ac779811787fe25320b7aea55204ef9b2" title="compare two GTime struct, a &lt; b" alt="" coords="267,56,360,83"/>
+<area shape="rect" href="gnss__observation_8c.html#a3eba026eacb147b25b516d97937e0e82" title="compare two OBSDATA_EPOCH for the sort of observations, smaller epoch_time get first" alt="" coords="13,56,200,83"/>
+<area shape="rect" href="attitude_8c.html#a696e64e4066503f57ba3e599a43b06f8" title="Finds the closest attitude quaternion to the target time." alt="" coords="6,107,207,133"/>
+<area shape="rect" href="gnss__observation_8c.html#aa56fd201df32fb98780a5b7c72319635" title="remove dumplcate gnss observation epochs" alt="" coords="19,158,195,199"/>
+<area shape="rect" href="tle_8h.html#a7bce3796695d3099e8ad7f3c8a98c12a" title="Searches for a TLE (Two&#45;Line Element) entry in the TLE database." alt="" coords="62,224,151,251"/>
+<area shape="rect" href="gnss__observation_8c.html#a65bced149f40ca678eed0957b45fccfc" title="match and search for the OBSDATA_EPOCH in the array" alt="" coords="5,5,208,32"/>
 </map>
 </div>
 
@@ -1069,9 +1087,10 @@ false if a&gt; b or they are not in the time system </dd></dl>
 <div class="dyncontent">
 <div class="center"><img src="gtime_8c_a5331d83adc124ffb5b212a036865d1bb_icgraph.png" border="0" usemap="#agtime_8c_a5331d83adc124ffb5b212a036865d1bb_icgraph" alt=""/></div>
 <map name="agtime_8c_a5331d83adc124ffb5b212a036865d1bb_icgraph" id="agtime_8c_a5331d83adc124ffb5b212a036865d1bb_icgraph">
-<area shape="rect" title="Substract two GTime struct and return in seconds." alt="" coords="205,31,312,57"/>
+<area shape="rect" title="Substract two GTime struct and return in seconds." alt="" coords="205,56,312,83"/>
 <area shape="rect" href="pod__embed_8c.html#add41321716edb2a8ab9ff1216d0cfde6" title="orbit dynamic filter using only positions" alt="" coords="5,5,157,32"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a5c20c992dbe01847212bc493868184fe" title="function for the orbit fit program" alt="" coords="45,56,117,83"/>
+<area shape="rect" href="tle_8h.html#a7bce3796695d3099e8ad7f3c8a98c12a" title="Searches for a TLE (Two&#45;Line Element) entry in the TLE database." alt="" coords="37,107,126,133"/>
 </map>
 </div>
 
@@ -1117,19 +1136,22 @@ false if a&gt; b or they are not in the time system </dd></dl>
 <div class="dyncontent">
 <div class="center"><img src="gtime_8c_ab8857837bd51003d9c146b2463028dd9_icgraph.png" border="0" usemap="#agtime_8c_ab8857837bd51003d9c146b2463028dd9_icgraph" alt=""/></div>
 <map name="agtime_8c_ab8857837bd51003d9c146b2463028dd9_icgraph" id="agtime_8c_ab8857837bd51003d9c146b2463028dd9_icgraph">
-<area shape="rect" title="convert from TimeJD to GTime" alt="" coords="832,208,919,235"/>
-<area shape="rect" href="gtime_8c.html#a2bb18d3d6b62adeeb2e45404fc15d60a" title="convert from TimeYMD to GTime" alt="" coords="681,208,784,235"/>
-<area shape="rect" href="attitude_8c.html#a4c2bb8050ab4348bc7675c3812ed8676" title="read the grace&#45;fo satellite quaternion attitude in L1B product" alt="" coords="452,5,633,32"/>
-<area shape="rect" href="main__orbit__compare__th_8c.html#a08e943829efbe04683f0303bc72dc0d1" title="read the orbit product from BHU" alt="" coords="459,56,627,83"/>
-<area shape="rect" href="gnss__observation_8c.html#a388b20c7c28b4400e29547d4fe7f8df4" title="resovle the rinex observation with version 2.0" alt="" coords="454,107,631,133"/>
-<area shape="rect" href="gnss__observation_8c.html#a4d2eb9b3b8721dda688b2560f9a82852" title="resolve the rinex observation records in version 3.0" alt="" coords="454,157,631,184"/>
-<area shape="rect" href="gtime_8c.html#a4f24d364375c25475695208063266eb8" title="convert a time string to GTime struct" alt="" coords="500,208,585,235"/>
-<area shape="rect" href="main__test_8c.html#a0cd3d3acac9d8a1e58549b9aa88d75aa" title="test for the haiyang&#45;2C spacecraft attitude" alt="" coords="471,259,614,285"/>
-<area shape="rect" href="main__orbit__compare__th_8c.html#a8f8607ffbfafad1174acfc281993e271" title="compare orbit from BHU, WHU and SYZ University" alt="" coords="469,309,617,336"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="473,360,613,387"/>
-<area shape="rect" href="tle_8h.html#a14bb37952a95c29ea670040cdd62fd55" title=" " alt="" coords="507,411,578,437"/>
-<area shape="rect" href="gnss__observation_8c.html#abf898fb112977fc34875876ec947200c" title="produce the header of rinex observation file for the output of rinex observations" alt="" coords="232,208,404,235"/>
-<area shape="rect" href="gnss__observation_8c.html#a09814252be6e9ef9e781f9275e5590e9" title="write the observation epoch in the format of rinex version 3.0" alt="" coords="5,208,184,235"/>
+<area shape="rect" title="convert from TimeJD to GTime" alt="" coords="832,259,919,285"/>
+<area shape="rect" href="gtime_8c.html#a2bb18d3d6b62adeeb2e45404fc15d60a" title="convert from TimeYMD to GTime" alt="" coords="681,259,784,285"/>
+<area shape="rect" href="gtime_8c.html#aaf4673eb2f9f3dd09a0e4ca4a8a6033a" title="get the current time in string" alt="" coords="485,5,600,32"/>
+<area shape="rect" href="attitude_8c.html#a4c2bb8050ab4348bc7675c3812ed8676" title="Reads attitude quaternion data (GRACE&#45;FO L1B SCA file) from a file and stores it in the provided stru..." alt="" coords="452,56,633,83"/>
+<area shape="rect" href="main__orbit__compare__th_8c.html#a08e943829efbe04683f0303bc72dc0d1" title="read the orbit product from BHU" alt="" coords="459,107,627,133"/>
+<area shape="rect" href="gnss__observation_8c.html#a388b20c7c28b4400e29547d4fe7f8df4" title="resovle the rinex observation with version 2.0" alt="" coords="454,157,631,184"/>
+<area shape="rect" href="gnss__observation_8c.html#a4d2eb9b3b8721dda688b2560f9a82852" title="resolve the rinex observation records in version 3.0" alt="" coords="454,208,631,235"/>
+<area shape="rect" href="gtime_8c.html#a4f24d364375c25475695208063266eb8" title="convert a time string to GTime struct" alt="" coords="500,259,585,285"/>
+<area shape="rect" href="gtime_8c.html#adca3e4ae955282318b2f7c817629e5e3" title="convert a time string to GTime struct" alt="" coords="475,309,611,336"/>
+<area shape="rect" href="main__test_8c.html#a0cd3d3acac9d8a1e58549b9aa88d75aa" title="test for the haiyang&#45;2C spacecraft attitude" alt="" coords="471,360,614,387"/>
+<area shape="rect" href="main__orbit__compare__th_8c.html#a8f8607ffbfafad1174acfc281993e271" title="compare orbit from BHU, WHU and SYZ University" alt="" coords="469,411,617,437"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="473,461,613,488"/>
+<area shape="rect" href="tle_8h.html#a14bb37952a95c29ea670040cdd62fd55" title=" " alt="" coords="507,512,578,539"/>
+<area shape="rect" href="gnss__observation_8c.html#abf898fb112977fc34875876ec947200c" title="produce the header of rinex observation file for the output of rinex observations" alt="" coords="232,157,404,184"/>
+<area shape="rect" href="common__function_8c.html#aaef5d58a73129fc721894e3c2b0e061d" title="log to console for the ULOG library" alt="" coords="244,5,392,32"/>
+<area shape="rect" href="gnss__observation_8c.html#a09814252be6e9ef9e781f9275e5590e9" title="write the observation epoch in the format of rinex version 3.0" alt="" coords="5,157,184,184"/>
 </map>
 </div>
 
@@ -1176,7 +1198,7 @@ false if a&gt; b or they are not in the time system </dd></dl>
 <area shape="rect" href="obs__processing_8c.html#afd5f0871db0132bbd6ae586c0c8c0863" title="doppler velocity determination based on kalman filtering" alt="" coords="398,157,569,184"/>
 <area shape="rect" href="gnss__observation_8c.html#a65bced149f40ca678eed0957b45fccfc" title="match and search for the OBSDATA_EPOCH in the array" alt="" coords="382,208,585,235"/>
 <area shape="rect" href="pod__embed_8c.html#a9deb4368f438f94513ae8c6201c1bb71" title="output observation from serial port" alt="" coords="409,259,557,301"/>
-<area shape="rect" href="obs__processing_8c.html#a8149973a46fc456908328540f4d486cd" title="pseudorange point positioning" alt="" coords="371,325,596,352"/>
+<area shape="rect" href="obs__processing_8c.html#abc382f7c75dade08abad21f1af231d46" title="pseudorange point positioning" alt="" coords="371,325,596,352"/>
 <area shape="rect" href="main__orbit__compare__th_8c.html#a8f8607ffbfafad1174acfc281993e271" title="compare orbit from BHU, WHU and SYZ University" alt="" coords="409,376,557,403"/>
 <area shape="rect" href="gnss__rtk_8c.html#ae7c273ef8e3781f7aa4af1fc7656b25e" title=" " alt="" coords="204,325,323,352"/>
 <area shape="rect" href="gnss__rtk_8c.html#abd00f51a436ba6cccef119672dd40b59" title=" " alt="" coords="5,325,156,352"/>
@@ -1366,6 +1388,63 @@ false if a&gt; b or they are not in the time system </dd></dl>
 
 </div>
 </div>
+<a id="adca3e4ae955282318b2f7c817629e5e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adca3e4ae955282318b2f7c817629e5e3">&#9670;&nbsp;</a></span>str2gtime_format()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structGTime.html">GTime</a> str2gtime_format </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>time_str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>time_format</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gtime_8h.html#a762d759d08144974f48d699cae7a8868">TIMESYS</a>&#160;</td>
+          <td class="paramname"><em>ts</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>convert a time string to <a class="el" href="structGTime.html" title="struct for general time computation with time system defined">GTime</a> struct </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">time_str</td><td>: a time string </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">time_format</td><td>: a time format string , %4d-%2d-%2dT%2d:%2d:%12lf </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ts</td><td>: a TIMESYS struct indicates the time system </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>a <a class="el" href="structGTime.html" title="struct for general time computation with time system defined">GTime</a> struct </dd></dl>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="gtime_8c_adca3e4ae955282318b2f7c817629e5e3_cgraph.png" border="0" usemap="#agtime_8c_adca3e4ae955282318b2f7c817629e5e3_cgraph" alt=""/></div>
+<map name="agtime_8c_adca3e4ae955282318b2f7c817629e5e3_cgraph" id="agtime_8c_adca3e4ae955282318b2f7c817629e5e3_cgraph">
+<area shape="rect" title="convert a time string to GTime struct" alt="" coords="5,31,141,57"/>
+<area shape="rect" href="gtime_8c.html#a2bb18d3d6b62adeeb2e45404fc15d60a" title="convert from TimeYMD to GTime" alt="" coords="189,31,292,57"/>
+<area shape="rect" href="gtime_8c.html#ab8857837bd51003d9c146b2463028dd9" title="convert from TimeJD to GTime" alt="" coords="340,5,427,32"/>
+<area shape="rect" href="gtime_8c.html#ae25b985c6cdfb093cbe6ed066293249d" title="convert from TimeYMD to TImeJD" alt="" coords="344,56,423,83"/>
+<area shape="rect" href="gtime_8c.html#abba188d666e8af9b378ebc53d444ece4" title="make TimeJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="475,56,616,83"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="ae62f6c31c525d0e709ea55012790ed9f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae62f6c31c525d0e709ea55012790ed9f">&#9670;&nbsp;</a></span>TAI2UTC()</h2>
 
@@ -1497,32 +1576,35 @@ false if a&gt; b or they are not in the time system </dd></dl>
 <div class="dyncontent">
 <div class="center"><img src="gtime_8c_abba188d666e8af9b378ebc53d444ece4_icgraph.png" border="0" usemap="#agtime_8c_abba188d666e8af9b378ebc53d444ece4_icgraph" alt=""/></div>
 <map name="agtime_8c_abba188d666e8af9b378ebc53d444ece4_icgraph" id="agtime_8c_abba188d666e8af9b378ebc53d444ece4_icgraph">
-<area shape="rect" title="make TimeJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="1219,376,1360,403"/>
-<area shape="rect" href="gtime_8c.html#a4e80434717708c0874f6c38348d8584a" title="convert from GTime to TimeJD" alt="" coords="1084,313,1171,340"/>
-<area shape="rect" href="gtime_8c.html#ae25b985c6cdfb093cbe6ed066293249d" title="convert from TimeYMD to TImeJD" alt="" coords="1088,401,1167,428"/>
-<area shape="rect" href="gtime_8c.html#af3d0d3d1f25a8b57ded3fb98458d21ce" title="convert from GTime to TimeYMD" alt="" coords="933,249,1036,276"/>
-<area shape="rect" href="gnss__observation_8c.html#abf898fb112977fc34875876ec947200c" title="produce the header of rinex observation file for the output of rinex observations" alt="" coords="457,495,629,521"/>
-<area shape="rect" href="gtime_8c.html#a4bf9344475021ba0cc9fe2373ffe13ab" title="convert GTime to time string" alt="" coords="752,148,837,175"/>
-<area shape="rect" href="main__gnss__quality_8c.html#ac1f191689932c45b789288f7619b8421" title=" " alt="" coords="737,199,852,225"/>
-<area shape="rect" href="main__test_8c.html#a0cd3d3acac9d8a1e58549b9aa88d75aa" title="test for the haiyang&#45;2C spacecraft attitude" alt="" coords="723,300,866,327"/>
-<area shape="rect" href="gnss__observation_8c.html#a09814252be6e9ef9e781f9275e5590e9" title="write the observation epoch in the format of rinex version 3.0" alt="" coords="204,495,383,521"/>
-<area shape="rect" href="attitude_8c.html#a7ab5ac205d4327c856fe36a1df75d20d" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="475,5,611,32"/>
-<area shape="rect" href="obs__processing_8c.html#ab7e08e3919bd13f70357b9d735942f1b" title="doppler point positioning based on kalman filtering" alt="" coords="448,56,639,83"/>
-<area shape="rect" href="obs__processing_8c.html#afd5f0871db0132bbd6ae586c0c8c0863" title="doppler velocity determination based on kalman filtering" alt="" coords="458,107,629,133"/>
-<area shape="rect" href="gnss__observation_8c.html#a65bced149f40ca678eed0957b45fccfc" title="match and search for the OBSDATA_EPOCH in the array" alt="" coords="442,157,645,184"/>
-<area shape="rect" href="pod__embed_8c.html#a9deb4368f438f94513ae8c6201c1bb71" title="output observation from serial port" alt="" coords="469,209,617,250"/>
-<area shape="rect" href="obs__processing_8c.html#a8149973a46fc456908328540f4d486cd" title="pseudorange point positioning" alt="" coords="431,275,656,301"/>
-<area shape="rect" href="main__orbit__compare__th_8c.html#a8f8607ffbfafad1174acfc281993e271" title="compare orbit from BHU, WHU and SYZ University" alt="" coords="469,343,617,369"/>
-<area shape="rect" href="gnss__rtk_8c.html#ae7c273ef8e3781f7aa4af1fc7656b25e" title=" " alt="" coords="234,275,353,301"/>
-<area shape="rect" href="gnss__rtk_8c.html#abd00f51a436ba6cccef119672dd40b59" title=" " alt="" coords="5,275,156,301"/>
-<area shape="rect" href="gtime_8c.html#a2bb18d3d6b62adeeb2e45404fc15d60a" title="convert from TimeYMD to GTime" alt="" coords="933,477,1036,504"/>
-<area shape="rect" href="attitude_8c.html#a4c2bb8050ab4348bc7675c3812ed8676" title="read the grace&#45;fo satellite quaternion attitude in L1B product" alt="" coords="704,705,885,732"/>
-<area shape="rect" href="main__orbit__compare__th_8c.html#a08e943829efbe04683f0303bc72dc0d1" title="read the orbit product from BHU" alt="" coords="711,401,879,428"/>
-<area shape="rect" href="gnss__observation_8c.html#a388b20c7c28b4400e29547d4fe7f8df4" title="resovle the rinex observation with version 2.0" alt="" coords="706,452,883,479"/>
-<area shape="rect" href="gnss__observation_8c.html#a4d2eb9b3b8721dda688b2560f9a82852" title="resolve the rinex observation records in version 3.0" alt="" coords="706,503,883,529"/>
-<area shape="rect" href="gtime_8c.html#a4f24d364375c25475695208063266eb8" title="convert a time string to GTime struct" alt="" coords="752,604,837,631"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="725,553,865,580"/>
-<area shape="rect" href="tle_8h.html#a14bb37952a95c29ea670040cdd62fd55" title=" " alt="" coords="759,655,830,681"/>
+<area shape="rect" title="make TimeJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="1219,413,1360,440"/>
+<area shape="rect" href="gtime_8c.html#a4e80434717708c0874f6c38348d8584a" title="convert from GTime to TimeJD" alt="" coords="1084,337,1171,364"/>
+<area shape="rect" href="gtime_8c.html#ae25b985c6cdfb093cbe6ed066293249d" title="convert from TimeYMD to TImeJD" alt="" coords="1088,439,1167,465"/>
+<area shape="rect" href="gtime_8c.html#af3d0d3d1f25a8b57ded3fb98458d21ce" title="convert from GTime to TimeYMD" alt="" coords="933,261,1036,288"/>
+<area shape="rect" href="gnss__observation_8c.html#abf898fb112977fc34875876ec947200c" title="produce the header of rinex observation file for the output of rinex observations" alt="" coords="457,413,629,440"/>
+<area shape="rect" href="gtime_8c.html#a4bf9344475021ba0cc9fe2373ffe13ab" title="convert GTime to time string" alt="" coords="752,160,837,187"/>
+<area shape="rect" href="main__gnss__quality_8c.html#ac1f191689932c45b789288f7619b8421" title=" " alt="" coords="737,211,852,237"/>
+<area shape="rect" href="main__test_8c.html#a0cd3d3acac9d8a1e58549b9aa88d75aa" title="test for the haiyang&#45;2C spacecraft attitude" alt="" coords="723,312,866,339"/>
+<area shape="rect" href="gnss__observation_8c.html#a09814252be6e9ef9e781f9275e5590e9" title="write the observation epoch in the format of rinex version 3.0" alt="" coords="204,413,383,440"/>
+<area shape="rect" href="attitude_8c.html#a7ab5ac205d4327c856fe36a1df75d20d" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="475,173,611,200"/>
+<area shape="rect" href="obs__processing_8c.html#ab7e08e3919bd13f70357b9d735942f1b" title="doppler point positioning based on kalman filtering" alt="" coords="448,224,639,251"/>
+<area shape="rect" href="obs__processing_8c.html#afd5f0871db0132bbd6ae586c0c8c0863" title="doppler velocity determination based on kalman filtering" alt="" coords="458,275,629,301"/>
+<area shape="rect" href="gnss__observation_8c.html#a65bced149f40ca678eed0957b45fccfc" title="match and search for the OBSDATA_EPOCH in the array" alt="" coords="442,5,645,32"/>
+<area shape="rect" href="pod__embed_8c.html#a9deb4368f438f94513ae8c6201c1bb71" title="output observation from serial port" alt="" coords="469,57,617,98"/>
+<area shape="rect" href="obs__processing_8c.html#abc382f7c75dade08abad21f1af231d46" title="pseudorange point positioning" alt="" coords="431,123,656,149"/>
+<area shape="rect" href="main__orbit__compare__th_8c.html#a8f8607ffbfafad1174acfc281993e271" title="compare orbit from BHU, WHU and SYZ University" alt="" coords="469,351,617,377"/>
+<area shape="rect" href="gnss__rtk_8c.html#ae7c273ef8e3781f7aa4af1fc7656b25e" title=" " alt="" coords="234,123,353,149"/>
+<area shape="rect" href="gnss__rtk_8c.html#abd00f51a436ba6cccef119672dd40b59" title=" " alt="" coords="5,123,156,149"/>
+<area shape="rect" href="gtime_8c.html#a2bb18d3d6b62adeeb2e45404fc15d60a" title="convert from TimeYMD to GTime" alt="" coords="933,540,1036,567"/>
+<area shape="rect" href="gtime_8c.html#aaf4673eb2f9f3dd09a0e4ca4a8a6033a" title="get the current time in string" alt="" coords="737,616,852,643"/>
+<area shape="rect" href="attitude_8c.html#a4c2bb8050ab4348bc7675c3812ed8676" title="Reads attitude quaternion data (GRACE&#45;FO L1B SCA file) from a file and stores it in the provided stru..." alt="" coords="704,667,885,693"/>
+<area shape="rect" href="main__orbit__compare__th_8c.html#a08e943829efbe04683f0303bc72dc0d1" title="read the orbit product from BHU" alt="" coords="711,717,879,744"/>
+<area shape="rect" href="gnss__observation_8c.html#a388b20c7c28b4400e29547d4fe7f8df4" title="resovle the rinex observation with version 2.0" alt="" coords="706,768,883,795"/>
+<area shape="rect" href="gnss__observation_8c.html#a4d2eb9b3b8721dda688b2560f9a82852" title="resolve the rinex observation records in version 3.0" alt="" coords="706,819,883,845"/>
+<area shape="rect" href="gtime_8c.html#a4f24d364375c25475695208063266eb8" title="convert a time string to GTime struct" alt="" coords="752,413,837,440"/>
+<area shape="rect" href="gtime_8c.html#adca3e4ae955282318b2f7c817629e5e3" title="convert a time string to GTime struct" alt="" coords="727,464,863,491"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="725,515,865,541"/>
+<area shape="rect" href="tle_8h.html#a14bb37952a95c29ea670040cdd62fd55" title=" " alt="" coords="759,565,830,592"/>
+<area shape="rect" href="common__function_8c.html#aaef5d58a73129fc721894e3c2b0e061d" title="log to console for the ULOG library" alt="" coords="469,616,617,643"/>
 </map>
 </div>
 
@@ -1584,18 +1666,19 @@ false if a&gt; b or they are not in the time system </dd></dl>
 <div class="dyncontent">
 <div class="center"><img src="gtime_8c_a09eb4bada2411345995b1238d7b24ca6_icgraph.png" border="0" usemap="#agtime_8c_a09eb4bada2411345995b1238d7b24ca6_icgraph" alt=""/></div>
 <map name="agtime_8c_a09eb4bada2411345995b1238d7b24ca6_icgraph" id="agtime_8c_a09eb4bada2411345995b1238d7b24ca6_icgraph">
-<area shape="rect" title="make TimeMJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="1029,303,1180,330"/>
-<area shape="rect" href="gtime_8c.html#a2e46852d1430605e7af49648cee76c4f" title="Add two TimeMJD together" alt="" coords="869,253,970,279"/>
-<area shape="rect" href="gtime_8c.html#a130e765390b16f22822500994ad12f09" title="add seconds to TimeMJD struct" alt="" coords="857,303,981,330"/>
-<area shape="rect" href="gtime_8c.html#a0ba04d11442eae26d96a0e2df6c8287a" title="compute mjdtime1 &#45; mjdtime2" alt="" coords="869,354,969,381"/>
-<area shape="rect" href="gtime_8c.html#acd5551059ad3aef49860a64878b8cb6e" title="add seconds to GTime struct" alt="" coords="701,303,809,330"/>
+<area shape="rect" title="make TimeMJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="1029,329,1180,355"/>
+<area shape="rect" href="gtime_8c.html#a2e46852d1430605e7af49648cee76c4f" title="Add two TimeMJD together" alt="" coords="869,278,970,305"/>
+<area shape="rect" href="gtime_8c.html#a130e765390b16f22822500994ad12f09" title="add seconds to TimeMJD struct" alt="" coords="857,329,981,355"/>
+<area shape="rect" href="gtime_8c.html#a0ba04d11442eae26d96a0e2df6c8287a" title="compute mjdtime1 &#45; mjdtime2" alt="" coords="869,379,969,406"/>
+<area shape="rect" href="gtime_8c.html#acd5551059ad3aef49860a64878b8cb6e" title="add seconds to GTime struct" alt="" coords="701,329,809,355"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="505,151,635,178"/>
 <area shape="rect" href="gtime_8c.html#ad6b6245ba109ab9a69180a621cba85f6" title="change the time system of a GTime struct" alt="" coords="248,202,439,229"/>
 <area shape="rect" href="pod__embed_8c.html#add41321716edb2a8ab9ff1216d0cfde6" title="orbit dynamic filter using only positions" alt="" coords="27,303,179,330"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="33,354,173,381"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a503225716ef6e4a895b0cb4b43c88abd" title="the orbit integrate program" alt="" coords="511,405,629,431"/>
 <area shape="rect" href="obs__processing_8c.html#a6fb23f064c60b7a3f6cea0bfa5c699af" title="compute the signal propatation time using the pseudorange observation" alt="" coords="487,456,653,497"/>
-<area shape="rect" href="gtime_8c.html#ae62f6c31c525d0e709ea55012790ed9f" title="convert from TAI to UTC" alt="" coords="532,202,608,229"/>
+<area shape="rect" href="pod__embed_8c.html#a47d184829a15348553d1ebea124db0a9" title="store epoch_time,pos,vel,PHI,S in runtime_pod" alt="" coords="503,522,637,549"/>
+<area shape="rect" href="gtime_8c.html#ae62f6c31c525d0e709ea55012790ed9f" title="convert from TAI to UTC" alt="" coords="532,253,608,279"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="281,151,406,178"/>
 <area shape="rect" href="gnss__satposition_8c.html#ac39ee967a9ec899d0b3dbeeb99a7eb08" title=" " alt="" coords="19,71,187,112"/>
 <area shape="rect" href="gnss__satposition_8c.html#a9e5ce77a8807ab218537cc756087b7bf" title=" " alt="" coords="19,136,187,177"/>
@@ -1703,15 +1786,16 @@ false if a&gt; b or they are not in the time system </dd></dl>
 <div class="dyncontent">
 <div class="center"><img src="gtime_8c_a130e765390b16f22822500994ad12f09_icgraph.png" border="0" usemap="#agtime_8c_a130e765390b16f22822500994ad12f09_icgraph" alt=""/></div>
 <map name="agtime_8c_a130e765390b16f22822500994ad12f09_icgraph" id="agtime_8c_a130e765390b16f22822500994ad12f09_icgraph">
-<area shape="rect" title="add seconds to TimeMJD struct" alt="" coords="857,303,981,330"/>
-<area shape="rect" href="gtime_8c.html#acd5551059ad3aef49860a64878b8cb6e" title="add seconds to GTime struct" alt="" coords="701,303,809,330"/>
+<area shape="rect" title="add seconds to TimeMJD struct" alt="" coords="857,329,981,355"/>
+<area shape="rect" href="gtime_8c.html#acd5551059ad3aef49860a64878b8cb6e" title="add seconds to GTime struct" alt="" coords="701,329,809,355"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="505,151,635,178"/>
 <area shape="rect" href="gtime_8c.html#ad6b6245ba109ab9a69180a621cba85f6" title="change the time system of a GTime struct" alt="" coords="248,202,439,229"/>
 <area shape="rect" href="pod__embed_8c.html#add41321716edb2a8ab9ff1216d0cfde6" title="orbit dynamic filter using only positions" alt="" coords="27,303,179,330"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="33,354,173,381"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a503225716ef6e4a895b0cb4b43c88abd" title="the orbit integrate program" alt="" coords="511,405,629,431"/>
 <area shape="rect" href="obs__processing_8c.html#a6fb23f064c60b7a3f6cea0bfa5c699af" title="compute the signal propatation time using the pseudorange observation" alt="" coords="487,456,653,497"/>
-<area shape="rect" href="gtime_8c.html#ae62f6c31c525d0e709ea55012790ed9f" title="convert from TAI to UTC" alt="" coords="532,202,608,229"/>
+<area shape="rect" href="pod__embed_8c.html#a47d184829a15348553d1ebea124db0a9" title="store epoch_time,pos,vel,PHI,S in runtime_pod" alt="" coords="503,522,637,549"/>
+<area shape="rect" href="gtime_8c.html#ae62f6c31c525d0e709ea55012790ed9f" title="convert from TAI to UTC" alt="" coords="532,253,608,279"/>
 <area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="281,151,406,178"/>
 <area shape="rect" href="gnss__satposition_8c.html#ac39ee967a9ec899d0b3dbeeb99a7eb08" title=" " alt="" coords="19,71,187,112"/>
 <area shape="rect" href="gnss__satposition_8c.html#a9e5ce77a8807ab218537cc756087b7bf" title=" " alt="" coords="19,136,187,177"/>
@@ -1895,18 +1979,21 @@ false if a&gt; b or they are not in the time system </dd></dl>
 <div class="dyncontent">
 <div class="center"><img src="gtime_8c_a2bb18d3d6b62adeeb2e45404fc15d60a_icgraph.png" border="0" usemap="#agtime_8c_a2bb18d3d6b62adeeb2e45404fc15d60a_icgraph" alt=""/></div>
 <map name="agtime_8c_a2bb18d3d6b62adeeb2e45404fc15d60a_icgraph" id="agtime_8c_a2bb18d3d6b62adeeb2e45404fc15d60a_icgraph">
-<area shape="rect" title="convert from TimeYMD to GTime" alt="" coords="681,208,784,235"/>
-<area shape="rect" href="attitude_8c.html#a4c2bb8050ab4348bc7675c3812ed8676" title="read the grace&#45;fo satellite quaternion attitude in L1B product" alt="" coords="452,5,633,32"/>
-<area shape="rect" href="main__orbit__compare__th_8c.html#a08e943829efbe04683f0303bc72dc0d1" title="read the orbit product from BHU" alt="" coords="459,56,627,83"/>
-<area shape="rect" href="gnss__observation_8c.html#a388b20c7c28b4400e29547d4fe7f8df4" title="resovle the rinex observation with version 2.0" alt="" coords="454,107,631,133"/>
-<area shape="rect" href="gnss__observation_8c.html#a4d2eb9b3b8721dda688b2560f9a82852" title="resolve the rinex observation records in version 3.0" alt="" coords="454,157,631,184"/>
-<area shape="rect" href="gtime_8c.html#a4f24d364375c25475695208063266eb8" title="convert a time string to GTime struct" alt="" coords="500,208,585,235"/>
-<area shape="rect" href="main__test_8c.html#a0cd3d3acac9d8a1e58549b9aa88d75aa" title="test for the haiyang&#45;2C spacecraft attitude" alt="" coords="471,259,614,285"/>
-<area shape="rect" href="main__orbit__compare__th_8c.html#a8f8607ffbfafad1174acfc281993e271" title="compare orbit from BHU, WHU and SYZ University" alt="" coords="469,309,617,336"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="473,360,613,387"/>
-<area shape="rect" href="tle_8h.html#a14bb37952a95c29ea670040cdd62fd55" title=" " alt="" coords="507,411,578,437"/>
-<area shape="rect" href="gnss__observation_8c.html#abf898fb112977fc34875876ec947200c" title="produce the header of rinex observation file for the output of rinex observations" alt="" coords="232,208,404,235"/>
-<area shape="rect" href="gnss__observation_8c.html#a09814252be6e9ef9e781f9275e5590e9" title="write the observation epoch in the format of rinex version 3.0" alt="" coords="5,208,184,235"/>
+<area shape="rect" title="convert from TimeYMD to GTime" alt="" coords="681,259,784,285"/>
+<area shape="rect" href="gtime_8c.html#aaf4673eb2f9f3dd09a0e4ca4a8a6033a" title="get the current time in string" alt="" coords="485,5,600,32"/>
+<area shape="rect" href="attitude_8c.html#a4c2bb8050ab4348bc7675c3812ed8676" title="Reads attitude quaternion data (GRACE&#45;FO L1B SCA file) from a file and stores it in the provided stru..." alt="" coords="452,56,633,83"/>
+<area shape="rect" href="main__orbit__compare__th_8c.html#a08e943829efbe04683f0303bc72dc0d1" title="read the orbit product from BHU" alt="" coords="459,107,627,133"/>
+<area shape="rect" href="gnss__observation_8c.html#a388b20c7c28b4400e29547d4fe7f8df4" title="resovle the rinex observation with version 2.0" alt="" coords="454,157,631,184"/>
+<area shape="rect" href="gnss__observation_8c.html#a4d2eb9b3b8721dda688b2560f9a82852" title="resolve the rinex observation records in version 3.0" alt="" coords="454,208,631,235"/>
+<area shape="rect" href="gtime_8c.html#a4f24d364375c25475695208063266eb8" title="convert a time string to GTime struct" alt="" coords="500,259,585,285"/>
+<area shape="rect" href="gtime_8c.html#adca3e4ae955282318b2f7c817629e5e3" title="convert a time string to GTime struct" alt="" coords="475,309,611,336"/>
+<area shape="rect" href="main__test_8c.html#a0cd3d3acac9d8a1e58549b9aa88d75aa" title="test for the haiyang&#45;2C spacecraft attitude" alt="" coords="471,360,614,387"/>
+<area shape="rect" href="main__orbit__compare__th_8c.html#a8f8607ffbfafad1174acfc281993e271" title="compare orbit from BHU, WHU and SYZ University" alt="" coords="469,411,617,437"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="473,461,613,488"/>
+<area shape="rect" href="tle_8h.html#a14bb37952a95c29ea670040cdd62fd55" title=" " alt="" coords="507,512,578,539"/>
+<area shape="rect" href="gnss__observation_8c.html#abf898fb112977fc34875876ec947200c" title="produce the header of rinex observation file for the output of rinex observations" alt="" coords="232,157,404,184"/>
+<area shape="rect" href="common__function_8c.html#aaef5d58a73129fc721894e3c2b0e061d" title="log to console for the ULOG library" alt="" coords="244,5,392,32"/>
+<area shape="rect" href="gnss__observation_8c.html#a09814252be6e9ef9e781f9275e5590e9" title="write the observation epoch in the format of rinex version 3.0" alt="" coords="5,157,184,184"/>
 </map>
 </div>
 
@@ -1950,19 +2037,22 @@ false if a&gt; b or they are not in the time system </dd></dl>
 <div class="dyncontent">
 <div class="center"><img src="gtime_8c_ae25b985c6cdfb093cbe6ed066293249d_icgraph.png" border="0" usemap="#agtime_8c_ae25b985c6cdfb093cbe6ed066293249d_icgraph" alt=""/></div>
 <map name="agtime_8c_ae25b985c6cdfb093cbe6ed066293249d_icgraph" id="agtime_8c_ae25b985c6cdfb093cbe6ed066293249d_icgraph">
-<area shape="rect" title="convert from TimeYMD to TImeJD" alt="" coords="832,208,911,235"/>
-<area shape="rect" href="gtime_8c.html#a2bb18d3d6b62adeeb2e45404fc15d60a" title="convert from TimeYMD to GTime" alt="" coords="681,208,784,235"/>
-<area shape="rect" href="attitude_8c.html#a4c2bb8050ab4348bc7675c3812ed8676" title="read the grace&#45;fo satellite quaternion attitude in L1B product" alt="" coords="452,5,633,32"/>
-<area shape="rect" href="main__orbit__compare__th_8c.html#a08e943829efbe04683f0303bc72dc0d1" title="read the orbit product from BHU" alt="" coords="459,56,627,83"/>
-<area shape="rect" href="gnss__observation_8c.html#a388b20c7c28b4400e29547d4fe7f8df4" title="resovle the rinex observation with version 2.0" alt="" coords="454,107,631,133"/>
-<area shape="rect" href="gnss__observation_8c.html#a4d2eb9b3b8721dda688b2560f9a82852" title="resolve the rinex observation records in version 3.0" alt="" coords="454,157,631,184"/>
-<area shape="rect" href="gtime_8c.html#a4f24d364375c25475695208063266eb8" title="convert a time string to GTime struct" alt="" coords="500,208,585,235"/>
-<area shape="rect" href="main__test_8c.html#a0cd3d3acac9d8a1e58549b9aa88d75aa" title="test for the haiyang&#45;2C spacecraft attitude" alt="" coords="471,259,614,285"/>
-<area shape="rect" href="main__orbit__compare__th_8c.html#a8f8607ffbfafad1174acfc281993e271" title="compare orbit from BHU, WHU and SYZ University" alt="" coords="469,309,617,336"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="473,360,613,387"/>
-<area shape="rect" href="tle_8h.html#a14bb37952a95c29ea670040cdd62fd55" title=" " alt="" coords="507,411,578,437"/>
-<area shape="rect" href="gnss__observation_8c.html#abf898fb112977fc34875876ec947200c" title="produce the header of rinex observation file for the output of rinex observations" alt="" coords="232,208,404,235"/>
-<area shape="rect" href="gnss__observation_8c.html#a09814252be6e9ef9e781f9275e5590e9" title="write the observation epoch in the format of rinex version 3.0" alt="" coords="5,208,184,235"/>
+<area shape="rect" title="convert from TimeYMD to TImeJD" alt="" coords="832,259,911,285"/>
+<area shape="rect" href="gtime_8c.html#a2bb18d3d6b62adeeb2e45404fc15d60a" title="convert from TimeYMD to GTime" alt="" coords="681,259,784,285"/>
+<area shape="rect" href="gtime_8c.html#aaf4673eb2f9f3dd09a0e4ca4a8a6033a" title="get the current time in string" alt="" coords="485,5,600,32"/>
+<area shape="rect" href="attitude_8c.html#a4c2bb8050ab4348bc7675c3812ed8676" title="Reads attitude quaternion data (GRACE&#45;FO L1B SCA file) from a file and stores it in the provided stru..." alt="" coords="452,56,633,83"/>
+<area shape="rect" href="main__orbit__compare__th_8c.html#a08e943829efbe04683f0303bc72dc0d1" title="read the orbit product from BHU" alt="" coords="459,107,627,133"/>
+<area shape="rect" href="gnss__observation_8c.html#a388b20c7c28b4400e29547d4fe7f8df4" title="resovle the rinex observation with version 2.0" alt="" coords="454,157,631,184"/>
+<area shape="rect" href="gnss__observation_8c.html#a4d2eb9b3b8721dda688b2560f9a82852" title="resolve the rinex observation records in version 3.0" alt="" coords="454,208,631,235"/>
+<area shape="rect" href="gtime_8c.html#a4f24d364375c25475695208063266eb8" title="convert a time string to GTime struct" alt="" coords="500,259,585,285"/>
+<area shape="rect" href="gtime_8c.html#adca3e4ae955282318b2f7c817629e5e3" title="convert a time string to GTime struct" alt="" coords="475,309,611,336"/>
+<area shape="rect" href="main__test_8c.html#a0cd3d3acac9d8a1e58549b9aa88d75aa" title="test for the haiyang&#45;2C spacecraft attitude" alt="" coords="471,360,614,387"/>
+<area shape="rect" href="main__orbit__compare__th_8c.html#a8f8607ffbfafad1174acfc281993e271" title="compare orbit from BHU, WHU and SYZ University" alt="" coords="469,411,617,437"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="473,461,613,488"/>
+<area shape="rect" href="tle_8h.html#a14bb37952a95c29ea670040cdd62fd55" title=" " alt="" coords="507,512,578,539"/>
+<area shape="rect" href="gnss__observation_8c.html#abf898fb112977fc34875876ec947200c" title="produce the header of rinex observation file for the output of rinex observations" alt="" coords="232,157,404,184"/>
+<area shape="rect" href="common__function_8c.html#aaef5d58a73129fc721894e3c2b0e061d" title="log to console for the ULOG library" alt="" coords="244,5,392,32"/>
+<area shape="rect" href="gnss__observation_8c.html#a09814252be6e9ef9e781f9275e5590e9" title="write the observation epoch in the format of rinex version 3.0" alt="" coords="5,157,184,184"/>
 </map>
 </div>
 
@@ -1975,7 +2065,7 @@ false if a&gt; b or they are not in the time system </dd></dl>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="gtime_8c.html">gtime.c</a></li>
-    <li class="footer">生成于 2024年 十二月 1日 星期日 15:43:25 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">生成于 2024年 十二月 27日 星期五 00:08:35 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

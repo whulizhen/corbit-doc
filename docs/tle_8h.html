@@ -118,6 +118,7 @@ $(document).ready(function(){initNavTree('tle_8h.html',''); initResizable(); });
 <p>Header file for TLE computation  
 <a href="#details">更多...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="corbit__const_8h.html">corbit_const.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="common__function_8h.html">common_function.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="gtime_8h.html">gtime.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="earth__rotation__param_8h.html">earth_rotation_param.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="mathlib_8h.html">mathlib.h</a>&quot;</code><br />
@@ -126,22 +127,22 @@ tle.h 的引用(Include)关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="tle_8h__incl.png" border="0" usemap="#atle_8h" alt=""/></div>
 <map name="atle_8h" id="atle_8h">
-<area shape="rect" title="Header file for TLE computation" alt="" coords="711,5,762,32"/>
-<area shape="rect" href="corbit__const_8h.html" title="Declarations for all the constants in corbit project" alt="" coords="504,304,617,331"/>
-<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="98,229,170,256"/>
-<area shape="rect" href="earth__rotation__param_8h.html" title="Declarations of earth rotation parameters computation" alt="" coords="438,80,613,107"/>
-<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="826,229,910,256"/>
-<area shape="rect" title=" " alt="" coords="160,379,243,405"/>
-<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="529,379,592,405"/>
-<area shape="rect" title=" " alt="" coords="170,304,234,331"/>
-<area shape="rect" title=" " alt="" coords="28,304,95,331"/>
-<area shape="rect" title=" " alt="" coords="316,304,386,331"/>
-<area shape="rect" title=" " alt="" coords="412,304,480,331"/>
-<area shape="rect" title=" " alt="" coords="964,304,1034,331"/>
-<area shape="rect" href="iau__function_8h.html" title="Declarations for iau functions" alt="" coords="388,229,503,256"/>
-<area shape="rect" href="iers__function_8h.html" title="Declarations for IERS functions" alt="" coords="194,229,313,256"/>
-<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="516,155,666,181"/>
-<area shape="rect" title=" " alt="" coords="629,229,700,256"/>
+<area shape="rect" title="Header file for TLE computation" alt="" coords="352,5,403,32"/>
+<area shape="rect" href="corbit__const_8h.html" title="Constant definitions for the corbit library." alt="" coords="272,304,385,331"/>
+<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="302,155,453,181"/>
+<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="156,229,240,256"/>
+<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="511,229,583,256"/>
+<area shape="rect" href="earth__rotation__param_8h.html" title="Declarations of earth rotation parameters computation" alt="" coords="558,80,733,107"/>
+<area shape="rect" title=" " alt="" coords="603,379,670,405"/>
+<area shape="rect" title=" " alt="" coords="198,379,269,405"/>
+<area shape="rect" title=" " alt="" coords="843,379,926,405"/>
+<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="297,379,360,405"/>
+<area shape="rect" title=" " alt="" coords="264,229,334,256"/>
+<area shape="rect" title=" " alt="" coords="650,304,718,331"/>
+<area shape="rect" title=" " alt="" coords="24,304,94,331"/>
+<area shape="rect" title=" " alt="" coords="460,304,524,331"/>
+<area shape="rect" href="iau__function_8h.html" title="Declarations for iau functions" alt="" coords="708,229,823,256"/>
+<area shape="rect" href="iers__function_8h.html" title="Declarations for IERS functions" alt="" coords="848,229,966,256"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -163,12 +164,26 @@ tle.h 的引用(Include)关系图:</div>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 函数</h2></td></tr>
+<tr class="memitem:a02dec06ab1686dec8b9ce1d86f571af9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tle_8h.html#a02dec06ab1686dec8b9ce1d86f571af9">tle_init</a> (<a class="el" href="structtle__t.html">tle_t</a> *tle)</td></tr>
+<tr class="memdesc:a02dec06ab1686dec8b9ce1d86f571af9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a TLE (Two-Line Element) structure.  <a href="tle_8h.html#a02dec06ab1686dec8b9ce1d86f571af9">更多...</a><br /></td></tr>
+<tr class="separator:a02dec06ab1686dec8b9ce1d86f571af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf159e87455bd3e5a00d1225c139656a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tle_8h.html#abf159e87455bd3e5a00d1225c139656a">tle_free</a> (<a class="el" href="structtle__t.html">tle_t</a> *tle)</td></tr>
+<tr class="memdesc:abf159e87455bd3e5a00d1225c139656a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees the memory used by a TLE (Two-Line Element) structure.  <a href="tle_8h.html#abf159e87455bd3e5a00d1225c139656a">更多...</a><br /></td></tr>
+<tr class="separator:abf159e87455bd3e5a00d1225c139656a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9251eb5fb1a2f247ead1481d015e8f5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tle_8h.html#ab9251eb5fb1a2f247ead1481d015e8f5">read_space_object_db</a> (char *so_orbit_filename, <a class="el" href="structtle__t.html">tle_t</a> *tle_database)</td></tr>
+<tr class="separator:ab9251eb5fb1a2f247ead1481d015e8f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bce3796695d3099e8ad7f3c8a98c12a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tle_8h.html#a7bce3796695d3099e8ad7f3c8a98c12a">search_tle</a> (<a class="el" href="structtle__t.html">tle_t</a> *tle_database, int satno, <a class="el" href="structGTime.html">GTime</a> epoch_utc)</td></tr>
+<tr class="memdesc:a7bce3796695d3099e8ad7f3c8a98c12a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches for a TLE (Two-Line Element) entry in the TLE database.  <a href="tle_8h.html#a7bce3796695d3099e8ad7f3c8a98c12a">更多...</a><br /></td></tr>
+<tr class="separator:a7bce3796695d3099e8ad7f3c8a98c12a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b2f19f4a97ca685a0b8a9b74684eb69"><td class="memItemLeft" align="right" valign="top"><a id="a8b2f19f4a97ca685a0b8a9b74684eb69"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>tle_read</b> (const char *file, <a class="el" href="structtle__t.html">tle_t</a> *tle)</td></tr>
 <tr class="separator:a8b2f19f4a97ca685a0b8a9b74684eb69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a486f8bbc4d4e0b70f162fdd84749ea81"><td class="memItemLeft" align="right" valign="top"><a id="a486f8bbc4d4e0b70f162fdd84749ea81"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>tle2xyz</b> (const <a class="el" href="structtled__t.html">tled_t</a> *tledata, <a class="el" href="structGTime.html">GTime</a> time_utc, double *pos_vel)</td></tr>
-<tr class="separator:a486f8bbc4d4e0b70f162fdd84749ea81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeddef2ae7d8f1e7057353f733d08b5af"><td class="memItemLeft" align="right" valign="top"><a id="aeddef2ae7d8f1e7057353f733d08b5af"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>tle2xyz_teme</b> (const <a class="el" href="structtled__t.html">tled_t</a> *tledata, <a class="el" href="structGTime.html">GTime</a> time_utc, double *pos_vel)</td></tr>
+<tr class="separator:aeddef2ae7d8f1e7057353f733d08b5af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2628ddb093d7faf195e9c4286c92c6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tle_8h.html#af2628ddb093d7faf195e9c4286c92c6d">teme2ecef</a> (double mjd_utc, double leapsec, double ut1mutc, double pmx, double pmy, double lod, double dOMEGA, double *xyz_teme, double *vel_teme, double *xyz_ecf, double *vel_ecf)</td></tr>
+<tr class="memdesc:af2628ddb093d7faf195e9c4286c92c6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Xteme = Rz(-gmst)*PolarMotion*Xecef  <a href="tle_8h.html#af2628ddb093d7faf195e9c4286c92c6d">更多...</a><br /></td></tr>
+<tr class="separator:af2628ddb093d7faf195e9c4286c92c6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14bb37952a95c29ea670040cdd62fd55"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tle_8h.html#a14bb37952a95c29ea670040cdd62fd55">tle_test</a> ()</td></tr>
 <tr class="separator:a14bb37952a95c29ea670040cdd62fd55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -182,6 +197,250 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>tle2xyz</b> (const <a 
 <dl class="section user"><dt>Copyright (c)</dt><dd></dd></dl>
 <dl class="section user"><dt>History:</dt><dd></dd></dl>
 </div><h2 class="groupheader">函数说明</h2>
+<a id="ab9251eb5fb1a2f247ead1481d015e8f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9251eb5fb1a2f247ead1481d015e8f5">&#9670;&nbsp;</a></span>read_space_object_db()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int read_space_object_db </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>so_orbit_filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structtle__t.html">tle_t</a> *&#160;</td>
+          <td class="paramname"><em>tle_database</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">so_orbit_filename</td><td></td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">tle_database</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a7bce3796695d3099e8ad7f3c8a98c12a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bce3796695d3099e8ad7f3c8a98c12a">&#9670;&nbsp;</a></span>search_tle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int search_tle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structtle__t.html">tle_t</a> *&#160;</td>
+          <td class="paramname"><em>tle_database</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>satno</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structGTime.html">GTime</a>&#160;</td>
+          <td class="paramname"><em>epoch_utc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Searches for a TLE (Two-Line Element) entry in the TLE database. </p>
+<p>This function searches for a TLE entry in the provided TLE database that matches the given satellite number and epoch time.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tle_database</td><td>Pointer to the TLE database array. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">satno</td><td>The satellite number to search for. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">epoch_utc</td><td>The epoch time in UTC to match. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>Index of the matching TLE entry in the database, or -1 if not found. </dd></dl>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="tle_8h_a7bce3796695d3099e8ad7f3c8a98c12a_cgraph.png" border="0" usemap="#atle_8h_a7bce3796695d3099e8ad7f3c8a98c12a_cgraph" alt=""/></div>
+<map name="atle_8h_a7bce3796695d3099e8ad7f3c8a98c12a_cgraph" id="atle_8h_a7bce3796695d3099e8ad7f3c8a98c12a_cgraph">
+<area shape="rect" title="Searches for a TLE (Two&#45;Line Element) entry in the TLE database." alt="" coords="5,31,95,57"/>
+<area shape="rect" href="gtime_8c.html#afa79a8685bcdb3981a1db50a3aae091c" title="compare two GTime struct, a &gt; b" alt="" coords="143,5,257,32"/>
+<area shape="rect" href="gtime_8c.html#a5331d83adc124ffb5b212a036865d1bb" title="Substract two GTime struct and return in seconds." alt="" coords="147,56,253,83"/>
+<area shape="rect" href="gtime_8c.html#adc56923884b6b09b48b914a520433554" title="compute gtime1 &#45; gtime2, these two GTime strcut should have the same time system." alt="" coords="305,5,389,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af2628ddb093d7faf195e9c4286c92c6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2628ddb093d7faf195e9c4286c92c6d">&#9670;&nbsp;</a></span>teme2ecef()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void teme2ecef </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>mjd_utc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>leapsec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ut1mutc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>pmx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>pmy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>lod</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dOMEGA</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>xyz_teme</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>vel_teme</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>xyz_ecf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>vel_ecf</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Xteme = Rz(-gmst)*PolarMotion*Xecef </p>
+<dl class="section note"><dt>注解</dt><dd>This is strictly the same as the teme2ecef in David Vallado's code, both C++ and Matlab </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mjd_utc</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">leapsec</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pmx</td><td>polar motion x in arcsec </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pmy</td><td>polar motion y in arcsec </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">lod</td><td>lod in seconds </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dOMEGA</td><td>corrections to earth rotation angular velocity </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="abf159e87455bd3e5a00d1225c139656a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf159e87455bd3e5a00d1225c139656a">&#9670;&nbsp;</a></span>tle_free()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tle_free </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structtle__t.html">tle_t</a> *&#160;</td>
+          <td class="paramname"><em>tle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Frees the memory used by a TLE (Two-Line Element) structure. </p>
+<p>This function releases the memory used by a TLE structure.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">tle</td><td>Pointer to the TLE structure to be freed. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a02dec06ab1686dec8b9ce1d86f571af9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02dec06ab1686dec8b9ce1d86f571af9">&#9670;&nbsp;</a></span>tle_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tle_init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structtle__t.html">tle_t</a> *&#160;</td>
+          <td class="paramname"><em>tle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes a TLE (Two-Line Element) structure. </p>
+<p>This function sets up the initial state of a TLE structure.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">tle</td><td>Pointer to the TLE structure to be initialized. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>int Returns 0 on success, or a negative error code on failure. </dd></dl>
+
+</div>
+</div>
 <a id="a14bb37952a95c29ea670040cdd62fd55"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a14bb37952a95c29ea670040cdd62fd55">&#9670;&nbsp;</a></span>tle_test()</h2>
 
@@ -223,7 +482,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>tle2xyz</b> (const <a 
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="tle_8h.html">tle.h</a></li>
-    <li class="footer">生成于 2024年 十二月 1日 星期日 15:43:26 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">生成于 2024年 十二月 27日 星期五 00:08:37 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

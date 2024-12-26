@@ -1,5 +1,6 @@
 <map id="gtime_greater" name="gtime_greater">
-<area shape="rect" id="node1" title="compare two GTime struct, a &gt; b" alt="" coords="255,31,369,57"/>
+<area shape="rect" id="node1" title="compare two GTime struct, a &gt; b" alt="" coords="255,56,369,83"/>
 <area shape="rect" id="node2" href="$gnss__observation_8c.html#a3eba026eacb147b25b516d97937e0e82" title="compare two OBSDATA_EPOCH for the sort of observations, smaller epoch_time get first" alt="" coords="13,5,199,32"/>
-<area shape="rect" id="node3" href="$attitude_8c.html#a696e64e4066503f57ba3e599a43b06f8" title="find the element in &#39;quaternion_all&#39; that is closest to the target time" alt="" coords="5,56,207,83"/>
+<area shape="rect" id="node3" href="$attitude_8c.html#a696e64e4066503f57ba3e599a43b06f8" title="Finds the closest attitude quaternion to the target time." alt="" coords="5,56,207,83"/>
+<area shape="rect" id="node4" href="$tle_8h.html#a7bce3796695d3099e8ad7f3c8a98c12a" title="Searches for a TLE (Two&#45;Line Element) entry in the TLE database." alt="" coords="61,107,151,133"/>
 </map>

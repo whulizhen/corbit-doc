@@ -1,11 +1,11 @@
 var main__gnss__quality_8c =
 [
-    [ "_gnss_quality_config_", "struct__gnss__quality__config__.html", "struct__gnss__quality__config__" ],
+    [ "CONFIG_GNSS_QUALITY", "structCONFIG__GNSS__QUALITY.html", "structCONFIG__GNSS__QUALITY" ],
     [ "compute_statistics_in_MPC", "main__gnss__quality_8c.html#a93fe25d4709e08c4ebef222b86ec8a24", null ],
     [ "get_dd_mw", "main__gnss__quality_8c.html#a53d9cacd14d4a620db7c049df84c93cc", null ],
     [ "gnss_quality_multipath", "main__gnss__quality_8c.html#a402b8ff4b374dd92dcf7e7fc0a80bf2d", null ],
     [ "initialize", "main__gnss__quality_8c.html#a25a40b6614565f755233080a384c35f1", null ],
-    [ "main", "main__gnss__quality_8c.html#ac4c0f8a8146b128f1b8f920e3a9c3b1e", null ],
+    [ "main", "main__gnss__quality_8c.html#a0ddf1224851353fc92bfbff6f499fa97", null ],
     [ "ouput_mpc", "main__gnss__quality_8c.html#a3eb9a47d06d81d2757f6c8ceae00671a", null ],
     [ "output_azel", "main__gnss__quality_8c.html#aa767cf1416ebf3ab888e22b6d66b6484", null ],
     [ "output_header", "main__gnss__quality_8c.html#acb1ff5b227a4f244463e5acc53228599", null ],

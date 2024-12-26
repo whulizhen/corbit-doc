@@ -3,7 +3,6 @@ var gnss__config_8h =
     [ "TYPE_FREQ_CODE", "structTYPE__FREQ__CODE.html", "structTYPE__FREQ__CODE" ],
     [ "GNSSCONFIG", "structGNSSCONFIG.html", "structGNSSCONFIG" ],
     [ "SOLUTION", "structSOLUTION.html", "structSOLUTION" ],
-    [ "ENABDS", "gnss__config_8h.html#ad210b1d75a2f7b20a564945898e7f060", null ],
     [ "ENAGPS", "gnss__config_8h.html#ac25d2ea5fa0593e763c089dff85cfb2b", null ],
     [ "ENALEO", "gnss__config_8h.html#a1fedfc729e5a37baf5aa26007096ea10", null ],
     [ "ENASTA", "gnss__config_8h.html#ad831837679b7715753416a14b4280543", null ],
@@ -101,7 +100,8 @@ var gnss__config_8h =
       [ "SOL_SPP_LACK_SAT", "gnss__config_8h.html#a1eb3c64248610b141bc43aa5b2eba39fa77514d6d2a5c79452e2be7f5a71d3d4b", null ],
       [ "SOL_ITER_EXCEED", "gnss__config_8h.html#a1eb3c64248610b141bc43aa5b2eba39fa5f8c184903c99c3f79eb0252b8a4b1f3", null ],
       [ "SOL_OBS_BAD", "gnss__config_8h.html#a1eb3c64248610b141bc43aa5b2eba39fab0592b8dec177d90797d832a5be5e51c", null ],
-      [ "SOL_CHI2_TEST_FAILED", "gnss__config_8h.html#a1eb3c64248610b141bc43aa5b2eba39fae67c7e1f69919c7d280edfe2f014c2e2", null ]
+      [ "SOL_CHI2_TEST_FAILED", "gnss__config_8h.html#a1eb3c64248610b141bc43aa5b2eba39fae67c7e1f69919c7d280edfe2f014c2e2", null ],
+      [ "SOL_DYN_PREDICT", "gnss__config_8h.html#a1eb3c64248610b141bc43aa5b2eba39fa08d6f68a1f9ebb3c841a7aaa69cd589a", null ]
     ] ],
     [ "sysGNSS", "gnss__config_8h.html#ad7537964394776a6c47f2504059aa873", [
       [ "UKNSYS", "gnss__config_8h.html#ad7537964394776a6c47f2504059aa873a7391ba4830ec855dd897711fe8da8e5a", null ],

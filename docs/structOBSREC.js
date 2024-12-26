@@ -1,5 +1,6 @@
 var structOBSREC =
 [
+    [ "ant_id", "structOBSREC.html#a24d48c3ec5efff181e26d053dc411aca", null ],
     [ "code", "structOBSREC.html#a99f9eb225293b200a5de321629ead789", null ],
     [ "flag_obs", "structOBSREC.html#a1ccff9a7bd07d7f90e29fce64e93181b", null ],
     [ "freq", "structOBSREC.html#af8d802dc30aea878e89a0fe0a1f84377", null ],

@@ -25,8 +25,8 @@ extern "C"
 #include <stdlib.h>
 #else
 /* only for the EMBED version matrix inversion */
-#define SOLVE_MAXNUM_COLS 30
-#define SOLVE_MAXNUM_ROWS 60
+#define SOLVE_MAXNUM_COLS 50
+#define SOLVE_MAXNUM_ROWS 80
 #define MAXNUM_NPOINTS_INTERPOLATION 30
 #endif
 

@@ -3,6 +3,7 @@ var structENV__POD__EMBED =
     [ "antenna_storage", "structENV__POD__EMBED.html#aa1cd84214c26bb8a591fd786b3430e84", null ],
     [ "antex_filename", "structENV__POD__EMBED.html#a34d3915070412334202adcd500b29b9a", null ],
     [ "att_quaternion_filename", "structENV__POD__EMBED.html#a03d0bcd65691b1c6351b1f530b0fdbfa", null ],
+    [ "atxcode", "structENV__POD__EMBED.html#a8606afb5aa5d0b43588112a6dd039276", null ],
     [ "clk_prec_filename", "structENV__POD__EMBED.html#a03930f600834df369cdc025c957c426a", null ],
     [ "config_gnss_filename", "structENV__POD__EMBED.html#a02a580b5b166dc04e0db06fc937a366e", null ],
     [ "doodson_info", "structENV__POD__EMBED.html#a81607a1c412e24931be6b7626fbecb5b", null ],
@@ -23,5 +24,8 @@ var structENV__POD__EMBED =
     [ "observation_rinex_filename", "structENV__POD__EMBED.html#a09f872972f52e6d7e5a19fb68ddb7972", null ],
     [ "ocean_tide_cs", "structENV__POD__EMBED.html#a71d6225cc4bc9d0d3ba5b632c43e96b4", null ],
     [ "ocean_tide_filename", "structENV__POD__EMBED.html#ae4c2e596577672d0514020fde8ce81fa", null ],
-    [ "output_filename", "structENV__POD__EMBED.html#aea6d0144707d79f686cb9af7ea3a7fe8", null ]
+    [ "output_filename", "structENV__POD__EMBED.html#aea6d0144707d79f686cb9af7ea3a7fe8", null ],
+    [ "rcvname_sysprn", "structENV__POD__EMBED.html#a935f1af6c2c81257f5aa1e988bb86ad3", null ],
+    [ "satindex_rcv", "structENV__POD__EMBED.html#a1e4df8bcf26acb6575df0c29b1d225ca", null ],
+    [ "solution_type", "structENV__POD__EMBED.html#a336aa41ddcf672ce8bf37f4b8b2b08ae", null ]
 ];

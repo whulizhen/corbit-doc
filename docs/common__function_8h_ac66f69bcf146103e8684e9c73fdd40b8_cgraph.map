@@ -1,9 +1,9 @@
 <map id="get_azel_signal" name="get_azel_signal">
-<area shape="rect" id="node1" title="compute the signal azimuth and elevation in the platform coordinate system" alt="" coords="5,81,128,108"/>
-<area shape="rect" id="node2" href="$common__function_8c.html#add627e23ebdc7640539c083d331a9740" title="compute the azimuth and elevation for ground users, this is not for the platform coordiante,..." alt="" coords="217,5,266,32"/>
+<area shape="rect" id="node1" title="Computes the azimuth and elevation angles of a signal." alt="" coords="5,81,128,108"/>
+<area shape="rect" id="node2" href="$common__function_8c.html#add627e23ebdc7640539c083d331a9740" title="Calculate azimuth and elevation from user given coordinates. compute the azimuth and elevation for gr..." alt="" coords="217,5,266,32"/>
 <area shape="rect" id="node5" href="$mathlib_8c.html#a481055fefb93c4fc538c5dd9c592c4f0" title="matrix multiplication C = A*B" alt="" coords="182,56,301,83"/>
 <area shape="rect" id="node6" href="$mathlib_8c.html#a3fa728cd1fb9cacd33775e45ffbc03c3" title="transpose a matrix with r rows and c columns" alt="" coords="176,107,307,133"/>
 <area shape="rect" id="node7" href="$mathlib_8c.html#ad3c2d5b0aab71d0ba94b00db096dfd24" title="get the norm of vector x" alt="" coords="213,157,269,184"/>
-<area shape="rect" id="node3" href="$common__function_8c.html#af6c1560282acf2cf5358826df8768a3b" title="convert from ecef xyz to ENU coordinates" alt="" coords="355,5,432,32"/>
-<area shape="rect" id="node4" href="$common__function_8c.html#a247d821e9b075458eaa206d3770dc8a2" title="compute the matrix from ecef xyz to ENU coordinates https://gssc.esa.int/navipedia/index...." alt="" coords="480,5,607,32"/>
+<area shape="rect" id="node3" href="$common__function_8c.html#af6c1560282acf2cf5358826df8768a3b" title="Converts coordinates from XYZ to ENU (East&#45;North&#45;Up) frame." alt="" coords="355,5,432,32"/>
+<area shape="rect" id="node4" href="$common__function_8c.html#a247d821e9b075458eaa206d3770dc8a2" title="Converts geodetic coordinates (latitude, longitude, height) to an ENU (East&#45;North&#45;Up) transformation ..." alt="" coords="480,5,607,32"/>
 </map>

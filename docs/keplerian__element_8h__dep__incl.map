@@ -1,5 +1,7 @@
 <map id="keplerian_element.h" name="keplerian_element.h">
-<area shape="rect" id="node1" title="Declarations for Keplerian elements computation" alt="" coords="80,5,235,32"/>
-<area shape="rect" id="node2" href="$keplerian__element_8c.html" title="Implementations for Keplerian elements computation" alt="" coords="5,80,160,107"/>
-<area shape="rect" id="node3" href="$main__test_8c.html" title="All the test functions for the corbit project" alt="" coords="184,80,283,107"/>
+<area shape="rect" id="node1" title="Declarations for Keplerian elements computation" alt="" coords="162,5,317,32"/>
+<area shape="rect" id="node2" href="$gnss__simulator_8h.html" title="Declarations of all the gnss simulations" alt="" coords="5,80,137,107"/>
+<area shape="rect" id="node4" href="$keplerian__element_8c.html" title="Implementations for Keplerian elements computation" alt="" coords="162,80,317,107"/>
+<area shape="rect" id="node5" href="$main__test_8c.html" title="All the test functions for the corbit project" alt="" coords="341,80,439,107"/>
+<area shape="rect" id="node3" href="$gnss__simulator_8c.html" title="Implementation of all the gnss simulations" alt="" coords="6,155,137,181"/>
 </map>

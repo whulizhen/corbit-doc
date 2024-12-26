@@ -35,7 +35,7 @@ extern "C"
 #ifdef EMBED
 #define MAXSIZE_EOP 32
 #else
-#define MAXSIZE_EOP 30000
+#define MAXSIZE_EOP 20000
 #endif
 
 //this is only for the eop interpolation

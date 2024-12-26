@@ -217,20 +217,7 @@ extern "C"
 
     } SOLUTION_ORBITFIT;
 
-    /**
-     * @brief struct definition of non-conservative force accelerations in grids
-     * @note mainly used to store SRP, EPR, and Drag
-     */
-    typedef struct _grid_non_conservative_force_
-    {
-        /* data */
-        char name[100];            /**< the force name of this grid*/
-        char spacecraft_type[100]; /**< the type of spacecraft*/
-        double interval_phi;       /**<interval in phi */
-        double interval_lambda;    /**< interval in lambda */
-        double values[181 * 361];  /**< all the grid data */
-    } GRID_NCF;
-
+    
     /**
      * @~English
      * @brief function pointer to define the derivatives computation functions

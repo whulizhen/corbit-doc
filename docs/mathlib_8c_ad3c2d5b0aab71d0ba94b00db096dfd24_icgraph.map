@@ -2,11 +2,11 @@
 <area shape="rect" id="node1" title="get the norm of vector x" alt="" coords="788,137,844,164"/>
 <area shape="rect" id="node2" href="$attitude_8c.html#a7ab5ac205d4327c856fe36a1df75d20d" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="179,36,315,63"/>
 <area shape="rect" id="node3" href="$orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="181,163,312,189"/>
-<area shape="rect" id="node5" href="$common__function_8c.html#ac66f69bcf146103e8684e9c73fdd40b8" title="compute the signal azimuth and elevation in the platform coordinate system" alt="" coords="597,112,720,139"/>
+<area shape="rect" id="node5" href="$common__function_8c.html#ac66f69bcf146103e8684e9c73fdd40b8" title="Computes the azimuth and elevation angles of a signal." alt="" coords="597,112,720,139"/>
 <area shape="rect" id="node6" href="$mathlib_8c.html#a6e06a3ec6912f50a47392e7d42556652" title="check if there exists columns are all zeros in the matrix, otherwise, adjust the number of columns th..." alt="" coords="586,163,731,189"/>
 <area shape="rect" id="node7" href="$obs__processing_8c.html#ad850d1bebdea335e8806f34911124382" title="the phase windup model" alt="" coords="577,213,740,240"/>
 <area shape="rect" id="node8" href="$mathlib_8c.html#a80599db69e4fe1ff1f2242398ba2b09d" title="normalize a vector of n elements" alt="" coords="591,61,726,88"/>
 <area shape="rect" id="node4" href="$orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,163,131,189"/>
-<area shape="rect" id="node9" href="$attitude_8c.html#a54fa748c018a5f34840db315f30eb603" title="yaw steering attitude, mainly for GNSS satellites" alt="" coords="363,112,529,139"/>
-<area shape="rect" id="node10" href="$common__function_8c.html#ab6619560de209ae8da1b6e8aeb728c7e" title="compute the orbital radial, tangent and along track unit vector" alt="" coords="413,61,479,88"/>
+<area shape="rect" id="node9" href="$attitude_8c.html#a54fa748c018a5f34840db315f30eb603" title="Calculates yaw steering attitude parameters for a satellite." alt="" coords="363,112,529,139"/>
+<area shape="rect" id="node10" href="$common__function_8c.html#ab6619560de209ae8da1b6e8aeb728c7e" title="Converts satellite position and velocity from ECI (Earth&#45;Centered Inertial) frame to RTN (Radial,..." alt="" coords="413,61,479,88"/>
 </map>

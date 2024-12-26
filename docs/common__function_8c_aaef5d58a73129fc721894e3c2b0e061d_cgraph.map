@@ -1,4 +1,8 @@
 <map id="my_console_logger" name="my_console_logger">
-<area shape="rect" id="node1" title="log to console for the ULOG library" alt="" coords="5,5,153,32"/>
-<area shape="rect" id="node2" href="$gtime_8c.html#a9c4a1c82ca974e1cbd0d58f5a1183040" title="get the current time in string" alt="" coords="201,5,316,32"/>
+<area shape="rect" id="node1" title="log to console for the ULOG library" alt="" coords="5,31,153,57"/>
+<area shape="rect" id="node2" href="$gtime_8c.html#aaf4673eb2f9f3dd09a0e4ca4a8a6033a" title="get the current time in string" alt="" coords="201,31,316,57"/>
+<area shape="rect" id="node3" href="$gtime_8c.html#a2bb18d3d6b62adeeb2e45404fc15d60a" title="convert from TimeYMD to GTime" alt="" coords="364,31,467,57"/>
+<area shape="rect" id="node4" href="$gtime_8c.html#ab8857837bd51003d9c146b2463028dd9" title="convert from TimeJD to GTime" alt="" coords="515,5,601,32"/>
+<area shape="rect" id="node5" href="$gtime_8c.html#ae25b985c6cdfb093cbe6ed066293249d" title="convert from TimeYMD to TImeJD" alt="" coords="519,56,597,83"/>
+<area shape="rect" id="node6" href="$gtime_8c.html#abba188d666e8af9b378ebc53d444ece4" title="make TimeJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="649,56,791,83"/>
 </map>

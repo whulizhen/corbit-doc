@@ -18,13 +18,15 @@ var common__function_8h =
     [ "getbitu", "common__function_8h.html#a85a03123ae20efc3b06434f616140943", null ],
     [ "hex_str_to_byte", "common__function_8h.html#a1be4a582e8e40037a39906e1c60d43b1", null ],
     [ "my_console_logger", "common__function_8h.html#aaef5d58a73129fc721894e3c2b0e061d", null ],
+    [ "myexit", "common__function_8h.html#a18b85b351a60d25bf04bee52d2fe63ca", null ],
     [ "output_port", "common__function_8h.html#a7f5a0836a4488e09160a55571e602040", null ],
     [ "print_help", "common__function_8h.html#a603d7df712c2fa4e2910ed0c3e5ad1e0", null ],
     [ "search_max_array", "common__function_8h.html#a7550ea9dda4a343f111a413549fd0cbf", null ],
     [ "setbits", "common__function_8h.html#a532dceb14654d78e3a771c6e8d416d8e", null ],
     [ "setbitu", "common__function_8h.html#a9c05395dda020aa4e0f22ba5380fdc63", null ],
+    [ "str2num", "common__function_8h.html#aca21817ee2127e89013ae4252c5f9abe", null ],
     [ "string_split", "common__function_8h.html#aff3a0cfee05e8e9f129d44495b317356", null ],
-    [ "string_trim", "common__function_8h.html#a2af10d6c8dd2998483933b798babbc9a", null ],
+    [ "string_trim", "common__function_8h.html#a74f307de2251b1b9fca350be59bfa5d9", null ],
     [ "xyz2enu", "common__function_8h.html#af6c1560282acf2cf5358826df8768a3b", null ],
     [ "xyz2enu_matrix", "common__function_8h.html#a247d821e9b075458eaa206d3770dc8a2", null ]
 ];

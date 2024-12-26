@@ -113,11 +113,11 @@ extern "C"
         int outc[MAXNUM_FREQ];       /* obs outage counter of phase */
         int slipc[MAXNUM_FREQ];      /* cycle-slip counter */
         // int rejc[MAXNUM_FREQ];       /* reject counter */
-        double gf_phase[MAXNUM_FREQ - 1]; /* geometry-free phase (m) */
-        double gf_range[MAXNUM_FREQ - 1]; /* geometry-free phase (m) */
-        double if_phase[MAXNUM_FREQ - 1];
-        double if_code[MAXNUM_FREQ - 1];
-        double mw[MAXNUM_FREQ - 1]; /* MW-LC (m) */
+        double gf_phase[MAXNUM_FREQ ]; /* geometry-free phase (m) */
+        double gf_range[MAXNUM_FREQ ]; /* geometry-free phase (m) */
+        double if_phase[MAXNUM_FREQ ];
+        double if_code[MAXNUM_FREQ ];
+        double mw[MAXNUM_FREQ ]; /* MW-LC (m) */
         double mpc[MAXNUM_FREQ];    // the multi-path combination
         double phw;                 /* phase windup (cycle), noting to do with frequency */
         
@@ -132,7 +132,7 @@ extern "C"
     // clear values in sat_state
     void clear_sat_state(SAT_STATE *sat_state);
 
-    STATUS_SOL pseudorange_point_positioning(OBSDATA_EPOCH *obs_epoch, ANT_INFO *antenna_rcv, SOLUTION *solt);
+    STATUS_SOL pseudorange_point_positioning(OBSDATA_EPOCH *obs_epoch, ATT_QUATERNION* qua_rcv_platform, ANT_INFO* antenna_rcv, SOLUTION *solt);
     
     //point positioning using doppler observations, not implemented now
     // STATUS_SOL doppler_point_positioning(OBSDATA_EPOCH *obs_epoch, SOLUTION *solt);

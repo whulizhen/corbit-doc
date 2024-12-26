@@ -1,12 +1,12 @@
 <map id="attitude_platform" name="attitude_platform">
 <area shape="rect" id="node1" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="5,157,141,184"/>
 <area shape="rect" id="node2" href="$common__function_8c.html#a346472702e417ea49bc6af16f4971052" title="convert from ECEF to BLH" alt="" coords="225,5,304,32"/>
-<area shape="rect" id="node3" href="$common__function_8c.html#ab6619560de209ae8da1b6e8aeb728c7e" title="compute the orbital radial, tangent and along track unit vector" alt="" coords="231,56,298,83"/>
+<area shape="rect" id="node3" href="$common__function_8c.html#ab6619560de209ae8da1b6e8aeb728c7e" title="Converts satellite position and velocity from ECI (Earth&#45;Centered Inertial) frame to RTN (Radial,..." alt="" coords="231,56,298,83"/>
 <area shape="rect" id="node6" href="$mathlib_8c.html#ad3c2d5b0aab71d0ba94b00db096dfd24" title="get the norm of vector x" alt="" coords="586,69,642,96"/>
 <area shape="rect" id="node7" href="$gtime_8c.html#a4bf9344475021ba0cc9fe2373ffe13ab" title="convert GTime to time string" alt="" coords="222,157,307,184"/>
 <area shape="rect" id="node12" href="$mathlib_8c.html#a9d966c7096f51ef73b936110bd8b063f" title="generate a identical matrix of r rows and r columns" alt="" coords="201,208,329,235"/>
 <area shape="rect" id="node13" href="$mathlib_8c.html#a9fbc205f541ac62acbca899de2456c04" title="the function to convert a quaternion to rotation matrix" alt="" coords="189,259,340,285"/>
-<area shape="rect" id="node14" href="$common__function_8c.html#a247d821e9b075458eaa206d3770dc8a2" title="compute the matrix from ecef xyz to ENU coordinates https://gssc.esa.int/navipedia/index...." alt="" coords="201,309,328,336"/>
+<area shape="rect" id="node14" href="$common__function_8c.html#a247d821e9b075458eaa206d3770dc8a2" title="Converts geodetic coordinates (latitude, longitude, height) to an ENU (East&#45;North&#45;Up) transformation ..." alt="" coords="201,309,328,336"/>
 <area shape="rect" id="node4" href="$mathlib_8c.html#a3103990859cfd0ec41ba1307255cddfe" title="cross product of a 3&#45;element vector A and 3&#45;element vector vector B" alt="" coords="403,5,508,32"/>
 <area shape="rect" id="node5" href="$mathlib_8c.html#a80599db69e4fe1ff1f2242398ba2b09d" title="normalize a vector of n elements" alt="" coords="388,56,523,83"/>
 <area shape="rect" id="node8" href="$gtime_8c.html#af3d0d3d1f25a8b57ded3fb98458d21ce" title="convert from GTime to TimeYMD" alt="" coords="404,157,507,184"/>

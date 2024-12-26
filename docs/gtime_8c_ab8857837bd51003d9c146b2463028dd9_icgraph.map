@@ -1,15 +1,18 @@
 <map id="JD2GTime" name="JD2GTime">
-<area shape="rect" id="node1" title="convert from TimeJD to GTime" alt="" coords="832,208,919,235"/>
-<area shape="rect" id="node2" href="$gtime_8c.html#a2bb18d3d6b62adeeb2e45404fc15d60a" title="convert from TimeYMD to GTime" alt="" coords="681,208,784,235"/>
-<area shape="rect" id="node3" href="$attitude_8c.html#a4c2bb8050ab4348bc7675c3812ed8676" title="read the grace&#45;fo satellite quaternion attitude in L1B product" alt="" coords="452,5,633,32"/>
-<area shape="rect" id="node4" href="$main__orbit__compare__th_8c.html#a08e943829efbe04683f0303bc72dc0d1" title="read the orbit product from BHU" alt="" coords="459,56,627,83"/>
-<area shape="rect" id="node5" href="$gnss__observation_8c.html#a388b20c7c28b4400e29547d4fe7f8df4" title="resovle the rinex observation with version 2.0" alt="" coords="454,107,631,133"/>
-<area shape="rect" id="node6" href="$gnss__observation_8c.html#a4d2eb9b3b8721dda688b2560f9a82852" title="resolve the rinex observation records in version 3.0" alt="" coords="454,157,631,184"/>
-<area shape="rect" id="node7" href="$gtime_8c.html#a4f24d364375c25475695208063266eb8" title="convert a time string to GTime struct" alt="" coords="500,208,585,235"/>
-<area shape="rect" id="node10" href="$main__test_8c.html#a0cd3d3acac9d8a1e58549b9aa88d75aa" title="test for the haiyang&#45;2C spacecraft attitude" alt="" coords="471,259,614,285"/>
-<area shape="rect" id="node11" href="$main__orbit__compare__th_8c.html#a8f8607ffbfafad1174acfc281993e271" title="compare orbit from BHU, WHU and SYZ University" alt="" coords="469,309,617,336"/>
-<area shape="rect" id="node12" href="$orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="473,360,613,387"/>
-<area shape="rect" id="node13" href="$tle_8h.html#a14bb37952a95c29ea670040cdd62fd55" title=" " alt="" coords="507,411,578,437"/>
-<area shape="rect" id="node8" href="$gnss__observation_8c.html#abf898fb112977fc34875876ec947200c" title="produce the header of rinex observation file for the output of rinex observations" alt="" coords="232,208,404,235"/>
-<area shape="rect" id="node9" href="$gnss__observation_8c.html#a09814252be6e9ef9e781f9275e5590e9" title="write the observation epoch in the format of rinex version 3.0" alt="" coords="5,208,184,235"/>
+<area shape="rect" id="node1" title="convert from TimeJD to GTime" alt="" coords="832,259,919,285"/>
+<area shape="rect" id="node2" href="$gtime_8c.html#a2bb18d3d6b62adeeb2e45404fc15d60a" title="convert from TimeYMD to GTime" alt="" coords="681,259,784,285"/>
+<area shape="rect" id="node3" href="$gtime_8c.html#aaf4673eb2f9f3dd09a0e4ca4a8a6033a" title="get the current time in string" alt="" coords="485,5,600,32"/>
+<area shape="rect" id="node7" href="$attitude_8c.html#a4c2bb8050ab4348bc7675c3812ed8676" title="Reads attitude quaternion data (GRACE&#45;FO L1B SCA file) from a file and stores it in the provided stru..." alt="" coords="452,56,633,83"/>
+<area shape="rect" id="node8" href="$main__orbit__compare__th_8c.html#a08e943829efbe04683f0303bc72dc0d1" title="read the orbit product from BHU" alt="" coords="459,107,627,133"/>
+<area shape="rect" id="node9" href="$gnss__observation_8c.html#a388b20c7c28b4400e29547d4fe7f8df4" title="resovle the rinex observation with version 2.0" alt="" coords="454,157,631,184"/>
+<area shape="rect" id="node10" href="$gnss__observation_8c.html#a4d2eb9b3b8721dda688b2560f9a82852" title="resolve the rinex observation records in version 3.0" alt="" coords="454,208,631,235"/>
+<area shape="rect" id="node11" href="$gtime_8c.html#a4f24d364375c25475695208063266eb8" title="convert a time string to GTime struct" alt="" coords="500,259,585,285"/>
+<area shape="rect" id="node12" href="$gtime_8c.html#adca3e4ae955282318b2f7c817629e5e3" title="convert a time string to GTime struct" alt="" coords="475,309,611,336"/>
+<area shape="rect" id="node13" href="$main__test_8c.html#a0cd3d3acac9d8a1e58549b9aa88d75aa" title="test for the haiyang&#45;2C spacecraft attitude" alt="" coords="471,360,614,387"/>
+<area shape="rect" id="node14" href="$main__orbit__compare__th_8c.html#a8f8607ffbfafad1174acfc281993e271" title="compare orbit from BHU, WHU and SYZ University" alt="" coords="469,411,617,437"/>
+<area shape="rect" id="node15" href="$orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="473,461,613,488"/>
+<area shape="rect" id="node16" href="$tle_8h.html#a14bb37952a95c29ea670040cdd62fd55" title=" " alt="" coords="507,512,578,539"/>
+<area shape="rect" id="node4" href="$gnss__observation_8c.html#abf898fb112977fc34875876ec947200c" title="produce the header of rinex observation file for the output of rinex observations" alt="" coords="232,157,404,184"/>
+<area shape="rect" id="node6" href="$common__function_8c.html#aaef5d58a73129fc721894e3c2b0e061d" title="log to console for the ULOG library" alt="" coords="244,5,392,32"/>
+<area shape="rect" id="node5" href="$gnss__observation_8c.html#a09814252be6e9ef9e781f9275e5590e9" title="write the observation epoch in the format of rinex version 3.0" alt="" coords="5,157,184,184"/>
 </map>

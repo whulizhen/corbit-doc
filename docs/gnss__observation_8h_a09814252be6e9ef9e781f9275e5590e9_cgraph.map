@@ -1,13 +1,13 @@
 <map id="write_rinex_observation" name="write_rinex_observation">
-<area shape="rect" id="node1" title="write the observation epoch in the format of rinex version 3.0" alt="" coords="5,56,184,83"/>
-<area shape="rect" id="node2" href="$gnss__observation_8c.html#abf898fb112977fc34875876ec947200c" title="produce the header of rinex observation file for the output of rinex observations" alt="" coords="232,56,404,83"/>
-<area shape="rect" id="node3" href="$gtime_8c.html#a9c4a1c82ca974e1cbd0d58f5a1183040" title="get the current time in string" alt="" coords="452,5,567,32"/>
-<area shape="rect" id="node4" href="$gtime_8c.html#af3d0d3d1f25a8b57ded3fb98458d21ce" title="convert from GTime to TimeYMD" alt="" coords="458,56,561,83"/>
-<area shape="rect" id="node8" href="$gtime_8c.html#a4f24d364375c25475695208063266eb8" title="convert a time string to GTime struct" alt="" coords="467,107,552,133"/>
-<area shape="rect" id="node5" href="$gtime_8c.html#a4e80434717708c0874f6c38348d8584a" title="convert from GTime to TimeJD" alt="" coords="765,5,852,32"/>
-<area shape="rect" id="node7" href="$gtime_8c.html#afc86aafaf1f29e1eb93c5da18a47e144" title="convert from TimeJD to TimeYMD" alt="" coords="629,56,703,83"/>
-<area shape="rect" id="node6" href="$gtime_8c.html#abba188d666e8af9b378ebc53d444ece4" title="make TimeJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="900,56,1041,83"/>
-<area shape="rect" id="node9" href="$gtime_8c.html#a2bb18d3d6b62adeeb2e45404fc15d60a" title="convert from TimeYMD to GTime" alt="" coords="615,107,717,133"/>
-<area shape="rect" id="node10" href="$gtime_8c.html#ab8857837bd51003d9c146b2463028dd9" title="convert from TimeJD to GTime" alt="" coords="765,56,852,83"/>
-<area shape="rect" id="node11" href="$gtime_8c.html#ae25b985c6cdfb093cbe6ed066293249d" title="convert from TimeYMD to TImeJD" alt="" coords="769,107,848,133"/>
+<area shape="rect" id="node1" title="write the observation epoch in the format of rinex version 3.0" alt="" coords="5,81,184,108"/>
+<area shape="rect" id="node2" href="$gnss__observation_8c.html#abf898fb112977fc34875876ec947200c" title="produce the header of rinex observation file for the output of rinex observations" alt="" coords="232,81,404,108"/>
+<area shape="rect" id="node3" href="$gtime_8c.html#aaf4673eb2f9f3dd09a0e4ca4a8a6033a" title="get the current time in string" alt="" coords="452,31,567,57"/>
+<area shape="rect" id="node8" href="$gtime_8c.html#af3d0d3d1f25a8b57ded3fb98458d21ce" title="convert from GTime to TimeYMD" alt="" coords="458,132,561,159"/>
+<area shape="rect" id="node11" href="$gtime_8c.html#a4f24d364375c25475695208063266eb8" title="convert a time string to GTime struct" alt="" coords="467,81,552,108"/>
+<area shape="rect" id="node4" href="$gtime_8c.html#a2bb18d3d6b62adeeb2e45404fc15d60a" title="convert from TimeYMD to GTime" alt="" coords="615,31,717,57"/>
+<area shape="rect" id="node5" href="$gtime_8c.html#ab8857837bd51003d9c146b2463028dd9" title="convert from TimeJD to GTime" alt="" coords="765,5,852,32"/>
+<area shape="rect" id="node6" href="$gtime_8c.html#ae25b985c6cdfb093cbe6ed066293249d" title="convert from TimeYMD to TImeJD" alt="" coords="769,56,848,83"/>
+<area shape="rect" id="node7" href="$gtime_8c.html#abba188d666e8af9b378ebc53d444ece4" title="make TimeJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="900,81,1041,108"/>
+<area shape="rect" id="node9" href="$gtime_8c.html#a4e80434717708c0874f6c38348d8584a" title="convert from GTime to TimeJD" alt="" coords="765,107,852,133"/>
+<area shape="rect" id="node10" href="$gtime_8c.html#afc86aafaf1f29e1eb93c5da18a47e144" title="convert from TimeJD to TimeYMD" alt="" coords="629,157,703,184"/>
 </map>

@@ -86,7 +86,7 @@ extern "C"
     typedef struct _clk_data_
     {
         GTime epoch_gpst;        // GPS time
-        double clk_offset[NSYS]; // in m
+        double clk_offset[NSYS]; // in sec
         // double clk_drift[NSYS];  // in m/s
         // double var_clk_offset[NSYS];
         // unsigned int status[NSYS]; // status
@@ -109,10 +109,8 @@ extern "C"
         
 #ifndef EMBED
         EPHPREC_STORE prec_storage; /**< all the precise ephemeris for GNSS satellite*/
-        // FILE *pf_output;
-        // char filename_output[1024]; /**< for the output */
 #endif
-
+        
         EOPREC eop_storage[MAXSIZE_EOP];      // only store 3 days EOP
         
         // store the latest 10 orbit and clk information
@@ -122,6 +120,7 @@ extern "C"
         int num_clk_store;
         unsigned int num_epoch_count;
         SOLUTION sln_kine;
+        STATUS_SOL sol_status;
 
         // *!!!!satlist_used_in_obsepoch, nsat_used and satlist_satindex_now SHOULD NOT BE CHANGED as it related to the order of parameters (X and DX)
         int nsat_used;
@@ -137,13 +136,14 @@ extern "C"
         SAT_STATE state_sat_all[MAXSAT_GNSS]; // satellite state of all GNSS satellites, memory: 536 Bytes*MAXSAT_GNSS = 56280 bytes
         
         //the following definition is to avoid dynamic memory allocation
-        // ANT_INFO ant_info_all[NUM_ANT_INFO]; // to store all the antenna information of both GNSS satellites and LEO satellites
-        // ANT_INFO_STORE ant_info_store; // including both the GNSS and LEO satellite ant info, should be pointed by the global pointer
-        ANT_INFO ant_info_rcv;  //  leo satellite receiver antenna information
-        ATT_QUATERNION att_rcv;  // leo satellite receiver quaternion, got from satellite platform
+        ANT_INFO* ant_info_rcv; // pointer to current ant_info
+        ANT_INFO ant_info_all[2]; //  leo satellite receiver with 2 antenna information
+        ANT_INFO_STORE ant_info_store;
         
+        ATT_QUATERNION att_rcv; // leo satellite receiver quaternion, got from satellite platform
+
         EPH_HEADER_JPL jpl_header;  // jpl ephemeris header
-        EPH_RECORD_JPL jpl_eph_data[1]; //jpl ephemeris data records  
+        EPH_RECORD_JPL jpl_eph_data[15]; //jpl ephemeris data records num is 14, determined by  line 590 in file eph_planet.c (function load_eph_storage_default)
         
         // these are middle variables for zd_omc computation
         PARAM_TYPE param_list[MAXNUM_X];
@@ -157,7 +157,8 @@ extern "C"
         //for the orbit dynamic filter
         ORBIT_DYN_CONFIG orbit_dyn_config; /**< orbit dynamics control, interface to orbit dynamics*/
         STATE_SPACECRAFT state_satellite;  /**< spacecraft state, the interface for orbit dynamics */
-        GTime  initial_condition_epoch_utc;
+        STATE_SPACECRAFT state_orbit_prediction; /**< store the orbit prediction results */
+        GTime initial_condition_epoch_utc;
         double initial_condition_eci[6];
         bool kinematic_or_dynamic;
         bool initial_condition_status;

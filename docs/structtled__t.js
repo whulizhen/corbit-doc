@@ -17,5 +17,5 @@ var structtled__t =
     [ "omg", "structtled__t.html#a77fa31fe2f6a897142f6187662a0b627", null ],
     [ "rev", "structtled__t.html#a673dd96358267b346b76932233c67a15", null ],
     [ "satclass", "structtled__t.html#aa2080a7772c3619ffccc5c56848a55d7", null ],
-    [ "satno", "structtled__t.html#ac602ea249bb233de1d0cedd25fdddd42", null ]
+    [ "satno", "structtled__t.html#a064111b809a88beeea63370ff7904677", null ]
 ];

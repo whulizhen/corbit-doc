@@ -6,7 +6,6 @@ var orbit__dynamics_8h =
     [ "ORBIT_DYN_CONFIG", "structORBIT__DYN__CONFIG.html", "structORBIT__DYN__CONFIG" ],
     [ "STATE_SPACECRAFT", "structSTATE__SPACECRAFT.html", "structSTATE__SPACECRAFT" ],
     [ "SOLUTION_ORBITFIT", "structSOLUTION__ORBITFIT.html", "structSOLUTION__ORBITFIT" ],
-    [ "GRID_NCF", "structGRID__NCF.html", "structGRID__NCF" ],
     [ "MAXLEN_PARAM_NAME", "orbit__dynamics_8h.html#a900b41c994c7acb3883f691432e57990", null ],
     [ "MAXNUM_FM_PARAM_EMP", "orbit__dynamics_8h.html#a66c3f4a1989d29cca014c31086aa3fac", null ],
     [ "MAXNUM_FM_PARAM_OHR", "orbit__dynamics_8h.html#a65cbdba06d04d318acb73de01081cecc", null ],

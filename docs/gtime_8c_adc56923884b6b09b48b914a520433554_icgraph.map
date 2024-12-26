@@ -1,10 +1,11 @@
 <map id="gtimeSub" name="gtimeSub">
-<area shape="rect" id="node1" title="compute gtime1 &#45; gtime2, these two GTime strcut should have the same time system." alt="" coords="419,97,503,123"/>
-<area shape="rect" id="node2" href="$gtime_8c.html#a3fa88f605000c82444969184bf1287b1" title="compare two GTime struct, a == b within threshold_time" alt="" coords="262,46,365,73"/>
-<area shape="rect" id="node6" href="$gtime_8c.html#afa79a8685bcdb3981a1db50a3aae091c" title="compare two GTime struct, a &gt; b" alt="" coords="256,97,371,123"/>
-<area shape="rect" id="node7" href="$gtime_8c.html#ac779811787fe25320b7aea55204ef9b2" title="compare two GTime struct, a &lt; b" alt="" coords="267,147,360,174"/>
-<area shape="rect" id="node3" href="$gnss__observation_8c.html#a3eba026eacb147b25b516d97937e0e82" title="compare two OBSDATA_EPOCH for the sort of observations, smaller epoch_time get first" alt="" coords="13,71,200,98"/>
-<area shape="rect" id="node4" href="$attitude_8c.html#a696e64e4066503f57ba3e599a43b06f8" title="find the element in &#39;quaternion_all&#39; that is closest to the target time" alt="" coords="6,122,207,149"/>
-<area shape="rect" id="node5" href="$gnss__observation_8c.html#aa56fd201df32fb98780a5b7c72319635" title="remove dumplcate gnss observation epochs" alt="" coords="19,5,195,47"/>
-<area shape="rect" id="node8" href="$gnss__observation_8c.html#a65bced149f40ca678eed0957b45fccfc" title="match and search for the OBSDATA_EPOCH in the array" alt="" coords="5,173,208,199"/>
+<area shape="rect" id="node1" title="compute gtime1 &#45; gtime2, these two GTime strcut should have the same time system." alt="" coords="419,107,503,133"/>
+<area shape="rect" id="node2" href="$gtime_8c.html#a3fa88f605000c82444969184bf1287b1" title="compare two GTime struct, a == b within threshold_time" alt="" coords="262,107,365,133"/>
+<area shape="rect" id="node6" href="$gtime_8c.html#afa79a8685bcdb3981a1db50a3aae091c" title="compare two GTime struct, a &gt; b" alt="" coords="256,157,371,184"/>
+<area shape="rect" id="node8" href="$gtime_8c.html#ac779811787fe25320b7aea55204ef9b2" title="compare two GTime struct, a &lt; b" alt="" coords="267,56,360,83"/>
+<area shape="rect" id="node3" href="$gnss__observation_8c.html#a3eba026eacb147b25b516d97937e0e82" title="compare two OBSDATA_EPOCH for the sort of observations, smaller epoch_time get first" alt="" coords="13,56,200,83"/>
+<area shape="rect" id="node4" href="$attitude_8c.html#a696e64e4066503f57ba3e599a43b06f8" title="Finds the closest attitude quaternion to the target time." alt="" coords="6,107,207,133"/>
+<area shape="rect" id="node5" href="$gnss__observation_8c.html#aa56fd201df32fb98780a5b7c72319635" title="remove dumplcate gnss observation epochs" alt="" coords="19,158,195,199"/>
+<area shape="rect" id="node7" href="$tle_8h.html#a7bce3796695d3099e8ad7f3c8a98c12a" title="Searches for a TLE (Two&#45;Line Element) entry in the TLE database." alt="" coords="62,224,151,251"/>
+<area shape="rect" id="node9" href="$gnss__observation_8c.html#a65bced149f40ca678eed0957b45fccfc" title="match and search for the OBSDATA_EPOCH in the array" alt="" coords="5,5,208,32"/>
 </map>

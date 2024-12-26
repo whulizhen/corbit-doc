@@ -1,10 +1,10 @@
 <map id="xyz2enu_matrix" name="xyz2enu_matrix">
-<area shape="rect" id="node1" title="compute the matrix from ecef xyz to ENU coordinates https://gssc.esa.int/navipedia/index...." alt="" coords="645,132,772,159"/>
+<area shape="rect" id="node1" title="Converts geodetic coordinates (latitude, longitude, height) to an ENU (East&#45;North&#45;Up) transformation ..." alt="" coords="645,132,772,159"/>
 <area shape="rect" id="node2" href="$attitude_8c.html#a7ab5ac205d4327c856fe36a1df75d20d" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="461,81,597,108"/>
-<area shape="rect" id="node3" href="$common__function_8c.html#aa59f50e89b5487e59f31798a289b93a6" title="convert from enu to ecef xyz" alt="" coords="491,132,568,159"/>
-<area shape="rect" id="node4" href="$common__function_8c.html#af6c1560282acf2cf5358826df8768a3b" title="convert from ecef xyz to ENU coordinates" alt="" coords="491,183,568,209"/>
-<area shape="rect" id="node5" href="$common__function_8c.html#add627e23ebdc7640539c083d331a9740" title="compute the azimuth and elevation for ground users, this is not for the platform coordiante,..." alt="" coords="364,183,413,209"/>
-<area shape="rect" id="node6" href="$common__function_8c.html#ac66f69bcf146103e8684e9c73fdd40b8" title="compute the signal azimuth and elevation in the platform coordinate system" alt="" coords="169,5,291,32"/>
+<area shape="rect" id="node3" href="$common__function_8c.html#aa59f50e89b5487e59f31798a289b93a6" title="Converts ENU (East&#45;North&#45;Up) coordinates to XYZ coordinates." alt="" coords="491,132,568,159"/>
+<area shape="rect" id="node4" href="$common__function_8c.html#af6c1560282acf2cf5358826df8768a3b" title="Converts coordinates from XYZ to ENU (East&#45;North&#45;Up) frame." alt="" coords="491,183,568,209"/>
+<area shape="rect" id="node5" href="$common__function_8c.html#add627e23ebdc7640539c083d331a9740" title="Calculate azimuth and elevation from user given coordinates. compute the azimuth and elevation for gr..." alt="" coords="364,183,413,209"/>
+<area shape="rect" id="node6" href="$common__function_8c.html#ac66f69bcf146103e8684e9c73fdd40b8" title="Computes the azimuth and elevation angles of a signal." alt="" coords="169,5,291,32"/>
 <area shape="rect" id="node7" href="$obs__processing_8c.html#a9d14d3a122897a640ea0b86f7ba30d5d" title="Mapping function based on BeiDou ICD 2017 B1c" alt="" coords="161,56,299,83"/>
 <area shape="rect" id="node8" href="$obs__processing_8c.html#ae42cfc50d8f32a55b2f21f2e7689da2a" title=" " alt="" coords="159,107,301,133"/>
 <area shape="rect" id="node9" href="$obs__processing_8c.html#a5f9e439d09365a355f9deccd605fa7e3" title=" " alt="" coords="144,157,316,184"/>

@@ -52,7 +52,8 @@ extern "C"
         int flag_obs;     /**< record good or bad, 0 means good, 1,2,3... means different types of observation exceptions */ 
         OBSFREQ freq;     /**< frequency indicator, 4 bytes */ 
         OBSTYPE type;     /**< observation type, range, phase, doppler, */ 
-        OBSCODE code;     /**< obs code, C, P, W, I, Q et.al */ 
+        OBSCODE code;     /**< obs code, C, P, W, I, Q et.al */
+        short int ant_id; /**< antenna id */ 
         int LLI;         /**< LLI: signal lost lock indicator, cycle slip detection */ 
         double value;     /**< obs value */ 
         double sigma;     /**< the sigma for this observation value */ 

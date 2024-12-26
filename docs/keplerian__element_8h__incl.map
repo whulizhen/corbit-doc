@@ -1,9 +1,10 @@
 <map id="keplerian_element.h" name="keplerian_element.h">
-<area shape="rect" id="node1" title="Declarations for Keplerian elements computation" alt="" coords="100,5,255,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,80,72,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="97,80,165,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="189,80,259,107"/>
-<area shape="rect" id="node5" href="$corbit__const_8h.html" title="Declarations for all the constants in corbit project" alt="" coords="283,80,397,107"/>
-<area shape="rect" id="node6" title=" " alt="" coords="249,155,332,181"/>
-<area shape="rect" id="node7" href="$ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="357,155,419,181"/>
+<area shape="rect" id="node1" title="Declarations for Keplerian elements computation" alt="" coords="36,5,191,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,155,72,181"/>
+<area shape="rect" id="node3" title=" " alt="" coords="33,80,101,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="125,80,195,107"/>
+<area shape="rect" id="node5" href="$corbit__const_8h.html" title="Constant definitions for the corbit library." alt="" coords="219,80,333,107"/>
+<area shape="rect" id="node6" title=" " alt="" coords="139,155,210,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="235,155,317,181"/>
+<area shape="rect" id="node8" href="$ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="342,155,405,181"/>
 </map>

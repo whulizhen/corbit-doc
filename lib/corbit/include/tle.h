@@ -43,6 +43,7 @@ extern "C"
 {
 #endif
 #include "corbit_const.h"
+#include "common_function.h"
 #include "gtime.h"
 #include "earth_rotation_param.h"
 #include "mathlib.h"
@@ -51,7 +52,7 @@ typedef struct
 {                   /* norad two line element data type */
     char name[32];  /* common name */
     char alias[32]; /* alias name */
-    char satno[16]; /* satellilte catalog number */
+    unsigned int satno; /* satellilte norad catalog number */
     char satclass;  /* classification */
     char desig[16]; /* international designator */
     // double epoch;   /* element set epoch (UTC) */
@@ -77,8 +78,13 @@ typedef struct
 } tle_t;
 
 // static void SGP4_STR3(double tsince, const tled_t *data, double *rs);
-extern int tle_read(const char *file, tle_t *tle);
-extern int tle2xyz(const tled_t *tledata, GTime time_utc, double *pos_vel);
+void tle_init(tle_t *tle);
+void tle_free(tle_t *tle);
+int read_space_object_db(char *so_orbit_filename, tle_t *tle_database);
+int search_tle(tle_t *tle_database, int satno, GTime epoch_utc);
+int tle_read(const char *file, tle_t *tle);
+int tle2xyz_teme(const tled_t *tledata, GTime time_utc, double *pos_vel);
+void teme2ecef(double mjd_utc, double leapsec, double ut1mutc, double pmx, double pmy, double lod, double dOMEGA, double *xyz_teme, double *vel_teme, double *xyz_ecf, double *vel_ecf);
 
 int tle_test();
 

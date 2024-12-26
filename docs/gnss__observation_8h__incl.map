@@ -1,17 +1,17 @@
 <map id="gnss_observation.h" name="gnss_observation.h">
-<area shape="rect" id="node1" title="Declarations for gnss observation operations" alt="" coords="307,5,455,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="175,379,241,405"/>
-<area shape="rect" id="node3" title=" " alt="" coords="993,379,1063,405"/>
-<area shape="rect" id="node4" title=" " alt="" coords="542,379,610,405"/>
-<area shape="rect" id="node5" title=" " alt="" coords="153,453,236,480"/>
-<area shape="rect" id="node6" href="$corbit__const_8h.html" title="Declarations for all the constants in corbit project" alt="" coords="405,379,518,405"/>
-<area shape="rect" id="node8" href="$gtime_8h.html" title="Declarations of time operations functions" alt="" coords="352,304,424,331"/>
-<area shape="rect" id="node10" href="$gnss__config_8h.html" title="Declarations for global variable gnssconfig" alt="" coords="406,155,517,181"/>
-<area shape="rect" id="node12" href="$common__function_8h.html" title="Declarations of common functions" alt="" coords="601,229,751,256"/>
-<area shape="rect" id="node15" href="$attitude_8h.html" title="Declarations of attitude operations" alt="" coords="419,80,504,107"/>
-<area shape="rect" id="node7" href="$ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="430,453,493,480"/>
-<area shape="rect" id="node9" title=" " alt="" coords="316,379,380,405"/>
-<area shape="rect" id="node11" title=" " alt="" coords="855,379,926,405"/>
-<area shape="rect" id="node13" title=" " alt="" coords="702,304,773,331"/>
-<area shape="rect" id="node14" href="$mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="849,304,933,331"/>
+<area shape="rect" id="node1" title="Declarations for gnss observation operations" alt="" coords="409,5,557,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="251,453,317,480"/>
+<area shape="rect" id="node3" title=" " alt="" coords="877,453,947,480"/>
+<area shape="rect" id="node4" title=" " alt="" coords="958,379,1026,405"/>
+<area shape="rect" id="node5" title=" " alt="" coords="67,453,149,480"/>
+<area shape="rect" id="node6" href="$corbit__const_8h.html" title="Constant definitions for the corbit library." alt="" coords="435,379,549,405"/>
+<area shape="rect" id="node8" href="$gtime_8h.html" title="Declarations of time operations functions" alt="" coords="375,304,447,331"/>
+<area shape="rect" id="node10" href="$gnss__config_8h.html" title="Declarations for global variable gnssconfig" alt="" coords="507,155,618,181"/>
+<area shape="rect" id="node12" href="$common__function_8h.html" title="Declarations of common functions" alt="" coords="725,229,875,256"/>
+<area shape="rect" id="node15" href="$attitude_8h.html" title="Declarations of attitude operations" alt="" coords="520,80,605,107"/>
+<area shape="rect" id="node7" href="$ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="461,453,523,480"/>
+<area shape="rect" id="node9" title=" " alt="" coords="347,379,411,405"/>
+<area shape="rect" id="node11" title=" " alt="" coords="726,379,797,405"/>
+<area shape="rect" id="node13" title=" " alt="" coords="775,304,846,331"/>
+<area shape="rect" id="node14" href="$mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="870,304,954,331"/>
 </map>

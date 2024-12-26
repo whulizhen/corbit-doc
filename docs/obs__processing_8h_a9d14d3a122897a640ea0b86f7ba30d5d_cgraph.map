@@ -1,6 +1,6 @@
 <map id="iono_map_BDGIM" name="iono_map_BDGIM">
 <area shape="rect" id="node1" title="Mapping function based on BeiDou ICD 2017 B1c" alt="" coords="5,5,144,32"/>
-<area shape="rect" id="node2" href="$common__function_8c.html#add627e23ebdc7640539c083d331a9740" title="compute the azimuth and elevation for ground users, this is not for the platform coordiante,..." alt="" coords="192,5,241,32"/>
-<area shape="rect" id="node3" href="$common__function_8c.html#af6c1560282acf2cf5358826df8768a3b" title="convert from ecef xyz to ENU coordinates" alt="" coords="289,5,367,32"/>
-<area shape="rect" id="node4" href="$common__function_8c.html#a247d821e9b075458eaa206d3770dc8a2" title="compute the matrix from ecef xyz to ENU coordinates https://gssc.esa.int/navipedia/index...." alt="" coords="415,5,541,32"/>
+<area shape="rect" id="node2" href="$common__function_8c.html#add627e23ebdc7640539c083d331a9740" title="Calculate azimuth and elevation from user given coordinates. compute the azimuth and elevation for gr..." alt="" coords="192,5,241,32"/>
+<area shape="rect" id="node3" href="$common__function_8c.html#af6c1560282acf2cf5358826df8768a3b" title="Converts coordinates from XYZ to ENU (East&#45;North&#45;Up) frame." alt="" coords="289,5,367,32"/>
+<area shape="rect" id="node4" href="$common__function_8c.html#a247d821e9b075458eaa206d3770dc8a2" title="Converts geodetic coordinates (latitude, longitude, height) to an ENU (East&#45;North&#45;Up) transformation ..." alt="" coords="415,5,541,32"/>
 </map>

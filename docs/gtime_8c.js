@@ -1,7 +1,7 @@
 var gtime_8c =
 [
     [ "DOY2YMD", "gtime_8c.html#a6869cf9da3e439f75ad26bd536989453", null ],
-    [ "get_time_now", "gtime_8c.html#a9c4a1c82ca974e1cbd0d58f5a1183040", null ],
+    [ "get_time_now", "gtime_8c.html#aaf4673eb2f9f3dd09a0e4ca4a8a6033a", null ],
     [ "getLeapSecond", "gtime_8c.html#ad0c5b5ae1134d58dbb718dedb0505764", null ],
     [ "GTime2JD", "gtime_8c.html#a4e80434717708c0874f6c38348d8584a", null ],
     [ "gtime2mjd", "gtime_8c.html#a4617ea5db3083f0bc259eabfb2986689", null ],
@@ -22,6 +22,7 @@ var gtime_8c =
     [ "mjd2TimeMJD", "gtime_8c.html#a706271a9b0e640ec8e5cad6cc833b7f7", null ],
     [ "SOW2GTime", "gtime_8c.html#a52bc0def9a1fc5ebe2508823d549e7fe", null ],
     [ "str2gtime", "gtime_8c.html#a4f24d364375c25475695208063266eb8", null ],
+    [ "str2gtime_format", "gtime_8c.html#adca3e4ae955282318b2f7c817629e5e3", null ],
     [ "TAI2UTC", "gtime_8c.html#ae62f6c31c525d0e709ea55012790ed9f", null ],
     [ "TAImUTC", "gtime_8c.html#a147ef70ad69a22c2ef64bafccf1071de", null ],
     [ "TimeJD_normalise", "gtime_8c.html#abba188d666e8af9b378ebc53d444ece4", null ],

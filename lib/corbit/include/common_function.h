@@ -46,7 +46,7 @@ extern "C"
     void print_help(char *help_str[]);
     void hex_str_to_byte(char *in, int len, unsigned char *out);
 #endif
-
+    void myexit();
     unsigned int getbitu(const unsigned char *buff, int pos, int len);
     int getbits(const unsigned char *buff, int pos, int len);
     void setbitu(unsigned char *buff, int pos, int len, unsigned int data);
@@ -56,8 +56,10 @@ extern "C"
     unsigned short crc16(const unsigned char *buff, int len);
 
     int string_split(const char *string_raw, char *seps, char outstr[][MAXLEN_STRING]);
-    void string_trim(char *s);
-    
+    void string_trim(char *str);
+    double str2num(const char *s, int i, int n);
+
+    //int sscanf_my(const char *__restrict __s, const char *__restrict __format, ...);
     
     void my_console_logger(ulog_level_t severity, char *msg);
     void output_port(int level, char *msg);

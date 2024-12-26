@@ -2,6 +2,6 @@
 <area shape="rect" id="node1" title="convert internal satellite index to the satellite system and prn" alt="" coords="463,63,592,90"/>
 <area shape="rect" id="node2" href="$gnss__satposition_8c.html#a4be15a1a24c0519eeec3d9f0b2b541f9" title="compute the satellite position, velocity and tgd" alt="" coords="243,13,392,39"/>
 <area shape="rect" id="node4" href="$gnss__satposition_8c.html#a5e528e08b3119bc2d9839a5e355ec222" title="compute the orbit and clock corrections to the broadcast ephemeris" alt="" coords="220,63,415,90"/>
-<area shape="rect" id="node5" href="$attitude_8c.html#a6e038680d63f3d8342cfbaca9846211d" title="compute the GNSS satellite attitude" alt="" coords="249,114,386,141"/>
+<area shape="rect" id="node5" href="$attitude_8c.html#a6e038680d63f3d8342cfbaca9846211d" title="Computes attitude of a GNSS satellite" alt="" coords="249,114,386,141"/>
 <area shape="rect" id="node3" href="$obs__processing_8c.html#a6fb23f064c60b7a3f6cea0bfa5c699af" title="compute the signal propatation time using the pseudorange observation" alt="" coords="5,5,172,47"/>
 </map>

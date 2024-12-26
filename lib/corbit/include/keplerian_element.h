@@ -13,7 +13,7 @@
  *
  */
 
-#ifndef EMBED
+// #ifndef EMBED
 
 #ifndef _KEPLERIAN_ELEMENT_H_
 #define _KEPLERIAN_ELEMENT_H_
@@ -61,4 +61,4 @@ extern "C"
 
 #endif
 
-#endif
+// #endif

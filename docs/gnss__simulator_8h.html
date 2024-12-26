@@ -120,29 +120,37 @@ $(document).ready(function(){initNavTree('gnss__simulator_8h.html',''); initResi
 <div class="textblock"><code>#include &quot;<a class="el" href="gnss__config_8h.html">gnss_config.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="gnss__observation_8h.html">gnss_observation.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="gnss__satposition_8h.html">gnss_satposition.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="keplerian__element_8h.html">keplerian_element.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="obs__processing_8h.html">obs_processing.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 gnss_simulator.h 的引用(Include)关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="gnss__simulator_8h__incl.png" border="0" usemap="#agnss__simulator_8h" alt=""/></div>
 <map name="agnss__simulator_8h" id="agnss__simulator_8h">
-<area shape="rect" title="Declarations of all the gnss simulations" alt="" coords="5,5,137,32"/>
-<area shape="rect" href="gnss__config_8h.html" title="Declarations for global variable gnssconfig" alt="" coords="452,379,563,405"/>
-<area shape="rect" href="gnss__observation_8h.html" title="Declarations for gnss observation operations" alt="" coords="433,229,581,256"/>
-<area shape="rect" href="gnss__satposition_8h.html" title="Declarations for gnss satellite position computation" alt="" coords="495,80,637,107"/>
-<area shape="rect" title=" " alt="" coords="98,603,165,629"/>
-<area shape="rect" title=" " alt="" coords="400,603,471,629"/>
-<area shape="rect" title=" " alt="" coords="566,677,649,704"/>
-<area shape="rect" title=" " alt="" coords="556,603,627,629"/>
-<area shape="rect" title=" " alt="" coords="739,603,807,629"/>
-<area shape="rect" href="corbit__const_8h.html" title="Declarations for all the constants in corbit project" alt="" coords="1029,603,1143,629"/>
-<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="751,453,901,480"/>
-<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="957,528,1029,555"/>
-<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="1055,677,1117,704"/>
-<area shape="rect" title=" " alt="" coords="861,528,932,555"/>
-<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="549,528,633,555"/>
-<area shape="rect" title=" " alt="" coords="941,603,1005,629"/>
-<area shape="rect" href="attitude_8h.html" title="Declarations of attitude operations" alt="" coords="375,304,461,331"/>
-<area shape="rect" href="rtcm_8h.html" title="Declarations for decoding and encoding RTCM messages stream" alt="" coords="993,155,1057,181"/>
+<area shape="rect" title="Declarations of all the gnss simulations" alt="" coords="823,5,955,32"/>
+<area shape="rect" href="gnss__config_8h.html" title="Declarations for global variable gnssconfig" alt="" coords="639,453,750,480"/>
+<area shape="rect" href="gnss__observation_8h.html" title="Declarations for gnss observation operations" alt="" coords="343,304,491,331"/>
+<area shape="rect" href="gnss__satposition_8h.html" title="Declarations for gnss satellite position computation" alt="" coords="709,155,851,181"/>
+<area shape="rect" href="keplerian__element_8h.html" title="Declarations for Keplerian elements computation" alt="" coords="1188,603,1343,629"/>
+<area shape="rect" href="obs__processing_8h.html" title="Declarations for observation processing functions" alt="" coords="927,80,1062,107"/>
+<area shape="rect" title=" " alt="" coords="1815,752,1881,779"/>
+<area shape="rect" title=" " alt="" coords="603,752,674,779"/>
+<area shape="rect" title=" " alt="" coords="143,752,225,779"/>
+<area shape="rect" title=" " alt="" coords="922,677,993,704"/>
+<area shape="rect" title=" " alt="" coords="1371,677,1439,704"/>
+<area shape="rect" href="corbit__const_8h.html" title="Constant definitions for the corbit library." alt="" coords="487,677,601,704"/>
+<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="886,528,1037,555"/>
+<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="340,603,412,629"/>
+<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="513,752,575,779"/>
+<area shape="rect" title=" " alt="" coords="849,603,919,629"/>
+<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="741,603,825,629"/>
+<area shape="rect" title=" " alt="" coords="297,677,361,704"/>
+<area shape="rect" href="attitude_8h.html" title="Declarations of attitude operations" alt="" coords="453,379,539,405"/>
+<area shape="rect" href="rtcm_8h.html" title="Declarations for decoding and encoding RTCM messages stream" alt="" coords="483,229,547,256"/>
+<area shape="rect" href="eph__planet_8h.html" title="Declarations of JPL planet ephemeris computation" alt="" coords="1671,453,1777,480"/>
+<area shape="rect" href="earth__rotation__param_8h.html" title="Declarations of earth rotation parameters computation" alt="" coords="1083,453,1258,480"/>
+<area shape="rect" href="iau__function_8h.html" title="Declarations for iau functions" alt="" coords="1671,603,1785,629"/>
+<area shape="rect" href="iers__function_8h.html" title="Declarations for IERS functions" alt="" coords="1046,603,1165,629"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -157,14 +165,26 @@ gnss_simulator.h 的引用(Include)关系图:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 结构体</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWAYPOINT__POS.html">WAYPOINT_POS</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structWAYPOINT__CLK.html">WAYPOINT_CLK</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCONFIG__SIMULATOR.html">CONFIG_SIMULATOR</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRUNTIME__SIMULATOR.html">RUNTIME_SIMULATOR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 函数</h2></td></tr>
-<tr class="memitem:a1f451daf160cbacfab1e7b495789750e"><td class="memItemLeft" align="right" valign="top"><a id="a1f451daf160cbacfab1e7b495789750e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>simulate</b> ()</td></tr>
-<tr class="separator:a1f451daf160cbacfab1e7b495789750e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25d6db066bfc76f9dc3e4909c4e7c892"><td class="memItemLeft" align="right" valign="top"><a id="a25d6db066bfc76f9dc3e4909c4e7c892"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>initialize_simulator</b> (<a class="el" href="structRUNTIME__SIMULATOR.html">RUNTIME_SIMULATOR</a> *runtime_simulator, <a class="el" href="structCONFIG__SIMULATOR.html">CONFIG_SIMULATOR</a> *pconfig)</td></tr>
+<tr class="separator:a25d6db066bfc76f9dc3e4909c4e7c892"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cdbc74cd98a56a6b51649fbd4e9a491"><td class="memItemLeft" align="right" valign="top"><a id="a7cdbc74cd98a56a6b51649fbd4e9a491"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>destruct_runtime</b> (<a class="el" href="structRUNTIME__SIMULATOR.html">RUNTIME_SIMULATOR</a> *runtime_simulator)</td></tr>
+<tr class="separator:a7cdbc74cd98a56a6b51649fbd4e9a491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae012b5e8c970c8132cba838c06de0de0"><td class="memItemLeft" align="right" valign="top"><a id="ae012b5e8c970c8132cba838c06de0de0"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>simulate_gnss</b> (<a class="el" href="structRUNTIME__SIMULATOR.html">RUNTIME_SIMULATOR</a> *runtime_sim, <a class="el" href="structGTime.html">GTime</a> time_sim, <a class="el" href="structWAYPOINT__POS.html">WAYPOINT_POS</a> *pos, <a class="el" href="structWAYPOINT__CLK.html">WAYPOINT_CLK</a> *clk)</td></tr>
+<tr class="separator:ae012b5e8c970c8132cba838c06de0de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86c8b142e21b44960662a94936d832fd"><td class="memItemLeft" align="right" valign="top"><a id="a86c8b142e21b44960662a94936d832fd"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>read_waypoints</b> ()</td></tr>
 <tr class="separator:a86c8b142e21b44960662a94936d832fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -188,7 +208,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>write_waypoints</b> (
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="gnss__simulator_8h.html">gnss_simulator.h</a></li>
-    <li class="footer">生成于 2024年 十二月 1日 星期日 15:43:25 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">生成于 2024年 十二月 27日 星期五 00:08:35 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
