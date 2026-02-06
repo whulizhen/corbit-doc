@@ -1,4 +1,5 @@
 <map id="gnss_rtk.h" name="gnss_rtk.h">
-<area shape="rect" id="node1" title="Declarations for gnss rtk processing" alt="" coords="5,5,95,32"/>
-<area shape="rect" id="node2" href="$gnss__rtk_8c.html" title="Implementations for gnss rtk processing" alt="" coords="6,80,94,107"/>
+<area shape="rect" id="node1" title="Declarations for gnss rtk processing" alt="" coords="61,5,150,32"/>
+<area shape="rect" id="node2" href="$gnss__rtk_8c.html" title="Implementations for gnss rtk processing" alt="" coords="5,80,93,107"/>
+<area shape="rect" id="node3" href="$main__rtk_8c.html" title="relative positioning" alt="" coords="117,80,208,107"/>
 </map>

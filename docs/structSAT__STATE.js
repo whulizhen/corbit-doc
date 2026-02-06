@@ -11,12 +11,9 @@ var structSAT__STATE =
     [ "gf_range", "structSAT__STATE.html#a3700f9d5fd61d6fb0107a9b8bedc2f40", null ],
     [ "if_code", "structSAT__STATE.html#afa864448fdb4e4d9433e9cae366f5990", null ],
     [ "if_phase", "structSAT__STATE.html#a0c938effc543b7fd798175213277dfb3", null ],
-    [ "lock", "structSAT__STATE.html#a0b75b951484f697dd7dcf490b8199711", null ],
     [ "mpc", "structSAT__STATE.html#aabdb77ed9b36de20b4e330543c4f6b4b", null ],
     [ "mw", "structSAT__STATE.html#a199cb2b4d459aab4b8a9df9367658fac", null ],
-    [ "outc", "structSAT__STATE.html#a1ae1bc0cf44252d50750a4c723ce4c98", null ],
     [ "phw", "structSAT__STATE.html#a0894e73731f044618b6a65310f96a9ef", null ],
     [ "prn", "structSAT__STATE.html#a30fffc5429edd6e754e90ddfcd15a59e", null ],
-    [ "satsys", "structSAT__STATE.html#af5a792c16d3d3ea45570052a14db311f", null ],
-    [ "slipc", "structSAT__STATE.html#a126bdb2724491c1da503eaac71512d1d", null ]
+    [ "satsys", "structSAT__STATE.html#af5a792c16d3d3ea45570052a14db311f", null ]
 ];

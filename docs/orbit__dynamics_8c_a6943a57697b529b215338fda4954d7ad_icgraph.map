@@ -1,4 +1,5 @@
 <map id="convert_ystate2struct" name="convert_ystate2struct">
-<area shape="rect" id="node1" title="convert from y vector to state struct" alt="" coords="179,5,343,32"/>
-<area shape="rect" id="node2" href="$orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,5,131,32"/>
+<area shape="rect" id="node1" title="convert from y vector to state struct" alt="" coords="345,31,509,57"/>
+<area shape="rect" id="node2" href="$orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="172,5,297,32"/>
+<area shape="rect" id="node3" href="$orbit__dynamics_8c.html#a503225716ef6e4a895b0cb4b43c88abd" title="the orbit integrate program" alt="" coords="5,31,124,57"/>
 </map>

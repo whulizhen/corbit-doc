@@ -99,6 +99,7 @@ extern "C"
     // MP combination
     void get_multipath_combination(double phase[2], double range[2], double freq[2], double MP[2]);
     void get_ionosphere_free_combination(double *obs_phase, double *obs_range, double *freq_value, double *IF_combination, double *factor);
+    int obsepoch2string(OBSDATA_EPOCH *obsdata, char *outputstr);
 
 #ifndef EMBED
     int resolve_rnx_header_v20(FILE *pf, OBSFREQ *obs_freq_header, OBSTYPE *obs_type_header, OBSCODE *obs_code_header);

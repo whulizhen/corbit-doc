@@ -43,7 +43,7 @@ extern "C"
 #define MAXNUM_STORE_POS 10
 #define MAXNUM_STORE_CLK 10
 
-#define MAXNUM_INTEGRATION_OUTPUT  (10)
+#define MAXNUM_INTEGRATION_OUTPUT  (15)
 #define MAXNUM_INTEGRATION_STATE (6 + 36 + 6 * MAXNUM_FM_PARAM_TOTAL)
 
 #ifndef EMBED
@@ -106,10 +106,7 @@ extern "C"
         
         EPHBRDC_STORE brdc_storage; /**< all the broadcast ephemeris for GNSS satellite*/
         RTCM rtcm_storage; /**< the rtcm storage  for GNSS satellites */
-        
-#ifndef EMBED
         EPHPREC_STORE prec_storage; /**< all the precise ephemeris for GNSS satellite*/
-#endif
         
         EOPREC eop_storage[MAXSIZE_EOP];      // only store 3 days EOP
         
@@ -121,7 +118,11 @@ extern "C"
         unsigned int num_epoch_count;
         SOLUTION sln_kine;
         STATUS_SOL sol_status;
-
+        bool reset_ambiguity; // reset all the ambigiuties to pseudorange computed values
+        
+        DATA_ORBIT prediction_orbit; // predicted pos+vel
+        bool prediction_orbit_update; // indicate if the prediction_orbit update or not
+        
         // *!!!!satlist_used_in_obsepoch, nsat_used and satlist_satindex_now SHOULD NOT BE CHANGED as it related to the order of parameters (X and DX)
         int nsat_used;
         int satlist_used_in_obsepoch[MAXSAT_PER_EPOCH]; /**< the satellite index in the current obsepoch satlist*/ 
@@ -158,16 +159,21 @@ extern "C"
         ORBIT_DYN_CONFIG orbit_dyn_config; /**< orbit dynamics control, interface to orbit dynamics*/
         STATE_SPACECRAFT state_satellite;  /**< spacecraft state, the interface for orbit dynamics */
         STATE_SPACECRAFT state_orbit_prediction; /**< store the orbit prediction results */
+        GTime initial_epoch_orbit_prediction; /**< the initial epoch of orbit prediction */
+
         GTime initial_condition_epoch_utc;
         double initial_condition_eci[6];
-        bool kinematic_or_dynamic;
+        double initial_condition_variance[36];
         bool initial_condition_status;
+        
+        bool kinematic_or_dynamic;
         // the following are to store the orbit integration state
         double integration_state[MAXNUM_INTEGRATION_OUTPUT * MAXNUM_INTEGRATION_STATE]; /**< ystate[6] + PHI[36] + S[6*np] */
         double integration_epoch[MAXNUM_INTEGRATION_OUTPUT];
         double time_correlation;
         bool started_dynamic_filter;
         int orbit_integration_progress; /**< the progess bar of orbit integration process*/
+        double orbit_prediction_interval; // interval in seconds for orbit prediction, could be 60 secs
         double sln_orbit_interval; // interval in seconds for orbit solution, could be 10~30 secs
         double X_dyn[6 + MAXNUM_FM_PARAM_TOTAL];
         double DX_dyn[(6 + MAXNUM_FM_PARAM_TOTAL) * (6 + MAXNUM_FM_PARAM_TOTAL)];

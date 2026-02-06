@@ -24,6 +24,8 @@ var structENV__POD__EMBED =
     [ "observation_rinex_filename", "structENV__POD__EMBED.html#a09f872972f52e6d7e5a19fb68ddb7972", null ],
     [ "ocean_tide_cs", "structENV__POD__EMBED.html#a71d6225cc4bc9d0d3ba5b632c43e96b4", null ],
     [ "ocean_tide_filename", "structENV__POD__EMBED.html#ae4c2e596577672d0514020fde8ce81fa", null ],
+    [ "osb_bias_storage", "structENV__POD__EMBED.html#a0ff84a1c4796cbe57e2f8e5374c8b6a7", null ],
+    [ "osb_filename", "structENV__POD__EMBED.html#abca3565481de213fcbec34d10cb1e506", null ],
     [ "output_filename", "structENV__POD__EMBED.html#aea6d0144707d79f686cb9af7ea3a7fe8", null ],
     [ "rcvname_sysprn", "structENV__POD__EMBED.html#a935f1af6c2c81257f5aa1e988bb86ad3", null ],
     [ "satindex_rcv", "structENV__POD__EMBED.html#a1e4df8bcf26acb6575df0c29b1d225ca", null ],

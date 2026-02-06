@@ -1,5 +1,6 @@
 <map id="compute_acc_relativity" name="compute_acc_relativity">
-<area shape="rect" id="node1" title="compute the general relativity acceleration" alt="" coords="357,5,532,32"/>
-<area shape="rect" id="node2" href="$orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="179,5,309,32"/>
-<area shape="rect" id="node3" href="$orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,5,131,32"/>
+<area shape="rect" id="node1" title="compute the general relativity acceleration" alt="" coords="524,5,699,32"/>
+<area shape="rect" id="node2" href="$orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="345,5,476,32"/>
+<area shape="rect" id="node3" href="$orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="172,5,297,32"/>
+<area shape="rect" id="node4" href="$orbit__dynamics_8c.html#a503225716ef6e4a895b0cb4b43c88abd" title="the orbit integrate program" alt="" coords="5,5,124,32"/>
 </map>

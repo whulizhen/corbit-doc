@@ -123,8 +123,10 @@ OBSDATA_SAT 的协作图:</div>
 <div class="dyncontent">
 <div class="center"><img src="structOBSDATA__SAT__coll__graph.png" border="0" usemap="#aOBSDATA__SAT_coll__map" alt="Collaboration graph"/></div>
 <map name="aOBSDATA__SAT_coll__map" id="aOBSDATA__SAT_coll__map">
-<area shape="rect" title="observation of one satellite, memory: 632 byes" alt="" coords="5,95,120,121"/>
-<area shape="rect" href="structOBSREC.html" title="record of GNSS obs, memory: 48 Bytes" alt="" coords="25,5,100,32"/>
+<area shape="rect" title="observation of one satellite, memory: 632 byes" alt="" coords="29,184,144,211"/>
+<area shape="rect" href="structOBSREC.html" title="record of GNSS obs, memory: 48 Bytes" alt="" coords="5,95,80,121"/>
+<area shape="rect" href="structGTime.html" title="struct for general time computation with time system defined" alt="" coords="105,95,170,121"/>
+<area shape="rect" href="structTimeMJD.html" title="struct time format in Modified Julian Day and second of day" alt="" coords="97,5,178,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">图例</a>]</span></center></div>
 <table class="memberdecls">
@@ -142,6 +144,8 @@ OBSDATA_SAT 的协作图:</div>
 <tr class="separator:a5e4e817fc268c745a8735bf12e49a79e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6067ab14ef080b42d099717ed323d150"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOBSDATA__SAT.html#a6067ab14ef080b42d099717ed323d150">num_obs_used</a></td></tr>
 <tr class="separator:a6067ab14ef080b42d099717ed323d150"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7073d9faa84f8b477274d6658de3f0a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structGTime.html">GTime</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOBSDATA__SAT.html#a7073d9faa84f8b477274d6658de3f0a8">transmission_time</a></td></tr>
+<tr class="separator:a7073d9faa84f8b477274d6658de3f0a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6078464b1ccbeb8554f335425cfc6b0e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOBSDATA__SAT.html#a6078464b1ccbeb8554f335425cfc6b0e">satpos_ecf</a> [3]</td></tr>
 <tr class="separator:a6078464b1ccbeb8554f335425cfc6b0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfc062ba50ca7d06b50d32e88f769c16"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOBSDATA__SAT.html#adfc062ba50ca7d06b50d32e88f769c16">satvel_ecf</a> [3]</td></tr>
@@ -231,7 +235,7 @@ OBSDATA_SAT 的协作图:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>memory: 480 bytes </p>
+<p>memory: 1200 bytes </p>
 
 </div>
 </div>
@@ -357,6 +361,21 @@ OBSDATA_SAT 的协作图:</div>
 
 </div>
 </div>
+<a id="a7073d9faa84f8b477274d6658de3f0a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7073d9faa84f8b477274d6658de3f0a8">&#9670;&nbsp;</a></span>transmission_time</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structGTime.html">GTime</a> OBSDATA_SAT::transmission_time</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the time of signal transmission </p>
+
+</div>
+</div>
 <hr/>该结构体的文档由以下文件生成:<ul>
 <li><a class="el" href="gnss__observation_8h.html">gnss_observation.h</a></li>
 </ul>
@@ -367,7 +386,7 @@ OBSDATA_SAT 的协作图:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="structOBSDATA__SAT.html">OBSDATA_SAT</a></li>
-    <li class="footer">生成于 2024年 十二月 27日 星期五 00:08:37 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">生成于 2026年 二月 6日 星期五 12:48:19 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

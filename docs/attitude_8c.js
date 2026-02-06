@@ -1,6 +1,7 @@
 var attitude_8c =
 [
     [ "attitude_platform", "attitude_8c.html#a7ab5ac205d4327c856fe36a1df75d20d", null ],
+    [ "attitude_yaw_fixed", "attitude_8c.html#a57d1270d0083648e561d820fe93ae5e3", null ],
     [ "attitude_yaw_steering", "attitude_8c.html#a54fa748c018a5f34840db315f30eb603", null ],
     [ "find_closest_att_quaternion", "attitude_8c.html#a696e64e4066503f57ba3e599a43b06f8", null ],
     [ "free_att_quaternion_store", "attitude_8c.html#abf765f8b8a1e0bca0912e00448c046dc", null ],

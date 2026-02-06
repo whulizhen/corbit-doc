@@ -1,12 +1,14 @@
 <map id="xyz2enu" name="xyz2enu">
-<area shape="rect" id="node1" title="Converts coordinates from XYZ to ENU (East&#45;North&#45;Up) frame." alt="" coords="461,183,539,209"/>
-<area shape="rect" id="node2" href="$common__function_8c.html#add627e23ebdc7640539c083d331a9740" title="Calculate azimuth and elevation from user given coordinates. compute the azimuth and elevation for gr..." alt="" coords="364,183,413,209"/>
-<area shape="rect" id="node3" href="$common__function_8c.html#ac66f69bcf146103e8684e9c73fdd40b8" title="Computes the azimuth and elevation angles of a signal." alt="" coords="169,5,291,32"/>
-<area shape="rect" id="node4" href="$obs__processing_8c.html#a9d14d3a122897a640ea0b86f7ba30d5d" title="Mapping function based on BeiDou ICD 2017 B1c" alt="" coords="161,56,299,83"/>
-<area shape="rect" id="node5" href="$obs__processing_8c.html#ae42cfc50d8f32a55b2f21f2e7689da2a" title=" " alt="" coords="159,107,301,133"/>
-<area shape="rect" id="node6" href="$obs__processing_8c.html#a5f9e439d09365a355f9deccd605fa7e3" title=" " alt="" coords="144,157,316,184"/>
-<area shape="rect" id="node7" href="$obs__processing_8c.html#a2cface4b06241e5bb461618566f7beaf" title="This function calculate B1I signal ionospheric delay in meters" alt="" coords="169,208,291,235"/>
-<area shape="rect" id="node8" href="$obs__processing_8c.html#a0faea59f5d5e2773df871cc0217ba798" title="This function calculate GPS L1 signal ionospheric delay in meters" alt="" coords="170,259,290,285"/>
-<area shape="rect" id="node9" href="$obs__processing_8c.html#abbd3e62b0d56d9534f40464d6f12038b" title="Niell Mapping Function" alt="" coords="204,309,256,336"/>
-<area shape="rect" id="node10" href="$obs__processing_8c.html#a2f0ffa805f83647a8a6aaceffeb0fbdf" title="calculate tropospheric delay" alt="" coords="5,335,96,361"/>
+<area shape="rect" id="node1" title="Converts coordinates from XYZ to ENU (East&#45;North&#45;Up) frame." alt="" coords="671,181,748,208"/>
+<area shape="rect" id="node2" href="$common__function_8c.html#add627e23ebdc7640539c083d331a9740" title="Calculate azimuth and elevation from user given coordinates. compute the azimuth and elevation for gr..." alt="" coords="573,181,623,208"/>
+<area shape="rect" id="node3" href="$common__function_8c.html#ac66f69bcf146103e8684e9c73fdd40b8" title="Computes the azimuth and elevation angles of a signal." alt="" coords="176,17,299,44"/>
+<area shape="rect" id="node5" href="$obs__processing_8c.html#a2e7335bb5f11a47bf92a491b430081d1" title="9 params BDGIM ionospheric delay model section 7.8.2 @ http://www.beidou.gov.cn/xt/gfxz/201712/P02017..." alt="" coords="169,105,305,132"/>
+<area shape="rect" id="node6" href="$obs__processing_8c.html#ae42cfc50d8f32a55b2f21f2e7689da2a" title=" " alt="" coords="368,80,511,106"/>
+<area shape="rect" id="node7" href="$obs__processing_8c.html#a5f9e439d09365a355f9deccd605fa7e3" title=" " alt="" coords="353,130,525,157"/>
+<area shape="rect" id="node8" href="$obs__processing_8c.html#aee978cb1a66c821efac8243169919424" title="ionospheric pierce point position latitude and longitude" alt="" coords="371,181,508,208"/>
+<area shape="rect" id="node9" href="$obs__processing_8c.html#a2cface4b06241e5bb461618566f7beaf" title="This function calculate B1I signal ionospheric delay in meters" alt="" coords="379,232,500,258"/>
+<area shape="rect" id="node10" href="$obs__processing_8c.html#a0faea59f5d5e2773df871cc0217ba798" title="This function calculate GPS L1 signal ionospheric delay in meters" alt="" coords="379,282,499,309"/>
+<area shape="rect" id="node11" href="$obs__processing_8c.html#abbd3e62b0d56d9534f40464d6f12038b" title="Niell Mapping Function" alt="" coords="413,333,465,360"/>
+<area shape="rect" id="node12" href="$obs__processing_8c.html#a2f0ffa805f83647a8a6aaceffeb0fbdf" title="calculate tropospheric delay" alt="" coords="192,333,283,360"/>
+<area shape="rect" id="node4" href="$gnss__simulator_8c.html#a8d2dc2e974d48e61b3f433bd14654750" title=" " alt="" coords="5,194,121,221"/>
 </map>

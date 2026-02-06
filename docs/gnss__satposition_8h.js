@@ -22,7 +22,9 @@ var gnss__satposition_8h =
     [ "add_antenna_into_storage", "gnss__satposition_8h.html#a45fad009a71302271302c8d328ddc226", null ],
     [ "antenna_GNSS_default", "gnss__satposition_8h.html#aabd7cec99ae83941695096817a05bfaf", null ],
     [ "choose_eph_bds_brdc", "gnss__satposition_8h.html#a9ee1fdea9cb6fd1227b91f11f8fd75a9", null ],
+    [ "choose_eph_gal_brdc", "gnss__satposition_8h.html#ae44861e776a984330f932373e58e6239", null ],
     [ "choose_eph_gps_brdc", "gnss__satposition_8h.html#a078b2ebb564d3bb2e6092bb15d0cf3f2", null ],
+    [ "choose_ephemeris_brdc", "gnss__satposition_8h.html#a98e58f0aedbe7caa3fff02e4ebc0a118", null ],
     [ "cmp_clkrec_pre", "gnss__satposition_8h.html#a302695acb49b8b43318695f500cfc263", null ],
     [ "cmp_ephrec_pre", "gnss__satposition_8h.html#a9cda1b18f36506638a7156881541a88d", null ],
     [ "compute_satclk_prec", "gnss__satposition_8h.html#aeeedc5a824f5ba82f7ef3189133451ca", null ],
@@ -52,11 +54,8 @@ var gnss__satposition_8h =
     [ "g_eph_selection", "gnss__satposition_8h.html#a98ca48ebcef6cfb608463b5bd59bb9c3", null ],
     [ "g_prec_storage", "gnss__satposition_8h.html#a98850594245c7b3db1725ef38bc9e710", null ],
     [ "iono_brdc_BDGIM", "gnss__satposition_8h.html#a7d2fecd2e3049e2e767347441beca0a3", null ],
-    [ "iono_brdc_BDS_A", "gnss__satposition_8h.html#aa570ee76de645e79f4040183f4f38e79", null ],
-    [ "iono_brdc_BDS_B", "gnss__satposition_8h.html#af2f586e0051442a81ada24028f628db1", null ],
+    [ "iono_brdc_BDS_K", "gnss__satposition_8h.html#a9df54798c9565ee7b2b2d8fefdd880b3", null ],
     [ "iono_brdc_GAL_I", "gnss__satposition_8h.html#a45723864cee60f9dc7e2cd739a95b9da", null ],
-    [ "iono_brdc_GPS_A", "gnss__satposition_8h.html#a47c1f7c7eeb90ea53ad54ad10b89c4c4", null ],
-    [ "iono_brdc_GPS_B", "gnss__satposition_8h.html#aa9f6092f1ffb585d2ab71885b1f88341", null ],
-    [ "iono_brdc_QZS_A", "gnss__satposition_8h.html#ae0cdeeabedbfe60e8bfb373ad9e94367", null ],
-    [ "iono_brdc_QZS_B", "gnss__satposition_8h.html#abb19834b646fc553bdb0d37d94a38e6e", null ]
+    [ "iono_brdc_GPS_K", "gnss__satposition_8h.html#a5e6658935e2bae683fa464f3eed42f9e", null ],
+    [ "iono_brdc_QZSS", "gnss__satposition_8h.html#a5c87d063b41e517834e1252bb944a7ba", null ]
 ];

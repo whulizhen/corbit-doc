@@ -1,7 +1,8 @@
 <map id="norm2" name="norm2">
-<area shape="rect" id="node1" title="get the square of the norm of vector x" alt="" coords="583,31,647,57"/>
-<area shape="rect" id="node2" href="$orbit__dynamics_8c.html#a40f4bb2d932e517fd04003a9ce4b296c" title="compute the general relativity acceleration" alt="" coords="359,5,533,32"/>
-<area shape="rect" id="node5" href="$orbit__dynamics_8c.html#a80bd1c842c3999b45ad108238c757d97" title="compute the third body planets gravitational accelerations to the spacecraft" alt="" coords="357,56,535,83"/>
-<area shape="rect" id="node3" href="$orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="179,31,309,57"/>
-<area shape="rect" id="node4" href="$orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,31,131,57"/>
+<area shape="rect" id="node1" title="get the square of the norm of vector x" alt="" coords="749,31,813,57"/>
+<area shape="rect" id="node2" href="$orbit__dynamics_8c.html#a40f4bb2d932e517fd04003a9ce4b296c" title="compute the general relativity acceleration" alt="" coords="525,5,700,32"/>
+<area shape="rect" id="node6" href="$orbit__dynamics_8c.html#a80bd1c842c3999b45ad108238c757d97" title="compute the third body planets gravitational accelerations to the spacecraft" alt="" coords="524,56,701,83"/>
+<area shape="rect" id="node3" href="$orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="345,31,476,57"/>
+<area shape="rect" id="node4" href="$orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="172,31,297,57"/>
+<area shape="rect" id="node5" href="$orbit__dynamics_8c.html#a503225716ef6e4a895b0cb4b43c88abd" title="the orbit integrate program" alt="" coords="5,31,124,57"/>
 </map>

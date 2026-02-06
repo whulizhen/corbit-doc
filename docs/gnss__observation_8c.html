@@ -123,22 +123,23 @@ gnss_observation.c 的引用(Include)关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="gnss__observation_8c__incl.png" border="0" usemap="#agnss__observation_8c" alt=""/></div>
 <map name="agnss__observation_8c" id="agnss__observation_8c">
-<area shape="rect" title="Implementations for gnss observation operations" alt="" coords="409,5,556,32"/>
-<area shape="rect" href="gnss__observation_8h.html" title="Declarations for gnss observation operations" alt="" coords="409,80,557,107"/>
-<area shape="rect" title=" " alt="" coords="251,528,317,555"/>
-<area shape="rect" title=" " alt="" coords="877,528,947,555"/>
-<area shape="rect" title=" " alt="" coords="958,453,1026,480"/>
-<area shape="rect" title=" " alt="" coords="67,528,149,555"/>
-<area shape="rect" href="corbit__const_8h.html" title="Constant definitions for the corbit library." alt="" coords="435,453,549,480"/>
-<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="375,379,447,405"/>
-<area shape="rect" href="gnss__config_8h.html" title="Declarations for global variable gnssconfig" alt="" coords="507,229,618,256"/>
-<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="725,304,875,331"/>
-<area shape="rect" href="attitude_8h.html" title="Declarations of attitude operations" alt="" coords="520,155,605,181"/>
-<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="461,528,523,555"/>
-<area shape="rect" title=" " alt="" coords="347,453,411,480"/>
-<area shape="rect" title=" " alt="" coords="726,453,797,480"/>
-<area shape="rect" title=" " alt="" coords="775,379,846,405"/>
-<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="870,379,954,405"/>
+<area shape="rect" title="Implementations for gnss observation operations" alt="" coords="825,5,972,32"/>
+<area shape="rect" href="gnss__observation_8h.html" title="Declarations for gnss observation operations" alt="" coords="825,80,973,107"/>
+<area shape="rect" title=" " alt="" coords="124,528,191,555"/>
+<area shape="rect" title=" " alt="" coords="886,528,957,555"/>
+<area shape="rect" title=" " alt="" coords="487,453,555,480"/>
+<area shape="rect" title=" " alt="" coords="1007,528,1089,555"/>
+<area shape="rect" href="corbit__const_8h.html" title="Constant definitions for the corbit library." alt="" coords="682,453,795,480"/>
+<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="856,379,928,405"/>
+<area shape="rect" href="gnss__config_8h.html" title="Declarations for global variable gnssconfig" alt="" coords="763,229,874,256"/>
+<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="541,304,691,331"/>
+<area shape="rect" href="attitude_8h.html" title="Declarations of attitude operations" alt="" coords="856,155,941,181"/>
+<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="707,528,770,555"/>
+<area shape="rect" title=" " alt="" coords="820,453,884,480"/>
+<area shape="rect" title=" " alt="" coords="246,453,317,480"/>
+<area shape="rect" title=" " alt="" coords="507,379,578,405"/>
+<area shape="rect" title=" " alt="" coords="341,453,411,480"/>
+<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="347,379,431,405"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -147,11 +148,11 @@ gnss_observation.c 的引用(Include)关系图:</div>
 <tr class="memitem:a664b2b2525e364b322eae5aba0b29b32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gnss__observation_8c.html#a664b2b2525e364b322eae5aba0b29b32">initialize_obsdata_epoch</a> (<a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *obsdata_eopch)</td></tr>
 <tr class="memdesc:a664b2b2525e364b322eae5aba0b29b32"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize the OBSDATE_EPOCH  <a href="gnss__observation_8c.html#a664b2b2525e364b322eae5aba0b29b32">更多...</a><br /></td></tr>
 <tr class="separator:a664b2b2525e364b322eae5aba0b29b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adcfd2b63ae05fbcabeea628e3132663f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gnss__observation_8c.html#adcfd2b63ae05fbcabeea628e3132663f">choose_satellite</a> (<a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *obsepoch, int *satlist_in_obsepoch, int *satlist_satindex)</td></tr>
-<tr class="memdesc:adcfd2b63ae05fbcabeea628e3132663f"><td class="mdescLeft">&#160;</td><td class="mdescRight">choose satellites according to the definition in gnssconfig  <a href="gnss__observation_8c.html#adcfd2b63ae05fbcabeea628e3132663f">更多...</a><br /></td></tr>
-<tr class="separator:adcfd2b63ae05fbcabeea628e3132663f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a892e8a2487d92ad5988be1ae29ed3f50"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gnss__observation_8c.html#a892e8a2487d92ad5988be1ae29ed3f50">choose_satellite</a> (<a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *obsepoch, int *satlist_in_obsepoch, int *satlist_satindex, unsigned int *satsys_used_indicator)</td></tr>
+<tr class="memdesc:a892e8a2487d92ad5988be1ae29ed3f50"><td class="mdescLeft">&#160;</td><td class="mdescRight">choose satellites according to the definition in g_gnssconfig  <a href="gnss__observation_8c.html#a892e8a2487d92ad5988be1ae29ed3f50">更多...</a><br /></td></tr>
+<tr class="separator:a892e8a2487d92ad5988be1ae29ed3f50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a122ca5a4f47dcf5bd73a74cc4848ac3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gnss__observation_8c.html#a122ca5a4f47dcf5bd73a74cc4848ac3f">choose_observation</a> (<a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *obsepoch)</td></tr>
-<tr class="memdesc:a122ca5a4f47dcf5bd73a74cc4848ac3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">choose observations according to the definition in gnssconfig  <a href="gnss__observation_8c.html#a122ca5a4f47dcf5bd73a74cc4848ac3f">更多...</a><br /></td></tr>
+<tr class="memdesc:a122ca5a4f47dcf5bd73a74cc4848ac3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">choose observations according to the definition in g_gnssconfig  <a href="gnss__observation_8c.html#a122ca5a4f47dcf5bd73a74cc4848ac3f">更多...</a><br /></td></tr>
 <tr class="separator:a122ca5a4f47dcf5bd73a74cc4848ac3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab677a6c8bfd8aedb536566e0b2d21274"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gnss__observation_8c.html#ab677a6c8bfd8aedb536566e0b2d21274">get_multipath_combination</a> (double phase[2], double range[2], double freq[2], double MP[2])</td></tr>
 <tr class="memdesc:ab677a6c8bfd8aedb536566e0b2d21274"><td class="mdescLeft">&#160;</td><td class="mdescRight">compute the multi-path combination  <a href="gnss__observation_8c.html#ab677a6c8bfd8aedb536566e0b2d21274">更多...</a><br /></td></tr>
@@ -159,6 +160,18 @@ gnss_observation.c 的引用(Include)关系图:</div>
 <tr class="memitem:a7e232e28a3eca09242f090ab9d7ad5b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gnss__observation_8c.html#a7e232e28a3eca09242f090ab9d7ad5b5">get_ionosphere_free_combination</a> (double *obs_phase, double *obs_range, double *freq_value, double *IF_combination, double *factor)</td></tr>
 <tr class="memdesc:a7e232e28a3eca09242f090ab9d7ad5b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">compute the ionosphere free combination  <a href="gnss__observation_8c.html#a7e232e28a3eca09242f090ab9d7ad5b5">更多...</a><br /></td></tr>
 <tr class="separator:a7e232e28a3eca09242f090ab9d7ad5b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26794064b3fec5f1135732823114aee8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gnss__observation_8c.html#a26794064b3fec5f1135732823114aee8">obsepoch2string</a> (<a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *obsdata, char *outputstr)</td></tr>
+<tr class="memdesc:a26794064b3fec5f1135732823114aee8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts GNSS observation data for a specific epoch to a string representation.  <a href="gnss__observation_8c.html#a26794064b3fec5f1135732823114aee8">更多...</a><br /></td></tr>
+<tr class="separator:a26794064b3fec5f1135732823114aee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbf323bb240db1f045b8b4d8a6670fae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gnss__observation_8c.html#adbf323bb240db1f045b8b4d8a6670fae">get_obs_epoch</a> (int index, int rcvno)</td></tr>
+<tr class="memdesc:adbf323bb240db1f045b8b4d8a6670fae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the obs epoch of index and rcvno  <a href="gnss__observation_8c.html#adbf323bb240db1f045b8b4d8a6670fae">更多...</a><br /></td></tr>
+<tr class="separator:adbf323bb240db1f045b8b4d8a6670fae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1610a3605bc0b13e6fe95b90b3ff85e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gnss__observation_8c.html#ac1610a3605bc0b13e6fe95b90b3ff85e">get_osb</a> (int satidx, double mjdtime, <a class="el" href="gnss__config_8h.html#a9ac3aaa86e954a5efd3c5db5b9622b08">OBSTYPE</a> t, <a class="el" href="gnss__config_8h.html#ac0f00646a8a62cf0a2f831f7526c480b">OBSFREQ</a> f, <a class="el" href="gnss__config_8h.html#a41f77fc61f14a668ca76e7a9f35e0026">OBSCODE</a> c)</td></tr>
+<tr class="memdesc:ac1610a3605bc0b13e6fe95b90b3ff85e"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the osb bias from global variable g_ptr_bias_storage  <a href="gnss__observation_8c.html#ac1610a3605bc0b13e6fe95b90b3ff85e">更多...</a><br /></td></tr>
+<tr class="separator:ac1610a3605bc0b13e6fe95b90b3ff85e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a496df6a8d0ed54ba7af0bc8764b13c0e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gnss__observation_8c.html#a496df6a8d0ed54ba7af0bc8764b13c0e">get_obs_record</a> (int sat_idx_epoch, int obs_idx_obsdata, <a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *obsepoch, <a class="el" href="structOBSREC.html">OBSREC</a> *obsrec)</td></tr>
+<tr class="memdesc:a496df6a8d0ed54ba7af0bc8764b13c0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the obs record of certain sat_index and obs index  <a href="gnss__observation_8c.html#a496df6a8d0ed54ba7af0bc8764b13c0e">更多...</a><br /></td></tr>
+<tr class="separator:a496df6a8d0ed54ba7af0bc8764b13c0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f4cecc221d496a9a5d0fac67d713c22"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gnss__observation_8c.html#a2f4cecc221d496a9a5d0fac67d713c22">resolve_rnx_header_v30</a> (FILE *pf, <a class="el" href="gnss__config_8h.html#ad7537964394776a6c47f2504059aa873">sysGNSS</a> sysall[<a class="el" href="gnss__config_8h.html#a10dab97a34d749de45ff5be41be84f6b">NSYS</a>], int numobs[<a class="el" href="gnss__config_8h.html#a10dab97a34d749de45ff5be41be84f6b">NSYS</a>], <a class="el" href="structTYPE__FREQ__CODE.html">TYPE_FREQ_CODE</a> obs_type_freq_code[<a class="el" href="gnss__config_8h.html#a10dab97a34d749de45ff5be41be84f6b">NSYS</a>][<a class="el" href="gnss__config_8h.html#a097bc713a4d5cb9f82617e26cd1bcc36">MAXOBS_PER_SAT</a>])</td></tr>
 <tr class="memdesc:a2f4cecc221d496a9a5d0fac67d713c22"><td class="mdescLeft">&#160;</td><td class="mdescRight">resolve the rinex header of version 3.0  <a href="gnss__observation_8c.html#a2f4cecc221d496a9a5d0fac67d713c22">更多...</a><br /></td></tr>
 <tr class="separator:a2f4cecc221d496a9a5d0fac67d713c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,6 +190,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>get_rnx_line_v30_test
 <tr class="memitem:a388b20c7c28b4400e29547d4fe7f8df4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gnss__observation_8c.html#a388b20c7c28b4400e29547d4fe7f8df4">resolve_rnx_record_v20</a> (FILE *pf, long epoch_index, int rcvno, int num_obs_code, <a class="el" href="gnss__config_8h.html#ac0f00646a8a62cf0a2f831f7526c480b">OBSFREQ</a> *obs_freq_header, <a class="el" href="gnss__config_8h.html#a9ac3aaa86e954a5efd3c5db5b9622b08">OBSTYPE</a> *obs_type_header, <a class="el" href="gnss__config_8h.html#a41f77fc61f14a668ca76e7a9f35e0026">OBSCODE</a> *obs_code_header, double sample_rate)</td></tr>
 <tr class="memdesc:a388b20c7c28b4400e29547d4fe7f8df4"><td class="mdescLeft">&#160;</td><td class="mdescRight">resovle the rinex observation with version 2.0  <a href="gnss__observation_8c.html#a388b20c7c28b4400e29547d4fe7f8df4">更多...</a><br /></td></tr>
 <tr class="separator:a388b20c7c28b4400e29547d4fe7f8df4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b31a556fb3f4d0fa5e68cd3c846f676"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gnss__observation_8c.html#a9b31a556fb3f4d0fa5e68cd3c846f676">readfile_sinex_bias_osb</a> (char *filename_bias_osb, <a class="el" href="structBIAS__SIGNAL__STORE.html">BIAS_SIGNAL_STORE</a> *bias_storage)</td></tr>
+<tr class="memdesc:a9b31a556fb3f4d0fa5e68cd3c846f676"><td class="mdescLeft">&#160;</td><td class="mdescRight">read the obs bias file in sinex format from igs  <a href="gnss__observation_8c.html#a9b31a556fb3f4d0fa5e68cd3c846f676">更多...</a><br /></td></tr>
+<tr class="separator:a9b31a556fb3f4d0fa5e68cd3c846f676"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4943c4e0a120060b1b18cecc87a0b5d5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gnss__observation_8c.html#a4943c4e0a120060b1b18cecc87a0b5d5">load_observation_rinex</a> (char *filename_rinex, int rcvno, double sample_rate)</td></tr>
 <tr class="memdesc:a4943c4e0a120060b1b18cecc87a0b5d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">read the rinex observation and store data into the global variable g_obs_storage  <a href="gnss__observation_8c.html#a4943c4e0a120060b1b18cecc87a0b5d5">更多...</a><br /></td></tr>
 <tr class="separator:a4943c4e0a120060b1b18cecc87a0b5d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -198,12 +214,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>get_rnx_line_v30_test
 <tr class="memitem:a65bced149f40ca678eed0957b45fccfc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gnss__observation_8c.html#a65bced149f40ca678eed0957b45fccfc">match_observation_storage</a> (<a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *obs_list, size_t nsize, <a class="el" href="structGTime.html">GTime</a> time_target, double threshold_sec)</td></tr>
 <tr class="memdesc:a65bced149f40ca678eed0957b45fccfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">match and search for the <a class="el" href="structOBSDATA__EPOCH.html" title="observation of one epoch with many satellites">OBSDATA_EPOCH</a> in the array  <a href="gnss__observation_8c.html#a65bced149f40ca678eed0957b45fccfc">更多...</a><br /></td></tr>
 <tr class="separator:a65bced149f40ca678eed0957b45fccfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbf323bb240db1f045b8b4d8a6670fae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gnss__observation_8c.html#adbf323bb240db1f045b8b4d8a6670fae">get_obs_epoch</a> (int index, int rcvno)</td></tr>
-<tr class="memdesc:adbf323bb240db1f045b8b4d8a6670fae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the obs epoch of index and rcvno  <a href="gnss__observation_8c.html#adbf323bb240db1f045b8b4d8a6670fae">更多...</a><br /></td></tr>
-<tr class="separator:adbf323bb240db1f045b8b4d8a6670fae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a496df6a8d0ed54ba7af0bc8764b13c0e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gnss__observation_8c.html#a496df6a8d0ed54ba7af0bc8764b13c0e">get_obs_record</a> (int sat_idx_epoch, int obs_idx_obsdata, <a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *obsepoch, <a class="el" href="structOBSREC.html">OBSREC</a> *obsrec)</td></tr>
-<tr class="memdesc:a496df6a8d0ed54ba7af0bc8764b13c0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the obs record of certain sat_index and obs index  <a href="gnss__observation_8c.html#a496df6a8d0ed54ba7af0bc8764b13c0e">更多...</a><br /></td></tr>
-<tr class="separator:a496df6a8d0ed54ba7af0bc8764b13c0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 变量</h2></td></tr>
@@ -211,6 +221,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>get_rnx_line_v30_test
 <tr class="separator:a77c62cb1516c63612326ad6ed46a6942"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b665de423fdeba11dd3e08097568b66"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gnss__observation_8c.html#a1b665de423fdeba11dd3e08097568b66">g_num_obs_storage</a> = 0</td></tr>
 <tr class="separator:a1b665de423fdeba11dd3e08097568b66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8cde1411b3234737937fd0e205d690b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structBIAS__SIGNAL__STORE.html">BIAS_SIGNAL_STORE</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gnss__observation_8c.html#ab8cde1411b3234737937fd0e205d690b">g_ptr_bias_storage</a> = NULL</td></tr>
+<tr class="separator:ab8cde1411b3234737937fd0e205d690b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
 <div class="textblock"><p>Implementations for gnss observation operations </p>
@@ -238,7 +250,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>get_rnx_line_v30_test
       </table>
 </div><div class="memdoc">
 
-<p>choose observations according to the definition in gnssconfig </p>
+<p>choose observations according to the definition in g_gnssconfig </p>
 <dl class="section note"><dt>注解</dt><dd>update member num_obs_used and obs_index_used for all visible satellites in a <a class="el" href="structOBSDATA__EPOCH.html" title="observation of one epoch with many satellites">OBSDATA_EPOCH</a> struct </dd></dl>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
@@ -251,15 +263,15 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>get_rnx_line_v30_test
 <div class="dyncontent">
 <div class="center"><img src="gnss__observation_8c_a122ca5a4f47dcf5bd73a74cc4848ac3f_cgraph.png" border="0" usemap="#agnss__observation_8c_a122ca5a4f47dcf5bd73a74cc4848ac3f_cgraph" alt=""/></div>
 <map name="agnss__observation_8c_a122ca5a4f47dcf5bd73a74cc4848ac3f_cgraph" id="agnss__observation_8c_a122ca5a4f47dcf5bd73a74cc4848ac3f_cgraph">
-<area shape="rect" title="choose observations according to the definition in gnssconfig" alt="" coords="5,13,157,39"/>
+<area shape="rect" title="choose observations according to the definition in g_gnssconfig" alt="" coords="5,13,157,39"/>
 <area shape="rect" href="gnss__config_8c.html#a2948a1a21e91e94105deb7692931337e" title="get the index of a GNSS system in GNSSCONFIG" alt="" coords="205,5,353,47"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="adcfd2b63ae05fbcabeea628e3132663f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adcfd2b63ae05fbcabeea628e3132663f">&#9670;&nbsp;</a></span>choose_satellite()</h2>
+<a id="a892e8a2487d92ad5988be1ae29ed3f50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a892e8a2487d92ad5988be1ae29ed3f50">&#9670;&nbsp;</a></span>choose_satellite()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -280,7 +292,13 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>get_rnx_line_v30_test
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>satlist_satindex</em>&#160;</td>
+          <td class="paramname"><em>satlist_satindex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int *&#160;</td>
+          <td class="paramname"><em>satsys_used_indicator</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -290,7 +308,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>get_rnx_line_v30_test
       </table>
 </div><div class="memdoc">
 
-<p>choose satellites according to the definition in gnssconfig </p>
+<p>choose satellites according to the definition in g_gnssconfig </p>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">obsepoch</td><td>a <a class="el" href="structOBSDATA__EPOCH.html" title="observation of one epoch with many satellites">OBSDATA_EPOCH</a> struct </td></tr>
@@ -303,18 +321,18 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>get_rnx_line_v30_test
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
-<div class="center"><img src="gnss__observation_8c_adcfd2b63ae05fbcabeea628e3132663f_cgraph.png" border="0" usemap="#agnss__observation_8c_adcfd2b63ae05fbcabeea628e3132663f_cgraph" alt=""/></div>
-<map name="agnss__observation_8c_adcfd2b63ae05fbcabeea628e3132663f_cgraph" id="agnss__observation_8c_adcfd2b63ae05fbcabeea628e3132663f_cgraph">
-<area shape="rect" title="choose satellites according to the definition in gnssconfig" alt="" coords="5,5,133,32"/>
+<div class="center"><img src="gnss__observation_8c_a892e8a2487d92ad5988be1ae29ed3f50_cgraph.png" border="0" usemap="#agnss__observation_8c_a892e8a2487d92ad5988be1ae29ed3f50_cgraph" alt=""/></div>
+<map name="agnss__observation_8c_a892e8a2487d92ad5988be1ae29ed3f50_cgraph" id="agnss__observation_8c_a892e8a2487d92ad5988be1ae29ed3f50_cgraph">
+<area shape="rect" title="choose satellites according to the definition in g_gnssconfig" alt="" coords="5,5,133,32"/>
 <area shape="rect" href="gnss__config_8c.html#a4904153c455ec7e809a04203fbb3ab0c" title="convert sat sys&amp;prn to the internal index" alt="" coords="181,5,311,32"/>
 </map>
 </div>
 <div class="dynheader">
 这是这个函数的调用关系图:</div>
 <div class="dyncontent">
-<div class="center"><img src="gnss__observation_8c_adcfd2b63ae05fbcabeea628e3132663f_icgraph.png" border="0" usemap="#agnss__observation_8c_adcfd2b63ae05fbcabeea628e3132663f_icgraph" alt=""/></div>
-<map name="agnss__observation_8c_adcfd2b63ae05fbcabeea628e3132663f_icgraph" id="agnss__observation_8c_adcfd2b63ae05fbcabeea628e3132663f_icgraph">
-<area shape="rect" title="choose satellites according to the definition in gnssconfig" alt="" coords="245,5,373,32"/>
+<div class="center"><img src="gnss__observation_8c_a892e8a2487d92ad5988be1ae29ed3f50_icgraph.png" border="0" usemap="#agnss__observation_8c_a892e8a2487d92ad5988be1ae29ed3f50_icgraph" alt=""/></div>
+<map name="agnss__observation_8c_a892e8a2487d92ad5988be1ae29ed3f50_icgraph" id="agnss__observation_8c_a892e8a2487d92ad5988be1ae29ed3f50_icgraph">
+<area shape="rect" title="choose satellites according to the definition in g_gnssconfig" alt="" coords="245,5,373,32"/>
 <area shape="rect" href="gnss__rtk_8c.html#a6fbf618290486f1d4665bc5db2f5d4b1" title="choose the satellite to be used" alt="" coords="5,5,197,32"/>
 </map>
 </div>
@@ -361,11 +379,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>get_rnx_line_v30_test
 <div class="dyncontent">
 <div class="center"><img src="gnss__observation_8c_a3eba026eacb147b25b516d97937e0e82_cgraph.png" border="0" usemap="#agnss__observation_8c_a3eba026eacb147b25b516d97937e0e82_cgraph" alt=""/></div>
 <map name="agnss__observation_8c_a3eba026eacb147b25b516d97937e0e82_cgraph" id="agnss__observation_8c_a3eba026eacb147b25b516d97937e0e82_cgraph">
-<area shape="rect" title="compare two OBSDATA_EPOCH for the sort of observations, smaller epoch_time get first" alt="" coords="5,56,192,83"/>
-<area shape="rect" href="gtime_8c.html#a3fa88f605000c82444969184bf1287b1" title="compare two GTime struct, a == b within threshold_time" alt="" coords="246,5,349,32"/>
-<area shape="rect" href="gtime_8c.html#afa79a8685bcdb3981a1db50a3aae091c" title="compare two GTime struct, a &gt; b" alt="" coords="240,56,355,83"/>
-<area shape="rect" href="gtime_8c.html#ac779811787fe25320b7aea55204ef9b2" title="compare two GTime struct, a &lt; b" alt="" coords="251,107,344,133"/>
-<area shape="rect" href="gtime_8c.html#adc56923884b6b09b48b914a520433554" title="compute gtime1 &#45; gtime2, these two GTime strcut should have the same time system." alt="" coords="403,56,487,83"/>
+<area shape="rect" title="compare two OBSDATA_EPOCH for the sort of observations, smaller epoch_time get first" alt="" coords="5,31,192,57"/>
+<area shape="rect" href="gtime_8c.html#afa79a8685bcdb3981a1db50a3aae091c" title="compare two GTime struct, a &gt; b" alt="" coords="240,5,355,32"/>
+<area shape="rect" href="gtime_8c.html#ac779811787fe25320b7aea55204ef9b2" title="compare two GTime struct, a &lt; b" alt="" coords="251,56,344,83"/>
+<area shape="rect" href="gtime_8c.html#adc56923884b6b09b48b914a520433554" title="compute gtime1 &#45; gtime2, these two GTime strcut should have the same time system." alt="" coords="403,31,487,57"/>
 </map>
 </div>
 
@@ -431,15 +448,14 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>get_rnx_line_v30_test
 <div class="center"><img src="gnss__observation_8c_abf898fb112977fc34875876ec947200c_cgraph.png" border="0" usemap="#agnss__observation_8c_abf898fb112977fc34875876ec947200c_cgraph" alt=""/></div>
 <map name="agnss__observation_8c_abf898fb112977fc34875876ec947200c_cgraph" id="agnss__observation_8c_abf898fb112977fc34875876ec947200c_cgraph">
 <area shape="rect" title="produce the header of rinex observation file for the output of rinex observations" alt="" coords="5,81,177,108"/>
-<area shape="rect" href="gtime_8c.html#aaf4673eb2f9f3dd09a0e4ca4a8a6033a" title="get the current time in string" alt="" coords="225,31,340,57"/>
-<area shape="rect" href="gtime_8c.html#af3d0d3d1f25a8b57ded3fb98458d21ce" title="convert from GTime to TimeYMD" alt="" coords="231,132,334,159"/>
-<area shape="rect" href="gtime_8c.html#a4f24d364375c25475695208063266eb8" title="convert a time string to GTime struct" alt="" coords="240,81,325,108"/>
-<area shape="rect" href="gtime_8c.html#a2bb18d3d6b62adeeb2e45404fc15d60a" title="convert from TimeYMD to GTime" alt="" coords="388,31,491,57"/>
-<area shape="rect" href="gtime_8c.html#ab8857837bd51003d9c146b2463028dd9" title="convert from TimeJD to GTime" alt="" coords="539,5,625,32"/>
-<area shape="rect" href="gtime_8c.html#ae25b985c6cdfb093cbe6ed066293249d" title="convert from TimeYMD to TImeJD" alt="" coords="543,56,621,83"/>
-<area shape="rect" href="gtime_8c.html#abba188d666e8af9b378ebc53d444ece4" title="make TimeJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="673,81,815,108"/>
-<area shape="rect" href="gtime_8c.html#a4e80434717708c0874f6c38348d8584a" title="convert from GTime to TimeJD" alt="" coords="539,107,625,133"/>
-<area shape="rect" href="gtime_8c.html#afc86aafaf1f29e1eb93c5da18a47e144" title="convert from TimeJD to TimeYMD" alt="" coords="402,157,477,184"/>
+<area shape="rect" href="gtime_8c.html#aaf4673eb2f9f3dd09a0e4ca4a8a6033a" title="get the current time in string" alt="" coords="225,56,340,83"/>
+<area shape="rect" href="gtime_8c.html#af3d0d3d1f25a8b57ded3fb98458d21ce" title="convert from GTime to TimeYMD" alt="" coords="231,107,334,133"/>
+<area shape="rect" href="gtime_8c.html#a2bb18d3d6b62adeeb2e45404fc15d60a" title="convert from TimeYMD to GTime" alt="" coords="388,56,491,83"/>
+<area shape="rect" href="gtime_8c.html#ab8857837bd51003d9c146b2463028dd9" title="convert from TimeJD to GTime" alt="" coords="566,5,653,32"/>
+<area shape="rect" href="gtime_8c.html#ae25b985c6cdfb093cbe6ed066293249d" title="convert from TimeYMD to TImeJD https://github.com/liberfa/erfa/blob/master/src/cal2jd...." alt="" coords="570,56,649,83"/>
+<area shape="rect" href="gtime_8c.html#a4e80434717708c0874f6c38348d8584a" title="convert from GTime to TimeJD" alt="" coords="396,107,483,133"/>
+<area shape="rect" href="gtime_8c.html#afc86aafaf1f29e1eb93c5da18a47e144" title="convert from TimeJD to TimeYMD refer to sofa at https://github.com/liberfa/erfa/blob/master/src/jd2ca..." alt="" coords="402,157,477,184"/>
+<area shape="rect" href="gtime_8c.html#abba188d666e8af9b378ebc53d444ece4" title="make TimeJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="539,107,680,133"/>
 </map>
 </div>
 <div class="dynheader">
@@ -514,10 +530,12 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>get_rnx_line_v30_test
 <div class="dyncontent">
 <div class="center"><img src="gnss__observation_8c_a7e232e28a3eca09242f090ab9d7ad5b5_icgraph.png" border="0" usemap="#agnss__observation_8c_a7e232e28a3eca09242f090ab9d7ad5b5_icgraph" alt=""/></div>
 <map name="agnss__observation_8c_a7e232e28a3eca09242f090ab9d7ad5b5_icgraph" id="agnss__observation_8c_a7e232e28a3eca09242f090ab9d7ad5b5_icgraph">
-<area shape="rect" title="compute the ionosphere free combination" alt="" coords="724,5,879,47"/>
-<area shape="rect" href="obs__processing_8c.html#a5d96093c451ef613dc2615a505dc3402" title="get the initial ambiguity for the filter" alt="" coords="468,13,676,39"/>
-<area shape="rect" href="pod__embed_8c.html#a8bd704d94b32d1befe62fd3dc7f451b7" title="get the initival ambiguity for current observation" alt="" coords="228,13,420,39"/>
-<area shape="rect" href="pod__embed_8c.html#a86bba72e837066920f39ddb33ae32467" title="update temperal clock solution" alt="" coords="5,5,180,47"/>
+<area shape="rect" title="compute the ionosphere free combination" alt="" coords="724,27,879,69"/>
+<area shape="rect" href="obs__processing_8c.html#a5d96093c451ef613dc2615a505dc3402" title="get the initial ambiguity for the filter" alt="" coords="468,35,676,61"/>
+<area shape="rect" href="gnss__ppp_8c.html#a4a2f6e937d85ac4e01a14ebb2d2f278a" title="get the initival ambiguity for current observation" alt="" coords="229,8,419,35"/>
+<area shape="rect" href="pod__embed_8c.html#a8bd704d94b32d1befe62fd3dc7f451b7" title="get the initival ambiguity for current observation" alt="" coords="228,60,420,87"/>
+<area shape="rect" href="gnss__ppp_8c.html#a34f30d948e388fc7421c9b9455b953f1" title="update temperal clock solution" alt="" coords="11,5,175,32"/>
+<area shape="rect" href="pod__embed_8c.html#a1578a28858261f14a525f931e81d4613" title="update temperal clock solution" alt="" coords="5,57,180,98"/>
 </map>
 </div>
 
@@ -675,6 +693,74 @@ false </dd></dl>
 
 </div>
 </div>
+<a id="ac1610a3605bc0b13e6fe95b90b3ff85e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1610a3605bc0b13e6fe95b90b3ff85e">&#9670;&nbsp;</a></span>get_osb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double get_osb </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>satidx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>mjdtime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gnss__config_8h.html#a9ac3aaa86e954a5efd3c5db5b9622b08">OBSTYPE</a>&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gnss__config_8h.html#ac0f00646a8a62cf0a2f831f7526c480b">OBSFREQ</a>&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gnss__config_8h.html#a41f77fc61f14a668ca76e7a9f35e0026">OBSCODE</a>&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>get the osb bias from global variable g_ptr_bias_storage </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">satidx</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mjd</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">t</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">f</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>osb bias in meters </dd></dl>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="gnss__observation_8c_ac1610a3605bc0b13e6fe95b90b3ff85e_cgraph.png" border="0" usemap="#agnss__observation_8c_ac1610a3605bc0b13e6fe95b90b3ff85e_cgraph" alt=""/></div>
+<map name="agnss__observation_8c_ac1610a3605bc0b13e6fe95b90b3ff85e_cgraph" id="agnss__observation_8c_ac1610a3605bc0b13e6fe95b90b3ff85e_cgraph">
+<area shape="rect" title="get the osb bias from global variable g_ptr_bias_storage" alt="" coords="5,5,79,32"/>
+<area shape="rect" href="gnss__config_8c.html#a7fd0dfc78e583065b3f541581b42b679" title="convert internal satellite index to the satellite system and prn" alt="" coords="127,5,256,32"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a664b2b2525e364b322eae5aba0b29b32"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a664b2b2525e364b322eae5aba0b29b32">&#9670;&nbsp;</a></span>initialize_obsdata_epoch()</h2>
 
@@ -703,9 +789,8 @@ false </dd></dl>
 <div class="dyncontent">
 <div class="center"><img src="gnss__observation_8c_a664b2b2525e364b322eae5aba0b29b32_icgraph.png" border="0" usemap="#agnss__observation_8c_a664b2b2525e364b322eae5aba0b29b32_icgraph" alt=""/></div>
 <map name="agnss__observation_8c_a664b2b2525e364b322eae5aba0b29b32_icgraph" id="agnss__observation_8c_a664b2b2525e364b322eae5aba0b29b32_icgraph">
-<area shape="rect" title="initialize the OBSDATE_EPOCH" alt="" coords="231,23,368,65"/>
-<area shape="rect" href="gnss__observation_8c.html#a388b20c7c28b4400e29547d4fe7f8df4" title="resovle the rinex observation with version 2.0" alt="" coords="5,5,183,32"/>
-<area shape="rect" href="gnss__observation_8c.html#a4d2eb9b3b8721dda688b2560f9a82852" title="resolve the rinex observation records in version 3.0" alt="" coords="5,56,183,83"/>
+<area shape="rect" title="initialize the OBSDATE_EPOCH" alt="" coords="231,5,368,47"/>
+<area shape="rect" href="gnss__observation_8c.html#a388b20c7c28b4400e29547d4fe7f8df4" title="resovle the rinex observation with version 2.0" alt="" coords="5,13,183,39"/>
 </map>
 </div>
 
@@ -817,11 +902,97 @@ false </dd></dl>
 <area shape="rect" href="gtime_8c.html#ac779811787fe25320b7aea55204ef9b2" title="compare two GTime struct, a &lt; b" alt="" coords="256,81,349,108"/>
 <area shape="rect" href="gtime_8c.html#af3d0d3d1f25a8b57ded3fb98458d21ce" title="convert from GTime to TimeYMD" alt="" coords="397,31,500,57"/>
 <area shape="rect" href="gtime_8c.html#a4e80434717708c0874f6c38348d8584a" title="convert from GTime to TimeJD" alt="" coords="548,5,635,32"/>
-<area shape="rect" href="gtime_8c.html#afc86aafaf1f29e1eb93c5da18a47e144" title="convert from TimeJD to TimeYMD" alt="" coords="554,56,629,83"/>
+<area shape="rect" href="gtime_8c.html#afc86aafaf1f29e1eb93c5da18a47e144" title="convert from TimeJD to TimeYMD refer to sofa at https://github.com/liberfa/erfa/blob/master/src/jd2ca..." alt="" coords="554,56,629,83"/>
 <area shape="rect" href="gtime_8c.html#abba188d666e8af9b378ebc53d444ece4" title="make TimeJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="683,5,824,32"/>
 <area shape="rect" href="gtime_8c.html#adc56923884b6b09b48b914a520433554" title="compute gtime1 &#45; gtime2, these two GTime strcut should have the same time system." alt="" coords="407,81,491,108"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="a26794064b3fec5f1135732823114aee8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26794064b3fec5f1135732823114aee8">&#9670;&nbsp;</a></span>obsepoch2string()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int obsepoch2string </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structOBSDATA__EPOCH.html">OBSDATA_EPOCH</a> *&#160;</td>
+          <td class="paramname"><em>obsdata</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>outputstr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts GNSS observation data for a specific epoch to a string representation. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">obsdata</td><td>Pointer to the observation data for the epoch. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">outputstr</td><td>Pointer to the buffer where the string representation will be stored. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="gnss__observation_8c_a26794064b3fec5f1135732823114aee8_cgraph.png" border="0" usemap="#agnss__observation_8c_a26794064b3fec5f1135732823114aee8_cgraph" alt=""/></div>
+<map name="agnss__observation_8c_a26794064b3fec5f1135732823114aee8_cgraph" id="agnss__observation_8c_a26794064b3fec5f1135732823114aee8_cgraph">
+<area shape="rect" title="Converts GNSS observation data for a specific epoch to a string representation." alt="" coords="5,31,135,57"/>
+<area shape="rect" href="gtime_8c.html#af3d0d3d1f25a8b57ded3fb98458d21ce" title="convert from GTime to TimeYMD" alt="" coords="183,31,285,57"/>
+<area shape="rect" href="gtime_8c.html#a4e80434717708c0874f6c38348d8584a" title="convert from GTime to TimeJD" alt="" coords="333,5,420,32"/>
+<area shape="rect" href="gtime_8c.html#afc86aafaf1f29e1eb93c5da18a47e144" title="convert from TimeJD to TimeYMD refer to sofa at https://github.com/liberfa/erfa/blob/master/src/jd2ca..." alt="" coords="339,56,414,83"/>
+<area shape="rect" href="gtime_8c.html#abba188d666e8af9b378ebc53d444ece4" title="make TimeJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="468,5,609,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a9b31a556fb3f4d0fa5e68cd3c846f676"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b31a556fb3f4d0fa5e68cd3c846f676">&#9670;&nbsp;</a></span>readfile_sinex_bias_osb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool readfile_sinex_bias_osb </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>filename_bias_osb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structBIAS__SIGNAL__STORE.html">BIAS_SIGNAL_STORE</a> *&#160;</td>
+          <td class="paramname"><em>bias_storage</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>read the obs bias file in sinex format from igs </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename_bias_osb</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -1072,8 +1243,7 @@ false </dd></dl>
 <area shape="rect" href="gnss__config_8c.html#ac745a6409c5565a35378f69343867ead" title="convert a string of satellite system and prn to sysGNSS and prn" alt="" coords="234,71,365,98"/>
 <area shape="rect" href="gtime_8c.html#a2bb18d3d6b62adeeb2e45404fc15d60a" title="convert from TimeYMD to GTime" alt="" coords="248,122,351,149"/>
 <area shape="rect" href="gtime_8c.html#ab8857837bd51003d9c146b2463028dd9" title="convert from TimeJD to GTime" alt="" coords="416,97,503,123"/>
-<area shape="rect" href="gtime_8c.html#ae25b985c6cdfb093cbe6ed066293249d" title="convert from TimeYMD to TImeJD" alt="" coords="420,147,499,174"/>
-<area shape="rect" href="gtime_8c.html#abba188d666e8af9b378ebc53d444ece4" title="make TimeJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="551,147,692,174"/>
+<area shape="rect" href="gtime_8c.html#ae25b985c6cdfb093cbe6ed066293249d" title="convert from TimeYMD to TImeJD https://github.com/liberfa/erfa/blob/master/src/cal2jd...." alt="" coords="420,147,499,174"/>
 </map>
 </div>
 
@@ -1157,20 +1327,6 @@ false </dd></dl>
   </dd>
 </dl>
 <dl class="section return"><dt>返回</dt><dd>int </dd></dl>
-<div class="dynheader">
-函数调用图:</div>
-<div class="dyncontent">
-<div class="center"><img src="gnss__observation_8c_a4d2eb9b3b8721dda688b2560f9a82852_cgraph.png" border="0" usemap="#agnss__observation_8c_a4d2eb9b3b8721dda688b2560f9a82852_cgraph" alt=""/></div>
-<map name="agnss__observation_8c_a4d2eb9b3b8721dda688b2560f9a82852_cgraph" id="agnss__observation_8c_a4d2eb9b3b8721dda688b2560f9a82852_cgraph">
-<area shape="rect" title="resolve the rinex observation records in version 3.0" alt="" coords="5,71,183,98"/>
-<area shape="rect" href="gnss__observation_8c.html#a664b2b2525e364b322eae5aba0b29b32" title="initialize the OBSDATE_EPOCH" alt="" coords="231,5,368,47"/>
-<area shape="rect" href="gnss__config_8c.html#ac745a6409c5565a35378f69343867ead" title="convert a string of satellite system and prn to sysGNSS and prn" alt="" coords="234,71,365,98"/>
-<area shape="rect" href="gtime_8c.html#a2bb18d3d6b62adeeb2e45404fc15d60a" title="convert from TimeYMD to GTime" alt="" coords="248,122,351,149"/>
-<area shape="rect" href="gtime_8c.html#ab8857837bd51003d9c146b2463028dd9" title="convert from TimeJD to GTime" alt="" coords="416,97,503,123"/>
-<area shape="rect" href="gtime_8c.html#ae25b985c6cdfb093cbe6ed066293249d" title="convert from TimeYMD to TImeJD" alt="" coords="420,147,499,174"/>
-<area shape="rect" href="gtime_8c.html#abba188d666e8af9b378ebc53d444ece4" title="make TimeJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="551,147,692,174"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -1285,15 +1441,14 @@ false </dd></dl>
 <map name="agnss__observation_8c_a09814252be6e9ef9e781f9275e5590e9_cgraph" id="agnss__observation_8c_a09814252be6e9ef9e781f9275e5590e9_cgraph">
 <area shape="rect" title="write the observation epoch in the format of rinex version 3.0" alt="" coords="5,81,184,108"/>
 <area shape="rect" href="gnss__observation_8c.html#abf898fb112977fc34875876ec947200c" title="produce the header of rinex observation file for the output of rinex observations" alt="" coords="232,81,404,108"/>
-<area shape="rect" href="gtime_8c.html#aaf4673eb2f9f3dd09a0e4ca4a8a6033a" title="get the current time in string" alt="" coords="452,31,567,57"/>
-<area shape="rect" href="gtime_8c.html#af3d0d3d1f25a8b57ded3fb98458d21ce" title="convert from GTime to TimeYMD" alt="" coords="458,132,561,159"/>
-<area shape="rect" href="gtime_8c.html#a4f24d364375c25475695208063266eb8" title="convert a time string to GTime struct" alt="" coords="467,81,552,108"/>
-<area shape="rect" href="gtime_8c.html#a2bb18d3d6b62adeeb2e45404fc15d60a" title="convert from TimeYMD to GTime" alt="" coords="615,31,717,57"/>
-<area shape="rect" href="gtime_8c.html#ab8857837bd51003d9c146b2463028dd9" title="convert from TimeJD to GTime" alt="" coords="765,5,852,32"/>
-<area shape="rect" href="gtime_8c.html#ae25b985c6cdfb093cbe6ed066293249d" title="convert from TimeYMD to TImeJD" alt="" coords="769,56,848,83"/>
-<area shape="rect" href="gtime_8c.html#abba188d666e8af9b378ebc53d444ece4" title="make TimeJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="900,81,1041,108"/>
-<area shape="rect" href="gtime_8c.html#a4e80434717708c0874f6c38348d8584a" title="convert from GTime to TimeJD" alt="" coords="765,107,852,133"/>
-<area shape="rect" href="gtime_8c.html#afc86aafaf1f29e1eb93c5da18a47e144" title="convert from TimeJD to TimeYMD" alt="" coords="629,157,703,184"/>
+<area shape="rect" href="gtime_8c.html#aaf4673eb2f9f3dd09a0e4ca4a8a6033a" title="get the current time in string" alt="" coords="452,56,567,83"/>
+<area shape="rect" href="gtime_8c.html#af3d0d3d1f25a8b57ded3fb98458d21ce" title="convert from GTime to TimeYMD" alt="" coords="458,107,561,133"/>
+<area shape="rect" href="gtime_8c.html#a2bb18d3d6b62adeeb2e45404fc15d60a" title="convert from TimeYMD to GTime" alt="" coords="615,56,717,83"/>
+<area shape="rect" href="gtime_8c.html#ab8857837bd51003d9c146b2463028dd9" title="convert from TimeJD to GTime" alt="" coords="793,5,879,32"/>
+<area shape="rect" href="gtime_8c.html#ae25b985c6cdfb093cbe6ed066293249d" title="convert from TimeYMD to TImeJD https://github.com/liberfa/erfa/blob/master/src/cal2jd...." alt="" coords="797,56,875,83"/>
+<area shape="rect" href="gtime_8c.html#a4e80434717708c0874f6c38348d8584a" title="convert from GTime to TimeJD" alt="" coords="623,107,709,133"/>
+<area shape="rect" href="gtime_8c.html#afc86aafaf1f29e1eb93c5da18a47e144" title="convert from TimeJD to TimeYMD refer to sofa at https://github.com/liberfa/erfa/blob/master/src/jd2ca..." alt="" coords="629,157,703,184"/>
+<area shape="rect" href="gtime_8c.html#abba188d666e8af9b378ebc53d444ece4" title="make TimeJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="765,107,907,133"/>
 </map>
 </div>
 
@@ -1330,6 +1485,22 @@ false </dd></dl>
 
 </div>
 </div>
+<a id="ab8cde1411b3234737937fd0e205d690b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8cde1411b3234737937fd0e205d690b">&#9670;&nbsp;</a></span>g_ptr_bias_storage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structBIAS__SIGNAL__STORE.html">BIAS_SIGNAL_STORE</a>* g_ptr_bias_storage = NULL</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>global variable, the storage for the bias osb for all satellites <br  />
+ </p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.1-->
@@ -1337,7 +1508,7 @@ false </dd></dl>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="gnss__observation_8c.html">gnss_observation.c</a></li>
-    <li class="footer">生成于 2024年 十二月 27日 星期五 00:08:34 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">生成于 2026年 二月 6日 星期五 12:48:16 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

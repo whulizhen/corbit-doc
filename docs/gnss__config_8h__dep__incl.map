@@ -1,28 +1,30 @@
 <map id="gnss_config.h" name="gnss_config.h">
-<area shape="rect" id="node1" title="Declarations for global variable gnssconfig" alt="" coords="946,5,1057,32"/>
-<area shape="rect" id="node2" href="$attitude_8h.html" title="Declarations of attitude operations" alt="" coords="136,80,221,107"/>
-<area shape="rect" id="node4" href="$gnss__observation_8h.html" title="Declarations for gnss observation operations" alt="" coords="493,155,641,181"/>
-<area shape="rect" id="node6" href="$gnss__simulator_8h.html" title="Declarations of all the gnss simulations" alt="" coords="833,453,965,480"/>
-<area shape="rect" id="node9" href="$gnss__ppp_8h.html" title="Declarations for gnss ppp" alt="" coords="1057,453,1151,480"/>
-<area shape="rect" id="node11" href="$gnss__rtk_8h.html" title="Declarations for gnss rtk processing" alt="" coords="1210,453,1299,480"/>
-<area shape="rect" id="node14" href="$pod__embed_8h.html" title="Header file for embeded realtime orbit determination" alt="" coords="231,453,342,480"/>
-<area shape="rect" id="node19" href="$rtcm_8h.html" title="Declarations for decoding and encoding RTCM messages stream" alt="" coords="875,229,939,256"/>
-<area shape="rect" id="node20" href="$gnss__satposition_8h.html" title="Declarations for gnss satellite position computation" alt="" coords="637,304,779,331"/>
-<area shape="rect" id="node22" href="$main__orbit__compare__th_8c.html" title="All the test functions for the corbit project" alt="" coords="913,379,1100,405"/>
-<area shape="rect" id="node26" href="$gnss__config_8c.html" title="Implementations for global variable gnssconfig" alt="" coords="1327,80,1436,107"/>
-<area shape="rect" id="node3" href="$attitude_8c.html" title="Implementaions of attitude operations" alt="" coords="137,155,221,181"/>
-<area shape="rect" id="node24" href="$orbit__dynamics_8h.html" title="Header file for orbit dynamics computation" alt="" coords="58,379,193,405"/>
-<area shape="rect" id="node5" href="$gnss__observation_8c.html" title="Implementations for gnss observation operations" alt="" coords="332,229,479,256"/>
-<area shape="rect" id="node8" href="$obs__processing_8h.html" title="Declarations for observation processing functions" alt="" coords="485,379,619,405"/>
-<area shape="rect" id="node18" href="$main__spp_8c.html" title="pseudorange point positioning" alt="" coords="367,453,463,480"/>
-<area shape="rect" id="node23" href="$main__rinex_8c.html" title="tool rinex file cut" alt="" coords="604,229,711,256"/>
-<area shape="rect" id="node7" href="$gnss__simulator_8c.html" title="Implementation of all the gnss simulations" alt="" coords="833,528,964,555"/>
-<area shape="rect" id="node13" href="$obs__processing_8c.html" title="Implementations for observation processing functions" alt="" coords="487,453,620,480"/>
-<area shape="rect" id="node10" href="$gnss__ppp_8c.html" title="Implementation for gnss ppp" alt="" coords="1057,528,1151,555"/>
-<area shape="rect" id="node12" href="$gnss__rtk_8c.html" title="Implementations for gnss rtk processing" alt="" coords="1211,528,1299,555"/>
-<area shape="rect" id="node15" href="$pod__embed_8c.html" title="Implementation for embeded realtime orbit determination" alt="" coords="249,528,359,555"/>
-<area shape="rect" id="node16" href="$main__gnss__quality_8c.html" title="This is the gnss quality analysis program" alt="" coords="383,528,537,555"/>
-<area shape="rect" id="node17" href="$main__test_8c.html" title="All the test functions for the corbit project" alt="" coords="127,528,225,555"/>
-<area shape="rect" id="node21" href="$gnss__satposition_8c.html" title="Implementations for gnss satellite position computation" alt="" coords="746,379,889,405"/>
-<area shape="rect" id="node25" href="$orbit__dynamics_8c.html" title="Implementation of orbit dynamics functions" alt="" coords="5,453,139,480"/>
+<area shape="rect" id="node1" title="Declarations for global variable gnssconfig" alt="" coords="1253,5,1363,32"/>
+<area shape="rect" id="node2" href="$attitude_8h.html" title="Declarations of attitude operations" alt="" coords="828,80,913,107"/>
+<area shape="rect" id="node4" href="$gnss__observation_8h.html" title="Declarations for gnss observation operations" alt="" coords="867,155,1015,181"/>
+<area shape="rect" id="node6" href="$gnss__simulator_8h.html" title="Declarations of all the gnss simulations" alt="" coords="1174,453,1306,480"/>
+<area shape="rect" id="node10" href="$gnss__ppp_8h.html" title="Declarations for gnss ppp" alt="" coords="1443,453,1538,480"/>
+<area shape="rect" id="node12" href="$gnss__rtk_8h.html" title="Declarations for gnss rtk processing" alt="" coords="1330,453,1419,480"/>
+<area shape="rect" id="node16" href="$pod__embed_8h.html" title="Header file for embeded realtime orbit determination" alt="" coords="242,453,353,480"/>
+<area shape="rect" id="node21" href="$rtcm_8h.html" title="Declarations for decoding and encoding RTCM messages stream" alt="" coords="1187,229,1251,256"/>
+<area shape="rect" id="node22" href="$gnss__satposition_8h.html" title="Declarations for gnss satellite position computation" alt="" coords="694,304,837,331"/>
+<area shape="rect" id="node24" href="$main__orbit__compare__th_8c.html" title="All the test functions for the corbit project" alt="" coords="1064,379,1251,405"/>
+<area shape="rect" id="node28" href="$gnss__config_8c.html" title="Implementations for global variable g_gnssconfig" alt="" coords="1528,80,1637,107"/>
+<area shape="rect" id="node3" href="$attitude_8c.html" title="Implementaions of attitude operations" alt="" coords="759,155,843,181"/>
+<area shape="rect" id="node26" href="$orbit__dynamics_8h.html" title="Header file for orbit dynamics computation" alt="" coords="70,379,205,405"/>
+<area shape="rect" id="node5" href="$gnss__observation_8c.html" title="Implementations for gnss observation operations" alt="" coords="813,229,960,256"/>
+<area shape="rect" id="node8" href="$main__simulator_8c.html" title="simulate for gnss observations" alt="" coords="934,528,1069,555"/>
+<area shape="rect" id="node9" href="$obs__processing_8h.html" title="Declarations for observation processing functions" alt="" coords="854,379,989,405"/>
+<area shape="rect" id="node14" href="$main__rtk_8c.html" title="relative positioning" alt="" coords="731,528,821,555"/>
+<area shape="rect" id="node20" href="$main__spp_8c.html" title="pseudorange point positioning" alt="" coords="683,453,779,480"/>
+<area shape="rect" id="node25" href="$main__rinex_8c.html" title="tool rinex file cut" alt="" coords="683,229,789,256"/>
+<area shape="rect" id="node7" href="$gnss__simulator_8c.html" title="Implementation of all the gnss simulations" alt="" coords="1175,528,1305,555"/>
+<area shape="rect" id="node15" href="$obs__processing_8c.html" title="Implementations for observation processing functions" alt="" coords="959,453,1092,480"/>
+<area shape="rect" id="node11" href="$gnss__ppp_8c.html" title="Implementation for gnss ppp" alt="" coords="1443,528,1538,555"/>
+<area shape="rect" id="node13" href="$gnss__rtk_8c.html" title="Implementations for gnss rtk processing" alt="" coords="1331,528,1419,555"/>
+<area shape="rect" id="node17" href="$pod__embed_8c.html" title="Implementation for embeded realtime orbit determination" alt="" coords="428,528,537,555"/>
+<area shape="rect" id="node18" href="$main__gnss__quality_8c.html" title="This is the gnss quality analysis program" alt="" coords="250,528,403,555"/>
+<area shape="rect" id="node19" href="$main__test_8c.html" title="All the test functions for the corbit project" alt="" coords="127,528,225,555"/>
+<area shape="rect" id="node23" href="$gnss__satposition_8c.html" title="Implementations for gnss satellite position computation" alt="" coords="585,379,727,405"/>
+<area shape="rect" id="node27" href="$orbit__dynamics_8c.html" title="Implementation of orbit dynamics functions" alt="" coords="5,453,139,480"/>
 </map>

@@ -34,10 +34,11 @@ extern "C"
 #include "earth_gravity.h"
 #include "eph_planet.h"
 #include "attitude.h"
+#include "atmospheric_density.h"
 
 #ifndef EMBED
 /// @brief maximum number of the parameters for the empirical force models (piece-wise parameters)
-#define MAXNUM_FM_PARAM_EMP 1000 // 864 params when  estimate 3 params in every 5 minutes
+#define MAXNUM_FM_PARAM_EMP 100 // 864 params when  estimate 3 params in every 5 minutes
 #define MAXNUM_PARAM_EMP_BASE 10
 /// @brief maximum number of the parameters for the other force models (constant during the estimation)
 #define MAXNUM_FM_PARAM_OHR 1
@@ -52,7 +53,7 @@ extern "C"
 
 #define MAXLEN_PARAM_NAME 20
 
-/// @brief maximum number of parameters for all the force models including the 6 pos and vel
+/// @brief maximum number of parameters for all the force models
 #define MAXNUM_FM_PARAM_TOTAL (MAXNUM_FM_PARAM_EMP + MAXNUM_FM_PARAM_OHR * 2)
 
 // @brief maximum number of states in the integrator
@@ -122,7 +123,7 @@ extern "C"
     typedef struct _orbit_dynamics_config_
     {
         int satindex; /**< the index of satellite in gnssconfig */
-
+        int ndegree_gravity; /**< earth gravity degree */ 
         int norder_gravity; /**< earth gravity order */
         bool time_vary_gravity;
         bool solid_earth_tide;
@@ -253,7 +254,7 @@ extern "C"
 
     bool compute_acc_srp(double mjd_utc, PARAM_FM *param_fm, double *satpos, double *satvel, double shadowfactor, double *sunpos, double acc[3]);
     bool compute_acc_erp(int np, double *param, int mode, double mjd_utc, double *satpos, double *satvel, double acc[3]);
-    bool compute_acc_drag(int np, double *param, int mode, double mjd_utc, double *satpos, double *satvel, double acc[3]);
+    bool compute_acc_drag(int np, double *param, int mode, double total_mass_density, double *satpos, double *satvel, double *xhat, double *yhat, double *zhat, double *phat, double acc[3]);
     bool compute_acc_relativity(double *satpos, double *satvel, double *sunpos, double *sunvel, double acc[3]);
     bool compute_acc_thirdbody(double mjd_utc, int nbody, PLANET_JPL *bodies, double *satpos_eci, double *acc, double *dadr);
     // bool compute_acc_ECOM(double mjd_utc, PARAM_FM *fm_param, double *sunpos, double *satpos_eci, double *satvel_eci, double beta, double *acc, double *dadp);

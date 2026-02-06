@@ -2,6 +2,5 @@
 <area shape="rect" id="node1" title="read the orbit product from BHU" alt="" coords="5,31,173,57"/>
 <area shape="rect" id="node2" href="$gtime_8c.html#a2bb18d3d6b62adeeb2e45404fc15d60a" title="convert from TimeYMD to GTime" alt="" coords="221,31,324,57"/>
 <area shape="rect" id="node3" href="$gtime_8c.html#ab8857837bd51003d9c146b2463028dd9" title="convert from TimeJD to GTime" alt="" coords="372,5,459,32"/>
-<area shape="rect" id="node4" href="$gtime_8c.html#ae25b985c6cdfb093cbe6ed066293249d" title="convert from TimeYMD to TImeJD" alt="" coords="376,56,455,83"/>
-<area shape="rect" id="node5" href="$gtime_8c.html#abba188d666e8af9b378ebc53d444ece4" title="make TimeJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="507,56,648,83"/>
+<area shape="rect" id="node4" href="$gtime_8c.html#ae25b985c6cdfb093cbe6ed066293249d" title="convert from TimeYMD to TImeJD https://github.com/liberfa/erfa/blob/master/src/cal2jd...." alt="" coords="376,56,455,83"/>
 </map>

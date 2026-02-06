@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['obsdata_5fepoch_983',['OBSDATA_EPOCH',['../structOBSDATA__EPOCH.html',1,'']]],
-  ['obsdata_5fsat_984',['OBSDATA_SAT',['../structOBSDATA__SAT.html',1,'']]],
-  ['obsrec_985',['OBSREC',['../structOBSREC.html',1,'']]],
-  ['orbit_5fdyn_5fconfig_986',['ORBIT_DYN_CONFIG',['../structORBIT__DYN__CONFIG.html',1,'']]]
+  ['nrlmsise_5fflags_1045',['nrlmsise_flags',['../structnrlmsise__flags.html',1,'']]],
+  ['nrlmsise_5finput_1046',['nrlmsise_input',['../structnrlmsise__input.html',1,'']]],
+  ['nrlmsise_5foutput_1047',['nrlmsise_output',['../structnrlmsise__output.html',1,'']]],
+  ['nut_5fcoef_5fxls_1048',['NUT_COEF_XLS',['../structNUT__COEF__XLS.html',1,'']]],
+  ['nut_5fcoef_5fxpl_1049',['NUT_COEF_XPL',['../structNUT__COEF__XPL.html',1,'']]]
 ];

@@ -3,11 +3,14 @@ var gnss__config_8h =
     [ "TYPE_FREQ_CODE", "structTYPE__FREQ__CODE.html", "structTYPE__FREQ__CODE" ],
     [ "GNSSCONFIG", "structGNSSCONFIG.html", "structGNSSCONFIG" ],
     [ "SOLUTION", "structSOLUTION.html", "structSOLUTION" ],
+    [ "ENABDS", "gnss__config_8h.html#ad210b1d75a2f7b20a564945898e7f060", null ],
+    [ "ENAGAL", "gnss__config_8h.html#ab21bdbdc81c6751f28995b50a3a083ef", null ],
     [ "ENAGPS", "gnss__config_8h.html#ac25d2ea5fa0593e763c089dff85cfb2b", null ],
     [ "ENALEO", "gnss__config_8h.html#a1fedfc729e5a37baf5aa26007096ea10", null ],
     [ "ENASTA", "gnss__config_8h.html#ad831837679b7715753416a14b4280543", null ],
     [ "ENUM_STR", "gnss__config_8h.html#a075b114fad2509f47b902daecd9d093d", null ],
     [ "MAXNUM_FREQ", "gnss__config_8h.html#a4df785d61a912f537052ce875a9cd420", null ],
+    [ "MAXNUM_SINGAL_SAT", "gnss__config_8h.html#a46ee286eee7fa10b93f01e41b2c027e8", null ],
     [ "MAXNUM_STATION", "gnss__config_8h.html#a48b371d9e5346690621b19acb52f00e5", null ],
     [ "MAXNUMSTA", "gnss__config_8h.html#af949e0f047583c28b16a47a0e467fdc4", null ],
     [ "MAXOBS_PER_SAT", "gnss__config_8h.html#a097bc713a4d5cb9f82617e26cd1bcc36", null ],
@@ -43,6 +46,7 @@ var gnss__config_8h =
     [ "NSYSGPS", "gnss__config_8h.html#a6664dc7aa3599ca8beeb9fe7759b99b6", null ],
     [ "NSYSLEO", "gnss__config_8h.html#ae1d710560e5b6b6b9fd387e226eb8b09", null ],
     [ "NSYSSTA", "gnss__config_8h.html#a58cbd02e4db0663e624d84636f628c3b", null ],
+    [ "NUM_GEO_BDS", "gnss__config_8h.html#ad35e8d18e1d87282ad85949121fcdccb", null ],
     [ "SIGMA_PHASE", "gnss__config_8h.html#a5d7c4d0a1cc58b0538c63cbc6856fcf8", null ],
     [ "SIGMA_RANGE", "gnss__config_8h.html#a144d6a70d5790c5856f910656eb0cea2", null ],
     [ "OBSCODE", "gnss__config_8h.html#a41f77fc61f14a668ca76e7a9f35e0026", [
@@ -123,8 +127,11 @@ var gnss__config_8h =
     [ "satsysprn2string", "gnss__config_8h.html#ac563af015877920ab350816085160aff", null ],
     [ "set_gnssconfig_from_file", "gnss__config_8h.html#abb401ae50a51f89294080b44903f45b6", null ],
     [ "set_gnssconfig_system", "gnss__config_8h.html#aaa73acf9a50509104e22a3e30a5492e2", null ],
+    [ "set_gnssconfig_system_test", "gnss__config_8h.html#aba4fbe7184403637cb8833f0f0e24f63", null ],
     [ "string2satsysprn", "gnss__config_8h.html#ac745a6409c5565a35378f69343867ead", null ],
+    [ "string2sysGNSS", "gnss__config_8h.html#a380e3f0c8943f72eb23cc8e736af11c1", null ],
     [ "sysGNSSAsString", "gnss__config_8h.html#a23d432b72af270cd194b5f853e6808ca", null ],
     [ "TYPE_FREQ_CODE_AsString", "gnss__config_8h.html#a73d4667d9b4891964aa533f809893a8b", null ],
-    [ "gnssconfig", "gnss__config_8h.html#aabe5fab6cafc8631b718c4eea8c17afd", null ]
+    [ "g_gnssconfig", "gnss__config_8h.html#aa0f89fe100d85651cad746fac8c1b462", null ],
+    [ "PRN_GEO_BDS", "gnss__config_8h.html#a4e1708a68df6813c42ec93e0bceec7f0", null ]
 ];

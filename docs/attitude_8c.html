@@ -123,21 +123,22 @@ attitude.c 的引用(Include)关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="attitude_8c__incl.png" border="0" usemap="#aattitude_8c" alt=""/></div>
 <map name="aattitude_8c" id="aattitude_8c">
-<area shape="rect" title="Implementaions of attitude operations" alt="" coords="521,5,605,32"/>
-<area shape="rect" href="attitude_8h.html" title="Declarations of attitude operations" alt="" coords="520,80,605,107"/>
-<area shape="rect" title=" " alt="" coords="831,453,897,480"/>
-<area shape="rect" title=" " alt="" coords="159,453,230,480"/>
-<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="246,304,330,331"/>
-<area shape="rect" href="gnss__config_8h.html" title="Declarations for global variable gnssconfig" alt="" coords="507,155,618,181"/>
-<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="653,304,725,331"/>
-<area shape="rect" title=" " alt="" coords="330,379,398,405"/>
-<area shape="rect" title=" " alt="" coords="173,379,243,405"/>
-<area shape="rect" href="corbit__const_8h.html" title="Constant definitions for the corbit library." alt="" coords="422,379,535,405"/>
-<area shape="rect" title=" " alt="" coords="583,453,665,480"/>
-<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="447,453,510,480"/>
-<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="326,229,477,256"/>
-<area shape="rect" title=" " alt="" coords="406,304,477,331"/>
-<area shape="rect" title=" " alt="" coords="661,379,725,405"/>
+<area shape="rect" title="Implementaions of attitude operations" alt="" coords="847,5,931,32"/>
+<area shape="rect" href="attitude_8h.html" title="Declarations of attitude operations" alt="" coords="847,80,932,107"/>
+<area shape="rect" title=" " alt="" coords="580,453,647,480"/>
+<area shape="rect" title=" " alt="" coords="879,453,950,480"/>
+<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="717,304,801,331"/>
+<area shape="rect" href="gnss__config_8h.html" title="Declarations for global variable gnssconfig" alt="" coords="275,155,386,181"/>
+<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="120,304,192,331"/>
+<area shape="rect" title=" " alt="" coords="413,379,481,405"/>
+<area shape="rect" title=" " alt="" coords="505,379,575,405"/>
+<area shape="rect" href="corbit__const_8h.html" title="Constant definitions for the corbit library." alt="" coords="223,379,337,405"/>
+<area shape="rect" title=" " alt="" coords="670,379,741,405"/>
+<area shape="rect" title=" " alt="" coords="5,453,88,480"/>
+<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="249,453,311,480"/>
+<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="433,229,583,256"/>
+<area shape="rect" title=" " alt="" coords="622,304,693,331"/>
+<area shape="rect" title=" " alt="" coords="135,379,199,405"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -146,6 +147,9 @@ attitude.c 的引用(Include)关系图:</div>
 <tr class="memitem:a2cb97f9837b07d8388b16afb974b9f4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="attitude_8c.html#a2cb97f9837b07d8388b16afb974b9f4e">initialize_global_attitude</a> ()</td></tr>
 <tr class="memdesc:a2cb97f9837b07d8388b16afb974b9f4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the global attitude quaternion variable.  <a href="attitude_8c.html#a2cb97f9837b07d8388b16afb974b9f4e">更多...</a><br /></td></tr>
 <tr class="separator:a2cb97f9837b07d8388b16afb974b9f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57d1270d0083648e561d820fe93ae5e3"><td class="memItemLeft" align="right" valign="top"><a id="a57d1270d0083648e561d820fe93ae5e3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>attitude_yaw_fixed</b> (double *satpos, double *satvel, double *sunpos, double *ex, double *ey, double *ez, double *ep)</td></tr>
+<tr class="separator:a57d1270d0083648e561d820fe93ae5e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54fa748c018a5f34840db315f30eb603"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="attitude_8c.html#a54fa748c018a5f34840db315f30eb603">attitude_yaw_steering</a> (double *satpos, double *satvel, double *sunpos, double *ex, double *ey, double *ez, double *ep)</td></tr>
 <tr class="memdesc:a54fa748c018a5f34840db315f30eb603"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates yaw steering attitude parameters for a satellite.  <a href="attitude_8c.html#a54fa748c018a5f34840db315f30eb603">更多...</a><br /></td></tr>
 <tr class="separator:a54fa748c018a5f34840db315f30eb603"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -307,14 +311,25 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="atti
 <area shape="rect" href="mathlib_8c.html#ad3c2d5b0aab71d0ba94b00db096dfd24" title="get the norm of vector x" alt="" coords="586,69,642,96"/>
 <area shape="rect" href="gtime_8c.html#a4bf9344475021ba0cc9fe2373ffe13ab" title="convert GTime to time string" alt="" coords="222,157,307,184"/>
 <area shape="rect" href="mathlib_8c.html#a9d966c7096f51ef73b936110bd8b063f" title="generate a identical matrix of r rows and r columns" alt="" coords="201,208,329,235"/>
-<area shape="rect" href="mathlib_8c.html#a9fbc205f541ac62acbca899de2456c04" title="the function to convert a quaternion to rotation matrix" alt="" coords="189,259,340,285"/>
+<area shape="rect" href="mathlib_8c.html#a0e79fd5af3221d2ae8fc05d04c7fd8ab" title="the function to convert a quaternion to rotation matrix" alt="" coords="189,259,340,285"/>
 <area shape="rect" href="common__function_8c.html#a247d821e9b075458eaa206d3770dc8a2" title="Converts geodetic coordinates (latitude, longitude, height) to an ENU (East&#45;North&#45;Up) transformation ..." alt="" coords="201,309,328,336"/>
 <area shape="rect" href="mathlib_8c.html#a3103990859cfd0ec41ba1307255cddfe" title="cross product of a 3&#45;element vector A and 3&#45;element vector vector B" alt="" coords="403,5,508,32"/>
 <area shape="rect" href="mathlib_8c.html#a80599db69e4fe1ff1f2242398ba2b09d" title="normalize a vector of n elements" alt="" coords="388,56,523,83"/>
 <area shape="rect" href="gtime_8c.html#af3d0d3d1f25a8b57ded3fb98458d21ce" title="convert from GTime to TimeYMD" alt="" coords="404,157,507,184"/>
 <area shape="rect" href="gtime_8c.html#a4e80434717708c0874f6c38348d8584a" title="convert from GTime to TimeJD" alt="" coords="571,132,657,159"/>
-<area shape="rect" href="gtime_8c.html#afc86aafaf1f29e1eb93c5da18a47e144" title="convert from TimeJD to TimeYMD" alt="" coords="577,183,651,209"/>
+<area shape="rect" href="gtime_8c.html#afc86aafaf1f29e1eb93c5da18a47e144" title="convert from TimeJD to TimeYMD refer to sofa at https://github.com/liberfa/erfa/blob/master/src/jd2ca..." alt="" coords="577,183,651,209"/>
 <area shape="rect" href="gtime_8c.html#abba188d666e8af9b378ebc53d444ece4" title="make TimeJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="705,132,847,159"/>
+</map>
+</div>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="attitude_8c_a7ab5ac205d4327c856fe36a1df75d20d_icgraph.png" border="0" usemap="#aattitude_8c_a7ab5ac205d4327c856fe36a1df75d20d_icgraph" alt=""/></div>
+<map name="aattitude_8c_a7ab5ac205d4327c856fe36a1df75d20d_icgraph" id="aattitude_8c_a7ab5ac205d4327c856fe36a1df75d20d_icgraph">
+<area shape="rect" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="524,5,660,32"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="345,5,476,32"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="172,5,297,32"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a503225716ef6e4a895b0cb4b43c88abd" title="the orbit integrate program" alt="" coords="5,5,124,32"/>
 </map>
 </div>
 
@@ -515,9 +530,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="atti
 <div class="dyncontent">
 <div class="center"><img src="attitude_8c_af3a1fdee7b50e3249e3dfac216c0b4a2_icgraph.png" border="0" usemap="#aattitude_8c_af3a1fdee7b50e3249e3dfac216c0b4a2_icgraph" alt=""/></div>
 <map name="aattitude_8c_af3a1fdee7b50e3249e3dfac216c0b4a2_icgraph" id="aattitude_8c_af3a1fdee7b50e3249e3dfac216c0b4a2_icgraph">
-<area shape="rect" title="Get the attitude quaternion at the specified time." alt="" coords="357,5,503,32"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="179,5,309,32"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,5,131,32"/>
+<area shape="rect" title="Get the attitude quaternion at the specified time." alt="" coords="524,5,669,32"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="345,5,476,32"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="172,5,297,32"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a503225716ef6e4a895b0cb4b43c88abd" title="the orbit integrate program" alt="" coords="5,5,124,32"/>
 </map>
 </div>
 
@@ -589,7 +605,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="atti
 <p>This function calculates the satellite body reference frame based on position, velocity and sun position vectors according to IS-GPS-200H and similar standards.</p>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">satindex</td><td>Index of the satellite in the constellation, the satellite index obtained by function <a class="el" href="gnss__config_8c.html#a4904153c455ec7e809a04203fbb3ab0c" title="convert sat sys&amp;prn to the internal index">satsysprn2index()</a> in <a class="el" href="gnss__config_8c.html" title="Implementations for global variable gnssconfig">gnss_config.c</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">satindex</td><td>Index of the satellite in the constellation, the satellite index obtained by function <a class="el" href="gnss__config_8c.html#a4904153c455ec7e809a04203fbb3ab0c" title="convert sat sys&amp;prn to the internal index">satsysprn2index()</a> in <a class="el" href="gnss__config_8c.html" title="Implementations for global variable g_gnssconfig">gnss_config.c</a> </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">satpos</td><td>Satellite position vector in ECEF [m] (input) </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">satvel</td><td>Satellite velocity vector in ECEF [m/s] (input) </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">sunpos</td><td>Sun position vector in ECEF [m] (input) </td></tr>
@@ -811,8 +827,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="atti
 <area shape="rect" title="Reads attitude quaternion data (GRACE&#45;FO L1B SCA file) from a file and stores it in the provided stru..." alt="" coords="5,31,187,57"/>
 <area shape="rect" href="gtime_8c.html#a2bb18d3d6b62adeeb2e45404fc15d60a" title="convert from TimeYMD to GTime" alt="" coords="235,31,337,57"/>
 <area shape="rect" href="gtime_8c.html#ab8857837bd51003d9c146b2463028dd9" title="convert from TimeJD to GTime" alt="" coords="385,5,472,32"/>
-<area shape="rect" href="gtime_8c.html#ae25b985c6cdfb093cbe6ed066293249d" title="convert from TimeYMD to TImeJD" alt="" coords="389,56,468,83"/>
-<area shape="rect" href="gtime_8c.html#abba188d666e8af9b378ebc53d444ece4" title="make TimeJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="520,56,661,83"/>
+<area shape="rect" href="gtime_8c.html#ae25b985c6cdfb093cbe6ed066293249d" title="convert from TimeYMD to TImeJD https://github.com/liberfa/erfa/blob/master/src/cal2jd...." alt="" coords="389,56,468,83"/>
 </map>
 </div>
 
@@ -926,7 +941,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="atti
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="attitude_8c.html">attitude.c</a></li>
-    <li class="footer">生成于 2024年 十二月 27日 星期五 00:08:33 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">生成于 2026年 二月 6日 星期五 12:48:15 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

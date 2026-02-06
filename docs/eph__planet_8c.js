@@ -3,6 +3,7 @@ var eph__planet_8c =
     [ "ast_args", "eph__planet_8c.html#a6d0b43a4b16bc31e024bd9cb230f0aac", null ],
     [ "compute_planet_pos_vel", "eph__planet_8c.html#ae5552f0c3c48b6486f8768f51d0683b4", null ],
     [ "compute_pos_sun_moon_eci", "eph__planet_8c.html#a261b3076bbc0e0215b3fdad20afb4fea", null ],
+    [ "dataset_jpl_generation", "eph__planet_8c.html#a57626554db5c9c4ad5f9301a40e13bac", null ],
     [ "EphTest", "eph__planet_8c.html#a163c7dba7fa168a3eae27524d0eb30db", null ],
     [ "initialize_global_eph_planet", "eph__planet_8c.html#a80da9b72be3be7026ccf843cc23ea047", null ],
     [ "interp", "eph__planet_8c.html#ad273fc315aa2f45566d32b2a2f2bf4a2", null ],

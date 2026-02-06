@@ -35,9 +35,9 @@ extern "C"
 #ifdef EMBED
 
 /// enable GPS
-#define ENAGPS
+//#define ENAGPS
 // /// enable BeiDou
-// #define ENABDS
+#define ENABDS
 
 #define ENALEO
 
@@ -50,7 +50,7 @@ extern "C"
 #define ENAGPS
 
 // /// enable BeiDou
-// #define ENABDS
+#define ENABDS
 
 /// enable LEO
 #define ENALEO
@@ -170,7 +170,7 @@ extern "C"
 #define MAXNUM_FREQ 2       /**< max number of frequency for one gnss satellite */
 #else
 #define MAXOBS_PER_SAT 10   /**< max number of observation values for one gnss satellite */
-#define MAXSAT_PER_EPOCH 30 /**< max number of satellites  for one gnss epoch */
+#define MAXSAT_PER_EPOCH 50 /**< max number of satellites  for one gnss epoch */
 #define MAXNUM_FREQ 2       /**< max number of frequency for one gnss satellite */
 #endif
 
@@ -351,7 +351,7 @@ extern "C"
 
     int get_gnssconfig_sys_index(sysGNSS sys, GNSSCONFIG *config);
 
-    extern GNSSCONFIG gnssconfig;
+    extern GNSSCONFIG g_gnssconfig;
 
 #ifndef EMBED
     void set_gnssconfig_from_file(char *configfile);

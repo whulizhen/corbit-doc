@@ -127,22 +127,23 @@ tle.h 的引用(Include)关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="tle_8h__incl.png" border="0" usemap="#atle_8h" alt=""/></div>
 <map name="atle_8h" id="atle_8h">
-<area shape="rect" title="Header file for TLE computation" alt="" coords="352,5,403,32"/>
-<area shape="rect" href="corbit__const_8h.html" title="Constant definitions for the corbit library." alt="" coords="272,304,385,331"/>
-<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="302,155,453,181"/>
-<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="156,229,240,256"/>
-<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="511,229,583,256"/>
-<area shape="rect" href="earth__rotation__param_8h.html" title="Declarations of earth rotation parameters computation" alt="" coords="558,80,733,107"/>
-<area shape="rect" title=" " alt="" coords="603,379,670,405"/>
-<area shape="rect" title=" " alt="" coords="198,379,269,405"/>
-<area shape="rect" title=" " alt="" coords="843,379,926,405"/>
-<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="297,379,360,405"/>
-<area shape="rect" title=" " alt="" coords="264,229,334,256"/>
-<area shape="rect" title=" " alt="" coords="650,304,718,331"/>
-<area shape="rect" title=" " alt="" coords="24,304,94,331"/>
-<area shape="rect" title=" " alt="" coords="460,304,524,331"/>
-<area shape="rect" href="iau__function_8h.html" title="Declarations for iau functions" alt="" coords="708,229,823,256"/>
-<area shape="rect" href="iers__function_8h.html" title="Declarations for IERS functions" alt="" coords="848,229,966,256"/>
+<area shape="rect" title="Header file for TLE computation" alt="" coords="419,5,469,32"/>
+<area shape="rect" href="corbit__const_8h.html" title="Constant definitions for the corbit library." alt="" coords="470,304,583,331"/>
+<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="205,155,355,181"/>
+<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="221,229,305,256"/>
+<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="791,229,863,256"/>
+<area shape="rect" href="earth__rotation__param_8h.html" title="Declarations of earth rotation parameters computation" alt="" coords="487,80,662,107"/>
+<area shape="rect" title=" " alt="" coords="729,379,796,405"/>
+<area shape="rect" title=" " alt="" coords="397,379,467,405"/>
+<area shape="rect" title=" " alt="" coords="1091,379,1173,405"/>
+<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="495,379,558,405"/>
+<area shape="rect" title=" " alt="" coords="23,229,94,256"/>
+<area shape="rect" title=" " alt="" coords="659,304,727,331"/>
+<area shape="rect" title=" " alt="" coords="171,304,242,331"/>
+<area shape="rect" title=" " alt="" coords="77,304,147,331"/>
+<area shape="rect" title=" " alt="" coords="803,304,867,331"/>
+<area shape="rect" href="iau__function_8h.html" title="Declarations for iau functions" alt="" coords="532,229,647,256"/>
+<area shape="rect" href="iers__function_8h.html" title="Declarations for IERS functions" alt="" coords="893,229,1011,256"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -229,7 +230,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>tle2xyz_teme</b> (cons
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>返回</dt><dd></dd></dl>
+<dl class="section return"><dt>返回</dt><dd>0 ok </dd></dl>
 
 </div>
 </div>
@@ -465,11 +466,10 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>tle2xyz_teme</b> (cons
 <area shape="rect" href="earth__rotation__param_8c.html#aac9741a1dbc90aaf4fe170c2cd8f81e1" title="compute the eop param for current time mjd_utc using linear interpolation" alt="" coords="157,5,268,32"/>
 <area shape="rect" href="gtime_8c.html#ad0c5b5ae1134d58dbb718dedb0505764" title="get the leap seconds for current utc time" alt="" coords="152,56,273,83"/>
 <area shape="rect" href="gtime_8c.html#a4617ea5db3083f0bc259eabfb2986689" title="convert GTime struct to mjd in double" alt="" coords="166,107,259,133"/>
-<area shape="rect" href="earth__rotation__param_8c.html#a6bbe687b063d7d3affe6a4ffbe0d540c" title="read the rapid eop datafile" alt="" coords="124,157,301,184"/>
+<area shape="rect" href="earth__rotation__param_8c.html#a6bbe687b063d7d3affe6a4ffbe0d540c" title="read the rapid eop datafile including finals2000A.data and finals2000A.all" alt="" coords="124,157,301,184"/>
 <area shape="rect" href="gtime_8c.html#a2bb18d3d6b62adeeb2e45404fc15d60a" title="convert from TimeYMD to GTime" alt="" coords="161,208,264,235"/>
 <area shape="rect" href="gtime_8c.html#ab8857837bd51003d9c146b2463028dd9" title="convert from TimeJD to GTime" alt="" coords="349,183,436,209"/>
-<area shape="rect" href="gtime_8c.html#ae25b985c6cdfb093cbe6ed066293249d" title="convert from TimeYMD to TImeJD" alt="" coords="353,233,432,260"/>
-<area shape="rect" href="gtime_8c.html#abba188d666e8af9b378ebc53d444ece4" title="make TimeJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="484,233,625,260"/>
+<area shape="rect" href="gtime_8c.html#ae25b985c6cdfb093cbe6ed066293249d" title="convert from TimeYMD to TImeJD https://github.com/liberfa/erfa/blob/master/src/cal2jd...." alt="" coords="353,233,432,260"/>
 </map>
 </div>
 
@@ -482,7 +482,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>tle2xyz_teme</b> (cons
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="tle_8h.html">tle.h</a></li>
-    <li class="footer">生成于 2024年 十二月 27日 星期五 00:08:37 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">生成于 2026年 二月 6日 星期五 12:48:19 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

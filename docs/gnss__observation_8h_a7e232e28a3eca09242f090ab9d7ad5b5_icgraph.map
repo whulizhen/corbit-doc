@@ -1,6 +1,8 @@
 <map id="get_ionosphere_free_combination" name="get_ionosphere_free_combination">
-<area shape="rect" id="node1" title="compute the ionosphere free combination" alt="" coords="724,5,879,47"/>
-<area shape="rect" id="node2" href="$obs__processing_8c.html#a5d96093c451ef613dc2615a505dc3402" title="get the initial ambiguity for the filter" alt="" coords="468,13,676,39"/>
-<area shape="rect" id="node3" href="$pod__embed_8c.html#a8bd704d94b32d1befe62fd3dc7f451b7" title="get the initival ambiguity for current observation" alt="" coords="228,13,420,39"/>
-<area shape="rect" id="node4" href="$pod__embed_8c.html#a86bba72e837066920f39ddb33ae32467" title="update temperal clock solution" alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node1" title="compute the ionosphere free combination" alt="" coords="724,27,879,69"/>
+<area shape="rect" id="node2" href="$obs__processing_8c.html#a5d96093c451ef613dc2615a505dc3402" title="get the initial ambiguity for the filter" alt="" coords="468,35,676,61"/>
+<area shape="rect" id="node3" href="$gnss__ppp_8c.html#a4a2f6e937d85ac4e01a14ebb2d2f278a" title="get the initival ambiguity for current observation" alt="" coords="229,8,419,35"/>
+<area shape="rect" id="node5" href="$pod__embed_8c.html#a8bd704d94b32d1befe62fd3dc7f451b7" title="get the initival ambiguity for current observation" alt="" coords="228,60,420,87"/>
+<area shape="rect" id="node4" href="$gnss__ppp_8c.html#a34f30d948e388fc7421c9b9455b953f1" title="update temperal clock solution" alt="" coords="11,5,175,32"/>
+<area shape="rect" id="node6" href="$pod__embed_8c.html#a1578a28858261f14a525f931e81d4613" title="update temperal clock solution" alt="" coords="5,57,180,98"/>
 </map>

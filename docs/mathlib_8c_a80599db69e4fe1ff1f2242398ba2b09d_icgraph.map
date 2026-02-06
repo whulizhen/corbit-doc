@@ -1,8 +1,10 @@
 <map id="normalize_vector" name="normalize_vector">
-<area shape="rect" id="node1" title="normalize a vector of n elements" alt="" coords="577,56,712,83"/>
-<area shape="rect" id="node2" href="$attitude_8c.html#a54fa748c018a5f34840db315f30eb603" title="Calculates yaw steering attitude parameters for a satellite." alt="" coords="363,5,529,32"/>
-<area shape="rect" id="node3" href="$orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="181,56,312,83"/>
-<area shape="rect" id="node5" href="$common__function_8c.html#ab6619560de209ae8da1b6e8aeb728c7e" title="Converts satellite position and velocity from ECI (Earth&#45;Centered Inertial) frame to RTN (Radial,..." alt="" coords="413,107,479,133"/>
-<area shape="rect" id="node4" href="$orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,56,131,83"/>
-<area shape="rect" id="node6" href="$attitude_8c.html#a7ab5ac205d4327c856fe36a1df75d20d" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="179,107,315,133"/>
+<area shape="rect" id="node1" title="normalize a vector of n elements" alt="" coords="923,81,1057,108"/>
+<area shape="rect" id="node2" href="$attitude_8c.html#a54fa748c018a5f34840db315f30eb603" title="Calculates yaw steering attitude parameters for a satellite." alt="" coords="708,5,875,32"/>
+<area shape="rect" id="node3" href="$orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="345,107,476,133"/>
+<area shape="rect" id="node6" href="$common__function_8c.html#ab6619560de209ae8da1b6e8aeb728c7e" title="Converts satellite position and velocity from ECI (Earth&#45;Centered Inertial) frame to RTN (Radial,..." alt="" coords="758,107,825,133"/>
+<area shape="rect" id="node8" href="$gnss__simulator_8c.html#a8d2dc2e974d48e61b3f433bd14654750" title=" " alt="" coords="733,157,849,184"/>
+<area shape="rect" id="node4" href="$orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="172,107,297,133"/>
+<area shape="rect" id="node5" href="$orbit__dynamics_8c.html#a503225716ef6e4a895b0cb4b43c88abd" title="the orbit integrate program" alt="" coords="5,107,124,133"/>
+<area shape="rect" id="node7" href="$attitude_8c.html#a7ab5ac205d4327c856fe36a1df75d20d" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="524,157,660,184"/>
 </map>

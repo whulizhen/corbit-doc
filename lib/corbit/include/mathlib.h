@@ -25,7 +25,7 @@ extern "C"
 #include <stdlib.h>
 #else
 /* only for the EMBED version matrix inversion */
-#define SOLVE_MAXNUM_COLS 50
+#define SOLVE_MAXNUM_COLS 60
 #define SOLVE_MAXNUM_ROWS 80
 #define MAXNUM_NPOINTS_INTERPOLATION 30
 #endif
@@ -44,7 +44,7 @@ extern "C"
         double v[3]; /**< the vector element */
     } QUATERNION;
 
-    void quaternion2rotation(QUATERNION q, double *R);
+    void quaternion2rotation(QUATERNION* q, double *R);
     void quaternion_from_rotation(double rotationMatrix[9], QUATERNION *q);
     void quaternion_normalise(QUATERNION *q);
 

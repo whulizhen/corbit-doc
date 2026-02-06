@@ -1,4 +1,6 @@
 <map id="OBSDATA_SAT" name="OBSDATA_SAT">
-<area shape="rect" id="node1" title="observation of one satellite, memory: 632 byes" alt="" coords="5,95,120,121"/>
-<area shape="rect" id="node2" href="$structOBSREC.html" title="record of GNSS obs, memory: 48 Bytes" alt="" coords="25,5,100,32"/>
+<area shape="rect" id="node1" title="observation of one satellite, memory: 632 byes" alt="" coords="29,184,144,211"/>
+<area shape="rect" id="node2" href="$structOBSREC.html" title="record of GNSS obs, memory: 48 Bytes" alt="" coords="5,95,80,121"/>
+<area shape="rect" id="node3" href="$structGTime.html" title="struct for general time computation with time system defined" alt="" coords="105,95,170,121"/>
+<area shape="rect" id="node4" href="$structTimeMJD.html" title="struct time format in Modified Julian Day and second of day" alt="" coords="97,5,178,32"/>
 </map>

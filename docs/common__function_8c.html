@@ -123,19 +123,20 @@ common_function.c 的引用(Include)关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="common__function_8c__incl.png" border="0" usemap="#acommon__function_8c" alt=""/></div>
 <map name="acommon__function_8c" id="acommon__function_8c">
-<area shape="rect" title="Implementations of common functions" alt="" coords="232,5,383,32"/>
-<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="232,80,383,107"/>
+<area shape="rect" title="Implementations of common functions" alt="" coords="475,5,625,32"/>
+<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="475,80,625,107"/>
 <area shape="rect" title=" " alt="" coords="5,155,76,181"/>
-<area shape="rect" title=" " alt="" coords="301,304,372,331"/>
-<area shape="rect" title=" " alt="" coords="299,229,367,256"/>
-<area shape="rect" title=" " alt="" coords="473,304,539,331"/>
-<area shape="rect" title=" " alt="" coords="152,229,223,256"/>
-<area shape="rect" href="corbit__const_8h.html" title="Constant definitions for the corbit library." alt="" coords="632,229,745,256"/>
-<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="225,155,309,181"/>
-<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="470,155,542,181"/>
-<area shape="rect" title=" " alt="" coords="742,304,825,331"/>
-<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="655,304,717,331"/>
-<area shape="rect" title=" " alt="" coords="543,229,607,256"/>
+<area shape="rect" title=" " alt="" coords="529,304,600,331"/>
+<area shape="rect" title=" " alt="" coords="531,229,599,256"/>
+<area shape="rect" title=" " alt="" coords="131,304,198,331"/>
+<area shape="rect" title=" " alt="" coords="675,229,745,256"/>
+<area shape="rect" title=" " alt="" coords="769,229,840,256"/>
+<area shape="rect" href="corbit__const_8h.html" title="Constant definitions for the corbit library." alt="" coords="341,229,455,256"/>
+<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="588,155,672,181"/>
+<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="362,155,434,181"/>
+<area shape="rect" title=" " alt="" coords="241,304,323,331"/>
+<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="367,304,429,331"/>
+<area shape="rect" title=" " alt="" coords="253,229,317,256"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -144,6 +145,18 @@ common_function.c 的引用(Include)关系图:</div>
 <tr class="memitem:a18b85b351a60d25bf04bee52d2fe63ca"><td class="memItemLeft" align="right" valign="top"><a id="a18b85b351a60d25bf04bee52d2fe63ca"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>myexit</b> ()</td></tr>
 <tr class="separator:a18b85b351a60d25bf04bee52d2fe63ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb2165d80840e5c6cfc28a9af7a82712"><td class="memItemLeft" align="right" valign="top"><a id="afb2165d80840e5c6cfc28a9af7a82712"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sha_init</b> (<a class="el" href="structSHA__CTX.html">SHA_CTX</a> *ctx)</td></tr>
+<tr class="separator:afb2165d80840e5c6cfc28a9af7a82712"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bbf2ad25e9caea03b6941f0a95e03f3"><td class="memItemLeft" align="right" valign="top"><a id="a5bbf2ad25e9caea03b6941f0a95e03f3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sha_transform</b> (<a class="el" href="structSHA__CTX.html">SHA_CTX</a> *ctx)</td></tr>
+<tr class="separator:a5bbf2ad25e9caea03b6941f0a95e03f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f09de819c0833ba8a2c73fc5370d488"><td class="memItemLeft" align="right" valign="top"><a id="a2f09de819c0833ba8a2c73fc5370d488"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sha_update</b> (<a class="el" href="structSHA__CTX.html">SHA_CTX</a> *ctx, const uint8_t *data, size_t len)</td></tr>
+<tr class="separator:a2f09de819c0833ba8a2c73fc5370d488"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c4bb15e4b27a7d4dd3d7dfe8c3cdd6d"><td class="memItemLeft" align="right" valign="top"><a id="a3c4bb15e4b27a7d4dd3d7dfe8c3cdd6d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>sha_final</b> (<a class="el" href="structSHA__CTX.html">SHA_CTX</a> *ctx, uint8_t *hash)</td></tr>
+<tr class="separator:a3c4bb15e4b27a7d4dd3d7dfe8c3cdd6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a603d7df712c2fa4e2910ed0c3e5ad1e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__function_8c.html#a603d7df712c2fa4e2910ed0c3e5ad1e0">print_help</a> (char *help_str[])</td></tr>
 <tr class="memdesc:a603d7df712c2fa4e2910ed0c3e5ad1e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">print the help string  <a href="common__function_8c.html#a603d7df712c2fa4e2910ed0c3e5ad1e0">更多...</a><br /></td></tr>
 <tr class="separator:a603d7df712c2fa4e2910ed0c3e5ad1e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,27 +175,45 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>myexit</b> ()</td></t
 <tr class="memitem:afb03d815c5c9706c5e9b04a8edee7900"><td class="memItemLeft" align="right" valign="top"><a id="afb03d815c5c9706c5e9b04a8edee7900"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>getbits</b> (const unsigned char *buff, int pos, int len)</td></tr>
 <tr class="separator:afb03d815c5c9706c5e9b04a8edee7900"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c05395dda020aa4e0f22ba5380fdc63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__function_8c.html#a9c05395dda020aa4e0f22ba5380fdc63">setbitu</a> (unsigned char *buff, int pos, int len, unsigned int data)</td></tr>
-<tr class="memdesc:a9c05395dda020aa4e0f22ba5380fdc63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a specified number of bits in a buffer to a given value.  <a href="common__function_8c.html#a9c05395dda020aa4e0f22ba5380fdc63">更多...</a><br /></td></tr>
-<tr class="separator:a9c05395dda020aa4e0f22ba5380fdc63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a532dceb14654d78e3a771c6e8d416d8e"><td class="memItemLeft" align="right" valign="top"><a id="a532dceb14654d78e3a771c6e8d416d8e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setbits</b> (unsigned char *buff, int pos, int len, int data)</td></tr>
-<tr class="separator:a532dceb14654d78e3a771c6e8d416d8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4fa2bdfc37a049de43830a234853745"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__function_8c.html#ab4fa2bdfc37a049de43830a234853745">crc32</a> (const unsigned char *buff, int len)</td></tr>
-<tr class="memdesc:ab4fa2bdfc37a049de43830a234853745"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the CRC32 checksum for a given buffer.  <a href="common__function_8c.html#ab4fa2bdfc37a049de43830a234853745">更多...</a><br /></td></tr>
-<tr class="separator:ab4fa2bdfc37a049de43830a234853745"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a143f5fa72a5c2aa56901ad78710eb4c2"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__function_8c.html#a143f5fa72a5c2aa56901ad78710eb4c2">crc24q</a> (const unsigned char *buff, int len)</td></tr>
-<tr class="memdesc:a143f5fa72a5c2aa56901ad78710eb4c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the CRC-24Q checksum for a given buffer.  <a href="common__function_8c.html#a143f5fa72a5c2aa56901ad78710eb4c2">更多...</a><br /></td></tr>
-<tr class="separator:a143f5fa72a5c2aa56901ad78710eb4c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0533c231b8243c8ae7e49655e01cc879"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__function_8c.html#a0533c231b8243c8ae7e49655e01cc879">fsetbitu</a> (unsigned char *buff, int pos, int len, unsigned int data)</td></tr>
+<tr class="memdesc:a0533c231b8243c8ae7e49655e01cc879"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a specified number of bits in a buffer to a given value.  <a href="common__function_8c.html#a0533c231b8243c8ae7e49655e01cc879">更多...</a><br /></td></tr>
+<tr class="separator:a0533c231b8243c8ae7e49655e01cc879"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab82bc7918bf238aba15881d370349889"><td class="memItemLeft" align="right" valign="top"><a id="ab82bc7918bf238aba15881d370349889"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>fsetbits</b> (unsigned char *buff, int pos, int len, int data)</td></tr>
+<tr class="separator:ab82bc7918bf238aba15881d370349889"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a2c9cbdbd54c5ce479b6cf44b12b994"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__function_8c.html#a0a2c9cbdbd54c5ce479b6cf44b12b994">fcrc32</a> (const unsigned char *buff, int len)</td></tr>
+<tr class="memdesc:a0a2c9cbdbd54c5ce479b6cf44b12b994"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the CRC32 checksum for a given buffer.  <a href="common__function_8c.html#a0a2c9cbdbd54c5ce479b6cf44b12b994">更多...</a><br /></td></tr>
+<tr class="separator:a0a2c9cbdbd54c5ce479b6cf44b12b994"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae313d0166f2297198d75521d75a6efd3"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__function_8c.html#ae313d0166f2297198d75521d75a6efd3">fcrc24q</a> (const unsigned char *buff, int len)</td></tr>
+<tr class="memdesc:ae313d0166f2297198d75521d75a6efd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the CRC-24Q checksum for a given buffer.  <a href="common__function_8c.html#ae313d0166f2297198d75521d75a6efd3">更多...</a><br /></td></tr>
+<tr class="separator:ae313d0166f2297198d75521d75a6efd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba1008200c94869ddfeb5285fd454215"><td class="memItemLeft" align="right" valign="top">unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__function_8c.html#aba1008200c94869ddfeb5285fd454215">crc16</a> (const unsigned char *buff, int len)</td></tr>
 <tr class="memdesc:aba1008200c94869ddfeb5285fd454215"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute CRC-16 parity for BINEX, NVS. compute crc-16 parity for binex, nvs  <a href="common__function_8c.html#aba1008200c94869ddfeb5285fd454215">更多...</a><br /></td></tr>
 <tr class="separator:aba1008200c94869ddfeb5285fd454215"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7815e79e874ba9f390909de1c5f76430"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__function_8c.html#a7815e79e874ba9f390909de1c5f76430">distribute_sw</a> (int auth_idx, unsigned char *code_sw)</td></tr>
+<tr class="memdesc:a7815e79e874ba9f390909de1c5f76430"><td class="mdescLeft">&#160;</td><td class="mdescRight">generate the 32 bytes sw code  <a href="common__function_8c.html#a7815e79e874ba9f390909de1c5f76430">更多...</a><br /></td></tr>
+<tr class="separator:a7815e79e874ba9f390909de1c5f76430"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f92126f65791be516f6e380a63550d0"><td class="memItemLeft" align="right" valign="top"><a id="a9f92126f65791be516f6e380a63550d0"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>distribute_hw</b> (int auth_idx, unsigned char *code_hw)</td></tr>
+<tr class="separator:a9f92126f65791be516f6e380a63550d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5857298724b225eba9875741e06486f6"><td class="memItemLeft" align="right" valign="top"><a id="a5857298724b225eba9875741e06486f6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>distribute_random_exchange</b> (int auth_idx, int random_idx[48])</td></tr>
+<tr class="separator:a5857298724b225eba9875741e06486f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a003168223ebb2a762e52944bb90eb6dc"><td class="memItemLeft" align="right" valign="top"><a id="a003168223ebb2a762e52944bb90eb6dc"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>validate_sw_hw</b> (unsigned char *code_sw, int len_sw, unsigned char *code_hw, int len_hw)</td></tr>
+<tr class="separator:a003168223ebb2a762e52944bb90eb6dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2460fd4fa47091d400955800ea858d20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__function_8c.html#a2460fd4fa47091d400955800ea858d20">distribute_validation_code</a> (int auth_idx, unsigned char *code)</td></tr>
+<tr class="memdesc:a2460fd4fa47091d400955800ea858d20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a validation code from the raw code.  <a href="common__function_8c.html#a2460fd4fa47091d400955800ea858d20">更多...</a><br /></td></tr>
+<tr class="separator:a2460fd4fa47091d400955800ea858d20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74f307de2251b1b9fca350be59bfa5d9"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__function_8c.html#a74f307de2251b1b9fca350be59bfa5d9">string_trim</a> (char *str)</td></tr>
 <tr class="memdesc:a74f307de2251b1b9fca350be59bfa5d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trims leading and trailing whitespace characters from a string.  <a href="common__function_8c.html#a74f307de2251b1b9fca350be59bfa5d9">更多...</a><br /></td></tr>
 <tr class="separator:a74f307de2251b1b9fca350be59bfa5d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff3a0cfee05e8e9f129d44495b317356"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__function_8c.html#aff3a0cfee05e8e9f129d44495b317356">string_split</a> (const char *string_raw, char *seps, char outstr[][MAXLEN_STRING])</td></tr>
-<tr class="memdesc:aff3a0cfee05e8e9f129d44495b317356"><td class="mdescLeft">&#160;</td><td class="mdescRight">split the string_raw into outstr  <a href="common__function_8c.html#aff3a0cfee05e8e9f129d44495b317356">更多...</a><br /></td></tr>
-<tr class="separator:aff3a0cfee05e8e9f129d44495b317356"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02d5c5d7c00c4a6bfc84155eb3c679af"><td class="memItemLeft" align="right" valign="top"><a id="a02d5c5d7c00c4a6bfc84155eb3c679af"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>string_split_test</b> (const char *string_raw, char *seps, char(*outstr)[MAXLEN_STRING])</td></tr>
+<tr class="separator:a02d5c5d7c00c4a6bfc84155eb3c679af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a189a9872aeea0bbb18a1ea7c443b6519"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__function_8c.html#a189a9872aeea0bbb18a1ea7c443b6519">string_split</a> (const char *string_raw, char *seps, char outstr[][MAXLEN_STRING], int max_num_split)</td></tr>
+<tr class="memdesc:a189a9872aeea0bbb18a1ea7c443b6519"><td class="mdescLeft">&#160;</td><td class="mdescRight">split the string_raw into outstr  <a href="common__function_8c.html#a189a9872aeea0bbb18a1ea7c443b6519">更多...</a><br /></td></tr>
+<tr class="separator:a189a9872aeea0bbb18a1ea7c443b6519"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7550ea9dda4a343f111a413549fd0cbf"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__function_8c.html#a7550ea9dda4a343f111a413549fd0cbf">search_max_array</a> (double *arr, int left, int right)</td></tr>
 <tr class="memdesc:a7550ea9dda4a343f111a413549fd0cbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches for the maximum value in a subarray.  <a href="common__function_8c.html#a7550ea9dda4a343f111a413549fd0cbf">更多...</a><br /></td></tr>
 <tr class="separator:a7550ea9dda4a343f111a413549fd0cbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -219,6 +250,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setbits</b> (unsigned
 <tr class="memitem:add627e23ebdc7640539c083d331a9740"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__function_8c.html#add627e23ebdc7640539c083d331a9740">azel</a> (double *blh, double *dxyz, double *azel)</td></tr>
 <tr class="memdesc:add627e23ebdc7640539c083d331a9740"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate azimuth and elevation from user given coordinates. compute the azimuth and elevation for ground users, this is not for the platform coordiante, but for the ground ENU cooridnates. This function computes the azimuth and elevation angles based on the provided geodetic coordinates (latitude, longitude, height) and the difference in Cartesian coordinates.  <a href="common__function_8c.html#add627e23ebdc7640539c083d331a9740">更多...</a><br /></td></tr>
 <tr class="separator:add627e23ebdc7640539c083d331a9740"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac64bde11915c64afdf56cb3b8dfc3394"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__function_8c.html#ac64bde11915c64afdf56cb3b8dfc3394">normalFactor</a> (int n, int m)</td></tr>
+<tr class="memdesc:ac64bde11915c64afdf56cb3b8dfc3394"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nnm IERS2003 P60 This function compute normFactor at one point for earth gravity with the legendre polynomial  <a href="common__function_8c.html#ac64bde11915c64afdf56cb3b8dfc3394">更多...</a><br /></td></tr>
+<tr class="separator:ac64bde11915c64afdf56cb3b8dfc3394"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed1ced913745ef8e27e6b370e00680a5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common__function_8c.html#aed1ced913745ef8e27e6b370e00680a5">legendrePoly</a> (int n, int m, double u)</td></tr>
+<tr class="memdesc:aed1ced913745ef8e27e6b370e00680a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">compute the legendre polynomial P_n^m(u) using the non-recurrence relation to maximum n=120, m=120 for the embed version  <a href="common__function_8c.html#aed1ced913745ef8e27e6b370e00680a5">更多...</a><br /></td></tr>
+<tr class="separator:aed1ced913745ef8e27e6b370e00680a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 变量</h2></td></tr>
@@ -309,15 +346,17 @@ const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>tbl_CRC
 <div class="dyncontent">
 <div class="center"><img src="common__function_8c_add627e23ebdc7640539c083d331a9740_icgraph.png" border="0" usemap="#acommon__function_8c_add627e23ebdc7640539c083d331a9740_icgraph" alt=""/></div>
 <map name="acommon__function_8c_add627e23ebdc7640539c083d331a9740_icgraph" id="acommon__function_8c_add627e23ebdc7640539c083d331a9740_icgraph">
-<area shape="rect" title="Calculate azimuth and elevation from user given coordinates. compute the azimuth and elevation for gr..." alt="" coords="364,183,413,209"/>
-<area shape="rect" href="common__function_8c.html#ac66f69bcf146103e8684e9c73fdd40b8" title="Computes the azimuth and elevation angles of a signal." alt="" coords="169,5,291,32"/>
-<area shape="rect" href="obs__processing_8c.html#a9d14d3a122897a640ea0b86f7ba30d5d" title="Mapping function based on BeiDou ICD 2017 B1c" alt="" coords="161,56,299,83"/>
-<area shape="rect" href="obs__processing_8c.html#ae42cfc50d8f32a55b2f21f2e7689da2a" title=" " alt="" coords="159,107,301,133"/>
-<area shape="rect" href="obs__processing_8c.html#a5f9e439d09365a355f9deccd605fa7e3" title=" " alt="" coords="144,157,316,184"/>
-<area shape="rect" href="obs__processing_8c.html#a2cface4b06241e5bb461618566f7beaf" title="This function calculate B1I signal ionospheric delay in meters" alt="" coords="169,208,291,235"/>
-<area shape="rect" href="obs__processing_8c.html#a0faea59f5d5e2773df871cc0217ba798" title="This function calculate GPS L1 signal ionospheric delay in meters" alt="" coords="170,259,290,285"/>
-<area shape="rect" href="obs__processing_8c.html#abbd3e62b0d56d9534f40464d6f12038b" title="Niell Mapping Function" alt="" coords="204,309,256,336"/>
-<area shape="rect" href="obs__processing_8c.html#a2f0ffa805f83647a8a6aaceffeb0fbdf" title="calculate tropospheric delay" alt="" coords="5,335,96,361"/>
+<area shape="rect" title="Calculate azimuth and elevation from user given coordinates. compute the azimuth and elevation for gr..." alt="" coords="573,181,623,208"/>
+<area shape="rect" href="common__function_8c.html#ac66f69bcf146103e8684e9c73fdd40b8" title="Computes the azimuth and elevation angles of a signal." alt="" coords="176,17,299,44"/>
+<area shape="rect" href="obs__processing_8c.html#a2e7335bb5f11a47bf92a491b430081d1" title="9 params BDGIM ionospheric delay model section 7.8.2 @ http://www.beidou.gov.cn/xt/gfxz/201712/P02017..." alt="" coords="169,105,305,132"/>
+<area shape="rect" href="obs__processing_8c.html#ae42cfc50d8f32a55b2f21f2e7689da2a" title=" " alt="" coords="368,80,511,106"/>
+<area shape="rect" href="obs__processing_8c.html#a5f9e439d09365a355f9deccd605fa7e3" title=" " alt="" coords="353,130,525,157"/>
+<area shape="rect" href="obs__processing_8c.html#aee978cb1a66c821efac8243169919424" title="ionospheric pierce point position latitude and longitude" alt="" coords="371,181,508,208"/>
+<area shape="rect" href="obs__processing_8c.html#a2cface4b06241e5bb461618566f7beaf" title="This function calculate B1I signal ionospheric delay in meters" alt="" coords="379,232,500,258"/>
+<area shape="rect" href="obs__processing_8c.html#a0faea59f5d5e2773df871cc0217ba798" title="This function calculate GPS L1 signal ionospheric delay in meters" alt="" coords="379,282,499,309"/>
+<area shape="rect" href="obs__processing_8c.html#abbd3e62b0d56d9534f40464d6f12038b" title="Niell Mapping Function" alt="" coords="413,333,465,360"/>
+<area shape="rect" href="obs__processing_8c.html#a2f0ffa805f83647a8a6aaceffeb0fbdf" title="calculate tropospheric delay" alt="" coords="192,333,283,360"/>
+<area shape="rect" href="gnss__simulator_8c.html#a8d2dc2e974d48e61b3f433bd14654750" title=" " alt="" coords="5,194,121,221"/>
 </map>
 </div>
 
@@ -474,83 +513,6 @@ const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>tbl_CRC
 
 </div>
 </div>
-<a id="a143f5fa72a5c2aa56901ad78710eb4c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a143f5fa72a5c2aa56901ad78710eb4c2">&#9670;&nbsp;</a></span>crc24q()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int crc24q </td>
-          <td>(</td>
-          <td class="paramtype">const unsigned char *&#160;</td>
-          <td class="paramname"><em>buff</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>len</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Computes the CRC-24Q checksum for a given buffer. </p>
-<p>This function calculates the CRC-24Q checksum for the provided buffer of data. The CRC-24Q is a cyclic redundancy check algorithm that is commonly used in various data integrity verification applications. compute crc-24q parity for sbas, rtcm3 </p><dl class="params"><dt>参数</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">buff</td><td>Pointer to the buffer containing the data to be checksummed. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">len</td><td>Length of the buffer in bytes. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>返回</dt><dd>The computed CRC-24Q checksum as an unsigned integer. </dd></dl>
-
-</div>
-</div>
-<a id="ab4fa2bdfc37a049de43830a234853745"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4fa2bdfc37a049de43830a234853745">&#9670;&nbsp;</a></span>crc32()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int crc32 </td>
-          <td>(</td>
-          <td class="paramtype">const unsigned char *&#160;</td>
-          <td class="paramname"><em>buff</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>len</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Computes the CRC32 checksum for a given buffer. </p>
-<p>This function calculates the CRC32 checksum for the provided buffer of data. The CRC32 algorithm is commonly used for error-checking in data transmission and storage. see NovAtel OEMV firmware manual 1.7 32-bit CRC</p>
-<dl class="params"><dt>参数</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">buff</td><td>Pointer to the buffer containing the data to be checksummed. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">len</td><td>Length of the buffer in bytes. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>返回</dt><dd>The computed CRC32 checksum as an unsigned integer. </dd></dl>
-
-</div>
-</div>
 <a id="ab33e026cfe37d68569508ed0f02a2362"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab33e026cfe37d68569508ed0f02a2362">&#9670;&nbsp;</a></span>detect_outlier()</h2>
 
@@ -599,6 +561,98 @@ const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>tbl_CRC
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a7815e79e874ba9f390909de1c5f76430"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7815e79e874ba9f390909de1c5f76430">&#9670;&nbsp;</a></span>distribute_sw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void distribute_sw </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>auth_idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned char *&#160;</td>
+          <td class="paramname"><em>code_sw</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>generate the 32 bytes sw code </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">code_sw</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="common__function_8c_a7815e79e874ba9f390909de1c5f76430_icgraph.png" border="0" usemap="#acommon__function_8c_a7815e79e874ba9f390909de1c5f76430_icgraph" alt=""/></div>
+<map name="acommon__function_8c_a7815e79e874ba9f390909de1c5f76430_icgraph" id="acommon__function_8c_a7815e79e874ba9f390909de1c5f76430_icgraph">
+<area shape="rect" title="generate the 32 bytes sw code" alt="" coords="248,5,357,32"/>
+<area shape="rect" href="common__function_8c.html#a2460fd4fa47091d400955800ea858d20" title="Generates a validation code from the raw code." alt="" coords="5,5,200,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2460fd4fa47091d400955800ea858d20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2460fd4fa47091d400955800ea858d20">&#9670;&nbsp;</a></span>distribute_validation_code()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void distribute_validation_code </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>auth_idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned char *&#160;</td>
+          <td class="paramname"><em>code</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generates a validation code from the raw code. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">code_raw</td><td>Pointer to the raw code data. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">len_code_raw</td><td>length of the raw code data, should be &lt;= 64 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">code</td><td>Pointer to the output validation code, 32 bytes </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="common__function_8c_a2460fd4fa47091d400955800ea858d20_cgraph.png" border="0" usemap="#acommon__function_8c_a2460fd4fa47091d400955800ea858d20_cgraph" alt=""/></div>
+<map name="acommon__function_8c_a2460fd4fa47091d400955800ea858d20_cgraph" id="acommon__function_8c_a2460fd4fa47091d400955800ea858d20_cgraph">
+<area shape="rect" title="Generates a validation code from the raw code." alt="" coords="5,5,200,32"/>
+<area shape="rect" href="common__function_8c.html#a7815e79e874ba9f390909de1c5f76430" title="generate the 32 bytes sw code" alt="" coords="248,5,357,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -655,8 +709,12 @@ const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>tbl_CRC
 <div class="dyncontent">
 <div class="center"><img src="common__function_8c_a346472702e417ea49bc6af16f4971052_icgraph.png" border="0" usemap="#acommon__function_8c_a346472702e417ea49bc6af16f4971052_icgraph" alt=""/></div>
 <map name="acommon__function_8c_a346472702e417ea49bc6af16f4971052_icgraph" id="acommon__function_8c_a346472702e417ea49bc6af16f4971052_icgraph">
-<area shape="rect" title="convert from ECEF to BLH" alt="" coords="189,5,268,32"/>
-<area shape="rect" href="attitude_8c.html#a7ab5ac205d4327c856fe36a1df75d20d" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="5,5,141,32"/>
+<area shape="rect" title="convert from ECEF to BLH" alt="" coords="708,56,787,83"/>
+<area shape="rect" href="attitude_8c.html#a7ab5ac205d4327c856fe36a1df75d20d" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="524,5,660,32"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="345,31,476,57"/>
+<area shape="rect" href="gnss__simulator_8c.html#a8d2dc2e974d48e61b3f433bd14654750" title=" " alt="" coords="534,107,650,133"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="172,31,297,57"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a503225716ef6e4a895b0cb4b43c88abd" title="the orbit integrate program" alt="" coords="5,31,124,57"/>
 </map>
 </div>
 
@@ -733,10 +791,11 @@ const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>tbl_CRC
 <div class="dyncontent">
 <div class="center"><img src="common__function_8c_ab6619560de209ae8da1b6e8aeb728c7e_icgraph.png" border="0" usemap="#acommon__function_8c_ab6619560de209ae8da1b6e8aeb728c7e_icgraph" alt=""/></div>
 <map name="acommon__function_8c_ab6619560de209ae8da1b6e8aeb728c7e_icgraph" id="acommon__function_8c_ab6619560de209ae8da1b6e8aeb728c7e_icgraph">
-<area shape="rect" title="Converts satellite position and velocity from ECI (Earth&#45;Centered Inertial) frame to RTN (Radial,..." alt="" coords="363,31,429,57"/>
-<area shape="rect" href="attitude_8c.html#a7ab5ac205d4327c856fe36a1df75d20d" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="179,5,315,32"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="181,56,312,83"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,56,131,83"/>
+<area shape="rect" title="Converts satellite position and velocity from ECI (Earth&#45;Centered Inertial) frame to RTN (Radial,..." alt="" coords="708,31,775,57"/>
+<area shape="rect" href="attitude_8c.html#a7ab5ac205d4327c856fe36a1df75d20d" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="524,5,660,32"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="345,31,476,57"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="172,31,297,57"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a503225716ef6e4a895b0cb4b43c88abd" title="the orbit integrate program" alt="" coords="5,31,124,57"/>
 </map>
 </div>
 
@@ -811,6 +870,135 @@ const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>tbl_CRC
 
 </div>
 </div>
+<a id="ae313d0166f2297198d75521d75a6efd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae313d0166f2297198d75521d75a6efd3">&#9670;&nbsp;</a></span>fcrc24q()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int fcrc24q </td>
+          <td>(</td>
+          <td class="paramtype">const unsigned char *&#160;</td>
+          <td class="paramname"><em>buff</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Computes the CRC-24Q checksum for a given buffer. </p>
+<p>This function calculates the CRC-24Q checksum for the provided buffer of data. The CRC-24Q is a cyclic redundancy check algorithm that is commonly used in various data integrity verification applications. compute crc-24q parity for sbas, rtcm3 </p><dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">buff</td><td>Pointer to the buffer containing the data to be checksummed. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">len</td><td>Length of the buffer in bytes. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>The computed CRC-24Q checksum as an unsigned integer. </dd></dl>
+
+</div>
+</div>
+<a id="a0a2c9cbdbd54c5ce479b6cf44b12b994"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a2c9cbdbd54c5ce479b6cf44b12b994">&#9670;&nbsp;</a></span>fcrc32()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int fcrc32 </td>
+          <td>(</td>
+          <td class="paramtype">const unsigned char *&#160;</td>
+          <td class="paramname"><em>buff</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Computes the CRC32 checksum for a given buffer. </p>
+<p>This function calculates the CRC32 checksum for the provided buffer of data. The CRC32 algorithm is commonly used for error-checking in data transmission and storage. see NovAtel OEMV firmware manual 1.7 32-bit CRC</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">buff</td><td>Pointer to the buffer containing the data to be checksummed. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">len</td><td>Length of the buffer in bytes. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>The computed CRC32 checksum as an unsigned integer. </dd></dl>
+
+</div>
+</div>
+<a id="a0533c231b8243c8ae7e49655e01cc879"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0533c231b8243c8ae7e49655e01cc879">&#9670;&nbsp;</a></span>fsetbitu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void fsetbitu </td>
+          <td>(</td>
+          <td class="paramtype">unsigned char *&#160;</td>
+          <td class="paramname"><em>buff</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets a specified number of bits in a buffer to a given value. </p>
+<p>This function sets <code>len</code> bits starting from bit position <code>pos</code> in the buffer <code>buff</code> to the value specified by <code>data</code>.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">buff</td><td>Pointer to the buffer where bits will be set. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pos</td><td>The starting bit position in the buffer where bits will be set. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">len</td><td>The number of bits to set. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>The value to set the bits to. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ac66f69bcf146103e8684e9c73fdd40b8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac66f69bcf146103e8684e9c73fdd40b8">&#9670;&nbsp;</a></span>get_azel_signal()</h2>
 
@@ -865,6 +1053,15 @@ const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>tbl_CRC
 <area shape="rect" href="mathlib_8c.html#ad3c2d5b0aab71d0ba94b00db096dfd24" title="get the norm of vector x" alt="" coords="213,157,269,184"/>
 <area shape="rect" href="common__function_8c.html#af6c1560282acf2cf5358826df8768a3b" title="Converts coordinates from XYZ to ENU (East&#45;North&#45;Up) frame." alt="" coords="355,5,432,32"/>
 <area shape="rect" href="common__function_8c.html#a247d821e9b075458eaa206d3770dc8a2" title="Converts geodetic coordinates (latitude, longitude, height) to an ENU (East&#45;North&#45;Up) transformation ..." alt="" coords="480,5,607,32"/>
+</map>
+</div>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="common__function_8c_ac66f69bcf146103e8684e9c73fdd40b8_icgraph.png" border="0" usemap="#acommon__function_8c_ac66f69bcf146103e8684e9c73fdd40b8_icgraph" alt=""/></div>
+<map name="acommon__function_8c_ac66f69bcf146103e8684e9c73fdd40b8_icgraph" id="acommon__function_8c_ac66f69bcf146103e8684e9c73fdd40b8_icgraph">
+<area shape="rect" title="Computes the azimuth and elevation angles of a signal." alt="" coords="169,5,292,32"/>
+<area shape="rect" href="gnss__simulator_8c.html#a8d2dc2e974d48e61b3f433bd14654750" title=" " alt="" coords="5,5,121,32"/>
 </map>
 </div>
 
@@ -960,6 +1157,53 @@ const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>tbl_CRC
 
 </div>
 </div>
+<a id="aed1ced913745ef8e27e6b370e00680a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed1ced913745ef8e27e6b370e00680a5">&#9670;&nbsp;</a></span>legendrePoly()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double legendrePoly </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>m</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>u</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>compute the legendre polynomial P_n^m(u) using the non-recurrence relation to maximum n=120, m=120 for the embed version </p>
+<dl class="section note"><dt>注解</dt><dd>the stack size used for this function will be around 120*120*8/1024=112.5KB </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">m</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">u</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>the legendre polynomial P_n^m(u) </dd></dl>
+<p>first element</p>
+
+</div>
+</div>
 <a id="aaef5d58a73129fc721894e3c2b0e061d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaef5d58a73129fc721894e3c2b0e061d">&#9670;&nbsp;</a></span>my_console_logger()</h2>
 
@@ -999,14 +1243,57 @@ const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>tbl_CRC
 <div class="dyncontent">
 <div class="center"><img src="common__function_8c_aaef5d58a73129fc721894e3c2b0e061d_cgraph.png" border="0" usemap="#acommon__function_8c_aaef5d58a73129fc721894e3c2b0e061d_cgraph" alt=""/></div>
 <map name="acommon__function_8c_aaef5d58a73129fc721894e3c2b0e061d_cgraph" id="acommon__function_8c_aaef5d58a73129fc721894e3c2b0e061d_cgraph">
-<area shape="rect" title="log to console for the ULOG library" alt="" coords="5,31,153,57"/>
-<area shape="rect" href="gtime_8c.html#aaf4673eb2f9f3dd09a0e4ca4a8a6033a" title="get the current time in string" alt="" coords="201,31,316,57"/>
-<area shape="rect" href="gtime_8c.html#a2bb18d3d6b62adeeb2e45404fc15d60a" title="convert from TimeYMD to GTime" alt="" coords="364,31,467,57"/>
+<area shape="rect" title="log to console for the ULOG library" alt="" coords="5,81,153,108"/>
+<area shape="rect" href="gtime_8c.html#aaf4673eb2f9f3dd09a0e4ca4a8a6033a" title="get the current time in string" alt="" coords="201,56,316,83"/>
+<area shape="rect" href="gtime_8c.html#a4bf9344475021ba0cc9fe2373ffe13ab" title="convert GTime to time string" alt="" coords="216,107,301,133"/>
+<area shape="rect" href="gtime_8c.html#a2bb18d3d6b62adeeb2e45404fc15d60a" title="convert from TimeYMD to GTime" alt="" coords="364,56,467,83"/>
 <area shape="rect" href="gtime_8c.html#ab8857837bd51003d9c146b2463028dd9" title="convert from TimeJD to GTime" alt="" coords="515,5,601,32"/>
-<area shape="rect" href="gtime_8c.html#ae25b985c6cdfb093cbe6ed066293249d" title="convert from TimeYMD to TImeJD" alt="" coords="519,56,597,83"/>
-<area shape="rect" href="gtime_8c.html#abba188d666e8af9b378ebc53d444ece4" title="make TimeJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="649,56,791,83"/>
+<area shape="rect" href="gtime_8c.html#ae25b985c6cdfb093cbe6ed066293249d" title="convert from TimeYMD to TImeJD https://github.com/liberfa/erfa/blob/master/src/cal2jd...." alt="" coords="519,56,597,83"/>
+<area shape="rect" href="gtime_8c.html#af3d0d3d1f25a8b57ded3fb98458d21ce" title="convert from GTime to TimeYMD" alt="" coords="364,107,467,133"/>
+<area shape="rect" href="gtime_8c.html#a4e80434717708c0874f6c38348d8584a" title="convert from GTime to TimeJD" alt="" coords="515,107,601,133"/>
+<area shape="rect" href="gtime_8c.html#afc86aafaf1f29e1eb93c5da18a47e144" title="convert from TimeJD to TimeYMD refer to sofa at https://github.com/liberfa/erfa/blob/master/src/jd2ca..." alt="" coords="521,157,595,184"/>
+<area shape="rect" href="gtime_8c.html#abba188d666e8af9b378ebc53d444ece4" title="make TimeJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="649,107,791,133"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="ac64bde11915c64afdf56cb3b8dfc3394"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac64bde11915c64afdf56cb3b8dfc3394">&#9670;&nbsp;</a></span>normalFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double normalFactor </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>m</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Nnm IERS2003 P60 This function compute normFactor at one point for earth gravity with the legendre polynomial </p>
+<dl class="section note"><dt>注解</dt><dd>The normalization factor is defined as: \( \bar{P}_{nm} = \sqrt{\frac{(2-\delta_{0m})(2n+1)(n-m)!}{(n+m)!}} P_{nm} \) where \( \delta_{0m} \) is the Kronecker delta, which is 1 if m=0 and 0 otherwise. reference: IERS2003 P60 </dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>the degree </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">m</td><td>the order</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>normalize factor for earth potential </dd></dl>
 
 </div>
 </div>
@@ -1120,58 +1407,6 @@ const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>tbl_CRC
 
 </div>
 </div>
-<a id="a9c05395dda020aa4e0f22ba5380fdc63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c05395dda020aa4e0f22ba5380fdc63">&#9670;&nbsp;</a></span>setbitu()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void setbitu </td>
-          <td>(</td>
-          <td class="paramtype">unsigned char *&#160;</td>
-          <td class="paramname"><em>buff</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>pos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>len</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>data</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sets a specified number of bits in a buffer to a given value. </p>
-<p>This function sets <code>len</code> bits starting from bit position <code>pos</code> in the buffer <code>buff</code> to the value specified by <code>data</code>.</p>
-<dl class="params"><dt>参数</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">buff</td><td>Pointer to the buffer where bits will be set. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pos</td><td>The starting bit position in the buffer where bits will be set. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">len</td><td>The number of bits to set. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>The value to set the bits to. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a id="aca21817ee2127e89013ae4252c5f9abe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aca21817ee2127e89013ae4252c5f9abe">&#9670;&nbsp;</a></span>str2num()</h2>
 
@@ -1217,8 +1452,8 @@ const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>tbl_CRC
 
 </div>
 </div>
-<a id="aff3a0cfee05e8e9f129d44495b317356"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff3a0cfee05e8e9f129d44495b317356">&#9670;&nbsp;</a></span>string_split()</h2>
+<a id="a189a9872aeea0bbb18a1ea7c443b6519"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a189a9872aeea0bbb18a1ea7c443b6519">&#9670;&nbsp;</a></span>string_split()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1239,7 +1474,13 @@ const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>tbl_CRC
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">char&#160;</td>
-          <td class="paramname"><em>outstr</em>[][MAXLEN_STRING]&#160;</td>
+          <td class="paramname"><em>outstr</em>[][MAXLEN_STRING], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max_num_split</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1254,7 +1495,7 @@ const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>tbl_CRC
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">string_raw</td><td>the raw string to be split </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">seps</td><td>a array of collection of seps for spliting </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">outstr</td><td>the output split string </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">outstr</td><td>the output split string with maximum number MAXLEN_STRING </td></tr>
   </table>
   </dd>
 </dl>
@@ -1347,16 +1588,18 @@ const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>tbl_CRC
 <div class="dyncontent">
 <div class="center"><img src="common__function_8c_af6c1560282acf2cf5358826df8768a3b_icgraph.png" border="0" usemap="#acommon__function_8c_af6c1560282acf2cf5358826df8768a3b_icgraph" alt=""/></div>
 <map name="acommon__function_8c_af6c1560282acf2cf5358826df8768a3b_icgraph" id="acommon__function_8c_af6c1560282acf2cf5358826df8768a3b_icgraph">
-<area shape="rect" title="Converts coordinates from XYZ to ENU (East&#45;North&#45;Up) frame." alt="" coords="461,183,539,209"/>
-<area shape="rect" href="common__function_8c.html#add627e23ebdc7640539c083d331a9740" title="Calculate azimuth and elevation from user given coordinates. compute the azimuth and elevation for gr..." alt="" coords="364,183,413,209"/>
-<area shape="rect" href="common__function_8c.html#ac66f69bcf146103e8684e9c73fdd40b8" title="Computes the azimuth and elevation angles of a signal." alt="" coords="169,5,291,32"/>
-<area shape="rect" href="obs__processing_8c.html#a9d14d3a122897a640ea0b86f7ba30d5d" title="Mapping function based on BeiDou ICD 2017 B1c" alt="" coords="161,56,299,83"/>
-<area shape="rect" href="obs__processing_8c.html#ae42cfc50d8f32a55b2f21f2e7689da2a" title=" " alt="" coords="159,107,301,133"/>
-<area shape="rect" href="obs__processing_8c.html#a5f9e439d09365a355f9deccd605fa7e3" title=" " alt="" coords="144,157,316,184"/>
-<area shape="rect" href="obs__processing_8c.html#a2cface4b06241e5bb461618566f7beaf" title="This function calculate B1I signal ionospheric delay in meters" alt="" coords="169,208,291,235"/>
-<area shape="rect" href="obs__processing_8c.html#a0faea59f5d5e2773df871cc0217ba798" title="This function calculate GPS L1 signal ionospheric delay in meters" alt="" coords="170,259,290,285"/>
-<area shape="rect" href="obs__processing_8c.html#abbd3e62b0d56d9534f40464d6f12038b" title="Niell Mapping Function" alt="" coords="204,309,256,336"/>
-<area shape="rect" href="obs__processing_8c.html#a2f0ffa805f83647a8a6aaceffeb0fbdf" title="calculate tropospheric delay" alt="" coords="5,335,96,361"/>
+<area shape="rect" title="Converts coordinates from XYZ to ENU (East&#45;North&#45;Up) frame." alt="" coords="671,181,748,208"/>
+<area shape="rect" href="common__function_8c.html#add627e23ebdc7640539c083d331a9740" title="Calculate azimuth and elevation from user given coordinates. compute the azimuth and elevation for gr..." alt="" coords="573,181,623,208"/>
+<area shape="rect" href="common__function_8c.html#ac66f69bcf146103e8684e9c73fdd40b8" title="Computes the azimuth and elevation angles of a signal." alt="" coords="176,17,299,44"/>
+<area shape="rect" href="obs__processing_8c.html#a2e7335bb5f11a47bf92a491b430081d1" title="9 params BDGIM ionospheric delay model section 7.8.2 @ http://www.beidou.gov.cn/xt/gfxz/201712/P02017..." alt="" coords="169,105,305,132"/>
+<area shape="rect" href="obs__processing_8c.html#ae42cfc50d8f32a55b2f21f2e7689da2a" title=" " alt="" coords="368,80,511,106"/>
+<area shape="rect" href="obs__processing_8c.html#a5f9e439d09365a355f9deccd605fa7e3" title=" " alt="" coords="353,130,525,157"/>
+<area shape="rect" href="obs__processing_8c.html#aee978cb1a66c821efac8243169919424" title="ionospheric pierce point position latitude and longitude" alt="" coords="371,181,508,208"/>
+<area shape="rect" href="obs__processing_8c.html#a2cface4b06241e5bb461618566f7beaf" title="This function calculate B1I signal ionospheric delay in meters" alt="" coords="379,232,500,258"/>
+<area shape="rect" href="obs__processing_8c.html#a0faea59f5d5e2773df871cc0217ba798" title="This function calculate GPS L1 signal ionospheric delay in meters" alt="" coords="379,282,499,309"/>
+<area shape="rect" href="obs__processing_8c.html#abbd3e62b0d56d9534f40464d6f12038b" title="Niell Mapping Function" alt="" coords="413,333,465,360"/>
+<area shape="rect" href="obs__processing_8c.html#a2f0ffa805f83647a8a6aaceffeb0fbdf" title="calculate tropospheric delay" alt="" coords="192,333,283,360"/>
+<area shape="rect" href="gnss__simulator_8c.html#a8d2dc2e974d48e61b3f433bd14654750" title=" " alt="" coords="5,194,121,221"/>
 </map>
 </div>
 
@@ -1409,19 +1652,24 @@ const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>tbl_CRC
 <div class="dyncontent">
 <div class="center"><img src="common__function_8c_a247d821e9b075458eaa206d3770dc8a2_icgraph.png" border="0" usemap="#acommon__function_8c_a247d821e9b075458eaa206d3770dc8a2_icgraph" alt=""/></div>
 <map name="acommon__function_8c_a247d821e9b075458eaa206d3770dc8a2_icgraph" id="acommon__function_8c_a247d821e9b075458eaa206d3770dc8a2_icgraph">
-<area shape="rect" title="Converts geodetic coordinates (latitude, longitude, height) to an ENU (East&#45;North&#45;Up) transformation ..." alt="" coords="645,132,772,159"/>
-<area shape="rect" href="attitude_8c.html#a7ab5ac205d4327c856fe36a1df75d20d" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="461,81,597,108"/>
-<area shape="rect" href="common__function_8c.html#aa59f50e89b5487e59f31798a289b93a6" title="Converts ENU (East&#45;North&#45;Up) coordinates to XYZ coordinates." alt="" coords="491,132,568,159"/>
-<area shape="rect" href="common__function_8c.html#af6c1560282acf2cf5358826df8768a3b" title="Converts coordinates from XYZ to ENU (East&#45;North&#45;Up) frame." alt="" coords="491,183,568,209"/>
-<area shape="rect" href="common__function_8c.html#add627e23ebdc7640539c083d331a9740" title="Calculate azimuth and elevation from user given coordinates. compute the azimuth and elevation for gr..." alt="" coords="364,183,413,209"/>
-<area shape="rect" href="common__function_8c.html#ac66f69bcf146103e8684e9c73fdd40b8" title="Computes the azimuth and elevation angles of a signal." alt="" coords="169,5,291,32"/>
-<area shape="rect" href="obs__processing_8c.html#a9d14d3a122897a640ea0b86f7ba30d5d" title="Mapping function based on BeiDou ICD 2017 B1c" alt="" coords="161,56,299,83"/>
-<area shape="rect" href="obs__processing_8c.html#ae42cfc50d8f32a55b2f21f2e7689da2a" title=" " alt="" coords="159,107,301,133"/>
-<area shape="rect" href="obs__processing_8c.html#a5f9e439d09365a355f9deccd605fa7e3" title=" " alt="" coords="144,157,316,184"/>
-<area shape="rect" href="obs__processing_8c.html#a2cface4b06241e5bb461618566f7beaf" title="This function calculate B1I signal ionospheric delay in meters" alt="" coords="169,208,291,235"/>
-<area shape="rect" href="obs__processing_8c.html#a0faea59f5d5e2773df871cc0217ba798" title="This function calculate GPS L1 signal ionospheric delay in meters" alt="" coords="170,259,290,285"/>
-<area shape="rect" href="obs__processing_8c.html#abbd3e62b0d56d9534f40464d6f12038b" title="Niell Mapping Function" alt="" coords="204,309,256,336"/>
-<area shape="rect" href="obs__processing_8c.html#a2f0ffa805f83647a8a6aaceffeb0fbdf" title="calculate tropospheric delay" alt="" coords="5,335,96,361"/>
+<area shape="rect" title="Converts geodetic coordinates (latitude, longitude, height) to an ENU (East&#45;North&#45;Up) transformation ..." alt="" coords="936,85,1063,112"/>
+<area shape="rect" href="attitude_8c.html#a7ab5ac205d4327c856fe36a1df75d20d" title="get attitude of the platform for ground receiver or spacecraft quaternion usually describes rotation ..." alt="" coords="752,16,888,43"/>
+<area shape="rect" href="common__function_8c.html#aa59f50e89b5487e59f31798a289b93a6" title="Converts ENU (East&#45;North&#45;Up) coordinates to XYZ coordinates." alt="" coords="781,85,859,112"/>
+<area shape="rect" href="common__function_8c.html#af6c1560282acf2cf5358826df8768a3b" title="Converts coordinates from XYZ to ENU (East&#45;North&#45;Up) frame." alt="" coords="781,173,859,200"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="573,11,704,37"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="377,5,502,32"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a503225716ef6e4a895b0cb4b43c88abd" title="the orbit integrate program" alt="" coords="178,5,297,32"/>
+<area shape="rect" href="common__function_8c.html#add627e23ebdc7640539c083d331a9740" title="Calculate azimuth and elevation from user given coordinates. compute the azimuth and elevation for gr..." alt="" coords="614,249,663,276"/>
+<area shape="rect" href="common__function_8c.html#ac66f69bcf146103e8684e9c73fdd40b8" title="Computes the azimuth and elevation angles of a signal." alt="" coords="176,93,299,120"/>
+<area shape="rect" href="obs__processing_8c.html#a2e7335bb5f11a47bf92a491b430081d1" title="9 params BDGIM ionospheric delay model section 7.8.2 @ http://www.beidou.gov.cn/xt/gfxz/201712/P02017..." alt="" coords="169,220,305,247"/>
+<area shape="rect" href="obs__processing_8c.html#ae42cfc50d8f32a55b2f21f2e7689da2a" title=" " alt="" coords="368,157,511,184"/>
+<area shape="rect" href="obs__processing_8c.html#a5f9e439d09365a355f9deccd605fa7e3" title=" " alt="" coords="353,208,525,235"/>
+<area shape="rect" href="obs__processing_8c.html#aee978cb1a66c821efac8243169919424" title="ionospheric pierce point position latitude and longitude" alt="" coords="371,259,508,285"/>
+<area shape="rect" href="obs__processing_8c.html#a2cface4b06241e5bb461618566f7beaf" title="This function calculate B1I signal ionospheric delay in meters" alt="" coords="379,309,500,336"/>
+<area shape="rect" href="obs__processing_8c.html#a0faea59f5d5e2773df871cc0217ba798" title="This function calculate GPS L1 signal ionospheric delay in meters" alt="" coords="379,360,499,387"/>
+<area shape="rect" href="obs__processing_8c.html#abbd3e62b0d56d9534f40464d6f12038b" title="Niell Mapping Function" alt="" coords="413,411,465,437"/>
+<area shape="rect" href="obs__processing_8c.html#a2f0ffa805f83647a8a6aaceffeb0fbdf" title="calculate tropospheric delay" alt="" coords="192,411,283,437"/>
+<area shape="rect" href="gnss__simulator_8c.html#a8d2dc2e974d48e61b3f433bd14654750" title=" " alt="" coords="5,233,121,260"/>
 </map>
 </div>
 
@@ -1434,7 +1682,7 @@ const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>tbl_CRC
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="common__function_8c.html">common_function.c</a></li>
-    <li class="footer">生成于 2024年 十二月 27日 星期五 00:08:33 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">生成于 2026年 二月 6日 星期五 12:48:15 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

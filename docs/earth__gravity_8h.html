@@ -122,29 +122,32 @@ $(document).ready(function(){initNavTree('earth__gravity_8h.html',''); initResiz
 <div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &lt;stdlib.h&gt;</code><br />
 <code>#include &lt;string.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="mathlib_8h.html">mathlib.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="corbit__const_8h.html">corbit_const.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="common__function_8h.html">common_function.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="iers__function_8h.html">iers_function.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="earth__rotation__param_8h.html">earth_rotation_param.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 earth_gravity.h 的引用(Include)关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="earth__gravity_8h__incl.png" border="0" usemap="#aearth__gravity_8h" alt=""/></div>
 <map name="aearth__gravity_8h" id="aearth__gravity_8h">
-<area shape="rect" title="Declarations of earth gravity computation" alt="" coords="679,5,798,32"/>
-<area shape="rect" title=" " alt="" coords="849,379,916,405"/>
-<area shape="rect" title=" " alt="" coords="235,379,306,405"/>
-<area shape="rect" title=" " alt="" coords="974,304,1045,331"/>
-<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="419,229,503,256"/>
-<area shape="rect" href="earth__rotation__param_8h.html" title="Declarations of earth rotation parameters computation" alt="" coords="651,80,826,107"/>
-<area shape="rect" title=" " alt="" coords="675,304,743,331"/>
-<area shape="rect" href="corbit__const_8h.html" title="Constant definitions for the corbit library." alt="" coords="486,304,599,331"/>
-<area shape="rect" title=" " alt="" coords="671,379,753,405"/>
-<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="511,379,574,405"/>
-<area shape="rect" href="iau__function_8h.html" title="Declarations for iau functions" alt="" coords="280,229,395,256"/>
-<area shape="rect" href="iers__function_8h.html" title="Declarations for IERS functions" alt="" coords="777,229,895,256"/>
-<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="539,155,690,181"/>
-<area shape="rect" title=" " alt="" coords="579,229,650,256"/>
-<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="184,229,256,256"/>
-<area shape="rect" title=" " alt="" coords="144,304,208,331"/>
+<area shape="rect" title="Declarations of earth gravity computation" alt="" coords="607,5,726,32"/>
+<area shape="rect" title=" " alt="" coords="489,379,556,405"/>
+<area shape="rect" title=" " alt="" coords="863,379,934,405"/>
+<area shape="rect" title=" " alt="" coords="135,304,206,331"/>
+<area shape="rect" href="corbit__const_8h.html" title="Constant definitions for the corbit library." alt="" coords="561,304,674,331"/>
+<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="461,155,611,181"/>
+<area shape="rect" href="iers__function_8h.html" title="Declarations for IERS functions" alt="" coords="1041,229,1159,256"/>
+<area shape="rect" href="earth__rotation__param_8h.html" title="Declarations of earth rotation parameters computation" alt="" coords="741,80,915,107"/>
+<area shape="rect" title=" " alt="" coords="1157,379,1240,405"/>
+<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="586,379,649,405"/>
+<area shape="rect" title=" " alt="" coords="297,229,367,256"/>
+<area shape="rect" title=" " alt="" coords="889,304,957,331"/>
+<area shape="rect" title=" " alt="" coords="313,304,383,331"/>
+<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="494,229,578,256"/>
+<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="704,229,776,256"/>
+<area shape="rect" title=" " alt="" coords="699,304,763,331"/>
+<area shape="rect" href="iau__function_8h.html" title="Declarations for iau functions" alt="" coords="901,229,1016,256"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -176,7 +179,7 @@ earth_gravity.h 的引用(Include)关系图:</div>
 <tr class="separator:a746732d3620bf9878fd96f419ca3c040"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bc05e39d64c49a1ba97092ffa7959c3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="earth__gravity_8h.html#a0bc05e39d64c49a1ba97092ffa7959c3">MAX_OrderM</a>&#160;&#160;&#160;120</td></tr>
 <tr class="separator:a0bc05e39d64c49a1ba97092ffa7959c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f10536d5b06aa22f8c140a4babca5c4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="earth__gravity_8h.html#a8f10536d5b06aa22f8c140a4babca5c4">MAX_size_coef</a>&#160;&#160;&#160;((1 + (<a class="el" href="earth__gravity_8h.html#a746732d3620bf9878fd96f419ca3c040">MAX_DegreeN</a> + 1)) * (<a class="el" href="earth__gravity_8h.html#a746732d3620bf9878fd96f419ca3c040">MAX_DegreeN</a> + 1) / 2)</td></tr>
+<tr class="memitem:a8f10536d5b06aa22f8c140a4babca5c4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="earth__gravity_8h.html#a8f10536d5b06aa22f8c140a4babca5c4">MAX_size_coef</a>&#160;&#160;&#160;((1 + (<a class="el" href="earth__gravity_8h.html#a746732d3620bf9878fd96f419ca3c040">MAX_DegreeN</a> + 2)) * (<a class="el" href="earth__gravity_8h.html#a746732d3620bf9878fd96f419ca3c040">MAX_DegreeN</a> + 2) / 2)</td></tr>
 <tr class="separator:a8f10536d5b06aa22f8c140a4babca5c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a009c8944eeed47b79fd8f8422d3fdf2c"><td class="memItemLeft" align="right" valign="top"><a id="a009c8944eeed47b79fd8f8422d3fdf2c"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>MAX_DegreeN_correction</b>&#160;&#160;&#160;50</td></tr>
@@ -185,8 +188,11 @@ earth_gravity.h 的引用(Include)关系图:</div>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>MAX_OrderM_correction</b>&#160;&#160;&#160;50</td></tr>
 <tr class="separator:acee1abde2f48d5f96b48a779208b0421"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a127734cdd96bb72a73833c8d03c4f995"><td class="memItemLeft" align="right" valign="top"><a id="a127734cdd96bb72a73833c8d03c4f995"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>MAX_size_coef_correction</b>&#160;&#160;&#160;(  (1 + MAX_DegreeN_correction)*MAX_DegreeN_correction/2 + (MAX_OrderM_correction+1) - 3 )</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>MAX_size_coef_correction</b>&#160;&#160;&#160;((1 + (MAX_DegreeN_correction + 1)) * (MAX_DegreeN_correction + 1) / 2)</td></tr>
 <tr class="separator:a127734cdd96bb72a73833c8d03c4f995"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb3123abd7ca1d774a989c6bd88ef3da"><td class="memItemLeft" align="right" valign="top"><a id="abb3123abd7ca1d774a989c6bd88ef3da"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>IDX</b>(n,  m)&#160;&#160;&#160;( ((n)*(n+1)/2) + (m) )</td></tr>
+<tr class="separator:abb3123abd7ca1d774a989c6bd88ef3da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 函数</h2></td></tr>
@@ -196,33 +202,29 @@ earth_gravity.h 的引用(Include)关系图:</div>
 <tr class="memitem:a6e471f9b213bb48350a2b52bdad62c3b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="earth__gravity_8h.html#a6e471f9b213bb48350a2b52bdad62c3b">load_ocean_tide_fes2014b</a> (char *filename, struct <a class="el" href="struct__doodson__.html">_doodson_</a> *doodson_info, struct <a class="el" href="struct__ocean__tide__CS__.html">_ocean_tide_CS_</a> *ocean_tide_CS, int *num_constituent, int *num_CS_array)</td></tr>
 <tr class="memdesc:a6e471f9b213bb48350a2b52bdad62c3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">read the FES2014b ocean tide Cnm-Snm with S1 wave  <a href="earth__gravity_8h.html#a6e471f9b213bb48350a2b52bdad62c3b">更多...</a><br /></td></tr>
 <tr class="separator:a6e471f9b213bb48350a2b52bdad62c3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26a2ecc191b1036760ee13e2f4721c4f"><td class="memItemLeft" align="right" valign="top"><a id="a26a2ecc191b1036760ee13e2f4721c4f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="earth__gravity_8h.html#a26a2ecc191b1036760ee13e2f4721c4f">initialize_global_earth_gravity</a> ()</td></tr>
-<tr class="memdesc:a26a2ecc191b1036760ee13e2f4721c4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize all the globals for earth gravity computation, this is mainly for the embed version it is initialized with 30 degree earth gravity coefficients <br /></td></tr>
+<tr class="memitem:a26a2ecc191b1036760ee13e2f4721c4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="earth__gravity_8h.html#a26a2ecc191b1036760ee13e2f4721c4f">initialize_global_earth_gravity</a> ()</td></tr>
+<tr class="memdesc:a26a2ecc191b1036760ee13e2f4721c4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the global Earth gravity parameters.  <a href="earth__gravity_8h.html#a26a2ecc191b1036760ee13e2f4721c4f">更多...</a><br /></td></tr>
 <tr class="separator:a26a2ecc191b1036760ee13e2f4721c4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3b65d6c749f1a832b524a8391f1ea12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="earth__gravity_8h.html#af3b65d6c749f1a832b524a8391f1ea12">compute_dadr_earth_gravity</a> (int NN, int MM, double *pos_ecef, double *dadr_ecf)</td></tr>
 <tr class="memdesc:af3b65d6c749f1a832b524a8391f1ea12"><td class="mdescLeft">&#160;</td><td class="mdescRight">compute the earth gravity acceleration and dadr partials  <a href="earth__gravity_8h.html#af3b65d6c749f1a832b524a8391f1ea12">更多...</a><br /></td></tr>
 <tr class="separator:af3b65d6c749f1a832b524a8391f1ea12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7c84692ba2a6598f245a32cbbbcf220"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="earth__gravity_8h.html#af7c84692ba2a6598f245a32cbbbcf220">compute_acc_earth_gravity</a> (int NN, int MM, double *pos_ecef, double *a_ecef)</td></tr>
-<tr class="memdesc:af7c84692ba2a6598f245a32cbbbcf220"><td class="mdescLeft">&#160;</td><td class="mdescRight">compute the earth gravity acceleration  <a href="earth__gravity_8h.html#af7c84692ba2a6598f245a32cbbbcf220">更多...</a><br /></td></tr>
+<tr class="memdesc:af7c84692ba2a6598f245a32cbbbcf220"><td class="mdescLeft">&#160;</td><td class="mdescRight">generate the V and W vectors for different positions  <a href="earth__gravity_8h.html#af7c84692ba2a6598f245a32cbbbcf220">更多...</a><br /></td></tr>
 <tr class="separator:af7c84692ba2a6598f245a32cbbbcf220"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4221b4ad05c0289b567912c9ffd5eeb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="earth__gravity_8h.html#ae4221b4ad05c0289b567912c9ffd5eeb">compute_acc_dadr_earth_gravity</a> (int NN, int MM, double mjd_utc, double leap_sec, double *satpos_ecef, double *sunpos_ecf, double *moonpos_ecf, double *acc_ecf, double *dadr_ecf)</td></tr>
 <tr class="memdesc:ae4221b4ad05c0289b567912c9ffd5eeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the main entry of earth gravity acc computation  <a href="earth__gravity_8h.html#ae4221b4ad05c0289b567912c9ffd5eeb">更多...</a><br /></td></tr>
 <tr class="separator:ae4221b4ad05c0289b567912c9ffd5eeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac64bde11915c64afdf56cb3b8dfc3394"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="earth__gravity_8h.html#ac64bde11915c64afdf56cb3b8dfc3394">normalFactor</a> (int n, int m)</td></tr>
-<tr class="memdesc:ac64bde11915c64afdf56cb3b8dfc3394"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nnm IERS2003 P60 This function compute normFactor at one point getNormalFactor() computes all the normal factor at once  <a href="earth__gravity_8h.html#ac64bde11915c64afdf56cb3b8dfc3394">更多...</a><br /></td></tr>
-<tr class="separator:ac64bde11915c64afdf56cb3b8dfc3394"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed1ced913745ef8e27e6b370e00680a5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="earth__gravity_8h.html#aed1ced913745ef8e27e6b370e00680a5">legendrePoly</a> (int n, int m, double u)</td></tr>
-<tr class="memdesc:aed1ced913745ef8e27e6b370e00680a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">compute the Legendre polynomial  <a href="earth__gravity_8h.html#aed1ced913745ef8e27e6b370e00680a5">更多...</a><br /></td></tr>
-<tr class="separator:aed1ced913745ef8e27e6b370e00680a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a800e857938ad5677a3cc1dee5c1ee838"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="earth__gravity_8h.html#a800e857938ad5677a3cc1dee5c1ee838">legendrePoly_recursive</a> (int n, int m, double u)</td></tr>
+<tr class="memdesc:a800e857938ad5677a3cc1dee5c1ee838"><td class="mdescLeft">&#160;</td><td class="mdescRight">compute the Legendre polynomial recursively, this is very slow, might get stuck due to stack limitation  <a href="earth__gravity_8h.html#a800e857938ad5677a3cc1dee5c1ee838">更多...</a><br /></td></tr>
+<tr class="separator:a800e857938ad5677a3cc1dee5c1ee838"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97f21a3104335c876f9211f6f8262d73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="earth__gravity_8h.html#a97f21a3104335c876f9211f6f8262d73">denormaliseCS</a> (int <a class="el" href="earth__gravity_8c.html#a5ba6a26be2233287b9c096c64b71d4ff">N</a>, double *Cn, double *Sn)</td></tr>
 <tr class="memdesc:a97f21a3104335c876f9211f6f8262d73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populates C and S arrays with enhanced denormalised values (C' and S'). Where C and S are global variables Cn and Sn are the normalized coefficients read from file, C and S are the denormalized coefficients that is directly used eq. 3.13 and eq. 3.16 in page 58 in book Montenbruck satellite orbits.  <a href="earth__gravity_8h.html#a97f21a3104335c876f9211f6f8262d73">更多...</a><br /></td></tr>
 <tr class="separator:a97f21a3104335c876f9211f6f8262d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ef9a3cb7ee45edac478a8b7c29d211f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="earth__gravity_8h.html#a8ef9a3cb7ee45edac478a8b7c29d211f">computeNormalFactor</a> ()</td></tr>
 <tr class="memdesc:a8ef9a3cb7ee45edac478a8b7c29d211f"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate the normalization facor for C and S, eq. 3.16 in page 58 in Montenbruck Nnm = sqrt( sqrt(2-d0m)*(2n+1)*(n-m)!/(n+m)! ) Pnm_normalized = Nnm * Pnm ; but, Cnm = Nnm* Cnm_normalized; Snm = Nnm* Snm_normalized;  <a href="earth__gravity_8h.html#a8ef9a3cb7ee45edac478a8b7c29d211f">更多...</a><br /></td></tr>
 <tr class="separator:a8ef9a3cb7ee45edac478a8b7c29d211f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ccfb05d77198757fac59cb87ed3c117"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="earth__gravity_8h.html#a5ccfb05d77198757fac59cb87ed3c117">generateVW</a> (int NN, int MM, double *pos_ecef)</td></tr>
-<tr class="memdesc:a5ccfb05d77198757fac59cb87ed3c117"><td class="mdescLeft">&#160;</td><td class="mdescRight">generate the V and W vectors for different positions  <a href="earth__gravity_8h.html#a5ccfb05d77198757fac59cb87ed3c117">更多...</a><br /></td></tr>
+<tr class="memitem:a5ccfb05d77198757fac59cb87ed3c117"><td class="memItemLeft" align="right" valign="top"><a id="a5ccfb05d77198757fac59cb87ed3c117"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>generateVW</b> (int NN, int MM, double *pos_ecef)</td></tr>
 <tr class="separator:a5ccfb05d77198757fac59cb87ed3c117"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a087f9f89f75654e674f16414018ceb39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="earth__gravity_8h.html#a087f9f89f75654e674f16414018ceb39">correct_CS_OceanTide_embed</a> (double JD_UT1_I, double JD_UT1_F, double JD_TT, double *dC, double *dS)</td></tr>
 <tr class="separator:a087f9f89f75654e674f16414018ceb39"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -301,7 +303,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>g_num_ocean_tide_CS</b
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define MAX_size_coef&#160;&#160;&#160;((1 + (<a class="el" href="earth__gravity_8h.html#a746732d3620bf9878fd96f419ca3c040">MAX_DegreeN</a> + 1)) * (<a class="el" href="earth__gravity_8h.html#a746732d3620bf9878fd96f419ca3c040">MAX_DegreeN</a> + 1) / 2)</td>
+          <td class="memname">#define MAX_size_coef&#160;&#160;&#160;((1 + (<a class="el" href="earth__gravity_8h.html#a746732d3620bf9878fd96f419ca3c040">MAX_DegreeN</a> + 2)) * (<a class="el" href="earth__gravity_8h.html#a746732d3620bf9878fd96f419ca3c040">MAX_DegreeN</a> + 2) / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -399,9 +401,10 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>g_num_ocean_tide_CS</b
 <div class="dyncontent">
 <div class="center"><img src="earth__gravity_8h_ae4221b4ad05c0289b567912c9ffd5eeb_icgraph.png" border="0" usemap="#aearth__gravity_8h_ae4221b4ad05c0289b567912c9ffd5eeb_icgraph" alt=""/></div>
 <map name="aearth__gravity_8h_ae4221b4ad05c0289b567912c9ffd5eeb_icgraph" id="aearth__gravity_8h_ae4221b4ad05c0289b567912c9ffd5eeb_icgraph">
-<area shape="rect" title="This is the main entry of earth gravity acc computation" alt="" coords="357,5,543,47"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="179,13,309,39"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,13,131,39"/>
+<area shape="rect" title="This is the main entry of earth gravity acc computation" alt="" coords="524,5,709,47"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="345,13,476,39"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="172,13,297,39"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a503225716ef6e4a895b0cb4b43c88abd" title="the orbit integrate program" alt="" coords="5,13,124,39"/>
 </map>
 </div>
 
@@ -445,8 +448,17 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>g_num_ocean_tide_CS</b
       </table>
 </div><div class="memdoc">
 
-<p>compute the earth gravity acceleration </p>
+<p>generate the V and W vectors for different positions </p>
+<dl class="section note"><dt>注解</dt><dd>the V and W are global variables </dd></dl>
 <dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">NN</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">MM</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pos_ecef</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<p>compute the earth gravity acceleration </p><dl class="params"><dt>参数</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">NN</td><td>degree </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">MM</td><td>order </td></tr>
@@ -455,7 +467,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>g_num_ocean_tide_CS</b
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>注解</dt><dd>Has to call <a class="el" href="earth__gravity_8c.html#a5ccfb05d77198757fac59cb87ed3c117" title="generate the V and W vectors for different positions">generateVW()</a> before calling this function </dd></dl>
+<dl class="section note"><dt>注解</dt><dd>Has to call generateVW() before calling this function </dd></dl>
 
 </div>
 </div>
@@ -507,7 +519,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>g_num_ocean_tide_CS</b
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>注解</dt><dd>Has to call <a class="el" href="earth__gravity_8c.html#a5ccfb05d77198757fac59cb87ed3c117" title="generate the V and W vectors for different positions">generateVW()</a> before calling this function </dd></dl>
+<dl class="section note"><dt>注解</dt><dd>Has to call generateVW() before calling this function </dd></dl>
 
 </div>
 </div>
@@ -707,6 +719,16 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>g_num_ocean_tide_CS</b
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">JD_UT1_I</td><td></td></tr>
+    <tr><td class="paramname">JD_UT1_F</td><td></td></tr>
+    <tr><td class="paramname">JD_TT</td><td></td></tr>
+    <tr><td class="paramname">dC</td><td>the corrections to C, starts from (0,0) </td></tr>
+    <tr><td class="paramname">dS</td><td>the corrections to S, starts from (0,0) </td></tr>
+  </table>
+  </dd>
+</dl>
 <p>long period waves: Sa, Ssa, Mm, Mf, Mtm, Msqm diurnal waves: Q1, O1, P1, K1 semi-diurnal waves: 2N2, N2, M2, T2, S2, K2 quarter-diurnal waves: M4</p>
 
 </div>
@@ -775,22 +797,12 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>g_num_ocean_tide_CS</b
     <tr><td class="paramdir">[in]</td><td class="paramname">JD_TT</td><td>JD in TT </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">sunpos_ecef</td><td>sun position in ecef </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">moonpos_ecef</td><td>moon position in ecef </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">dCn</td><td>correction to normalized coefficients dC, has to be denormalized before use </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">dCn</td><td>correction to normalized coefficients dC, has to be denormalized before use , starts from (2,0) </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">dSn</td><td>correction to normalized coefficients dS, double dC[10], double dS[10], has to be denormalized before use </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section note"><dt>注解</dt><dd>Steps 1 and 2 can be used to compute the total tidal contribution, including the time independent (permanent) contribution to the geopotential coe cient C20, which is adequate for a conventional tide free model such as EGM96. When using a zero tide model, this permanent part should not be counted twice, this is the goal of Step 3 of the computation </dd></dl>
-<div class="dynheader">
-函数调用图:</div>
-<div class="dyncontent">
-<div class="center"><img src="earth__gravity_8h_a34a8a1250ae439b2d07e32b1ba3450ba_cgraph.png" border="0" usemap="#aearth__gravity_8h_a34a8a1250ae439b2d07e32b1ba3450ba_cgraph" alt=""/></div>
-<map name="aearth__gravity_8h_a34a8a1250ae439b2d07e32b1ba3450ba_cgraph" id="aearth__gravity_8h_a34a8a1250ae439b2d07e32b1ba3450ba_cgraph">
-<area shape="rect" title="compute the C and S corrections due to solid earth tide, Tide Generating Potential" alt="" coords="5,31,196,57"/>
-<area shape="rect" href="iers__function_8c.html#afd18318d0e15c48cc9403b138de4ae59" title="BETA are argumenets for (tau, s, h, p, N&#39;, ps)" alt="" coords="244,5,363,32"/>
-<area shape="rect" href="earth__gravity_8c.html#aed1ced913745ef8e27e6b370e00680a5" title="compute the Legendre polynomial" alt="" coords="250,56,357,83"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -914,59 +926,34 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>g_num_ocean_tide_CS</b
 
 </div>
 </div>
-<a id="a5ccfb05d77198757fac59cb87ed3c117"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ccfb05d77198757fac59cb87ed3c117">&#9670;&nbsp;</a></span>generateVW()</h2>
+<a id="a26a2ecc191b1036760ee13e2f4721c4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26a2ecc191b1036760ee13e2f4721c4f">&#9670;&nbsp;</a></span>initialize_global_earth_gravity()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void generateVW </td>
+          <td class="memname">void initialize_global_earth_gravity </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>NN</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>MM</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double *&#160;</td>
-          <td class="paramname"><em>pos_ecef</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>generate the V and W vectors for different positions </p>
-<dl class="section note"><dt>注解</dt><dd>the V and W are global variables </dd></dl>
-<dl class="params"><dt>参数</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">NN</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">MM</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">pos_ecef</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Initializes the global Earth gravity parameters. </p>
+<p>This function sets up the necessary parameters and constants related to Earth's gravity that will be used globally throughout the application. </p><dl class="section note"><dt>注解</dt><dd>initialize all the globals for earth gravity computation, this is mainly for the embed version it is initialized with 30 degree earth gravity coefficients </dd></dl>
 
 </div>
 </div>
-<a id="aed1ced913745ef8e27e6b370e00680a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed1ced913745ef8e27e6b370e00680a5">&#9670;&nbsp;</a></span>legendrePoly()</h2>
+<a id="a800e857938ad5677a3cc1dee5c1ee838"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a800e857938ad5677a3cc1dee5c1ee838">&#9670;&nbsp;</a></span>legendrePoly_recursive()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double legendrePoly </td>
+          <td class="memname">double legendrePoly_recursive </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>n</em>, </td>
@@ -991,7 +978,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>g_num_ocean_tide_CS</b
       </table>
 </div><div class="memdoc">
 
-<p>compute the Legendre polynomial </p>
+<p>compute the Legendre polynomial recursively, this is very slow, might get stuck due to stack limitation </p>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>degree </td></tr>
@@ -1001,15 +988,6 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>g_num_ocean_tide_CS</b
   </dd>
 </dl>
 <dl class="section note"><dt>注解</dt><dd>reference:Satellite Orbits Montenbruck. P66 </dd></dl>
-<div class="dynheader">
-这是这个函数的调用关系图:</div>
-<div class="dyncontent">
-<div class="center"><img src="earth__gravity_8h_aed1ced913745ef8e27e6b370e00680a5_icgraph.png" border="0" usemap="#aearth__gravity_8h_aed1ced913745ef8e27e6b370e00680a5_icgraph" alt=""/></div>
-<map name="aearth__gravity_8h_aed1ced913745ef8e27e6b370e00680a5_icgraph" id="aearth__gravity_8h_aed1ced913745ef8e27e6b370e00680a5_icgraph">
-<area shape="rect" title="compute the Legendre polynomial" alt="" coords="244,5,351,32"/>
-<area shape="rect" href="earth__gravity_8c.html#a34a8a1250ae439b2d07e32b1ba3450ba" title="compute the C and S corrections due to solid earth tide, Tide Generating Potential" alt="" coords="5,5,196,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -1100,44 +1078,6 @@ false </dd></dl>
 
 </div>
 </div>
-<a id="ac64bde11915c64afdf56cb3b8dfc3394"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac64bde11915c64afdf56cb3b8dfc3394">&#9670;&nbsp;</a></span>normalFactor()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double normalFactor </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>n</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>m</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Nnm IERS2003 P60 This function compute normFactor at one point getNormalFactor() computes all the normal factor at once </p>
-<dl class="params"><dt>参数</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>the degree </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">m</td><td>the order </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>返回</dt><dd>normalize factor for earth potential </dd></dl>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.1-->
@@ -1145,7 +1085,7 @@ false </dd></dl>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="earth__gravity_8h.html">earth_gravity.h</a></li>
-    <li class="footer">生成于 2024年 十二月 27日 星期五 00:08:33 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">生成于 2026年 二月 6日 星期五 12:48:16 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

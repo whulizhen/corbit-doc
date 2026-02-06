@@ -123,22 +123,23 @@ earth_rotation_param.c 的引用(Include)关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="earth__rotation__param_8c__incl.png" border="0" usemap="#aearth__rotation__param_8c" alt=""/></div>
 <map name="aearth__rotation__param_8c" id="aearth__rotation__param_8c">
-<area shape="rect" title="Implementations of earth rotation parameters computation" alt="" coords="594,5,769,32"/>
-<area shape="rect" href="earth__rotation__param_8h.html" title="Declarations of earth rotation parameters computation" alt="" coords="594,80,769,107"/>
-<area shape="rect" title=" " alt="" coords="241,379,308,405"/>
-<area shape="rect" title=" " alt="" coords="669,379,739,405"/>
-<area shape="rect" title=" " alt="" coords="742,304,810,331"/>
-<area shape="rect" title=" " alt="" coords="975,304,1046,331"/>
+<area shape="rect" title="Implementations of earth rotation parameters computation" alt="" coords="278,5,453,32"/>
+<area shape="rect" href="earth__rotation__param_8h.html" title="Declarations of earth rotation parameters computation" alt="" coords="278,80,453,107"/>
+<area shape="rect" title=" " alt="" coords="139,379,205,405"/>
+<area shape="rect" title=" " alt="" coords="663,379,734,405"/>
+<area shape="rect" title=" " alt="" coords="163,304,231,331"/>
+<area shape="rect" title=" " alt="" coords="934,304,1005,331"/>
 <area shape="rect" title=" " alt="" coords="5,379,88,405"/>
-<area shape="rect" href="iau__function_8h.html" title="Declarations for iau functions" alt="" coords="501,229,616,256"/>
-<area shape="rect" href="iers__function_8h.html" title="Declarations for IERS functions" alt="" coords="211,229,330,256"/>
-<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="889,229,973,256"/>
-<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="606,155,757,181"/>
-<area shape="rect" href="corbit__const_8h.html" title="Constant definitions for the corbit library." alt="" coords="451,304,565,331"/>
-<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="477,379,539,405"/>
-<area shape="rect" title=" " alt="" coords="641,229,711,256"/>
-<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="355,229,427,256"/>
-<area shape="rect" title=" " alt="" coords="363,304,427,331"/>
+<area shape="rect" href="iau__function_8h.html" title="Declarations for iau functions" alt="" coords="308,229,423,256"/>
+<area shape="rect" href="iers__function_8h.html" title="Declarations for IERS functions" alt="" coords="63,229,182,256"/>
+<area shape="rect" href="mathlib_8h.html" title="Declarations of mathematic operations" alt="" coords="794,229,878,256"/>
+<area shape="rect" href="common__function_8h.html" title="Declarations of common functions" alt="" coords="539,155,690,181"/>
+<area shape="rect" href="corbit__const_8h.html" title="Constant definitions for the corbit library." alt="" coords="409,304,522,331"/>
+<area shape="rect" href="ulog_8h.html" title="uLog: lightweight logging for embedded systems" alt="" coords="434,379,497,405"/>
+<area shape="rect" title=" " alt="" coords="787,304,858,331"/>
+<area shape="rect" title=" " alt="" coords="543,229,614,256"/>
+<area shape="rect" href="gtime_8h.html" title="Declarations of time operations functions" alt="" coords="447,229,519,256"/>
+<area shape="rect" title=" " alt="" coords="597,304,661,331"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -178,17 +179,17 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>geocentric</b> (doubl
 <tr class="memitem:a7693fcbad971917bc92e5f65dc9f429e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="earth__rotation__param_8c.html#a7693fcbad971917bc92e5f65dc9f429e">correction_PoleTide_position</a> (double mjd_utc, double eop_pmxy[2], double *xyz_ecf, double *disp_ecf)</td></tr>
 <tr class="memdesc:a7693fcbad971917bc92e5f65dc9f429e"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the station position displacement due to pole tide Displacement vector, WGS84 ECEF XYZ meters. pos and displacement should be both in ECEF  <a href="earth__rotation__param_8c.html#a7693fcbad971917bc92e5f65dc9f429e">更多...</a><br /></td></tr>
 <tr class="separator:a7693fcbad971917bc92e5f65dc9f429e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bf45029c68c67401e06985ddef8c6c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="earth__rotation__param_8c.html#a6bf45029c68c67401e06985ddef8c6c7">load_eops_uplink</a> (int neop, double *eop_data_uplink, <a class="el" href="structEOPREC.html">EOPREC</a> *ptr_eop_store)</td></tr>
-<tr class="memdesc:a6bf45029c68c67401e06985ddef8c6c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">load eop params from the ground uplink refresh all the eop params including mjd_utc, pmX, pmY, UT1mUTC, LOD  <a href="earth__rotation__param_8c.html#a6bf45029c68c67401e06985ddef8c6c7">更多...</a><br /></td></tr>
-<tr class="separator:a6bf45029c68c67401e06985ddef8c6c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e850e5842ae4bfcea4eaaaa48bb1a9b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="earth__rotation__param_8c.html#a4e850e5842ae4bfcea4eaaaa48bb1a9b">load_eops_uplink</a> (int size_eop_dataset, double *eop_data_uplink, <a class="el" href="structEOPREC.html">EOPREC</a> *ptr_eop_store)</td></tr>
+<tr class="memdesc:a4e850e5842ae4bfcea4eaaaa48bb1a9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">load eop params from the ground uplink refresh all the eop params including mjd_utc, pmX, pmY, UT1mUTC, LOD  <a href="earth__rotation__param_8c.html#a4e850e5842ae4bfcea4eaaaa48bb1a9b">更多...</a><br /></td></tr>
+<tr class="separator:a4e850e5842ae4bfcea4eaaaa48bb1a9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47e41320baf1555d19467d718ea8560f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="earth__rotation__param_8c.html#a47e41320baf1555d19467d718ea8560f">load_eops_default</a> (<a class="el" href="structEOPREC.html">EOPREC</a> *ptr_eop_store, int nsize)</td></tr>
 <tr class="memdesc:a47e41320baf1555d19467d718ea8560f"><td class="mdescLeft">&#160;</td><td class="mdescRight">store the eops for the embeded version  <a href="earth__rotation__param_8c.html#a47e41320baf1555d19467d718ea8560f">更多...</a><br /></td></tr>
 <tr class="separator:a47e41320baf1555d19467d718ea8560f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79931d18d0cce36974142b80a1a149e0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="earth__rotation__param_8c.html#a79931d18d0cce36974142b80a1a149e0">load_eop_storage</a> (char *eopfilename)</td></tr>
-<tr class="memdesc:a79931d18d0cce36974142b80a1a149e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">read the IERS C04 eop file  <a href="earth__rotation__param_8c.html#a79931d18d0cce36974142b80a1a149e0">更多...</a><br /></td></tr>
+<tr class="memdesc:a79931d18d0cce36974142b80a1a149e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">read the IERS C04 eop file eopc04_20u23.1962-now.txt, not supporting eopc04_14_IAU2000.62-now.txt any more!!  <a href="earth__rotation__param_8c.html#a79931d18d0cce36974142b80a1a149e0">更多...</a><br /></td></tr>
 <tr class="separator:a79931d18d0cce36974142b80a1a149e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bbe687b063d7d3affe6a4ffbe0d540c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="earth__rotation__param_8c.html#a6bbe687b063d7d3affe6a4ffbe0d540c">load_eop_storage_rapid</a> (char *eopfilename)</td></tr>
-<tr class="memdesc:a6bbe687b063d7d3affe6a4ffbe0d540c"><td class="mdescLeft">&#160;</td><td class="mdescRight">read the rapid eop datafile  <a href="earth__rotation__param_8c.html#a6bbe687b063d7d3affe6a4ffbe0d540c">更多...</a><br /></td></tr>
+<tr class="memdesc:a6bbe687b063d7d3affe6a4ffbe0d540c"><td class="mdescLeft">&#160;</td><td class="mdescRight">read the rapid eop datafile including finals2000A.data and finals2000A.all  <a href="earth__rotation__param_8c.html#a6bbe687b063d7d3affe6a4ffbe0d540c">更多...</a><br /></td></tr>
 <tr class="separator:a6bbe687b063d7d3affe6a4ffbe0d540c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ee7c4d31a3b719258562bef608a9b40"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="earth__rotation__param_8c.html#a4ee7c4d31a3b719258562bef608a9b40">load_eop_storage_celestrack</a> (char *eopall_filename)</td></tr>
 <tr class="memdesc:a4ee7c4d31a3b719258562bef608a9b40"><td class="mdescLeft">&#160;</td><td class="mdescRight">read in the EOP-all.txt from celestrack.org  <a href="earth__rotation__param_8c.html#a4ee7c4d31a3b719258562bef608a9b40">更多...</a><br /></td></tr>
@@ -274,14 +275,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>geocentric</b> (doubl
 <div class="dyncontent">
 <div class="center"><img src="earth__rotation__param_8c_aea8915a8d20a61cc28be369ce68c21d3_icgraph.png" border="0" usemap="#aearth__rotation__param_8c_aea8915a8d20a61cc28be369ce68c21d3_icgraph" alt=""/></div>
 <map name="aearth__rotation__param_8c_aea8915a8d20a61cc28be369ce68c21d3_icgraph" id="aearth__rotation__param_8c_aea8915a8d20a61cc28be369ce68c21d3_icgraph">
-<area shape="rect" title="compute_eci2ecf_matrix at a given time mjd_utc" alt="" coords="509,88,692,115"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="196,5,327,32"/>
-<area shape="rect" href="earth__rotation__param_8c.html#a4e18eadd370e790cba4b24914567ff69" title="convert from ecf to eci for vectors" alt="" coords="392,164,461,191"/>
-<area shape="rect" href="pod__embed_8c.html#add41321716edb2a8ab9ff1216d0cfde6" title="orbit dynamic filter using only positions" alt="" coords="185,123,337,149"/>
-<area shape="rect" href="earth__rotation__param_8c.html#ae12ed4e34c6c23d217f6c0731c250c17" title="convert from eci to ecf for vectors" alt="" coords="392,63,461,89"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,5,131,32"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="191,173,331,200"/>
-<area shape="rect" href="pod__embed_8c.html#a0163e41a92a7ad2418bd596e61bb5a2f" title="update measurement clock solution" alt="" coords="179,57,344,98"/>
+<area shape="rect" title="compute_eci2ecf_matrix at a given time mjd_utc" alt="" coords="707,56,889,83"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="378,56,509,83"/>
+<area shape="rect" href="earth__rotation__param_8c.html#a4e18eadd370e790cba4b24914567ff69" title="convert from ecf to eci for vectors" alt="" coords="589,5,659,32"/>
+<area shape="rect" href="earth__rotation__param_8c.html#ae12ed4e34c6c23d217f6c0731c250c17" title="convert from eci to ecf for vectors" alt="" coords="589,111,659,137"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="172,56,297,83"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a503225716ef6e4a895b0cb4b43c88abd" title="the orbit integrate program" alt="" coords="5,56,124,83"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="373,5,513,32"/>
+<area shape="rect" href="pod__embed_8c.html#a0163e41a92a7ad2418bd596e61bb5a2f" title="update measurement clock solution" alt="" coords="361,107,526,149"/>
+<area shape="rect" href="gnss__ppp_8c.html#a37544414a97a908ec80a1077f6b8ee3b" title="update measurement clock solution" alt="" coords="345,173,541,200"/>
 </map>
 </div>
 
@@ -415,16 +417,17 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>geocentric</b> (doubl
 <div class="dyncontent">
 <div class="center"><img src="earth__rotation__param_8c_aac9741a1dbc90aaf4fe170c2cd8f81e1_icgraph.png" border="0" usemap="#aearth__rotation__param_8c_aac9741a1dbc90aaf4fe170c2cd8f81e1_icgraph" alt=""/></div>
 <map name="aearth__rotation__param_8c_aac9741a1dbc90aaf4fe170c2cd8f81e1_icgraph" id="aearth__rotation__param_8c_aac9741a1dbc90aaf4fe170c2cd8f81e1_icgraph">
-<area shape="rect" title="compute the eop param for current time mjd_utc using linear interpolation" alt="" coords="740,113,851,140"/>
-<area shape="rect" href="earth__rotation__param_8c.html#aea8915a8d20a61cc28be369ce68c21d3" title="compute_eci2ecf_matrix at a given time mjd_utc" alt="" coords="509,88,692,115"/>
-<area shape="rect" href="tle_8h.html#a14bb37952a95c29ea670040cdd62fd55" title=" " alt="" coords="565,139,636,165"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="196,5,327,32"/>
-<area shape="rect" href="earth__rotation__param_8c.html#a4e18eadd370e790cba4b24914567ff69" title="convert from ecf to eci for vectors" alt="" coords="392,164,461,191"/>
-<area shape="rect" href="pod__embed_8c.html#add41321716edb2a8ab9ff1216d0cfde6" title="orbit dynamic filter using only positions" alt="" coords="185,123,337,149"/>
-<area shape="rect" href="earth__rotation__param_8c.html#ae12ed4e34c6c23d217f6c0731c250c17" title="convert from eci to ecf for vectors" alt="" coords="392,63,461,89"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,5,131,32"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="191,173,331,200"/>
-<area shape="rect" href="pod__embed_8c.html#a0163e41a92a7ad2418bd596e61bb5a2f" title="update measurement clock solution" alt="" coords="179,57,344,98"/>
+<area shape="rect" title="compute the eop param for current time mjd_utc using linear interpolation" alt="" coords="937,81,1048,108"/>
+<area shape="rect" href="earth__rotation__param_8c.html#aea8915a8d20a61cc28be369ce68c21d3" title="compute_eci2ecf_matrix at a given time mjd_utc" alt="" coords="707,56,889,83"/>
+<area shape="rect" href="tle_8h.html#a14bb37952a95c29ea670040cdd62fd55" title=" " alt="" coords="763,107,833,133"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="378,56,509,83"/>
+<area shape="rect" href="earth__rotation__param_8c.html#a4e18eadd370e790cba4b24914567ff69" title="convert from ecf to eci for vectors" alt="" coords="589,5,659,32"/>
+<area shape="rect" href="earth__rotation__param_8c.html#ae12ed4e34c6c23d217f6c0731c250c17" title="convert from eci to ecf for vectors" alt="" coords="589,111,659,137"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="172,56,297,83"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a503225716ef6e4a895b0cb4b43c88abd" title="the orbit integrate program" alt="" coords="5,56,124,83"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="373,5,513,32"/>
+<area shape="rect" href="pod__embed_8c.html#a0163e41a92a7ad2418bd596e61bb5a2f" title="update measurement clock solution" alt="" coords="361,107,526,149"/>
+<area shape="rect" href="gnss__ppp_8c.html#a37544414a97a908ec80a1077f6b8ee3b" title="update measurement clock solution" alt="" coords="345,173,541,200"/>
 </map>
 </div>
 
@@ -633,9 +636,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>geocentric</b> (doubl
 <div class="dyncontent">
 <div class="center"><img src="earth__rotation__param_8c_a4e18eadd370e790cba4b24914567ff69_icgraph.png" border="0" usemap="#aearth__rotation__param_8c_a4e18eadd370e790cba4b24914567ff69_icgraph" alt=""/></div>
 <map name="aearth__rotation__param_8c_a4e18eadd370e790cba4b24914567ff69_icgraph" id="aearth__rotation__param_8c_a4e18eadd370e790cba4b24914567ff69_icgraph">
-<area shape="rect" title="convert from ecf to eci for vectors" alt="" coords="205,31,275,57"/>
-<area shape="rect" href="pod__embed_8c.html#add41321716edb2a8ab9ff1216d0cfde6" title="orbit dynamic filter using only positions" alt="" coords="5,5,157,32"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="11,56,151,83"/>
+<area shape="rect" title="convert from ecf to eci for vectors" alt="" coords="193,5,263,32"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a60d4e1a158fc2d62c68aa9ba21c27f7c" title="data preperation for orbit test" alt="" coords="5,5,145,32"/>
 </map>
 </div>
 
@@ -719,10 +721,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>geocentric</b> (doubl
 <div class="dyncontent">
 <div class="center"><img src="earth__rotation__param_8c_ae12ed4e34c6c23d217f6c0731c250c17_icgraph.png" border="0" usemap="#aearth__rotation__param_8c_ae12ed4e34c6c23d217f6c0731c250c17_icgraph" alt=""/></div>
 <map name="aearth__rotation__param_8c_ae12ed4e34c6c23d217f6c0731c250c17_icgraph" id="aearth__rotation__param_8c_ae12ed4e34c6c23d217f6c0731c250c17_icgraph">
-<area shape="rect" title="convert from eci to ecf for vectors" alt="" coords="392,35,461,61"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="196,5,327,32"/>
-<area shape="rect" href="pod__embed_8c.html#a0163e41a92a7ad2418bd596e61bb5a2f" title="update measurement clock solution" alt="" coords="179,57,344,98"/>
-<area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="5,5,131,32"/>
+<area shape="rect" title="convert from eci to ecf for vectors" alt="" coords="589,64,659,91"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a83a10ad4abbe7efc5426be52daba059a" title="compute the shadow factor using the spherical earth conical model, 1 means no shadow,..." alt="" coords="378,5,509,32"/>
+<area shape="rect" href="pod__embed_8c.html#a0163e41a92a7ad2418bd596e61bb5a2f" title="update measurement clock solution" alt="" coords="361,57,526,98"/>
+<area shape="rect" href="gnss__ppp_8c.html#a37544414a97a908ec80a1077f6b8ee3b" title="update measurement clock solution" alt="" coords="345,123,541,149"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a2c140b028d833347eddd56598712c8dd" title="compute the derivatives of orbit state" alt="" coords="172,5,297,32"/>
+<area shape="rect" href="orbit__dynamics_8c.html#a503225716ef6e4a895b0cb4b43c88abd" title="the orbit integrate program" alt="" coords="5,5,124,32"/>
 </map>
 </div>
 
@@ -744,7 +748,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>geocentric</b> (doubl
       </table>
 </div><div class="memdoc">
 
-<p>read the IERS C04 eop file </p>
+<p>read the IERS C04 eop file eopc04_20u23.1962-now.txt, not supporting eopc04_14_IAU2000.62-now.txt any more!! </p>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">eopfilename</td><td>the C04 EOP filename </td></tr>
@@ -798,7 +802,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>geocentric</b> (doubl
       </table>
 </div><div class="memdoc">
 
-<p>read the rapid eop datafile </p>
+<p>read the rapid eop datafile including finals2000A.data and finals2000A.all </p>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">eopfilename</td><td></td></tr>
@@ -811,7 +815,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>geocentric</b> (doubl
 <div class="dyncontent">
 <div class="center"><img src="earth__rotation__param_8c_a6bbe687b063d7d3affe6a4ffbe0d540c_icgraph.png" border="0" usemap="#aearth__rotation__param_8c_a6bbe687b063d7d3affe6a4ffbe0d540c_icgraph" alt=""/></div>
 <map name="aearth__rotation__param_8c_a6bbe687b063d7d3affe6a4ffbe0d540c_icgraph" id="aearth__rotation__param_8c_a6bbe687b063d7d3affe6a4ffbe0d540c_icgraph">
-<area shape="rect" title="read the rapid eop datafile" alt="" coords="196,31,373,57"/>
+<area shape="rect" title="read the rapid eop datafile including finals2000A.data and finals2000A.all" alt="" coords="196,31,373,57"/>
 <area shape="rect" href="main__test_8c.html#a0cd3d3acac9d8a1e58549b9aa88d75aa" title="test for the haiyang&#45;2C spacecraft attitude" alt="" coords="5,5,148,32"/>
 <area shape="rect" href="tle_8h.html#a14bb37952a95c29ea670040cdd62fd55" title=" " alt="" coords="41,56,112,83"/>
 </map>
@@ -865,17 +869,17 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>geocentric</b> (doubl
 
 </div>
 </div>
-<a id="a6bf45029c68c67401e06985ddef8c6c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6bf45029c68c67401e06985ddef8c6c7">&#9670;&nbsp;</a></span>load_eops_uplink()</h2>
+<a id="a4e850e5842ae4bfcea4eaaaa48bb1a9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e850e5842ae4bfcea4eaaaa48bb1a9b">&#9670;&nbsp;</a></span>load_eops_uplink()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void load_eops_uplink </td>
+          <td class="memname">bool load_eops_uplink </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>neop</em>, </td>
+          <td class="paramname"><em>size_eop_dataset</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -901,8 +905,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>geocentric</b> (doubl
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">ptr_eop_store</td><td></td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">neop</td><td>the size of eops in eop_data_uplink, not the size of eop_data_uplink! </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">eop_data_uplink</td><td>an array of all the eop data</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size_eop_dataset</td><td>the size of eops in eop_data_uplink array, not the size of eop days! </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">eop_data_uplink</td><td>an array of all the eop data with size neop_dataset</td></tr>
   </table>
   </dd>
 </dl>
@@ -1023,7 +1027,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>geocentric</b> (doubl
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="earth__rotation__param_8c.html">earth_rotation_param.c</a></li>
-    <li class="footer">生成于 2024年 十二月 27日 星期五 00:08:33 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">生成于 2026年 二月 6日 星期五 12:48:16 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

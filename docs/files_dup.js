@@ -36,6 +36,8 @@ var files_dup =
     [ "main_gnss_quality.c", "main__gnss__quality_8c.html", "main__gnss__quality_8c" ],
     [ "main_orbit_compare_th.c", "main__orbit__compare__th_8c.html", "main__orbit__compare__th_8c" ],
     [ "main_rinex.c", "main__rinex_8c.html", "main__rinex_8c" ],
+    [ "main_rtk.c", "main__rtk_8c.html", "main__rtk_8c" ],
+    [ "main_simulator.c", "main__simulator_8c.html", "main__simulator_8c" ],
     [ "main_spp.c", "main__spp_8c.html", "main__spp_8c" ],
     [ "main_test.c", "main__test_8c.html", "main__test_8c" ],
     [ "mathlib.c", "mathlib_8c.html", "mathlib_8c" ],

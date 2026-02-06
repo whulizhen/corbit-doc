@@ -4,6 +4,5 @@
 <area shape="rect" id="node3" href="$gnss__config_8c.html#ac745a6409c5565a35378f69343867ead" title="convert a string of satellite system and prn to sysGNSS and prn" alt="" coords="234,71,365,98"/>
 <area shape="rect" id="node4" href="$gtime_8c.html#a2bb18d3d6b62adeeb2e45404fc15d60a" title="convert from TimeYMD to GTime" alt="" coords="248,122,351,149"/>
 <area shape="rect" id="node5" href="$gtime_8c.html#ab8857837bd51003d9c146b2463028dd9" title="convert from TimeJD to GTime" alt="" coords="416,97,503,123"/>
-<area shape="rect" id="node6" href="$gtime_8c.html#ae25b985c6cdfb093cbe6ed066293249d" title="convert from TimeYMD to TImeJD" alt="" coords="420,147,499,174"/>
-<area shape="rect" id="node7" href="$gtime_8c.html#abba188d666e8af9b378ebc53d444ece4" title="make TimeJD fields in reasonable range. second of day is in range [&#45;86400, 86400]" alt="" coords="551,147,692,174"/>
+<area shape="rect" id="node6" href="$gtime_8c.html#ae25b985c6cdfb093cbe6ed066293249d" title="convert from TimeYMD to TImeJD https://github.com/liberfa/erfa/blob/master/src/cal2jd...." alt="" coords="420,147,499,174"/>
 </map>

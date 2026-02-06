@@ -1,12 +1,17 @@
 <map id="get_gnssconfig_sys_index" name="get_gnssconfig_sys_index">
-<area shape="rect" id="node1" title="get the index of a GNSS system in GNSSCONFIG" alt="" coords="724,78,872,119"/>
-<area shape="rect" id="node2" href="$gnss__observation_8c.html#a122ca5a4f47dcf5bd73a74cc4848ac3f" title="choose observations according to the definition in gnssconfig" alt="" coords="496,5,648,32"/>
-<area shape="rect" id="node3" href="$obs__processing_8c.html#a5d96093c451ef613dc2615a505dc3402" title="get the initial ambiguity for the filter" alt="" coords="468,56,676,83"/>
-<area shape="rect" id="node6" href="$pod__embed_8c.html#a6d3ffa94003618c77af379460e49d7d5" title="this function is only called in this source file" alt="" coords="489,107,655,149"/>
-<area shape="rect" id="node10" href="$obs__processing_8c.html#a700ebc770a8ab8bd78d8e9aeb72cf860" title="analyze the pseudorange and carrier phase residuals. 1) adjust the observations sigma...." alt="" coords="509,173,635,200"/>
-<area shape="rect" id="node4" href="$pod__embed_8c.html#a8bd704d94b32d1befe62fd3dc7f451b7" title="get the initival ambiguity for current observation" alt="" coords="228,35,420,61"/>
-<area shape="rect" id="node5" href="$pod__embed_8c.html#a86bba72e837066920f39ddb33ae32467" title="update temperal clock solution" alt="" coords="5,53,180,94"/>
-<area shape="rect" id="node7" href="$pod__embed_8c.html#a1338bded4e8548ce9c9f13716f301713" title="get the initival pos, vel and clk for current observation" alt="" coords="239,85,409,112"/>
-<area shape="rect" id="node8" href="$pod__embed_8c.html#ab1a82a96c7999aecd87465d85b3d87f9" title="store the filted orbit and clock offset results into the storage" alt="" coords="260,136,388,163"/>
-<area shape="rect" id="node9" href="$pod__embed_8c.html#a0163e41a92a7ad2418bd596e61bb5a2f" title="update measurement clock solution" alt="" coords="241,187,407,229"/>
+<area shape="rect" id="node1" title="get the index of a GNSS system in GNSSCONFIG" alt="" coords="728,129,876,170"/>
+<area shape="rect" id="node2" href="$gnss__observation_8c.html#a122ca5a4f47dcf5bd73a74cc4848ac3f" title="choose observations according to the definition in g_gnssconfig" alt="" coords="500,5,652,32"/>
+<area shape="rect" id="node3" href="$obs__processing_8c.html#a4a0d64144ce3330496975670125bf5c2" title=" " alt="" coords="509,56,643,83"/>
+<area shape="rect" id="node4" href="$obs__processing_8c.html#a5d96093c451ef613dc2615a505dc3402" title="get the initial ambiguity for the filter" alt="" coords="472,107,680,133"/>
+<area shape="rect" id="node9" href="$pod__embed_8c.html#a6d3ffa94003618c77af379460e49d7d5" title="this function is only called in this source file" alt="" coords="493,158,659,199"/>
+<area shape="rect" id="node13" href="$gnss__ppp_8c.html#a48b6356a90dd448d33d468c967623bb8" title="this function is only called in this source file" alt="" coords="493,224,659,251"/>
+<area shape="rect" id="node15" href="$obs__processing_8c.html#a700ebc770a8ab8bd78d8e9aeb72cf860" title="analyze the pseudorange and carrier phase residuals. 1) adjust the observations sigma...." alt="" coords="513,275,639,301"/>
+<area shape="rect" id="node5" href="$gnss__ppp_8c.html#a4a2f6e937d85ac4e01a14ebb2d2f278a" title="get the initival ambiguity for current observation" alt="" coords="231,31,421,57"/>
+<area shape="rect" id="node7" href="$pod__embed_8c.html#a8bd704d94b32d1befe62fd3dc7f451b7" title="get the initival ambiguity for current observation" alt="" coords="230,81,422,108"/>
+<area shape="rect" id="node6" href="$gnss__ppp_8c.html#a34f30d948e388fc7421c9b9455b953f1" title="update temperal clock solution" alt="" coords="11,41,175,68"/>
+<area shape="rect" id="node8" href="$pod__embed_8c.html#a1578a28858261f14a525f931e81d4613" title="update temperal clock solution" alt="" coords="5,103,180,145"/>
+<area shape="rect" id="node10" href="$pod__embed_8c.html#a1338bded4e8548ce9c9f13716f301713" title="get the initival pos, vel and clk for current observation" alt="" coords="241,132,411,159"/>
+<area shape="rect" id="node11" href="$pod__embed_8c.html#ab1a82a96c7999aecd87465d85b3d87f9" title="store the filted orbit and clock offset results into the storage" alt="" coords="262,249,390,276"/>
+<area shape="rect" id="node12" href="$pod__embed_8c.html#a0163e41a92a7ad2418bd596e61bb5a2f" title="update measurement clock solution" alt="" coords="243,183,409,225"/>
+<area shape="rect" id="node14" href="$gnss__ppp_8c.html#a37544414a97a908ec80a1077f6b8ee3b" title="update measurement clock solution" alt="" coords="228,300,424,327"/>
 </map>

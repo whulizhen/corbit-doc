@@ -32,8 +32,8 @@ extern "C"
 
 // compute the earth gravity acc
 #ifdef EMBED
-#define MAX_DegreeN 30 /**< maximum degree of earth gravity */
-#define MAX_OrderM 30  /**< maximum order of earth gravity */
+#define MAX_DegreeN 70 /**< maximum degree of earth gravity */
+#define MAX_OrderM 70  /**< maximum order of earth gravity */
 #else
 #define MAX_DegreeN 120 /**< maximum degree of earth gravity */
 #define MAX_OrderM 120  /**< maximum order of earth gravity */

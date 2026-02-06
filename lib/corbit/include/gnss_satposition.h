@@ -28,7 +28,7 @@ extern "C"
 #define MAXEPOCH_EPH_BRDC 200
 
 #else
-#define MAXEPOCH_EPH_PRE 10
+#define MAXEPOCH_EPH_PRE 15
 #define MAXEPOCH_CLK_PRE 30
 #define MAXEPOCH_EPH_BRDC 2
 
@@ -365,6 +365,7 @@ extern "C"
 
     bool choose_eph_gps_brdc(GTime transmission_time, int satindex);
     bool choose_eph_bds_brdc(GTime transmission_time, int satindex);
+    bool choose_eph_gal_brdc(GTime transmission_time, int satindex);
     // int  get_state_brdc_eph_now(int satindex);
     // int  set_state_brdc_eph_now(int satindex);
 

@@ -1,4 +1,6 @@
 <map id="compute_satposvel" name="compute_satposvel">
-<area shape="rect" id="node1" title="compute the satellite position, velocity and tgd" alt="" coords="220,13,369,39"/>
-<area shape="rect" id="node2" href="$obs__processing_8c.html#a6fb23f064c60b7a3f6cea0bfa5c699af" title="compute the signal propatation time using the pseudorange observation" alt="" coords="5,5,172,47"/>
+<area shape="rect" id="node1" title="compute the satellite position, velocity and tgd" alt="" coords="404,35,553,61"/>
+<area shape="rect" id="node2" href="$obs__processing_8c.html#a1836422192205fa71afa28be1f456046" title="compute the signal propatation time using the receiver clock offset, station_pos with the iteration a..." alt="" coords="169,5,356,32"/>
+<area shape="rect" id="node4" href="$obs__processing_8c.html#a9dca56f7e35c89526b0300e76dd44720" title="compute the signal propatation time using the pseudorange observation" alt="" coords="179,57,346,98"/>
+<area shape="rect" id="node3" href="$gnss__simulator_8c.html#a8d2dc2e974d48e61b3f433bd14654750" title=" " alt="" coords="5,5,121,32"/>
 </map>

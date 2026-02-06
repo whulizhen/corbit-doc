@@ -1,6 +1,5 @@
 <map id="gtimeSubSec" name="gtimeSubSec">
-<area shape="rect" id="node1" title="Substract two GTime struct and return in seconds." alt="" coords="205,56,312,83"/>
-<area shape="rect" id="node2" href="$pod__embed_8c.html#add41321716edb2a8ab9ff1216d0cfde6" title="orbit dynamic filter using only positions" alt="" coords="5,5,157,32"/>
-<area shape="rect" id="node3" href="$orbit__dynamics_8c.html#a5c20c992dbe01847212bc493868184fe" title="function for the orbit fit program" alt="" coords="45,56,117,83"/>
-<area shape="rect" id="node4" href="$tle_8h.html#a7bce3796695d3099e8ad7f3c8a98c12a" title="Searches for a TLE (Two&#45;Line Element) entry in the TLE database." alt="" coords="37,107,126,133"/>
+<area shape="rect" id="node1" title="Substract two GTime struct and return in seconds." alt="" coords="143,31,249,57"/>
+<area shape="rect" id="node2" href="$orbit__dynamics_8c.html#aab24c7672b2b55a7b4cc10b7eed4f25d" title="function for the orbit fit program" alt="" coords="14,5,86,32"/>
+<area shape="rect" id="node3" href="$tle_8h.html#a7bce3796695d3099e8ad7f3c8a98c12a" title="Searches for a TLE (Two&#45;Line Element) entry in the TLE database." alt="" coords="5,56,95,83"/>
 </map>

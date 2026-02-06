@@ -1,0 +1,211 @@
+<!-- HTML header for doxygen 1.9.1-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>COrbit: BIAS_SIGNAL_SAT结构体 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?9e7bd97dd2891b6bd5adf3c34b838f2d";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<!-- mathjax brower compatibility -->
+<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.0.0/es5/latest?tex-mml-chtml.js">
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="new_stylesheet.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">COrbit
+   &#160;<span id="projectnumber">0.0.1</span>
+   </div>
+   <div id="projectbrief">COribt is a project that uses standard C language to implement gnss processing, Laser ranging, and orbit determination.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('structBIAS__SIGNAL__SAT.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-attribs">成员变量</a>  </div>
+  <div class="headertitle">
+<div class="title">BIAS_SIGNAL_SAT结构体 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>struct for GNSS signal bias, i.e. Observation State Bias  
+ <a href="structBIAS__SIGNAL__SAT.html#details">更多...</a></p>
+
+<p><code>#include &lt;gnss_observation.h&gt;</code></p>
+<div class="dynheader">
+BIAS_SIGNAL_SAT 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="structBIAS__SIGNAL__SAT__coll__graph.png" border="0" usemap="#aBIAS__SIGNAL__SAT_coll__map" alt="Collaboration graph"/></div>
+<map name="aBIAS__SIGNAL__SAT_coll__map" id="aBIAS__SIGNAL__SAT_coll__map">
+<area shape="rect" title="struct for GNSS signal bias, i.e. Observation State Bias" alt="" coords="6,95,145,121"/>
+<area shape="rect" href="structTYPE__FREQ__CODE.html" title="struct definition of observation type, freq and code" alt="" coords="5,5,145,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">图例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+成员变量</h2></td></tr>
+<tr class="memitem:a14d6b585cf4c9644e3b932da28abdb51"><td class="memItemLeft" align="right" valign="top"><a id="a14d6b585cf4c9644e3b932da28abdb51"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>satindex</b></td></tr>
+<tr class="separator:a14d6b585cf4c9644e3b932da28abdb51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26ac48b7cef790d64c44f2995b8e62e6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBIAS__SIGNAL__SAT.html#a26ac48b7cef790d64c44f2995b8e62e6">num_signal</a></td></tr>
+<tr class="separator:a26ac48b7cef790d64c44f2995b8e62e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadfda8877d8bdb4b8290af32082ea7f3"><td class="memItemLeft" align="right" valign="top"><a id="aadfda8877d8bdb4b8290af32082ea7f3"></a>
+<a class="el" href="structTYPE__FREQ__CODE.html">TYPE_FREQ_CODE</a>&#160;</td><td class="memItemRight" valign="bottom"><b>type_freq_code</b> [<a class="el" href="gnss__config_8h.html#a46ee286eee7fa10b93f01e41b2c027e8">MAXNUM_SINGAL_SAT</a>]</td></tr>
+<tr class="separator:aadfda8877d8bdb4b8290af32082ea7f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43a698bfade680240f04c5238a147c2f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBIAS__SIGNAL__SAT.html#a43a698bfade680240f04c5238a147c2f">mjd_valid_start</a> [<a class="el" href="gnss__config_8h.html#a46ee286eee7fa10b93f01e41b2c027e8">MAXNUM_SINGAL_SAT</a>]</td></tr>
+<tr class="separator:a43a698bfade680240f04c5238a147c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70d43ee3938a208d896afab8ef55c4e9"><td class="memItemLeft" align="right" valign="top"><a id="a70d43ee3938a208d896afab8ef55c4e9"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>mjd_valid_end</b> [<a class="el" href="gnss__config_8h.html#a46ee286eee7fa10b93f01e41b2c027e8">MAXNUM_SINGAL_SAT</a>]</td></tr>
+<tr class="separator:a70d43ee3938a208d896afab8ef55c4e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaea09b9c6ba7381216f5e39e7cb59d6c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBIAS__SIGNAL__SAT.html#aaea09b9c6ba7381216f5e39e7cb59d6c">osb_delay</a> [<a class="el" href="gnss__config_8h.html#a46ee286eee7fa10b93f01e41b2c027e8">MAXNUM_SINGAL_SAT</a>]</td></tr>
+<tr class="separator:aaea09b9c6ba7381216f5e39e7cb59d6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>struct for GNSS signal bias, i.e. Observation State Bias </p>
+</div><h2 class="groupheader">结构体成员变量说明</h2>
+<a id="a43a698bfade680240f04c5238a147c2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43a698bfade680240f04c5238a147c2f">&#9670;&nbsp;</a></span>mjd_valid_start</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BIAS_SIGNAL_SAT::mjd_valid_start[<a class="el" href="gnss__config_8h.html#a46ee286eee7fa10b93f01e41b2c027e8">MAXNUM_SINGAL_SAT</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>mjd_valid[0] for the start, mjd_valid[1] for the end time </p>
+
+</div>
+</div>
+<a id="a26ac48b7cef790d64c44f2995b8e62e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26ac48b7cef790d64c44f2995b8e62e6">&#9670;&nbsp;</a></span>num_signal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BIAS_SIGNAL_SAT::num_signal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the real number of signal </p>
+
+</div>
+</div>
+<a id="aaea09b9c6ba7381216f5e39e7cb59d6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaea09b9c6ba7381216f5e39e7cb59d6c">&#9670;&nbsp;</a></span>osb_delay</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BIAS_SIGNAL_SAT::osb_delay[<a class="el" href="gnss__config_8h.html#a46ee286eee7fa10b93f01e41b2c027e8">MAXNUM_SINGAL_SAT</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>satellite sigal delay in nano seconds </p>
+
+</div>
+</div>
+<hr/>该结构体的文档由以下文件生成:<ul>
+<li><a class="el" href="gnss__observation_8h.html">gnss_observation.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.9.1-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="structBIAS__SIGNAL__SAT.html">BIAS_SIGNAL_SAT</a></li>
+    <li class="footer">生成于 2026年 二月 6日 星期五 12:48:19 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

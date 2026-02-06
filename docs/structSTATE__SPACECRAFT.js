@@ -6,6 +6,7 @@ var structSTATE__SPACECRAFT =
     [ "att_ey", "structSTATE__SPACECRAFT.html#a208a4d72013e2c937514a362896afdd0", null ],
     [ "att_ez", "structSTATE__SPACECRAFT.html#a34d1990b987fbe9da9fea71d8c7de998", null ],
     [ "beta", "structSTATE__SPACECRAFT.html#a754fba59542492cef3e078dd5cb84a0a", null ],
+    [ "cov_posvel", "structSTATE__SPACECRAFT.html#ad223dd382575fd0942321eb437898f9d", null ],
     [ "dadp", "structSTATE__SPACECRAFT.html#acf7867c306c1cf30155c0588e0eea076", null ],
     [ "dadr", "structSTATE__SPACECRAFT.html#ad89b5e7fc83e2639464cfee70e11b40f", null ],
     [ "dadv", "structSTATE__SPACECRAFT.html#a426f30383cf4ed03b36c55ddacc58475", null ],

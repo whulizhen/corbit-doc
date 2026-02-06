@@ -1,4 +1,6 @@
 <map id="mjd2TimeMJD" name="mjd2TimeMJD">
-<area shape="rect" id="node1" title="convert from mjd in double to struct TimeMJD" alt="" coords="152,5,267,32"/>
-<area shape="rect" id="node2" href="$gtime_8c.html#aca82029eab4f1c494ec691364d3fe3a2" title="convert mjd in double to a GTime struct" alt="" coords="5,5,104,32"/>
+<area shape="rect" id="node1" title="convert from mjd in double to struct TimeMJD" alt="" coords="455,5,569,32"/>
+<area shape="rect" id="node2" href="$gtime_8c.html#aca82029eab4f1c494ec691364d3fe3a2" title="convert mjd in double to a GTime struct" alt="" coords="308,5,407,32"/>
+<area shape="rect" id="node3" href="$obs__processing_8c.html#a2f0ffa805f83647a8a6aaceffeb0fbdf" title="calculate tropospheric delay" alt="" coords="169,5,260,32"/>
+<area shape="rect" id="node4" href="$gnss__simulator_8c.html#a8d2dc2e974d48e61b3f433bd14654750" title=" " alt="" coords="5,5,121,32"/>
 </map>

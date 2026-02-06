@@ -129,6 +129,9 @@ RUNTIME_RTK 的协作图:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 成员变量</h2></td></tr>
+<tr class="memitem:ab0babc2510df627570e5a4b4f8b714f6"><td class="memItemLeft" align="right" valign="top"><a id="ab0babc2510df627570e5a4b4f8b714f6"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>rtk_mode</b></td></tr>
+<tr class="separator:ab0babc2510df627570e5a4b4f8b714f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac118b2c41e2552f8a92acc6cac0226c9"><td class="memItemLeft" align="right" valign="top"><a id="ac118b2c41e2552f8a92acc6cac0226c9"></a>
 <a class="el" href="structGTime.html">GTime</a>&#160;</td><td class="memItemRight" valign="bottom"><b>obstime_rov</b></td></tr>
 <tr class="separator:ac118b2c41e2552f8a92acc6cac0226c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,9 +147,12 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>satlist_used_ref</b> [
 <tr class="memitem:addf701de28f5276963af114aca1d2f57"><td class="memItemLeft" align="right" valign="top"><a id="addf701de28f5276963af114aca1d2f57"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>nsat_used</b></td></tr>
 <tr class="separator:addf701de28f5276963af114aca1d2f57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa23890d2cf2f9f0157834424e2cb07b5"><td class="memItemLeft" align="right" valign="top"><a id="aa23890d2cf2f9f0157834424e2cb07b5"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>index_refsat</b> [<a class="el" href="gnss__config_8h.html#a10dab97a34d749de45ff5be41be84f6b">NSYS</a>]</td></tr>
-<tr class="separator:aa23890d2cf2f9f0157834424e2cb07b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bcfb5c70a56e49813740ecfcac2198d"><td class="memItemLeft" align="right" valign="top"><a id="a2bcfb5c70a56e49813740ecfcac2198d"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>index_refsat_ref</b> [<a class="el" href="gnss__config_8h.html#a10dab97a34d749de45ff5be41be84f6b">NSYS</a>]</td></tr>
+<tr class="separator:a2bcfb5c70a56e49813740ecfcac2198d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0e1fc78f36f426bfee0255e17923b4a"><td class="memItemLeft" align="right" valign="top"><a id="ae0e1fc78f36f426bfee0255e17923b4a"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>index_refsat_rov</b> [<a class="el" href="gnss__config_8h.html#a10dab97a34d749de45ff5be41be84f6b">NSYS</a>]</td></tr>
+<tr class="separator:ae0e1fc78f36f426bfee0255e17923b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac39ac871e44216201bed5a47ffb7a40c"><td class="memItemLeft" align="right" valign="top"><a id="ac39ac871e44216201bed5a47ffb7a40c"></a>
 <a class="el" href="structSOLUTION.html">SOLUTION</a>&#160;</td><td class="memItemRight" valign="bottom"><b>sln_ref</b></td></tr>
 <tr class="separator:ac39ac871e44216201bed5a47ffb7a40c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,14 +177,14 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>IF_combination</b></t
 <tr class="memitem:a5d2ec15c7c660acef735c82e6130a6a9"><td class="memItemLeft" align="right" valign="top"><a id="a5d2ec15c7c660acef735c82e6130a6a9"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>index_param_X</b> [MAXNUM_NX]</td></tr>
 <tr class="separator:a5d2ec15c7c660acef735c82e6130a6a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a14e7822624f1a0b8f14100753ccf99"><td class="memItemLeft" align="right" valign="top"><a id="a3a14e7822624f1a0b8f14100753ccf99"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>num_param</b></td></tr>
-<tr class="separator:a3a14e7822624f1a0b8f14100753ccf99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1c878219deb9abf28faf75abbbff154"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRUNTIME__RTK.html#ab1c878219deb9abf28faf75abbbff154">P</a> [MAXNUM_NX *MAXNUM_NX]</td></tr>
 <tr class="separator:ab1c878219deb9abf28faf75abbbff154"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76434d612242c95d6b22d1d86d111a8b"><td class="memItemLeft" align="right" valign="top"><a id="a76434d612242c95d6b22d1d86d111a8b"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>X</b> [MAXNUM_NX]</td></tr>
 <tr class="separator:a76434d612242c95d6b22d1d86d111a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a808ab059061618ff92338a1b17ec38aa"><td class="memItemLeft" align="right" valign="top"><a id="a808ab059061618ff92338a1b17ec38aa"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>nx</b></td></tr>
+<tr class="separator:a808ab059061618ff92338a1b17ec38aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4180fa462f8f453c4cc40ec1d55b7f07"><td class="memItemLeft" align="right" valign="top"><a id="a4180fa462f8f453c4cc40ec1d55b7f07"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>idx_xs_pos</b></td></tr>
 <tr class="separator:a4180fa462f8f453c4cc40ec1d55b7f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -215,9 +221,6 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>idx_xs_amb</b></td></t
 <tr class="memitem:afd66e3ea034af3a66c958680273ba0eb"><td class="memItemLeft" align="right" valign="top"><a id="afd66e3ea034af3a66c958680273ba0eb"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>nx_amb</b></td></tr>
 <tr class="separator:afd66e3ea034af3a66c958680273ba0eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a808ab059061618ff92338a1b17ec38aa"><td class="memItemLeft" align="right" valign="top"><a id="a808ab059061618ff92338a1b17ec38aa"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>nx</b></td></tr>
-<tr class="separator:a808ab059061618ff92338a1b17ec38aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd31ce4f53774dfa6eabe280282b33cb"><td class="memItemLeft" align="right" valign="top"><a id="afd31ce4f53774dfa6eabe280282b33cb"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>H</b> [<a class="el" href="gnss__config_8h.html#a097bc713a4d5cb9f82617e26cd1bcc36">MAXOBS_PER_SAT</a> *<a class="el" href="gnss__config_8h.html#ae9564ac632143a810e3b7623a2d33c66">MAXSAT_PER_EPOCH</a> *MAXNUM_NX]</td></tr>
 <tr class="separator:afd31ce4f53774dfa6eabe280282b33cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -254,7 +257,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>satindex</b> [<a class
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="structRUNTIME__RTK.html">RUNTIME_RTK</a></li>
-    <li class="footer">生成于 2024年 十二月 27日 星期五 00:08:37 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">生成于 2026年 二月 6日 星期五 12:48:19 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

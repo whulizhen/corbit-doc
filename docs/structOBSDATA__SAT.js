@@ -12,5 +12,6 @@ var structOBSDATA__SAT =
     [ "satclk_offset", "structOBSDATA__SAT.html#a4bd2a3193d1d89e8f767bb50ead53249", null ],
     [ "satpos_ecf", "structOBSDATA__SAT.html#a6078464b1ccbeb8554f335425cfc6b0e", null ],
     [ "satsys", "structOBSDATA__SAT.html#ae25b437c501b1bc4981c92e2a48a3838", null ],
-    [ "satvel_ecf", "structOBSDATA__SAT.html#adfc062ba50ca7d06b50d32e88f769c16", null ]
+    [ "satvel_ecf", "structOBSDATA__SAT.html#adfc062ba50ca7d06b50d32e88f769c16", null ],
+    [ "transmission_time", "structOBSDATA__SAT.html#a7073d9faa84f8b477274d6658de3f0a8", null ]
 ];

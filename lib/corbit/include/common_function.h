@@ -56,7 +56,7 @@ extern "C"
     unsigned short crc16(const unsigned char *buff, int len);
 
     int string_split(const char *string_raw, char *seps, char outstr[][MAXLEN_STRING]);
-    void string_trim(char *str);
+    char* string_trim(char *str);
     double str2num(const char *s, int i, int n);
 
     //int sscanf_my(const char *__restrict __s, const char *__restrict __format, ...);

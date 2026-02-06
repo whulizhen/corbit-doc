@@ -5,6 +5,7 @@ var structORBIT__DYN__CONFIG =
     [ "force_model_emp_parameters", "structORBIT__DYN__CONFIG.html#a7501ea092b3f64ea7c2916574f64453b", null ],
     [ "force_model_parameters", "structORBIT__DYN__CONFIG.html#a7123f975fbb055887070aa803bb8a8f9", null ],
     [ "force_model_used", "structORBIT__DYN__CONFIG.html#a0aac8cc34fbe090c2b6c32d3c8c20a63", null ],
+    [ "ndegree_gravity", "structORBIT__DYN__CONFIG.html#acb8f0dc6e083beee4f7f657265f04b00", null ],
     [ "norder_gravity", "structORBIT__DYN__CONFIG.html#a175a9c53d77b04afa8f870398bf60d34", null ],
     [ "nstate", "structORBIT__DYN__CONFIG.html#a99856fc56ff50e3453986eb25545371e", null ],
     [ "num_force_models", "structORBIT__DYN__CONFIG.html#a9042e27110130122914dee3b4fc8e862", null ],

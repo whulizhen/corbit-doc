@@ -96,12 +96,8 @@ extern "C"
     {
         sysGNSS satsys;
         int prn;
-        // double azel[2]; // az el in rad
-        // double resp[MAXNUM_FREQ]; /* residuals of pseudorange (m) */
-        // double resc[MAXNUM_FREQ]; /* residuals of carrier-phase (m) */
-        // uint8_t vsat[NFREQ]; /* valid satellite flag */
-        // uint16_t snr[NFREQ]; /* signal strength (*SNR_UNIT dBHz) */
-        int flag_fix[MAXNUM_FREQ];  /* ambiguity fix flag (1:fix,2:float,3:hold) */
+        
+        int flag_fix[MAXNUM_FREQ];  /* ambiguity fix flag (0:float,1:fix,2:hold) */
         int flag_slip[MAXNUM_FREQ]; /* cycle-slip flag, 0=no cycle slip, 1=cycle slip, 2 means initialization with cycle slips*/
         int flag_half[MAXNUM_FREQ]; /* half-cycle valid flag */
 
@@ -109,9 +105,9 @@ extern "C"
         double amb_sigma[MAXNUM_FREQ]; // ambiguity sigma[cycle]
         double amb_fixed[MAXNUM_FREQ]; // the fixed ambiguity
         
-        int lock[MAXNUM_FREQ];            /* lock counter of phase */
-        int outc[MAXNUM_FREQ];       /* obs outage counter of phase */
-        int slipc[MAXNUM_FREQ];      /* cycle-slip counter */
+        // int lock[MAXNUM_FREQ];            /* lock counter of phase */
+        // int outc[MAXNUM_FREQ];       /* obs outage counter of phase */
+        // int slipc[MAXNUM_FREQ];      /* cycle-slip counter */
         // int rejc[MAXNUM_FREQ];       /* reject counter */
         double gf_phase[MAXNUM_FREQ ]; /* geometry-free phase (m) */
         double gf_range[MAXNUM_FREQ ]; /* geometry-free phase (m) */
@@ -123,7 +119,7 @@ extern "C"
         
         //GTime pt[2][MAXNUM_FREQ];  /* previous carrier-phase time */
         //double ph[2][MAXNUM_FREQ]; /* previous carrier-phase observable (cycle) */
-        ANT_INFO*  ant_info;  /**< the antenna information at current time*/
+        ANT_INFO*  ant_info;  /**< the GNSS antenna information at current time*/
     } SAT_STATE;
 
     /**< This is a function pointer to get the parameter index, param_type, satsys, prn, index of the frequecy from gnssconfig, the satindex list in current epoch*/

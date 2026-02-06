@@ -122,11 +122,11 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 </dd>
 <dt>全局 <a class="el" href="iers__function_8h.html#ab16fae9f34ccb67097938afeb03034f3">etutc</a>  (const double year)</dt>
 <dd><a class="anchor" id="_todo000004"></a>Check the case 'For 1820.5 to 1961.5, data is spaced at yearly intervals'. There seems to be a mixup of integers and doubles ... </dd>
-<dt>全局 <a class="el" href="orbit__dynamics_8h.html#a5c20c992dbe01847212bc493868184fe">orbit_fit</a>  (<a class="el" href="structORBIT__DYN__CONFIG.html" title="the orbit dynamics configure struct, works for both orbit integrate and orbit fit.">ORBIT_DYN_CONFIG</a> *ptr_orb_config, <a class="el" href="structSTATE__SPACECRAFT.html" title="spacecraft state struct">STATE_SPACECRAFT</a> *state_spacecraft, <a class="el" href="structGTime.html" title="struct for general time computation with time system defined">GTime</a> epoch_end, int nepochs, <a class="el" href="structGTime.html" title="struct for general time computation with time system defined">GTime</a> *epoch_utc, double orb_posvel_eci[][3], <a class="el" href="structSOLUTION__ORBITFIT.html" title="the output solution of the orbit fit">SOLUTION_ORBITFIT</a> *sln_fit)</dt>
+<dt>全局 <a class="el" href="orbit__dynamics_8h.html#aab24c7672b2b55a7b4cc10b7eed4f25d">orbit_fit</a>  (<a class="el" href="structORBIT__DYN__CONFIG.html" title="the orbit dynamics configure struct, works for both orbit integrate and orbit fit.">ORBIT_DYN_CONFIG</a> *ptr_orb_config, <a class="el" href="structSTATE__SPACECRAFT.html" title="spacecraft state struct">STATE_SPACECRAFT</a> *state_spacecraft, <a class="el" href="structGTime.html" title="struct for general time computation with time system defined">GTime</a> epoch_end, int nepochs, int idx_s, <a class="el" href="structGTime.html" title="struct for general time computation with time system defined">GTime</a> *epoch_utc, double orb_posvel_eci[][3], <a class="el" href="structSOLUTION__ORBITFIT.html" title="the output solution of the orbit fit">SOLUTION_ORBITFIT</a> *sln_fit)</dt>
 <dd><p class="startdd"><a class="anchor" id="_todo000006"></a>gross error detection based on state transition matrix and the changes in state vector</p>
 <p class="enddd"></p>
 </dd>
-<dt>全局 <a class="el" href="common__function_8h.html#aff3a0cfee05e8e9f129d44495b317356">string_split</a>  (const char *string_raw, char *seps, char outstr[][MAXLEN_STRING])</dt>
+<dt>全局 <a class="el" href="common__function_8h.html#a189a9872aeea0bbb18a1ea7c443b6519">string_split</a>  (const char *string_raw, char *seps, char outstr[][MAXLEN_STRING], int max_num_split)</dt>
 <dd><p class="startdd"><a class="anchor" id="_todo000001"></a>this function might have problems, need further check!!!</p>
 <p class="enddd"></p>
 </dd>
@@ -140,7 +140,7 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">生成于 2024年 十二月 27日 星期五 00:08:37 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">生成于 2026年 二月 6日 星期五 12:48:19 , 为 COrbit使用  <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

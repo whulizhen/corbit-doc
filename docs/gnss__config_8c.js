@@ -9,8 +9,11 @@ var gnss__config_8c =
     [ "satsysprn2string", "gnss__config_8c.html#ac563af015877920ab350816085160aff", null ],
     [ "set_gnssconfig_from_file", "gnss__config_8c.html#abb401ae50a51f89294080b44903f45b6", null ],
     [ "set_gnssconfig_system", "gnss__config_8c.html#aaa73acf9a50509104e22a3e30a5492e2", null ],
+    [ "set_gnssconfig_system_test", "gnss__config_8c.html#aba4fbe7184403637cb8833f0f0e24f63", null ],
     [ "string2satsysprn", "gnss__config_8c.html#ac745a6409c5565a35378f69343867ead", null ],
+    [ "string2sysGNSS", "gnss__config_8c.html#a875ebf40c7b42b00c8212dc868c3d472", null ],
     [ "sysGNSSAsString", "gnss__config_8c.html#a23d432b72af270cd194b5f853e6808ca", null ],
     [ "TYPE_FREQ_CODE_AsString", "gnss__config_8c.html#a73d4667d9b4891964aa533f809893a8b", null ],
-    [ "gnssconfig", "gnss__config_8c.html#aabe5fab6cafc8631b718c4eea8c17afd", null ]
+    [ "g_gnssconfig", "gnss__config_8c.html#aa0f89fe100d85651cad746fac8c1b462", null ],
+    [ "PRN_GEO_BDS", "gnss__config_8c.html#a4e1708a68df6813c42ec93e0bceec7f0", null ]
 ];
